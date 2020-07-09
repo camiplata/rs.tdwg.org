@@ -2,9 +2,9 @@
 permalink: /pw/
 ---
 
-# Pathway Controlled Vocabulary
+# Pathway Controlled Vocabulary List of Terms
 
-**Title:** Pathway Controlled Vocabulary
+**Title:** Pathway Controlled Vocabulary List of Terms
 
 **Namespace URI:** http://rs.tdwg.org/dwcpw/values/
 
@@ -16,9 +16,9 @@ permalink: /pw/
 
 **Part of TDWG Standard:** http://www.tdwg.org/standards/450
 
-**This version:** http://rs.tdwg.org/dwc/doc/pw/iso-date-here
+**This document version:** http://rs.tdwg.org/dwc/doc/pw/iso-date-here
 
-**Latest version:** http://rs.tdwg.org/dwc/doc/pw/
+**Latest version of document:** http://rs.tdwg.org/dwc/doc/pw/
 
 **Abstract:** The Darwin Core term `pathway` provides information about the process by which an Organism came to be in a given place at a given time. The Pathway Controlled Vocabulary provides terms that should be used as values for `dwc:pathway` and `dwciri:pathway`. 
 
@@ -26,7 +26,7 @@ permalink: /pw/
 
 **Creator:** TDWG Darwin Core Maintenance Group
 
-**Bibliographic citation:** Darwin Core Maintenance Group. 2020. Pathway Controlled Vocabulary. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/dwc/doc/pw/>
+**Bibliographic citation:** Darwin Core Maintenance Group. 2020. Pathway Controlled Vocabulary List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/dwc/doc/pw//iso-date-here>
 
 
 ## 1 Introduction
