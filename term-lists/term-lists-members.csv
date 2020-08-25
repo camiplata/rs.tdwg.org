@@ -607,3 +607,12 @@ http://rs.tdwg.org/dwc/obsolete/,http://digir.net/schema/conceptual/darwin/exten
 http://rs.tdwg.org/dwc/obsolete/,http://gensc.org/ns/mixs/source_mat_id
 http://rs.tdwg.org/ac/terms/,http://rs.tdwg.org/ac/terms/ServiceAccessPoint
 http://rs.tdwg.org/dwc/terms/attributes/,http://rs.tdwg.org/dwc/terms/attributes/usageScope
+http://rs.tdwg.org/acvariant/values/,http://rs.tdwg.org/acvariant/values/v
+http://rs.tdwg.org/acvariant/values/,http://rs.tdwg.org/acvariant/values/v001
+http://rs.tdwg.org/acvariant/values/,http://rs.tdwg.org/acvariant/values/v002
+http://rs.tdwg.org/acvariant/values/,http://rs.tdwg.org/acvariant/values/v003
+http://rs.tdwg.org/acvariant/values/,http://rs.tdwg.org/acvariant/values/v004
+http://rs.tdwg.org/acvariant/values/,http://rs.tdwg.org/acvariant/values/v005
+http://rs.tdwg.org/acvariant/values/,http://rs.tdwg.org/acvariant/values/v006
+http://rs.tdwg.org/acvariant/values/,http://rs.tdwg.org/acvariant/values/v007
+http://rs.tdwg.org/acvariant/values/,http://rs.tdwg.org/acvariant/values/v008
