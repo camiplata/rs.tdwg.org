@@ -2,7 +2,7 @@
 permalink: /variant/
 ---
 
-# Controlled Vocabulary for Audubon Core variant List of Terms
+# Controlled Vocabulary for Audubon Core variant: List of Terms
 
 **Title:** Controlled Vocabulary for Audubon Core variant: List of Terms
 
@@ -26,7 +26,7 @@ permalink: /variant/
 
 **Creator:** TDWG Audubon Core Maintenance Group
 
-**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Controlled Vocabulary for Audubon Core variant List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/variant/iso-date-here>
+**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Controlled Vocabulary for Audubon Core variant: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/variant/iso-date-here>
 
 
 ## 1 Introduction (informative)
