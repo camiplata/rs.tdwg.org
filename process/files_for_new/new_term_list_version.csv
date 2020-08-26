@@ -1,2 +1,2 @@
 document_modified,version,version_modified,status,list_deprecated,list_localName,label,description,list_created,list_modified,vann_preferredNamespacePrefix,vann_preferredNamespaceUri,list
-,,,,,test/terms/,test term list,Test term list for new vocabulary,,,test,http://rs.tdwg.org/test/terms/,http://rs.tdwg.org/test/terms/
+,,,,,format/values/,controlled values for format,Controlled values list for Dublin Core format,,,acformat,http://rs.tdwg.org/format/values/,http://rs.tdwg.org/format/values/
