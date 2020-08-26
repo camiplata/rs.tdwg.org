@@ -2,9 +2,9 @@
 permalink: /format/
 ---
 
-# Controlled Vocabulary for Dublin Core format List of Terms
+# Controlled Vocabulary for Dublin Core format: List of Terms
 
-**Title:** Controlled Vocabulary for Dublin Core format List of Terms
+**Title:** Controlled Vocabulary for Dublin Core format: List of Terms
 
 **Namespace URI:** http://rs.tdwg.org/format/values/
 
@@ -26,7 +26,7 @@ permalink: /format/
 
 **Creator:** TDWG Audubon Core Maintenance Group
 
-**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Controlled Vocabulary for Dublin Core format List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/format/iso-date-here>
+**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Controlled Vocabulary for Dublin Core format: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/format/iso-date-here>
 
 
 ## 1 Introduction (informative)
