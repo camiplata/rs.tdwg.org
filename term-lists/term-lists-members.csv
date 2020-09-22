@@ -610,3 +610,5 @@ http://rs.tdwg.org/dwc/terms/attributes/,http://rs.tdwg.org/dwc/terms/attributes
 http://rs.tdwg.org/test/terms/,http://rs.tdwg.org/test/terms/county
 http://rs.tdwg.org/test/terms/,http://rs.tdwg.org/test/terms/georeferenceProtocol
 http://rs.tdwg.org/test/terms/,http://rs.tdwg.org/test/terms/Occurrence
+http://rs.tdwg.org/test/terms/,http://rs.tdwg.org/test/terms/abstract
+http://rs.tdwg.org/test/terms/,http://rs.tdwg.org/test/terms/abstract
