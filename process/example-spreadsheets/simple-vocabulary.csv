@@ -1,3 +1,2 @@
-term_localName,label,definition,usage,notes,type,controlled value string,tdwgutility_organizedInClass,SKOS_inSchema,tdwgutility_repeatable,Nuestras notas
-abstract,abstract,A brief summary of the most relevant or attractive features of this taxón to the general public.  Could point to any kind of information. ,,Example: Blue whale is the largest mammal in the world.
-,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+term_localName,label,definition,usage,notes,type,tdwgutility_organizedInClass,examples
+abstract,abstract,A brief summary of the most relevant or attractive features of this taxón to the general public.  Could point to any kind of information. ,,Example: Blue whale is the largest mammal in the world.,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,
