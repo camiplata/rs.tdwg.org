@@ -4025,3 +4025,6 @@ http://rs.tdwg.org/ac/version/dwc/2020-08-23,http://rs.tdwg.org/dwc/terms/versio
 http://rs.tdwg.org/ac/version/dwc/2020-08-23,http://rs.tdwg.org/dwc/terms/version/verbatimSRS-2017-10-06
 http://rs.tdwg.org/ac/version/dwc/2020-08-23,http://rs.tdwg.org/dwc/terms/version/vernacularName-2017-10-06
 http://rs.tdwg.org/ac/version/dwc/2020-08-23,http://rs.tdwg.org/dwc/terms/version/waterBody-2017-10-06
+http://rs.tdwg.org/test/version/terms/2020-08-12,http://rs.tdwg.org/test/terms/version/county-2020-08-12
+http://rs.tdwg.org/test/version/terms/2020-08-12,http://rs.tdwg.org/test/terms/version/georeferenceProtocol-2020-08-12
+http://rs.tdwg.org/test/version/terms/2020-08-12,http://rs.tdwg.org/test/terms/version/Occurrence-2020-08-12
