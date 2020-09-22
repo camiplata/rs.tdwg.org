@@ -1,22 +1,406 @@
 document_modified,term_localName,term_isDefinedBy,term_created,term_modified,term_deprecated,replaces_term,replaces1_term,replaces2_term,label,definition,usage,notes,type,tdwgutility_organizedInClass,examples,database,vann_preferredNamespacePrefix,vann_preferredNamespaceUri
-2020-09-22T02:16:17-06:00,abstract,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,abstract,A brief summary of the most relevant or attractive features of this taxón to the general public.  Could point to any kind of information. ,,"Example: Blue whale is the largest mammal in the world.
+2020-09-22T14:36:51-06:00,abstract,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,abstract,A brief summary of the most relevant or attractive features of this taxón to the general public.  Could point to any kind of information. ,,"Example: Blue whale is the largest mammal in the world.
 ",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,plic,plic,plic
-2020-09-22T02:16:17-06:00,"ancillaryData
+2020-09-22T14:36:51-06:00,"ancillaryData
 ",http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,ancillary data,"The AncillaryData element contains information that could be an image, an audio, a list of references, a list of agents, rights, licenses...related with the element that belongs. It`s a redefinition of DataObject element from EOL scheme.
 
-",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,plic,plic,plic
-2020-09-22T02:16:17-06:00,annualCycleAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized annual cycle,"AnnualCycles element in structured format.
-",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,annualCycles,,plic,plic,plic
-2020-09-22T02:16:17-06:00,annualCycles,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,annual cycle,"Set of changes or events that recurrently take place at the same time of year and are influenced by seasonal and interannual climate variations. Also called phenology, mainly in plants. In the case of migration, it only makes reference to the timing; other data about this are gathered in MigratoryClass.",,"For example: reproduction, flowering, fruiting, emergence of insects, etc.
-",http://www.w3.org/2000/01/rdf-schema#Class,,,plic,plic,plic
-2020-09-22T02:16:17-06:00,annualCycleUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured annual cycle,"AnnualCyles element in text block format.
-",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,annualCycles,,plic,plic,plic
-2020-09-22T02:16:17-06:00,startTimeInterval,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,start time interval,"The date-time or interval at which an event starts. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,annualCycleAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized annual cycle,"AnnualCycles element in structured format.
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,annualCycles,,,,
+2020-09-22T14:36:51-06:00,annualCycles,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,annual cycle,"Set of changes or events that recurrently take place at the same time of year and are influenced by seasonal and interannual climate variations. Also called phenology, mainly in plants. In the case of migration, it only makes reference to the timing; other data about this are gathered in MigratoryClass.",,"For example: reproduction, flowering, fruiting, emergence of insects, etc.
+",http://www.w3.org/2000/01/rdf-schema#Class,,,,,
+2020-09-22T14:36:51-06:00,annualCycleUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured annual cycle,"AnnualCyles element in text block format.
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,annualCycles,,,,
+2020-09-22T14:36:51-06:00,startTimeInterval,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,start time interval,"The date-time or interval at which an event starts. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).
 
-A controlled vocabulary is recommended.",,"e.g. ""1963-03-08T14:07-0600"" is 8 Mar 1963 2:07pm in the time zone six hours earlier than UTC, ""2009-02-20T08:40Z"" is 20 Feb 2009 8:40am UTC, ""1809-02-12"" is 12 Feb 1809, ""1906-06"" is Jun 1906, ""1971"" is just that year, ""2007-03-01T13:00:00Z/2008-05-11T15:30:00Z"" is the interval between 1 Mar 2007 1pm UTC and 11 May 2008 3:30pm UTC, ""2007-11-13/15"" is the interval between 13 Nov 2007 and 15 Nov 2007.",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,annualCycleAtomized,,plic,plic,plic
-2020-09-22T02:16:17-06:00,endTimeInterval ,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,end time interval,"The date-time or interval at which an event ends. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).
+A controlled vocabulary is recommended.",,"e.g. ""1963-03-08T14:07-0600"" is 8 Mar 1963 2:07pm in the time zone six hours earlier than UTC, ""2009-02-20T08:40Z"" is 20 Feb 2009 8:40am UTC, ""1809-02-12"" is 12 Feb 1809, ""1906-06"" is Jun 1906, ""1971"" is just that year, ""2007-03-01T13:00:00Z/2008-05-11T15:30:00Z"" is the interval between 1 Mar 2007 1pm UTC and 11 May 2008 3:30pm UTC, ""2007-11-13/15"" is the interval between 13 Nov 2007 and 15 Nov 2007.",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,annualCycleAtomized,,,,
+2020-09-22T14:36:51-06:00,endTimeInterval ,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,end time interval,"The date-time or interval at which an event ends. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).
 
-A controlled vocabulary is recommended.",,"e.g. ""1963-03-08T14:07-0600"" is 8 Mar 1963 2:07pm in the time zone six hours earlier than UTC, ""2009-02-20T08:40Z"" is 20 Feb 2009 8:40am UTC, ""1809-02-12"" is 12 Feb 1809, ""1906-06"" is Jun 1906, ""1971"" is just that year, ""2007-03-01T13:00:00Z/2008-05-11T15:30:00Z"" is the interval between 1 Mar 2007 1pm UTC and 11 May 2008 3:30pm UTC, ""2007-11-13/15"" is the interval between 13 Nov 2007 and 15 Nov 2007.",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,annualCycleAtomized,,plic,plic,plic
-2020-09-22T02:16:17-06:00,Event,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,event,"An action that occurs at some location during some time.
+A controlled vocabulary is recommended.",,"e.g. ""1963-03-08T14:07-0600"" is 8 Mar 1963 2:07pm in the time zone six hours earlier than UTC, ""2009-02-20T08:40Z"" is 20 Feb 2009 8:40am UTC, ""1809-02-12"" is 12 Feb 1809, ""1906-06"" is Jun 1906, ""1971"" is just that year, ""2007-03-01T13:00:00Z/2008-05-11T15:30:00Z"" is the interval between 1 Mar 2007 1pm UTC and 11 May 2008 3:30pm UTC, ""2007-11-13/15"" is the interval between 13 Nov 2007 and 15 Nov 2007.",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,annualCycleAtomized,,,,
+2020-09-22T14:36:51-06:00,Event,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,event,"An action that occurs at some location during some time.
 
-A controlled vocabulary is recommended.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,annualCycleAtomized,,plic,plic,plic
+A controlled vocabulary is recommended.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,annualCycleAtomized,,,,
+2020-09-22T14:36:51-06:00,"geographicEntity
+",http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Geographic Entity,"
+Name of the geographic entity. A controlled vocabulary --as specified in the Catalogue element-- is recommended.
+",,"
+e.g. Spain; Aguascalientas; Alabama; Ambon
+",,,,,,
+2020-09-22T14:36:51-06:00,Audience,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Audience,Repetitive concept where the target audiences are written one by one.,,Predetermined list: 01. Expert (High). 02. Knowledgeable (Medium). 03. General (Low).,http://www.w3.org/2004/02/skos/core#ConceptScheme,TargetAudiences,,,,
+2020-09-22T14:36:51-06:00,Audience01,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Expert,"Professionals on Biodiversity (researchers, decision makers, students of higher levels, etc.). By training and experience they have a good knowledge of scientific terminology and taxonomic and nomenclatural issues.",,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Audience02,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Knowledgeable,"Public interest in the knowledge of living organisms but whose training and experience is not directly linked to knowledge of biodiversity, or to be enjoined, their training has not been directly related to biodiversity (professionals from other areas of knowledge, students, amateurs, etc.). Your level of interest is high but not usually use and know the terminology, taxonomy and scientific nomenclature",,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Audience03,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,General,"General Public (anyone interested in living organisms). Persons interested on biodiversity, frequently or timely, but lack the training, expertise or basic knowledge on terminology, taxonomy or scientific nomenclature",,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,audiencesUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured audiences,List audience codes separated by means of comma or /.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,BaseElements,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,base elements,Basic information to identify the record.,,,http://www.w3.org/2000/01/rdf-schema#Class,,,,,
+2020-09-22T14:36:51-06:00,behavior,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,behavior,"Responses, reactions or movements made by an organism in a particular situation.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,behaviorAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized behavior,"Responses, reactions or movements made by an organism in a particular situation.
+
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,behaviorUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured behavior,"Responses, reactions or movements made by an organism in a particular situation.
+
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,briefDescription,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,brief description,"Brief description which reflect only the diagnostic characters, i.e. those that distinguish a taxon from other related or close taxa.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,TaxonomicDescription,,,,
+2020-09-22T14:36:51-06:00,commonNamesAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized common names,"commonNames element in structured format.
+
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,CommonNames,,,,
+2020-09-22T14:36:51-06:00,commonNames,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,common names,"The name of the common name.
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,CommonNames,,,,
+2020-09-22T14:36:51-06:00,Name,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,name,"The name of the common name.
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,CommonNames,,,,
+2020-09-22T14:36:51-06:00,Language,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,language,"Language used to write the species information, ISO 639-2 according to GBIF Metadata Profile.
+
+",,,"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+",CommonNames,,,,
+2020-09-22T14:36:51-06:00,UsedIn,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,used in,"Location where de common name is used.
+
+",,,"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+",CommonNames,,,,
+2020-09-22T14:36:51-06:00,UsedBy,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,used by,"Sometimes names used by one group of people are adopted by another.
+
+",,,"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+
+",CommonNames,,,,
+2020-09-22T14:36:51-06:00,demographyAndThreat,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,demography and threat,"Information concerning the demographic aspects of the species, as well as the conservation status",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,demographyAndThreatUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured demography and threat,"demographyAndThreat element in unstructured format.
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,detailAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized detail,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,detailUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured detail,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,directThreats,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,direct threats,"Direct threats are the proximate human activities or processes that have caused, are causing, or may cause the destruction, degradation, and/or impairment of biodiversity targets. Direct threats are synonymous with sources of stress and proximate pressures.",,"Examples: unsustainable fishing or logging. Threats can be past (historical), ongoing, and/or likely to occur in the future.",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,directThreatAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized direct threat,"directThreats element in structured format.
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,directThreatUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured direct threat,directThreats element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,dispersal,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,dispersal,"The permanent spreading of individuals away from each other not including return. Dispersal determines the range over which genetic mixing occurs, and thus, the degree of homogeneity and inbreeding in a population",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,,,,,
+2020-09-22T14:36:51-06:00,DispersalAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized dispersal,Dispersal element in structured format,,,http://www.w3.org/2000/01/rdf-schema#Class,Dispersal,,,,
+2020-09-22T14:36:51-06:00,DispersalUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured dispersal,Dispersal element in text block format,,,"http://www.w3.org/2000/01/rdf-schema#Class
+
+",Dispersal,,,,
+2020-09-22T14:36:51-06:00,Purpose,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,purpose,Makes reference to any data being measured,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,DispersalAtomized,,De tipo MeasurementOrFactClass,,
+2020-09-22T14:36:51-06:00,Type,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,type,"VCR. Zoochory, Anemochory, Hydrochory, Barochory, Autochory",,"Type of dispersal, a controlled vocabulary is recommended.","http://www.w3.org/2004/02/skos/core#ConceptScheme
+",DispersalAtomized,,,,
+2020-09-22T14:36:51-06:00,Type01,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Zoochory,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Type02,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Anemochory,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Type03,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Hydrochory,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Type04,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Barochory,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Type05,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Autochory,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StructureDispersed,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,structure dispersed ,"VCR: Seed, Fruit, Vegetative structure, Spores, Gametes, Eggs, Offspring and Individuals",,"Structured that is dispersed for a given biologial propuse, a controlled vocabulary is recommended.","http://www.w3.org/2004/02/skos/core#ConceptScheme
+",DispersalAtomized,,,,
+2020-09-22T14:36:51-06:00,StructureDispersed01,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Seed,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StructureDispersed02,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Fruit,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StructureDispersed03,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Vegetative structure,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StructureDispersed04,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Spores,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StructureDispersed05,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Gametes,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StructureDispersed06,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Eggs,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StructureDispersed07,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Offspring,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StructureDispersed08,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Individuals,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Distance,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,distance,Dispersal distance. e.g. 450 m,,The distance reached by the structured dispersed.,"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+",DispersalAtomized,,"de tipo MeasurementOrFactClass
+",,
+2020-09-22T14:36:51-06:00,Distribution,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,distribution,"Species geographical distribution.
+
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,HabitatAndDistributionType,,,,
+2020-09-22T14:36:51-06:00,DistributionUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured distribution,Distribution element in text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,Distribution,,,,
+2020-09-22T14:36:51-06:00,DistributionAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized distribution,Distribution element in structured format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,Distribution,,,,
+2020-09-22T14:36:51-06:00,DistributionType,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,distribution type,"Information about the distribution of the species based on the studied specimens collection sites data.
+
+",,,"http://www.w3.org/2000/01/rdf-schema#Class
+",DistributionAtomized,,,,
+2020-09-22T14:36:51-06:00,DistributionScope,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,distribution scope,List of regions structured and categorized.,"
+","A controlled vocabulary is recommended.
+e.g. Historical, Current, Restricted and Wide.
+","http://www.w3.org/2000/01/rdf-schema#Class
+
+
+",Distribution,,,,
+2020-09-22T14:36:51-06:00,DistributionScopeType,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,distribution scope type,"A controlled vocabulary is recommended. VCR: Historical, Current, Restricted and Wide.
+",,"XXXXX, a controlled vocabulary is recommended.","http://www.w3.org/2000/01/rdf-schema#Class
+
+",Distribution,,,,
+2020-09-22T14:36:51-06:00,temporalCoverage,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,temporal coverage,"This field specifies temporal coverage of the distribution, and allows coverages to be a single point in time, multiple points in time, or a range of dates.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,Distribution,,,,
+2020-09-22T14:36:51-06:00,GeographicEntity,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,geographic entity,Name of the geographic entity. ,,"A controlled vocabulary --as specified in the Catalogue element-- is recommended.
+e.g. Spain; Aguascalientas; Alabama; Ambon","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+",DistributionAtomized,,,,
+2020-09-22T14:36:51-06:00,country,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,country,"The name of the country or major administrative unit in which the Location occurs.
+",,"It is recommended to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.
+","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+",DistributionAtomized,,,,
+2020-09-22T14:36:51-06:00,stateProvince,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,state province ,"The name of the next smaller administrative region than country (state, 
+province, canton, department, region, etc.) in which the Location 
+occurs.",,,"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+",DistributionAtomized,,,,
+2020-09-22T14:36:51-06:00,county,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,county,"The full, unabbreviated name of the next smaller administrative region 
+than stateProvince (county, shire, department, etc.) in which the 
+Location occurs.",,,"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+",DistributionAtomized,,,,
+2020-09-22T14:36:51-06:00,municipality,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,"The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) in which the Location occurs. Do not use this term for a nearby named place that does not contain the actual location.
+",,,"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+",DistributionAtomized,,,,
+2020-09-22T14:36:51-06:00,locality,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,"The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or standardize the description.
+",,,"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+",DistributionAtomized,,,,
+2020-09-22T14:36:51-06:00,ecologicalSignificance,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,ecological significance,Ecological importance of the taxon. (Placeholder),,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,ecologicalSignificanceAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized ecological significance,Ecological Significance element in structured format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,ecologicalSignificanceUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured ecological significance,Ecological Significance element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,endemic,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,endemic,Ecological importance of the taxon. (Placeholder),,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,endemicAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized endemic,Endemic element in structured format. List of areas structured and categorized by the degree of safety.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,EndemicType,,,,
+2020-09-22T14:36:51-06:00,EndemicTo,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,The concept is applied to one or several countries. ,,"Examples: Giant panda (Ailuropoda melanoleuca (David, 1869) endemic to China. Quetzal Resplendent (Pharomachrus mocinno de la Llave, 1832) endemic to Mexico, Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica and Panama.",,EndemicAtomized,,,,
+2020-09-22T14:36:51-06:00,EndemicIn,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,The concept is applied to an area either multinational or local.,,"Examples:  Vicuña (Vicugna vicugna Molina, 1782) endemic in the Andean region. Manzanilla Real (Artemisia granatensis Boiss.) endemic in the peaks of Sierra Nevada (Spain).",,EndemicAtomized,,,,
+2020-09-22T14:36:51-06:00,endemicUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured endemic,Endemic element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,EndemicType,,,,
+2020-09-22T14:36:51-06:00,environmentalEnvelope,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,environmental envelope,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,environmentalEnvelopeAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized environmental envelope,"Structured information category concerning measurements, facts, characteristics, or assertions about a resource (instances or records, such as Occurrence, Taxon, Location, Event). environmentalEnvelope in structured format",,Example: Environmental range in which the organism lives (e.g. annual precipitation/average/450/mm),http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,EnvironmentalEnvelopeType,,,,
+2020-09-22T14:36:51-06:00,environmentalEnvelopeUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured environmental envelope,environmentalEnvelope in text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,EnvironmentalEnvelopeType,,,,
+2020-09-22T14:36:51-06:00,feeding,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,feeding,Information related to the food supply for the development and sustenance of the individual and/or its offspring.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,feedingAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized feeding,feeding elemento in structured format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,feedingUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured feeding,feeding element in text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,Type,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,Primary diet source. A controlled vocabulary is recommended.,,,,,,,,
+2020-09-22T14:36:51-06:00,Strategy,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,TrophicStrategy,"Tactic used to obtain energy or nutrients. A controlled vocabulary is 
+recommended. e.g. Chemosynthetic organisms,Photosynthetic 
+organisms,Parasites,Decomposers,Suspension feeders,Substrate feeders, 
+Grazers,Fluid-feeders,Predators...",,,http://www.w3.org/2004/02/skos/core#ConceptScheme,Trophic,,,,
+2020-09-22T14:36:51-06:00,Strategy01,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Chemosynthetic,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Strategy02,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Photosynthetic,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Strategy03,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Vermin,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Strategy04,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Decomposers,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Strategy05,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,FilterFeeders,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Strategy06,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Sedimentivorous,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Strategy07,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Borers,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Strategy08,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Foragers,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Strategy09,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Fluidophagous,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StrategyRemarks,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,TrophicStrategyRemarks,Information notes about specific feeding strategies.,,,http://www.w3.org/2004/02/skos/core#ConceptScheme,Trophic,,,,
+2020-09-22T14:36:51-06:00,StrategyRemarks01,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Autotrophs,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StrategyRemarks02,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Palynivore,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StrategyRemarks03,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Nectarivore,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StrategyRemarks04,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Granivore,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StrategyRemarks05,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Frugivore,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StrategyRemarks06,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Rhizophagus,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StrategyRemarks07,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Hematophagy,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StrategyRemarks08,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Insectivore,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StrategyRemarks09,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Piscivore,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StrategyRemarks10,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Oophagy,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StrategyRemarks11,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Omnivore,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StrategyRemarks12,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Scavenger,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StrategyRemarks13,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Saprophagous,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,StrategyRemarks14,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Detritivore,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,fullDescription,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,full description,"Complete and detailed account of the taxonomic and systematic characters, i.e. those that define and allow to recognize an organism.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,TaxonomicDescription,,,,
+2020-09-22T14:36:51-06:00,fullDescriptionAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized full description,fullDescription element in structured format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,fullDescriptionUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured full description,fullDescription element in text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,habitatAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized habitat,habitatAndDistribution element in structured format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,habitatAndDistribution,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,habitat anddistribution,Distribution of the species,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,habitatAndDistributionUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured habitat anddistribution,habitatAndDistribution element in text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,habitats,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,habitats,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,habitatUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured habitat,habitat element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,hierarchy,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,hierarchy,Hierarchical categories. Modified from Linnean Core.,,Option: fill all or principal ranks and optionally provide keys.,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,interactionAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized interaction,interaction element in structured format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,identificationKeys,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,identification keys,"Tool for the identification of organisms, comprising a series of steps, each of which represents a question about one or more characters of the organism. Each step offers multiple alternatives, choosing one of them will lead us to the next step until ending, finally, in the name of the organism.",,"Most printed keys have only two alternatives, so called dichotomous keys. A taxon includes a key or an identification of key in the subordinate taxons. If we are in a register of a genre, this register would include the keys of the species that this register includes, and if itÂ´s one specie, then it would include the key of the infraspecific rank (For plants: subspecies, variety forms)",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,Keys,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,IdentificationKeys | TaxonomicDescription,,,,
+2020-09-22T14:36:51-06:00,interactions,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,interactions,Mutual or reciprocal actions or influences. Relations with products grown and stored by man (plagues) are also included.,,"For example, predation, parasitism, mutualism, etc.",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,interactionUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured interaction,interaction element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,InteractionSpecies,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,,,,,
+2020-09-22T14:36:51-06:00,InteractionSpeciesType,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,,,,,
+2020-09-22T14:36:51-06:00,invasiveness,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,invasiveness,"Information about invasive exotic species that could threaten to ecosystem, habitats and species",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,invasivenessAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized invasiveness,invasiveness element in structured format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,invasivenessUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured invasiveness,invasiveness element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,origin,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,"Controlled vocabulary: Indigenous, Exotic, Unknown.",,,,,,,,
+2020-09-22T14:36:51-06:00,presence,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,"Controlled vocabulary: Absent, SometimesPresent, Present, Unknown, Reported.",,,,,,,,
+2020-09-22T14:36:51-06:00,persistence,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,"Controlled vocabulary: Persistent, Temporary, Transient, DiedOut, Unknown.",,,,,,,,
+2020-09-22T14:36:51-06:00,distribution,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,"Controlled vocabulary: Widespread, Moderate, Localized, Unknown.",,,,,,,,
+2020-09-22T14:36:51-06:00,harmful,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,"Controlled vocabulary: Yes, No, Potentially, Unknown.",,,,,,,,
+2020-09-22T14:36:51-06:00,modified,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,From GISIN: SpeciesStatus. http://www.gisin.org/cwis438/websites/GISINDirectory/Tech/ProtocolSpecification.php#4.4.1.1,,,,,,
+2020-09-22T14:36:51-06:00,startValidDate,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,From GISIN: SpeciesStatus. http://www.gisin.org/cwis438/websites/GISINDirectory/Tech/ProtocolSpecification.php#4.4.1.1,,,,,,
+2020-09-22T14:36:51-06:00,endValidDate,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,From GISIN: SpeciesStatus. http://www.gisin.org/cwis438/websites/GISINDirectory/Tech/ProtocolSpecification.php#4.4.1.1,,,,,,
+2020-09-22T14:36:51-06:00,countryCode,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,,,,,
+2020-09-22T14:36:51-06:00,stateProvince,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,"The name of the next smaller administrative region than country (state, 
+province, canton, department, region, etc.) in which the Location 
+occurs.",,,,,,,,
+2020-09-22T14:36:51-06:00,county,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,"The full, unabbreviated name of the next smaller administrative region 
+than stateProvince (county, shire, department, etc.) in which the 
+Location occurs.",,,,,,,,
+2020-09-22T14:36:51-06:00,localityName,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,,,,,
+2020-09-22T14:36:51-06:00,language,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,,,,,
+2020-09-22T14:36:51-06:00,citation,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Metadata,,,,
+2020-09-22T14:36:51-06:00,abundance,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,"Controlled vocabulary: Dominant, Common, Rare, Zero, Unknown, Monoculture.",,,,,,,,
+2020-09-22T14:36:51-06:00,trend,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,"Controlled vocabulary: Stable, Declining, Unknown, Expanding.",,,,,,,,
+2020-09-22T14:36:51-06:00,rateOfSpread,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,"Controlled vocabulary: Rapid, Moderate, Slow, Unknown.",,,,,,,,
+2020-09-22T14:36:51-06:00,regulatoryListing,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,"Controlled vocabulary: Prohibited, Restricted, NotConsidered, Unknown.",,,,,,,,
+2020-09-22T14:36:51-06:00,memo,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,,,,,
+2020-09-22T14:36:51-06:00,publicationDate,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,From GISIN: SpeciesStatus. http://www.gisin.org/cwis438/websites/GISINDirectory/Tech/ProtocolSpecification.php#4.4.1.1,,,,,,
+2020-09-22T14:36:51-06:00,localityType,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,"Controlled vocabulary: State/Province, County, Postal code, Watershed, Unknown.",,,,,,,,
+2020-09-22T14:36:51-06:00,WhatImpact,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,"An indication of the actual impact as a free text string. e.g. destroys 
+riparian vegetation, destroys irrigation systems, displaces Arvicola 
+sapidus",,,,,,,,
+2020-09-22T14:36:51-06:00,vector,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,"By which means a species occupies a new territory. e.g. fishing boats; dirty boots, cars (Aedes albopictus)",,,,,,,,
+2020-09-22T14:36:51-06:00,Route,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,This is equivalent and probably replaceable by gisin:route,,,,,,,,
+2020-09-22T14:36:51-06:00,impactTarget,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,This is equivalent and probably replaceable by gisin:impactTarget,,,http://www.w3.org/2004/02/skos/core#ConceptScheme,InvasivenessAtomized,,,,
+2020-09-22T14:36:51-06:00,impactTarget01,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Economy,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactTarget02,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Environment,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactTarget03,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,HumanHealth,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactTarget04,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Unknown,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,Mechanism of introduction or impact to a new location.,,,http://www.w3.org/2004/02/skos/core#ConceptScheme,InvasivenessAtomized,,,,
+2020-09-22T14:36:51-06:00,impactMechanism01,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Allergeny,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism02,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Competition,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism03,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,DiseaseTransmission,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism04,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Fouling,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism05,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Herbivory,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism06,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Hybridization,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism07,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,InhibitsGrowthOfOtherSpecies,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism08,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,InteractionWithOtherInvasiveSpecies,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism09,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,ModifiesFireRegime,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism10,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,ModifiesHydrology,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism11,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,ModifiesNaturalBenthicCommunities,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism12,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,ModifiesNutrientRegime,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism13,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,ModifiesSuccessionalPatterns,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism14,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,OtherSeeMemoForDescription,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism15,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Parasitism,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism16,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Pathogenic,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism17,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,PhysicalDisturbance,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism18,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,PollenSwamping,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism19,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Predation,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism20,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Transpiration,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,impactMechanism21,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Unknown,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,keys,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,keys,Dichotomic or multientrance keys.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,legislationAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized legislation,legislation element in structured format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,language,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,language,"The language of the taxon record, according to ISO 639.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,lifeCycle,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,life cycle,Life history of a living organism: The course of developmental changes in an organism from fertilized zygote to maturity or stages through which an organism passes.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,lifeForm,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,life form,"General appearance. Characteristic mode of growth or occurrence associated to its environment, particularly for plants. Comprising its size, shape, texture and orientation.",,"Example: tree, shrubs, herbs.",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,lifeCycleAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized life cycle,lifeCycle element in structured format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,lifeCycle,,,,
+2020-09-22T14:36:51-06:00,lifeCycleUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured life cycle,lifeCycle element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,lifeFormAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized life form,lifeCycleForm element in structured format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,lifeFormUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured life form,lifeCycleForm element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,legislation,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,legislation,A national proposed law or group of laws. A regional proposed law or group of laws.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,legislationUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured legislation,legislation element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,LegislationType,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Legislation  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,LegislationName,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Legislation  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,ProtectionLegalStatus,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Legislation  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,LegislationRead,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Legislation  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,Status,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Legislation  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,Type,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Legislation  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,Norm,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Legislation  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,AppliesTo,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Legislation  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,managementAndConservation,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,management andconservation,Management: actions directed at conserving or restoring species / Conservation: interventions undertaken designed to preserve species.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,managementAndConservationAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized management and conservation,Management: actions directed at conserving or restoring species / Conservation: interventions undertaken designed to preserve species in an structured manner,,,http://www.w3.org/2000/01/rdf-schema#Class,,,,,
+2020-09-22T14:36:51-06:00,managementAndConservationUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured management and conservation,Management: actions directed at conserving or restoring species / Conservation: interventions undertaken designed to preserve species as a text block,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,ManagementAndConservationType,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,ManagementAndConservation |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,Objetives,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,ManagementAndConservation |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,ManagementPlan,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,ManagementAndConservation |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,Actions,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,ManagementAndConservation |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,ActionsType,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,ManagementAndConservation |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,HumanAndEnvironmentalrelevance,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,,,,,
+2020-09-22T14:36:51-06:00,end Darwin Core dwc: terms,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,,,,,
+2020-09-22T14:36:51-06:00,TaxonRecord,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,"Container for all elements pertaining a certain view or instance of a taxon, for instance, Festuca glauca Vill. as in Flora iberica, or Panthera onca as in https://enciclovida.mx/especies/34460-panthera-onca",,,http://www.w3.org/2000/01/rdf-schema#Class,Dataset,,,,
+2020-09-22T14:36:51-06:00,metadata,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,metadata,Management: actions aimed at conserving or recovering species / Conservation: undertaken interventions designed to preserve species.,,,http://www.w3.org/2000/01/rdf-schema#Class,Dataset,,,,
+2020-09-22T14:36:51-06:00,Dataset_ID,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Dataset_ID,An identifier for the dataset,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,metadata,,,,
+2020-09-22T14:36:51-06:00,dateStamp,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,dateStamp,The date the metadata document was created or modified,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,metadata,,,,
+2020-09-22T14:36:51-06:00,dataset,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,dataset,The dataset element is a wrapper for all other elements relating to a single dataset as defined in eml.xsd (eml/dataset),,https://eml.ecoinformatics.org/schema/,http://www.w3.org/2000/01/rdf-schema#Class,metadata,,,,
+2020-09-22T14:36:51-06:00,resourceLogoUrl,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,resourceLogoUrl,The URI of an icon/logo symbolizing the project,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,metadata,,,,
+2020-09-22T14:36:51-06:00,Dataset,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Dataset,Root element from which all other elements will branch,,,http://www.w3.org/2000/01/rdf-schema#Class,,,,,
+2020-09-22T14:36:51-06:00,Migratory,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,migratory,"The regular, usually seasonal, movement of all or part of an animal population of and from a given area, which can occur in variable periods of time and even involve more than one generation",,,http://www.w3.org/2000/01/rdf-schema#Class,NaturalHistory,,,,
+2020-09-22T14:36:51-06:00,MigratoryAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized migratory,"The regular, usually seasonal, movement of all or part of an animal population to and from a given area, which can occur in variable periods of time and even involve more than one generation broken down in specific elements ",,,http://www.w3.org/2000/01/rdf-schema#Class,Migratory,,,,
+2020-09-22T14:36:51-06:00,migratoryUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured migratory,"The regular, usually seasonal, movement of all or part of an animal population to and from a given area, which can occur in variable periods of time and even involve more than one generation as text block",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,Migratory,,,,
+2020-09-22T14:36:51-06:00,Causes,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,Reasons for the species to move from one place to another in a specific lap,,,http://www.w3.org/2004/02/skos/core#ConceptScheme,MigratoryAtomized,,,,
+2020-09-22T14:36:51-06:00,Causes01,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Seasonal climatic variation,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Causes02,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Resource availability,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Causes03,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Reproduction,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Patterns,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Patterns,Displacement of the species in space,,,http://www.w3.org/2004/02/skos/core#ConceptScheme,MigratoryAtomized,,,,
+2020-09-22T14:36:51-06:00,Patterns01,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Latitudinal,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Patterns02,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Longitudinal,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Patterns03,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Altitudinal,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Patterns04,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Vertical in water column,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Patterns05,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Local migrant,,,,http://www.w3.org/2004/02/skos/core#Concept,,,,,
+2020-09-22T14:36:51-06:00,Routes,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Routes,Trajectory followed by the species,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,MigratoryAtomized,,,,
+2020-09-22T14:36:51-06:00,Season,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Season,Time of year in which a species migrates.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,MigratoryAtomized,,,,
+2020-09-22T14:36:51-06:00,miscDetails,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,miscellaneous details,Miscellaneus: notes attached to the taxon natural history information,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,MolecularData,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,molecular data,"Information on the chemical structures and biological processes at the molecular level: DNA and proteins sequences, protein structures, expression profiles of genes protein domains, families of genes, mutations, polymorphisms, involvement in disease, ...",,"Undeveloped. Placeholder for connecting with standards developed by specialists. For example, Standards for Data Exchange and Management from Scalalife (http://www.scalalife.eu/content/data)",http://www.w3.org/2000/01/rdf-schema#Class,NaturalHistory,,,,
+2020-09-22T14:36:51-06:00,MolecularDataAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized molecular data,MolecularData element in structured format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,MolecularData,,,,
+2020-09-22T14:36:51-06:00,MolecularDataUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured molecular data,MolecularData as a text block,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,MolecularData,,,,
+2020-09-22T14:36:51-06:00,RelatedTo,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,RelatedTo,Specifies to which PlinianCore term the information contained under MolecularDataAtomized refers to. The controlled vocabulary is list of content-bearing PlinianCore elements.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,NaturalHistory,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,natural history,"Relevant descriptive information about the species: Life Form, Life Cycle, Reproduction, Annual Cycles, Feeding, Dispersal, Behavior, Interactions, Molecular Data, Migratory, Ecological Significance, Miscellaneous Details, Environmental Envelope and Ancillary Data.",,,http://www.w3.org/2000/01/rdf-schema#Class,TaxonRecord,,,,
+2020-09-22T14:36:51-06:00,naturalHistoryUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured natural history,NaturalHistory element in text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,NaturalHistory,,,,
+2020-09-22T14:36:51-06:00,nomenclatureAndClassification,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,nomenclature and classification,"Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data",,,http://www.w3.org/2000/01/rdf-schema#Class,TaxonRecord,,,,
+2020-09-22T14:36:51-06:00,commonNamesUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured common names,CommonNames element in text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,CommonNames,,,,
+2020-09-22T14:36:51-06:00,PopulationBiology,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,population biology,"Description of the variations in time and space, as well as in the size and density of populations, and the factors that cause such variations",,,http://www.w3.org/2000/01/rdf-schema#Class,DemographyAndThreats,,,,
+2020-09-22T14:36:51-06:00,populationBiologyAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized population biology,Population biology data in structured form,,,http://www.w3.org/2000/01/rdf-schema#Class,PopulationBiology,,,,
+2020-09-22T14:36:51-06:00,populationBiologyUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured population biology,Population biology data as a text block,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology,,,,
+2020-09-22T14:36:51-06:00,AbundanceData,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,AbundanceData,The relative representation of a species population in relation to other species or multiple species in a particular territory,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,DensityData,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,DensityData,Population size in relation to a defined space unit,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,PatternDistribution,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,PatternDistribution,The spatial arrangement of the individuals of a population in the territory it occupies,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,Size,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Size,Number of individual organisms in a population,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,SexRatio,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,SexRatio,Relative number of males to females in a population,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,Fecundity,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Fecundity,"In the context of a population, is the combined maximum potential of its individuals to produce offspring",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,MortalityRate,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,MortalityRate,Probability of dying; the ratio between the number of deaths in a given time interval to the number of subjects alive at the start of this interval,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,BirthRate,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,BirthRate,Ratio of births to the total number of individuals in a population in a time period,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,NumberIndividualsPerObservation,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,NumberIndividualsPerObservation,Mean number of individuals per observation event or unit ,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,AverageDensity,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,AverageDensity,Average of the densities obtained for a population,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,PopulationTrend,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,PopulationTrend,"Changes of a population over time and can include changes in  distribution, biogeography (e.g., size of population), life-history (e.g., birth and death rates), etc",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,Recruitment,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Recruitment,"Information on the process by which young individuals (e.g., seedlings, larvae, propagules) become part of the adult population. It can be rate, scale, a description, etc.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,PopulationGrowthRate,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,PopulationGrowthRate,"Growth rate of a population in a given time period, based on births, deaths, emigration and immigration",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,Emigration,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Emigration,Information on  individuals leaving a population,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,Immigration,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,Immigration,Information on individuals entering a population,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,DescriptionLifeStages,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,DescriptionLifeStages,Sex/age categories or life stages of a species; can be size in the case of plants,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,ProportionIndividualsPerStageLife,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,ProportionIndividualsPerStageLife,Percentage of individuals that belong to each life stage in a population,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,CarryingCapacity,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,CarryingCapacity,Maximum population density possible as limited by the resources available for the population in the absence of predators and parasites,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,PopulationBiology  |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,RecordMetadata,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,record metadata,"This element includes the information about the Version, Revision,the language and target audiences of the Taxon Record.",,,http://www.w3.org/2000/01/rdf-schema#Class,TaxonRecord,,,,
+2020-09-22T14:36:51-06:00,reproductionAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized reproduction,Reproduction element in structured format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,Reproduction,,,,
+2020-09-22T14:36:51-06:00,revision,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,revision,"Creators, revision status and dates of the record",,,http://www.w3.org/2000/01/rdf-schema#Class,RecordMetadata,,,,
+2020-09-22T14:36:51-06:00,Reproduction,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,reproduction,All data related to the production of offspring.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,NaturalHistory,,,,
+2020-09-22T14:36:51-06:00,reproductionUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured reproduction,Reproduction element in text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,Reproduction,,,,
+2020-09-22T14:36:51-06:00,synonymsAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized synonyms,list of synonyms in a structured format,,tsc:ScientificName,http://www.w3.org/2000/01/rdf-schema#Class,Synonyms,,,,
+2020-09-22T14:36:51-06:00,synonymsAtomizedType,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,Type for atomized synonyms,,"Los ""Type"" los eliminamos ¿no? (FP)",http://www.w3.org/2000/01/rdf-schema#Class,,,,,
+2020-09-22T14:36:51-06:00,synonyms,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,synonyms,Different names for this taxon.,,,http://www.w3.org/2000/01/rdf-schema#Class,NomenclatureAndClassification,,,,
+2020-09-22T14:36:51-06:00,synonymsType,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,"A type of sequence of sequences of zero or more Atomized and Unstructured synonyms, each one with their optional ancillary data",,"Los ""Type"" los eliminamos ¿no? (FP)",http://www.w3.org/2000/01/rdf-schema#Class,,,,,
+2020-09-22T14:36:51-06:00,synonymsUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured synonyms,list of synonyms elements in a text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,SynonymName ,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,SynonymName ,Scientific name of the synonym,,"tcs: ScientificName. An object that represents a single scientific biological name that either is, or appears to be, governed by one of the biological codes of nomenclature. These are not taxa. Taxa, whether accepted or not, are represented by TaxonConcept objects. Vernacular names are also dealt with under taxon concepts",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,Synonyms |  NomenclatureAndClassification,,,,
+2020-09-22T14:36:51-06:00,SynonymStatus,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,Nomenclatural Status,,dc:nomenclaturalStatus. http://rs.tdwg.org/dwc/terms/index.htm#nomenclaturalStatus,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,Synonyms |  NomenclatureAndClassification,,,,
+2020-09-22T14:36:51-06:00,targetAudiences,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,target audiences,"Type of sequence of sequences of zero or more Atomized and Unstructured synonyms, each one with their optional ancillary data","Biodiversity researchers, teachers and students, decision makers, professionals from another areas and general public.",,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,SynonymsAtomized,,,,
+2020-09-22T14:36:51-06:00,taxonomicalDescription,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,taxonomic description,Description of Taxon,,"Description of Taxon: Brief description, Full description, Identification keys and Ancillary Data",http://www.w3.org/2000/01/rdf-schema#Class,TaxonRecord,,,,
+2020-09-22T14:36:51-06:00,taxonomicDescriptionType,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,"Los ""Type"" los eliminamos ¿no? (FP)",,,,,,
+2020-09-22T14:36:51-06:00,taxonomicDescriptionUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured taxonomic description,TaxonomicDescription element in text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,TaxonomicDescription,,,,
+2020-09-22T14:36:51-06:00,TaxonRecord,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,taxon record,Information about the record.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,taxonRecordName,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,taxon recordname,,,tsc:ScientificName,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,ScientificName,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,TaxonRecordName,,,,
+2020-09-22T14:36:51-06:00,territoryUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured territory,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,territory,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,territory,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,territoryAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized territory,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,ExtentOfOccurrence,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Territory |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,AreaOfOccupancy,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Territory |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,threatStatusUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured threat status,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,threatStatus,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,threat status,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,threatStatusAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized threat status,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,ThreatCategory,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,ThreatStatus |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,Authority,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,ThreatStatus |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,AppliesTo,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,ThreatStatus |  DemographyAndThreat,,,,
+2020-09-22T14:36:51-06:00,usesAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,atomized uses,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,uses,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,uses,Ways in which species are utilized by people,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,usesManagementAndConservation,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,uses management and conservation,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,usesManagementAndConservationUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured uses management and conservation,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,usesUnstructured,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,unstructured uses,Uses in a unstructured format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,SourceOfInformation,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Uses |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,Use-Value,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Uses |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,PartUsed,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Uses |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,Users,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Uses |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,Organisms,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Uses |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,VernacularNameUseAnnotations,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Uses |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,ProductionDetails,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Uses |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,MeansOfApplication-Administration,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Uses |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,SeasonOfAvailability-Use,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Uses |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,Conservation-ExplotationData,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Uses |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,UseTypeAtomized,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Uses |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,Economics,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Uses |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,RatingPopularity,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Uses |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,Properties,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Uses |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,Potential,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Uses |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,UseNotes,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,,,,,,Uses |  UsesManagementAndConservation,,,,
+2020-09-22T14:36:51-06:00,value,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,value,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,version,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,version,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,id,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,id,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,taxonRecordID,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,taxon record id,Unique identifier of the record within the database,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,BaseElements,,,,
+2020-09-22T14:36:51-06:00,scientificName,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,ScientificName,,"The value is an instance of tcs:ScientificName 
+http://www.tdwg.org/schemas/tcs/1.01#ScientificName"," ScientificName"" type=""tcs:ScientificName""",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,TaxonRecordName,,,,
+2020-09-22T14:36:51-06:00,synonymName,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,synonymName,,"The value is an instance of tcs:ScientificName
+http://www.tdwg.org/schemas/tcs/1.01#ScientificName","SynonymName"" type=""tcs:ScientificName"";",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
+2020-09-22T14:36:51-06:00,AncillaryData,http://rs.tdwg.org/plic/terms/,2020-09-20,2020-09-20,,,,,AncillaryData,"The AncillaryData element contains information that could be an image, an audio, a list of references, a list of agents, rights, licenses...related with the element it belongs.",AncillaryData should be information related with the element it belongs,eol:dataObjectBaseType,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,
