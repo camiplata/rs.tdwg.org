@@ -1,2 +1,11 @@
 version,term_localName
 http://rs.tdwg.org/plic/terms/version/abstract-2020-09-20,abstract
+"http://rs.tdwg.org/plic/terms/version/ancillaryData
+-2020-09-20","ancillaryData
+"
+http://rs.tdwg.org/plic/terms/version/annualCycleAtomized-2020-09-20,annualCycleAtomized
+http://rs.tdwg.org/plic/terms/version/annualCycles-2020-09-20,annualCycles
+http://rs.tdwg.org/plic/terms/version/annualCycleUnstructured-2020-09-20,annualCycleUnstructured
+http://rs.tdwg.org/plic/terms/version/startTimeInterval-2020-09-20,startTimeInterval
+http://rs.tdwg.org/plic/terms/version/endTimeInterval -2020-09-20,endTimeInterval 
+http://rs.tdwg.org/plic/terms/version/Event-2020-09-20,Event

@@ -613,3 +613,12 @@ http://rs.tdwg.org/test/terms/,http://rs.tdwg.org/test/terms/Occurrence
 http://rs.tdwg.org/test/terms/,http://rs.tdwg.org/test/terms/abstract
 http://rs.tdwg.org/test/terms/,http://rs.tdwg.org/test/terms/abstract
 http://rs.tdwg.org/plic/terms/,http://rs.tdwg.org/plic/terms/abstract
+http://rs.tdwg.org/plic/terms/,http://rs.tdwg.org/plic/terms/abstract
+http://rs.tdwg.org/plic/terms/,"http://rs.tdwg.org/plic/terms/ancillaryData
+"
+http://rs.tdwg.org/plic/terms/,http://rs.tdwg.org/plic/terms/annualCycleAtomized
+http://rs.tdwg.org/plic/terms/,http://rs.tdwg.org/plic/terms/annualCycles
+http://rs.tdwg.org/plic/terms/,http://rs.tdwg.org/plic/terms/annualCycleUnstructured
+http://rs.tdwg.org/plic/terms/,http://rs.tdwg.org/plic/terms/startTimeInterval
+http://rs.tdwg.org/plic/terms/,http://rs.tdwg.org/plic/terms/endTimeInterval 
+http://rs.tdwg.org/plic/terms/,http://rs.tdwg.org/plic/terms/Event

@@ -4049,3 +4049,12 @@ http://rs.tdwg.org/test/version/terms/2020-08-12,http://rs.tdwg.org/test/terms/v
 http://rs.tdwg.org/test/version/terms/2020-08-12,http://rs.tdwg.org/test/terms/version/abstract-2020-08-12
 http://rs.tdwg.org/test/version/terms/2020-08-12,http://rs.tdwg.org/test/terms/version/abstract-2020-08-12
 http://rs.tdwg.org/plic/version/terms/2020-09-20,http://rs.tdwg.org/plic/terms/version/abstract-2020-09-20
+http://rs.tdwg.org/plic/version/terms/2020-09-20,http://rs.tdwg.org/plic/terms/version/abstract-2020-09-20
+http://rs.tdwg.org/plic/version/terms/2020-09-20,"http://rs.tdwg.org/plic/terms/version/ancillaryData
+-2020-09-20"
+http://rs.tdwg.org/plic/version/terms/2020-09-20,http://rs.tdwg.org/plic/terms/version/annualCycleAtomized-2020-09-20
+http://rs.tdwg.org/plic/version/terms/2020-09-20,http://rs.tdwg.org/plic/terms/version/annualCycles-2020-09-20
+http://rs.tdwg.org/plic/version/terms/2020-09-20,http://rs.tdwg.org/plic/terms/version/annualCycleUnstructured-2020-09-20
+http://rs.tdwg.org/plic/version/terms/2020-09-20,http://rs.tdwg.org/plic/terms/version/startTimeInterval-2020-09-20
+http://rs.tdwg.org/plic/version/terms/2020-09-20,http://rs.tdwg.org/plic/terms/version/endTimeInterval -2020-09-20
+http://rs.tdwg.org/plic/version/terms/2020-09-20,http://rs.tdwg.org/plic/terms/version/Event-2020-09-20
