@@ -1,6 +1,6 @@
 # Plinian Core Standard
 
-**Title:** Plinian Core Standard
+**Title:** Plinian Core Standard 2020-12-02
 
 **Namespace URI:** http://rs.tdwg.org/plic/values/
 
