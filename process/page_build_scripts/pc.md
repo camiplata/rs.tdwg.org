@@ -43,227 +43,292 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 ## 3 Term index
 
 
-[](#plic_ManagementAndConservationType) |
+[Abstract](#plic_abstract) |
+[Abundance](#plic_abundance) |
 [AbundanceData](#plic_AbundanceData) |
+[Actions](#plic_Actions) |
+[Actions Type](#plic_ActionsType) |
 [Allergeny](#plic_impactMechanism01) |
 [Altitudinal](#plic_Patterns03) |
-[AncillaryData](#plic_AncillaryData) |
+[Ancillary Data](#plic_ancillaryData
+) |
 [Anemochory](#plic_Type02) |
+[Annual Cycle](#plic_annualCycles) |
+[Applies to](#plic_AppliesTo) |
+[Area of occupancy](#plic_AreaOfOccupancy) |
+[Atomized Annual Cycle](#plic_annualCycleAtomized) |
+[Atomized Behavior](#plic_behaviorAtomized) |
+[Atomized Common Names](#plic_commonNamesAtomized) |
+[Atomized Detail](#plic_detailAtomized) |
+[Atomized Direct Threat](#plic_directThreatAtomized) |
+[Atomized Dispersal](#plic_DispersalAtomized) |
+[Atomized Distribution](#plic_DistributionAtomized) |
+[Atomized Ecological Significance](#plic_ecologicalSignificanceAtomized) |
+[Atomized Endemic](#plic_endemicAtomized) |
+[Atomized Environmental Envelope](#plic_environmentalEnvelopeAtomized) |
+[Atomized Feeding](#plic_feedingAtomized) |
+[Atomized Full Description](#plic_fullDescriptionAtomized) |
+[Atomized Habitat](#plic_habitatAtomized) |
+[Atomized Interaction](#plic_interactionAtomized) |
+[Atomized Invasiveness](#plic_invasivenessAtomized) |
+[Atomized Legislation](#plic_legislationAtomized) |
+[Atomized Life Cycle](#plic_lifeCycleAtomized) |
+[Atomized Life Form](#plic_lifeFormAtomized) |
 [Audience](#plic_Audience) |
+[Authority](#plic_Authority) |
 [Autochory](#plic_Type05) |
 [Autotrophs](#plic_StrategyRemarks01) |
-[AverageDensity](#plic_AverageDensity) |
+[Average density](#plic_AverageDensity) |
 [Barochory](#plic_Type04) |
-[BirthRate](#plic_BirthRate) |
+[Base Elements](#plic_BaseElements) |
+[Behavior](#plic_behavior) |
+[Birth rate](#plic_BirthRate) |
 [Borers](#plic_Strategy07) |
-[CarryingCapacity](#plic_CarryingCapacity) |
+[Brief Description](#plic_briefDescription) |
+[Carrying capacity](#plic_CarryingCapacity) |
+[Causes](#plic_Causes) |
 [Chemosynthetic](#plic_Strategy01) |
+[Citation](#plic_citation) |
+[Common Names](#plic_commonNames) |
 [Competition](#plic_impactMechanism02) |
+[Conservation-Explotation Data](#plic_Conservation-ExplotationData) |
+[Country](#plic_country) |
+[Country Code](#plic_countryCode) |
+[County](#plic_county) |
 [Dataset](#plic_Dataset) |
 [Dataset_ID](#plic_Dataset_ID) |
 [Decomposers](#plic_Strategy04) |
+[Demography And Threat](#plic_demographyAndThreat) |
 [DensityData](#plic_DensityData) |
-[DescriptionLifeStages](#plic_DescriptionLifeStages) |
+[Description life stages](#plic_DescriptionLifeStages) |
+[Detail Unstructured](#plic_detailUnstructured) |
 [Detritivore](#plic_StrategyRemarks14) |
-[DiseaseTransmission](#plic_impactMechanism03) |
+[Direct Threats](#plic_directThreats) |
+[Disease Transmission](#plic_impactMechanism03) |
+[Dispersal](#plic_dispersal) |
+[Distance](#plic_Distance) |
+[Distribution](#plic_distribution) |
+[Distribution Scope](#plic_DistributionScope) |
+[Distribution Scope Type](#plic_DistributionScopeType) |
+[Distribution Type](#plic_DistributionType) |
+[Ecological Significance](#plic_ecologicalSignificance) |
+[Economics](#plic_Economics) |
 [Economy](#plic_impactTarget01) |
 [Eggs](#plic_StructureDispersed06) |
 [Emigration](#plic_Emigration) |
+[End Time Interval](#plic_endTimeInterval ) |
+[End Valid Date](#plic_endValidDate) |
+[Endemic](#plic_endemic) |
+[Endemic In](#plic_EndemicIn) |
+[Endemic To](#plic_EndemicTo) |
 [Environment](#plic_impactTarget02) |
+[Environmental Envelope](#plic_environmentalEnvelope) |
+[Event](#plic_Event) |
 [Expert](#plic_Audience01) |
+[Extent of occurrence](#plic_ExtentOfOccurrence) |
 [Fecundity](#plic_Fecundity) |
-[FilterFeeders](#plic_Strategy05) |
+[Feeding](#plic_feeding) |
+[Filter Feeders](#plic_Strategy05) |
 [Fluidophagous](#plic_Strategy09) |
 [Foragers](#plic_Strategy08) |
 [Fouling](#plic_impactMechanism04) |
 [Frugivore](#plic_StrategyRemarks05) |
 [Fruit](#plic_StructureDispersed02) |
+[Full Description](#plic_fullDescription) |
 [Gametes](#plic_StructureDispersed05) |
 [General](#plic_Audience03) |
 [Geographic Entity](#plic_geographicEntity
 ) |
 [Granivore](#plic_StrategyRemarks04) |
+[Habitat And Distribution](#plic_habitatAndDistribution) |
+[Habitats](#plic_habitats) |
+[Harmful](#plic_harmful) |
 [Hematophagy](#plic_StrategyRemarks07) |
 [Herbivory](#plic_impactMechanism05) |
-[HumanHealth](#plic_impactTarget03) |
+[Hierarchy](#plic_hierarchy) |
+[Human And Environmental Relevance](#plic_HumanAndEnvironmentalrelevance) |
+[Human health](#plic_impactTarget03) |
 [Hybridization](#plic_impactMechanism06) |
 [Hydrochory](#plic_Type03) |
+[Identification Keys](#plic_identificationKeys) |
 [Immigration](#plic_Immigration) |
+[Impact Mechanism](#plic_impactMechanism) |
+[Impact Target](#plic_impactTarget) |
 [Individuals](#plic_StructureDispersed08) |
-[InhibitsGrowthOfOtherSpecies](#plic_impactMechanism07) |
+[Inhibits Growth Of Other Species](#plic_impactMechanism07) |
 [Insectivore](#plic_StrategyRemarks08) |
-[InteractionWithOtherInvasiveSpecies](#plic_impactMechanism08) |
+[Interaction With Other Invasive Species](#plic_impactMechanism08) |
+[Interactions](#plic_interactions) |
+[Invasiveness](#plic_invasiveness) |
+[Keys](#plic_Keys) |
 [Knowledgeable](#plic_Audience02) |
+[Language](#plic_language) |
 [Latitudinal](#plic_Patterns01) |
+[Legislation](#plic_legislation) |
+[Legislation Name](#plic_LegislationName) |
+[Legislation Read](#plic_LegislationRead) |
+[Legislation Type](#plic_LegislationType) |
+[Life Cycle](#plic_lifeCycle) |
+[Life Form](#plic_lifeForm) |
 [Local migrant](#plic_Patterns05) |
+[Locality](#plic_locality) |
+[Locality Name](#plic_localityName) |
+[Locality Type](#plic_localityType) |
 [Longitudinal](#plic_Patterns02) |
-[ModifiesFireRegime](#plic_impactMechanism09) |
-[ModifiesHydrology](#plic_impactMechanism10) |
-[ModifiesNaturalBenthicCommunities](#plic_impactMechanism11) |
-[ModifiesNutrientRegime](#plic_impactMechanism12) |
-[ModifiesSuccessionalPatterns](#plic_impactMechanism13) |
-[MortalityRate](#plic_MortalityRate) |
+[Management And Conservation](#plic_managementAndConservation) |
+[Management And Conservation Atomized](#plic_managementAndConservationAtomized) |
+[Management And Conservation Type](#plic_ManagementAndConservationType) |
+[Management And Conservation Unstructured](#plic_managementAndConservationUnstructured) |
+[Management Plan](#plic_ManagementPlan) |
+[Means Of Application-Administration](#plic_MeansOfApplication-Administration) |
+[Memo](#plic_memo) |
+[Modified](#plic_modified) |
+[Modifies Fire Regime](#plic_impactMechanism09) |
+[Modifies Hydrology](#plic_impactMechanism10) |
+[Modifies Natural Benthic Communities](#plic_impactMechanism11) |
+[Modifies Nutrient Regime](#plic_impactMechanism12) |
+[Modifies Successional Patterns](#plic_impactMechanism13) |
+[Mortality rate](#plic_MortalityRate) |
+[Municipality ](#plic_municipality) |
+[Name](#plic_Name) |
 [Nectarivore](#plic_StrategyRemarks03) |
-[NumberIndividualsPerObservation](#plic_NumberIndividualsPerObservation) |
+[Norm](#plic_Norm) |
+[Number individuals per observation](#plic_NumberIndividualsPerObservation) |
+[Objetives](#plic_Objetives) |
 [Offspring](#plic_StructureDispersed07) |
 [Omnivore](#plic_StrategyRemarks11) |
 [Oophagy](#plic_StrategyRemarks10) |
-[OtherSeeMemoForDescription](#plic_impactMechanism14) |
+[Organisms](#plic_Organisms) |
+[Origin](#plic_origin) |
+[Other See Memo For Description](#plic_impactMechanism14) |
 [Palynivore](#plic_StrategyRemarks02) |
 [Parasitism](#plic_impactMechanism15) |
+[Part Used](#plic_PartUsed) |
 [Pathogenic](#plic_impactMechanism16) |
-[PatternDistribution](#plic_PatternDistribution) |
+[Pattern distribution](#plic_PatternDistribution) |
 [Patterns](#plic_Patterns) |
+[Persistence](#plic_persistence) |
 [Photosynthetic](#plic_Strategy02) |
-[PhysicalDisturbance](#plic_impactMechanism17) |
+[Physical Disturbance](#plic_impactMechanism17) |
 [Piscivore](#plic_StrategyRemarks09) |
-[PollenSwamping](#plic_impactMechanism18) |
-[PopulationGrowthRate](#plic_PopulationGrowthRate) |
-[PopulationTrend](#plic_PopulationTrend) |
+[Pollen Swamping](#plic_impactMechanism18) |
+[Population growth rate](#plic_PopulationGrowthRate) |
+[Population trend](#plic_PopulationTrend) |
+[Potential](#plic_Potential) |
 [Predation](#plic_impactMechanism19) |
-[ProportionIndividualsPerStageLife](#plic_ProportionIndividualsPerStageLife) |
+[Presence ](#plic_presence) |
+[Production Details](#plic_ProductionDetails) |
+[Properties](#plic_Properties) |
+[ProportionIndividuals per stage life](#plic_ProportionIndividualsPerStageLife) |
+[Protection Legal Status](#plic_ProtectionLegalStatus) |
+[Publication Date](#plic_publicationDate) |
+[Purpose](#plic_Purpose) |
+[Rate Of Spread](#plic_rateOfSpread) |
+[Rating Popularity](#plic_RatingPopularity) |
 [Recruitment](#plic_Recruitment) |
+[Regulatory Listing](#plic_regulatoryListing) |
 [RelatedTo](#plic_RelatedTo) |
 [Reproduction](#plic_Causes03) |
 [Resource availability](#plic_Causes02) |
 [Rhizophagus](#plic_StrategyRemarks06) |
+[Route](#plic_Route) |
 [Routes](#plic_Routes) |
 [Saprophagous](#plic_StrategyRemarks13) |
 [Scavenger](#plic_StrategyRemarks12) |
-[ScientificName](#plic_scientificName) |
+[Scientific name](#plic_ScientificName) |
 [Season](#plic_Season) |
+[Season Of Availability-Use](#plic_SeasonOfAvailability-Use) |
 [Seasonal climatic variation](#plic_Causes01) |
 [Sedimentivorous](#plic_Strategy06) |
 [Seed](#plic_StructureDispersed01) |
 [SexRatio](#plic_SexRatio) |
 [Size](#plic_Size) |
+[Source Of Information](#plic_SourceOfInformation) |
+[Species Interaction ](#plic_InteractionSpecies) |
+[Species Interaction Type](#plic_InteractionSpeciesType) |
 [Spores](#plic_StructureDispersed04) |
-[SynonymName ](#plic_SynonymName ) |
+[Start Time Interval](#plic_startTimeInterval) |
+[Start Valid Date](#plic_startValidDate) |
+[State Province](#plic_stateProvince) |
+[State Province ](#plic_stateProvince) |
+[Status](#plic_Status) |
+[Structure Dispersed ](#plic_StructureDispersed) |
+[Synonym name ](#plic_SynonymName ) |
+[Synonym status](#plic_SynonymStatus) |
+[Taxon Record](#plic_TaxonRecord) |
+[Temporal Coverage](#plic_temporalCoverage) |
+[Threat category](#plic_ThreatCategory) |
 [Transpiration](#plic_impactMechanism20) |
-[TrophicStrategy](#plic_Strategy) |
-[TrophicStrategyRemarks](#plic_StrategyRemarks) |
-[Unknown](#plic_impactTarget04) |
-[Vegetative structure](#plic_StructureDispersed03) |
+[Trend](#plic_trend) |
+[Trophic Strategy](#plic_Strategy) |
+[Trophic Strategy Remarks](#plic_StrategyRemarks) |
+[Type](#plic_Type) |
+[Unknown](#plic_impactMechanism21) |
+[Unstructured Annual Cycle](#plic_annualCycleUnstructured) |
+[Unstructured Audiences](#plic_audiencesUnstructured) |
+[Unstructured Behavior](#plic_behaviorUnstructured) |
+[Unstructured Demography And Threat](#plic_demographyAndThreatUnstructured) |
+[Unstructured Direct Threat](#plic_directThreatUnstructured) |
+[Unstructured Dispersal](#plic_DispersalUnstructured) |
+[Unstructured Distribution](#plic_DistributionUnstructured) |
+[Unstructured Ecological Significance](#plic_ecologicalSignificanceUnstructured) |
+[Unstructured Endemic](#plic_endemicUnstructured) |
+[Unstructured Environmental Envelope](#plic_environmentalEnvelopeUnstructured) |
+[Unstructured Feeding](#plic_feedingUnstructured) |
+[Unstructured Full Description](#plic_fullDescriptionUnstructured) |
+[Unstructured Habitat](#plic_habitatUnstructured) |
+[Unstructured Habitat And Distribution](#plic_habitatAndDistributionUnstructured) |
+[Unstructured Interaction](#plic_interactionUnstructured) |
+[Unstructured Invasiveness](#plic_invasivenessUnstructured) |
+[Unstructured Legislation](#plic_legislationUnstructured) |
+[Unstructured Life Cycle](#plic_lifeCycleUnstructured) |
+[Unstructured Life Form](#plic_lifeFormUnstructured) |
+[Use Notes](#plic_UseNotes) |
+[Use Type Atomized](#plic_UseTypeAtomized) |
+[Use-Value](#plic_Use-Value) |
+[Used By](#plic_UsedBy) |
+[Used In](#plic_UsedIn) |
+[Users](#plic_Users) |
+[Vector](#plic_vector) |
+[Vegetative Structure](#plic_StructureDispersed03) |
 [Vermin](#plic_Strategy03) |
+[Vernacular Name Use Annotations](#plic_VernacularNameUseAnnotations) |
 [Vertical in water column](#plic_Patterns04) |
+[What Impact](#plic_WhatImpact) |
 [Zoochory](#plic_Type01) |
-[abstract](#plic_abstract) |
-[ancillary data](#plic_ancillaryData
-) |
-[annual cycle](#plic_annualCycles) |
-[atomized annual cycle](#plic_annualCycleAtomized) |
-[atomized behavior](#plic_behaviorAtomized) |
-[atomized common names](#plic_commonNamesAtomized) |
-[atomized detail](#plic_detailAtomized) |
-[atomized direct threat](#plic_directThreatAtomized) |
-[atomized dispersal](#plic_DispersalAtomized) |
-[atomized distribution](#plic_DistributionAtomized) |
-[atomized ecological significance](#plic_ecologicalSignificanceAtomized) |
-[atomized endemic](#plic_endemicAtomized) |
-[atomized environmental envelope](#plic_environmentalEnvelopeAtomized) |
-[atomized feeding](#plic_feedingAtomized) |
-[atomized full description](#plic_fullDescriptionAtomized) |
-[atomized habitat](#plic_habitatAtomized) |
-[atomized interaction](#plic_interactionAtomized) |
-[atomized invasiveness](#plic_invasivenessAtomized) |
-[atomized legislation](#plic_legislationAtomized) |
-[atomized life cycle](#plic_lifeCycleAtomized) |
-[atomized life form](#plic_lifeFormAtomized) |
-[atomized management and conservation](#plic_managementAndConservationAtomized) |
 [atomized migratory](#plic_MigratoryAtomized) |
 [atomized molecular data](#plic_MolecularDataAtomized) |
 [atomized population biology](#plic_populationBiologyAtomized) |
 [atomized reproduction](#plic_reproductionAtomized) |
 [atomized synonyms](#plic_synonymsAtomized) |
-[atomized territory](#plic_territoryAtomized) |
-[atomized threat status](#plic_threatStatusAtomized) |
-[atomized uses](#plic_usesAtomized) |
-[base elements](#plic_BaseElements) |
-[behavior](#plic_behavior) |
-[brief description](#plic_briefDescription) |
-[common names](#plic_commonNames) |
-[country](#plic_country) |
-[county](#plic_county) |
 [dataset](#plic_dataset) |
 [dateStamp](#plic_dateStamp) |
-[demography and threat](#plic_demographyAndThreat) |
-[direct threats](#plic_directThreats) |
-[dispersal](#plic_dispersal) |
-[distance](#plic_Distance) |
-[distribution](#plic_Distribution) |
-[distribution scope](#plic_DistributionScope) |
-[distribution scope type](#plic_DistributionScopeType) |
-[distribution type](#plic_DistributionType) |
-[ecological significance](#plic_ecologicalSignificance) |
-[end time interval](#plic_endTimeInterval ) |
-[endemic](#plic_endemic) |
-[environmental envelope](#plic_environmentalEnvelope) |
-[event](#plic_Event) |
-[feeding](#plic_feeding) |
-[full description](#plic_fullDescription) |
-[geographic entity](#plic_GeographicEntity) |
-[habitat anddistribution](#plic_habitatAndDistribution) |
-[habitats](#plic_habitats) |
-[hierarchy](#plic_hierarchy) |
 [id](#plic_id) |
-[identification keys](#plic_identificationKeys) |
-[interactions](#plic_interactions) |
-[invasiveness](#plic_invasiveness) |
-[keys](#plic_keys) |
-[language](#plic_language) |
-[legislation](#plic_legislation) |
-[life cycle](#plic_lifeCycle) |
-[life form](#plic_lifeForm) |
-[management andconservation](#plic_managementAndConservation) |
 [metadata](#plic_metadata) |
 [migratory](#plic_Migratory) |
 [miscellaneous details](#plic_miscDetails) |
 [molecular data](#plic_MolecularData) |
-[name](#plic_Name) |
 [natural history](#plic_NaturalHistory) |
 [nomenclature and classification](#plic_nomenclatureAndClassification) |
 [population biology](#plic_PopulationBiology) |
-[purpose](#plic_Purpose) |
 [record metadata](#plic_RecordMetadata) |
 [reproduction](#plic_Reproduction) |
 [resourceLogoUrl](#plic_resourceLogoUrl) |
 [revision](#plic_revision) |
-[start time interval](#plic_startTimeInterval) |
-[state province ](#plic_stateProvince) |
-[structure dispersed ](#plic_StructureDispersed) |
-[synonymName](#plic_synonymName) |
 [synonyms](#plic_synonyms) |
+[synonyms Atomized Type](#plic_synonymsAtomizedType) |
+[synonyms type](#plic_synonymsType) |
 [target audiences](#plic_targetAudiences) |
 [taxon record](#plic_TaxonRecord) |
 [taxon record id](#plic_taxonRecordID) |
 [taxon recordname](#plic_taxonRecordName) |
 [taxonomic description](#plic_taxonomicalDescription) |
-[temporal coverage](#plic_temporalCoverage) |
+[taxonomic description type](#plic_taxonomicDescriptionType) |
 [territory](#plic_territory) |
+[territory atomized ](#plic_territoryAtomized) |
+[threat Status Atomized](#plic_threatStatusAtomized) |
 [threat status](#plic_threatStatus) |
-[type](#plic_Type) |
-[unstructured annual cycle](#plic_annualCycleUnstructured) |
-[unstructured audiences](#plic_audiencesUnstructured) |
-[unstructured behavior](#plic_behaviorUnstructured) |
 [unstructured common names](#plic_commonNamesUnstructured) |
-[unstructured demography and threat](#plic_demographyAndThreatUnstructured) |
-[unstructured detail](#plic_detailUnstructured) |
-[unstructured direct threat](#plic_directThreatUnstructured) |
-[unstructured dispersal](#plic_DispersalUnstructured) |
-[unstructured distribution](#plic_DistributionUnstructured) |
-[unstructured ecological significance](#plic_ecologicalSignificanceUnstructured) |
-[unstructured endemic](#plic_endemicUnstructured) |
-[unstructured environmental envelope](#plic_environmentalEnvelopeUnstructured) |
-[unstructured feeding](#plic_feedingUnstructured) |
-[unstructured full description](#plic_fullDescriptionUnstructured) |
-[unstructured habitat](#plic_habitatUnstructured) |
-[unstructured habitat anddistribution](#plic_habitatAndDistributionUnstructured) |
-[unstructured interaction](#plic_interactionUnstructured) |
-[unstructured invasiveness](#plic_invasivenessUnstructured) |
-[unstructured legislation](#plic_legislationUnstructured) |
-[unstructured life cycle](#plic_lifeCycleUnstructured) |
-[unstructured life form](#plic_lifeFormUnstructured) |
-[unstructured management and conservation](#plic_managementAndConservationUnstructured) |
 [unstructured migratory](#plic_migratoryUnstructured) |
 [unstructured molecular data](#plic_MolecularDataUnstructured) |
 [unstructured natural history](#plic_naturalHistoryUnstructured) |
@@ -274,49 +339,14 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 [unstructured territory](#plic_territoryUnstructured) |
 [unstructured threat status](#plic_threatStatusUnstructured) |
 [unstructured uses](#plic_usesUnstructured) |
-[unstructured uses management and conservation](#plic_usesManagementAndConservationUnstructured) |
-[used by](#plic_UsedBy) |
-[used in](#plic_UsedIn) |
 [uses](#plic_uses) |
+[uses atomized ](#plic_usesAtomized) |
 [uses management and conservation](#plic_usesManagementAndConservation) |
+[uses management and conservation unstructured ](#plic_usesManagementAndConservationUnstructured) |
 [value](#plic_value) |
 [version](#plic_version) 
 
 ## 4 Vocabulary
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="plic_"></a>Term Name  plic:</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="plic">plic</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2020-09-20</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/-2020-09-20">http://rs.tdwg.org/plic/terms/version/-2020-09-20</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
-
 <table>
 	<thead>
 		<tr>
@@ -326,15 +356,15 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicAbundanceData">plicAbundanceData</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/AbundanceData">http://rs.tdwg.org/plic/terms/AbundanceData</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/AbundanceData-2020-09-20">http://rs.tdwg.org/plic/terms/version/AbundanceData-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/AbundanceData-2021-01-08">http://rs.tdwg.org/plic/terms/version/AbundanceData-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -360,27 +390,27 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicActions">plicActions</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Actions">http://rs.tdwg.org/plic/terms/Actions</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Actions-2020-09-20">http://rs.tdwg.org/plic/terms/version/Actions-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Actions-2021-01-08">http://rs.tdwg.org/plic/terms/version/Actions-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Actions</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Individual tasks in which a management project can be atomized. Each action must be separated by ;</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -394,65 +424,23 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicActionsType">plicActionsType</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/ActionsType">http://rs.tdwg.org/plic/terms/ActionsType</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ActionsType-2020-09-20">http://rs.tdwg.org/plic/terms/version/ActionsType-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ActionsType-2021-01-08">http://rs.tdwg.org/plic/terms/version/ActionsType-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Actions Type</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="plic_AncillaryData"></a>Term Name  plic:AncillaryData</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="plicAncillaryData">plicAncillaryData</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2020-09-20</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/AncillaryData-2020-09-20">http://rs.tdwg.org/plic/terms/version/AncillaryData-2020-09-20</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>AncillaryData</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>The AncillaryData element contains information that could be an image, an audio, a list of references, a list of agents, rights, licenses...related with the element it belongs.</td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td>AncillaryData should be information related with the element it belongs</td>
-		</tr>
-		<tr>
-			<td>Notes</td>
-			<td>eol:dataObjectBaseType</td>
+			<td>Each action must have one type. In the case that one action doesn't have type then put blank.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -470,23 +458,23 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicAppliesTo">plicAppliesTo</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/AppliesTo">http://rs.tdwg.org/plic/terms/AppliesTo</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/AppliesTo-2020-09-20">http://rs.tdwg.org/plic/terms/version/AppliesTo-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/AppliesTo-2021-01-08">http://rs.tdwg.org/plic/terms/version/AppliesTo-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Applies to</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Location where the status is used.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -504,27 +492,27 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicAppliesTo">plicAppliesTo</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/AppliesTo">http://rs.tdwg.org/plic/terms/AppliesTo</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/AppliesTo-2020-09-20">http://rs.tdwg.org/plic/terms/version/AppliesTo-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/AppliesTo-2021-01-08">http://rs.tdwg.org/plic/terms/version/AppliesTo-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Applies to</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Location where the status is used.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -538,27 +526,27 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicAreaOfOccupancy">plicAreaOfOccupancy</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/AreaOfOccupancy">http://rs.tdwg.org/plic/terms/AreaOfOccupancy</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/AreaOfOccupancy-2020-09-20">http://rs.tdwg.org/plic/terms/version/AreaOfOccupancy-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/AreaOfOccupancy-2021-01-08">http://rs.tdwg.org/plic/terms/version/AreaOfOccupancy-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Area of occupancy</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Area within its 'extent of occurrence' (see EOO) which is occupied by a taxon, excluding cases of vagrancy. The measure reflects the fact that a taxon will not usually occur throughout the area of its extent of occurrence, which may contain unsuitable or unoccupied habitats.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -572,15 +560,15 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicAudience">plicAudience</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Audience">http://rs.tdwg.org/plic/terms/Audience</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Audience-2020-09-20">http://rs.tdwg.org/plic/terms/version/Audience-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Audience-2021-01-08">http://rs.tdwg.org/plic/terms/version/Audience-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -610,15 +598,15 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicAudience01">plicAudience01</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Audience01">http://rs.tdwg.org/plic/terms/Audience01</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Audience01-2020-09-20">http://rs.tdwg.org/plic/terms/version/Audience01-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Audience01-2021-01-08">http://rs.tdwg.org/plic/terms/version/Audience01-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -644,15 +632,15 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicAudience02">plicAudience02</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Audience02">http://rs.tdwg.org/plic/terms/Audience02</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Audience02-2020-09-20">http://rs.tdwg.org/plic/terms/version/Audience02-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Audience02-2021-01-08">http://rs.tdwg.org/plic/terms/version/Audience02-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -678,15 +666,15 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicAudience03">plicAudience03</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Audience03">http://rs.tdwg.org/plic/terms/Audience03</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Audience03-2020-09-20">http://rs.tdwg.org/plic/terms/version/Audience03-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Audience03-2021-01-08">http://rs.tdwg.org/plic/terms/version/Audience03-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -712,27 +700,27 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicAuthority">plicAuthority</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Authority">http://rs.tdwg.org/plic/terms/Authority</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Authority-2020-09-20">http://rs.tdwg.org/plic/terms/version/Authority-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Authority-2021-01-08">http://rs.tdwg.org/plic/terms/version/Authority-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Authority</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Organism or institution that assess the status.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -746,19 +734,19 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicAverageDensity">plicAverageDensity</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/AverageDensity">http://rs.tdwg.org/plic/terms/AverageDensity</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/AverageDensity-2020-09-20">http://rs.tdwg.org/plic/terms/version/AverageDensity-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/AverageDensity-2021-01-08">http://rs.tdwg.org/plic/terms/version/AverageDensity-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>AverageDensity</td>
+			<td>Average density</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -780,19 +768,19 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicBaseElements">plicBaseElements</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/BaseElements">http://rs.tdwg.org/plic/terms/BaseElements</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/BaseElements-2020-09-20">http://rs.tdwg.org/plic/terms/version/BaseElements-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/BaseElements-2021-01-08">http://rs.tdwg.org/plic/terms/version/BaseElements-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>base elements</td>
+			<td>Base Elements</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -814,19 +802,19 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicBirthRate">plicBirthRate</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/BirthRate">http://rs.tdwg.org/plic/terms/BirthRate</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/BirthRate-2020-09-20">http://rs.tdwg.org/plic/terms/version/BirthRate-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/BirthRate-2021-01-08">http://rs.tdwg.org/plic/terms/version/BirthRate-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>BirthRate</td>
+			<td>Birth rate</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -848,19 +836,19 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicCarryingCapacity">plicCarryingCapacity</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/CarryingCapacity">http://rs.tdwg.org/plic/terms/CarryingCapacity</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/CarryingCapacity-2020-09-20">http://rs.tdwg.org/plic/terms/version/CarryingCapacity-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/CarryingCapacity-2021-01-08">http://rs.tdwg.org/plic/terms/version/CarryingCapacity-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>CarryingCapacity</td>
+			<td>Carrying capacity</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -882,19 +870,19 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicCauses">plicCauses</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Causes">http://rs.tdwg.org/plic/terms/Causes</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Causes-2020-09-20">http://rs.tdwg.org/plic/terms/version/Causes-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Causes-2021-01-08">http://rs.tdwg.org/plic/terms/version/Causes-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Causes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -916,15 +904,15 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicCauses01">plicCauses01</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Causes01">http://rs.tdwg.org/plic/terms/Causes01</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Causes01-2020-09-20">http://rs.tdwg.org/plic/terms/version/Causes01-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Causes01-2021-01-08">http://rs.tdwg.org/plic/terms/version/Causes01-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -932,7 +920,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Seasonal climatic variation</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -950,15 +938,15 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicCauses02">plicCauses02</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Causes02">http://rs.tdwg.org/plic/terms/Causes02</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Causes02-2020-09-20">http://rs.tdwg.org/plic/terms/version/Causes02-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Causes02-2021-01-08">http://rs.tdwg.org/plic/terms/version/Causes02-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -966,7 +954,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Resource availability</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -984,15 +972,15 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicCauses03">plicCauses03</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Causes03">http://rs.tdwg.org/plic/terms/Causes03</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Causes03-2020-09-20">http://rs.tdwg.org/plic/terms/version/Causes03-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Causes03-2021-01-08">http://rs.tdwg.org/plic/terms/version/Causes03-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1000,7 +988,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Reproduction</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1018,27 +1006,27 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicConservation-ExplotationData">plicConservation-ExplotationData</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Conservation-ExplotationData">http://rs.tdwg.org/plic/terms/Conservation-ExplotationData</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Conservation-ExplotationData-2020-09-20">http://rs.tdwg.org/plic/terms/version/Conservation-ExplotationData-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Conservation-ExplotationData-2021-01-08">http://rs.tdwg.org/plic/terms/version/Conservation-ExplotationData-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Conservation-Explotation Data</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Acc. TDWG Economic Botany. Frequency record of plants, details of regeneration, sustainability or over-exploitation and any locally imposed bans on felling or harvesting.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -1052,15 +1040,15 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicDataset">plicDataset</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Dataset">http://rs.tdwg.org/plic/terms/Dataset</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Dataset-2020-09-20">http://rs.tdwg.org/plic/terms/version/Dataset-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Dataset-2021-01-08">http://rs.tdwg.org/plic/terms/version/Dataset-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1086,15 +1074,15 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicDataset_ID">plicDataset_ID</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Dataset_ID">http://rs.tdwg.org/plic/terms/Dataset_ID</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Dataset_ID-2020-09-20">http://rs.tdwg.org/plic/terms/version/Dataset_ID-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Dataset_ID-2021-01-08">http://rs.tdwg.org/plic/terms/version/Dataset_ID-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1106,7 +1094,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -1120,15 +1108,15 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicDensityData">plicDensityData</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/DensityData">http://rs.tdwg.org/plic/terms/DensityData</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DensityData-2020-09-20">http://rs.tdwg.org/plic/terms/version/DensityData-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DensityData-2021-01-08">http://rs.tdwg.org/plic/terms/version/DensityData-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1154,19 +1142,19 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicDescriptionLifeStages">plicDescriptionLifeStages</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/DescriptionLifeStages">http://rs.tdwg.org/plic/terms/DescriptionLifeStages</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DescriptionLifeStages-2020-09-20">http://rs.tdwg.org/plic/terms/version/DescriptionLifeStages-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DescriptionLifeStages-2021-01-08">http://rs.tdwg.org/plic/terms/version/DescriptionLifeStages-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>DescriptionLifeStages</td>
+			<td>Description life stages</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1188,19 +1176,19 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicDispersalAtomized">plicDispersalAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/DispersalAtomized">http://rs.tdwg.org/plic/terms/DispersalAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DispersalAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/DispersalAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DispersalAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/DispersalAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized dispersal</td>
+			<td>Atomized Dispersal</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1208,7 +1196,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Class</td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -1222,19 +1210,19 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicDispersalUnstructured">plicDispersalUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/DispersalUnstructured">http://rs.tdwg.org/plic/terms/DispersalUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DispersalUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/DispersalUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DispersalUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/DispersalUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured dispersal</td>
+			<td>Unstructured Dispersal</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1242,9 +1230,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>http://www.w3.org/2000/01/rdf-schema#Class
-
-</td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -1258,19 +1244,19 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicDistance">plicDistance</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Distance">http://rs.tdwg.org/plic/terms/Distance</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Distance-2020-09-20">http://rs.tdwg.org/plic/terms/version/Distance-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Distance-2021-01-08">http://rs.tdwg.org/plic/terms/version/Distance-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>distance</td>
+			<td>Distance</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1297,19 +1283,19 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicDistribution">plicDistribution</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Distribution">http://rs.tdwg.org/plic/terms/Distribution</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Distribution-2020-09-20">http://rs.tdwg.org/plic/terms/version/Distribution-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Distribution-2021-01-08">http://rs.tdwg.org/plic/terms/version/Distribution-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>distribution</td>
+			<td>Distribution</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1333,19 +1319,19 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicDistributionAtomized">plicDistributionAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/DistributionAtomized">http://rs.tdwg.org/plic/terms/DistributionAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/DistributionAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/DistributionAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized distribution</td>
+			<td>Atomized Distribution</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1367,19 +1353,19 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicDistributionScope">plicDistributionScope</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/DistributionScope">http://rs.tdwg.org/plic/terms/DistributionScope</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionScope-2020-09-20">http://rs.tdwg.org/plic/terms/version/DistributionScope-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionScope-2021-01-08">http://rs.tdwg.org/plic/terms/version/DistributionScope-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>distribution scope</td>
+			<td>Distribution Scope</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1415,19 +1401,19 @@ e.g. Historical, Current, Restricted and Wide.
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicDistributionScopeType">plicDistributionScopeType</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/DistributionScopeType">http://rs.tdwg.org/plic/terms/DistributionScopeType</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionScopeType-2020-09-20">http://rs.tdwg.org/plic/terms/version/DistributionScopeType-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionScopeType-2021-01-08">http://rs.tdwg.org/plic/terms/version/DistributionScopeType-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>distribution scope type</td>
+			<td>Distribution Scope Type</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1456,19 +1442,19 @@ e.g. Historical, Current, Restricted and Wide.
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicDistributionType">plicDistributionType</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/DistributionType">http://rs.tdwg.org/plic/terms/DistributionType</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionType-2020-09-20">http://rs.tdwg.org/plic/terms/version/DistributionType-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionType-2021-01-08">http://rs.tdwg.org/plic/terms/version/DistributionType-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>distribution type</td>
+			<td>Distribution Type</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1493,19 +1479,19 @@ e.g. Historical, Current, Restricted and Wide.
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicDistributionUnstructured">plicDistributionUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/DistributionUnstructured">http://rs.tdwg.org/plic/terms/DistributionUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/DistributionUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/DistributionUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured distribution</td>
+			<td>Unstructured Distribution</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1527,27 +1513,27 @@ e.g. Historical, Current, Restricted and Wide.
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicEconomics">plicEconomics</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Economics">http://rs.tdwg.org/plic/terms/Economics</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Economics-2020-09-20">http://rs.tdwg.org/plic/terms/version/Economics-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Economics-2021-01-08">http://rs.tdwg.org/plic/terms/version/Economics-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Economics</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Acc. TDWG Economic Botany. Real or potential existence of trade in live plants, plant parts or derivatives and, if so, the trade scale.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -1561,15 +1547,15 @@ e.g. Historical, Current, Restricted and Wide.
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicEmigration">plicEmigration</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Emigration">http://rs.tdwg.org/plic/terms/Emigration</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Emigration-2020-09-20">http://rs.tdwg.org/plic/terms/version/Emigration-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Emigration-2021-01-08">http://rs.tdwg.org/plic/terms/version/Emigration-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1595,31 +1581,31 @@ e.g. Historical, Current, Restricted and Wide.
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicEndemicIn">plicEndemicIn</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/EndemicIn">http://rs.tdwg.org/plic/terms/EndemicIn</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/EndemicIn-2020-09-20">http://rs.tdwg.org/plic/terms/version/EndemicIn-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/EndemicIn-2021-01-08">http://rs.tdwg.org/plic/terms/version/EndemicIn-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Endemic In</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The concept is applied to an area either multinational or local.</td>
+			<td>The area that works as a context for specifying endemic areas of a species. A controlled vocabulary is recommended. The term may go from local to above-country levels.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Examples:  Vicuña (Vicugna vicugna Molina, 1782) endemic in the Andean region. Manzanilla Real (Artemisia granatensis Boiss.) endemic in the peaks of Sierra Nevada (Spain).</td>
+			<td>If not specified, the Earth as a whole is assumed as the geographical context. Examples:  Vicuña (Vicugna vicugna Molina, 1782) endemic to the Andean region **in South America**. Manzanilla Real (Artemisia granatensis Boiss.) endemic in the peaks of Sierra Nevada (**in Spain**).</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -1633,23 +1619,23 @@ e.g. Historical, Current, Restricted and Wide.
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicEndemicTo">plicEndemicTo</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/EndemicTo">http://rs.tdwg.org/plic/terms/EndemicTo</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/EndemicTo-2020-09-20">http://rs.tdwg.org/plic/terms/version/EndemicTo-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/EndemicTo-2021-01-08">http://rs.tdwg.org/plic/terms/version/EndemicTo-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Endemic To</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The concept is applied to one or several countries. </td>
+			<td>A territory in which an endemic species appear. A controlled vocabulary is recommended. The term may go from local to above-country levels.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -1657,7 +1643,7 @@ e.g. Historical, Current, Restricted and Wide.
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -1671,19 +1657,19 @@ e.g. Historical, Current, Restricted and Wide.
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicEvent">plicEvent</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Event">http://rs.tdwg.org/plic/terms/Event</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Event-2020-09-20">http://rs.tdwg.org/plic/terms/version/Event-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Event-2021-01-08">http://rs.tdwg.org/plic/terms/version/Event-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>event</td>
+			<td>Event</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1707,27 +1693,27 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicExtentOfOccurrence">plicExtentOfOccurrence</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/ExtentOfOccurrence">http://rs.tdwg.org/plic/terms/ExtentOfOccurrence</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ExtentOfOccurrence-2020-09-20">http://rs.tdwg.org/plic/terms/version/ExtentOfOccurrence-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ExtentOfOccurrence-2021-01-08">http://rs.tdwg.org/plic/terms/version/ExtentOfOccurrence-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Extent of occurrence</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Area contained within the shortest continuous imaginary boundary which can be drawn to encompass all the known, inferred or projected sites of present occurrence of a taxon, excluding cases of vagrancy.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -1741,15 +1727,15 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicFecundity">plicFecundity</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Fecundity">http://rs.tdwg.org/plic/terms/Fecundity</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Fecundity-2020-09-20">http://rs.tdwg.org/plic/terms/version/Fecundity-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Fecundity-2021-01-08">http://rs.tdwg.org/plic/terms/version/Fecundity-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1775,19 +1761,19 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicGeographicEntity">plicGeographicEntity</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/GeographicEntity">http://rs.tdwg.org/plic/terms/GeographicEntity</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/GeographicEntity-2020-09-20">http://rs.tdwg.org/plic/terms/version/GeographicEntity-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/GeographicEntity-2021-01-08">http://rs.tdwg.org/plic/terms/version/GeographicEntity-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>geographic entity</td>
+			<td>Geographic Entity</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1815,27 +1801,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicHumanAndEnvironmentalrelevance">plicHumanAndEnvironmentalrelevance</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/HumanAndEnvironmentalrelevance">http://rs.tdwg.org/plic/terms/HumanAndEnvironmentalrelevance</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/HumanAndEnvironmentalrelevance-2020-09-20">http://rs.tdwg.org/plic/terms/version/HumanAndEnvironmentalrelevance-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/HumanAndEnvironmentalrelevance-2021-01-08">http://rs.tdwg.org/plic/terms/version/HumanAndEnvironmentalrelevance-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Human And Environmental Relevance</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Impact or value an species has either on the environment or on humans, and that justify management measures.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -1849,15 +1835,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicImmigration">plicImmigration</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Immigration">http://rs.tdwg.org/plic/terms/Immigration</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Immigration-2020-09-20">http://rs.tdwg.org/plic/terms/version/Immigration-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Immigration-2021-01-08">http://rs.tdwg.org/plic/terms/version/Immigration-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1883,27 +1869,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicInteractionSpecies">plicInteractionSpecies</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/InteractionSpecies">http://rs.tdwg.org/plic/terms/InteractionSpecies</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/InteractionSpecies-2020-09-20">http://rs.tdwg.org/plic/terms/version/InteractionSpecies-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/InteractionSpecies-2021-01-08">http://rs.tdwg.org/plic/terms/version/InteractionSpecies-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Species Interaction </td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Information category concerning relations between resources (instances or records, such as Occurrences, Taxa, Locations, Events,...).</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -1917,27 +1903,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicInteractionSpeciesType">plicInteractionSpeciesType</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/InteractionSpeciesType">http://rs.tdwg.org/plic/terms/InteractionSpeciesType</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/InteractionSpeciesType-2020-09-20">http://rs.tdwg.org/plic/terms/version/InteractionSpeciesType-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/InteractionSpeciesType-2021-01-08">http://rs.tdwg.org/plic/terms/version/InteractionSpeciesType-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Species Interaction Type</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>String with the type of interaction. Each element is seperated by comma and each list of elements by.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -1951,27 +1937,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicKeys">plicKeys</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Keys">http://rs.tdwg.org/plic/terms/Keys</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Keys-2020-09-20">http://rs.tdwg.org/plic/terms/version/Keys-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Keys-2021-01-08">http://rs.tdwg.org/plic/terms/version/Keys-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Keys</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Dichotomic or multi-access key.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -1985,19 +1971,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicLanguage">plicLanguage</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Language">http://rs.tdwg.org/plic/terms/Language</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Language-2020-09-20">http://rs.tdwg.org/plic/terms/version/Language-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Language-2021-01-08">http://rs.tdwg.org/plic/terms/version/Language-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>language</td>
+			<td>Language</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2022,27 +2008,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicLegislationName">plicLegislationName</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/LegislationName">http://rs.tdwg.org/plic/terms/LegislationName</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/LegislationName-2020-09-20">http://rs.tdwg.org/plic/terms/version/LegislationName-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/LegislationName-2021-01-08">http://rs.tdwg.org/plic/terms/version/LegislationName-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Legislation Name</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Word or phrase to designate the law or group of laws.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -2056,27 +2042,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicLegislationRead">plicLegislationRead</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/LegislationRead">http://rs.tdwg.org/plic/terms/LegislationRead</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/LegislationRead-2020-09-20">http://rs.tdwg.org/plic/terms/version/LegislationRead-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/LegislationRead-2021-01-08">http://rs.tdwg.org/plic/terms/version/LegislationRead-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Legislation Read</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>The oficial document in which the user can read the legislation.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -2090,27 +2076,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicLegislationType">plicLegislationType</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/LegislationType">http://rs.tdwg.org/plic/terms/LegislationType</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/LegislationType-2020-09-20">http://rs.tdwg.org/plic/terms/version/LegislationType-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/LegislationType-2021-01-08">http://rs.tdwg.org/plic/terms/version/LegislationType-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Legislation Type</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>National and/or regional law or group of laws.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -2124,27 +2110,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicManagementAndConservationType">plicManagementAndConservationType</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/ManagementAndConservationType">http://rs.tdwg.org/plic/terms/ManagementAndConservationType</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ManagementAndConservationType-2020-09-20">http://rs.tdwg.org/plic/terms/version/ManagementAndConservationType-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ManagementAndConservationType-2021-01-08">http://rs.tdwg.org/plic/terms/version/ManagementAndConservationType-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Management And Conservation Type</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Management: actions aimed at conserving or recovering species / Conservation: undertaken interventions designed to preserve species.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -2158,27 +2144,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicManagementPlan">plicManagementPlan</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/ManagementPlan">http://rs.tdwg.org/plic/terms/ManagementPlan</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ManagementPlan-2020-09-20">http://rs.tdwg.org/plic/terms/version/ManagementPlan-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ManagementPlan-2021-01-08">http://rs.tdwg.org/plic/terms/version/ManagementPlan-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Management Plan</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>plan guiding the overall management project.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -2192,27 +2178,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicMeansOfApplication-Administration">plicMeansOfApplication-Administration</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/MeansOfApplication-Administration">http://rs.tdwg.org/plic/terms/MeansOfApplication-Administration</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/MeansOfApplication-Administration-2020-09-20">http://rs.tdwg.org/plic/terms/version/MeansOfApplication-Administration-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/MeansOfApplication-Administration-2021-01-08">http://rs.tdwg.org/plic/terms/version/MeansOfApplication-Administration-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Means Of Application-Administration</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Acc. TDWG Economic Botany. This is specific relevant for medicines, poisons .</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -2226,15 +2212,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicMigratory">plicMigratory</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Migratory">http://rs.tdwg.org/plic/terms/Migratory</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Migratory-2020-09-20">http://rs.tdwg.org/plic/terms/version/Migratory-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Migratory-2021-01-08">http://rs.tdwg.org/plic/terms/version/Migratory-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2260,15 +2246,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicMigratoryAtomized">plicMigratoryAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/MigratoryAtomized">http://rs.tdwg.org/plic/terms/MigratoryAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/MigratoryAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/MigratoryAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/MigratoryAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/MigratoryAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2294,15 +2280,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicMolecularData">plicMolecularData</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/MolecularData">http://rs.tdwg.org/plic/terms/MolecularData</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/MolecularData-2020-09-20">http://rs.tdwg.org/plic/terms/version/MolecularData-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/MolecularData-2021-01-08">http://rs.tdwg.org/plic/terms/version/MolecularData-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2332,15 +2318,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicMolecularDataAtomized">plicMolecularDataAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/MolecularDataAtomized">http://rs.tdwg.org/plic/terms/MolecularDataAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/MolecularDataAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/MolecularDataAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/MolecularDataAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/MolecularDataAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2366,15 +2352,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicMolecularDataUnstructured">plicMolecularDataUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/MolecularDataUnstructured">http://rs.tdwg.org/plic/terms/MolecularDataUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/MolecularDataUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/MolecularDataUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/MolecularDataUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/MolecularDataUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2400,19 +2386,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicMortalityRate">plicMortalityRate</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/MortalityRate">http://rs.tdwg.org/plic/terms/MortalityRate</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/MortalityRate-2020-09-20">http://rs.tdwg.org/plic/terms/version/MortalityRate-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/MortalityRate-2021-01-08">http://rs.tdwg.org/plic/terms/version/MortalityRate-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>MortalityRate</td>
+			<td>Mortality rate</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2434,19 +2420,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicName">plicName</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Name">http://rs.tdwg.org/plic/terms/Name</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Name-2020-09-20">http://rs.tdwg.org/plic/terms/version/Name-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Name-2021-01-08">http://rs.tdwg.org/plic/terms/version/Name-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>name</td>
+			<td>Name</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2469,15 +2455,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicNaturalHistory">plicNaturalHistory</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/NaturalHistory">http://rs.tdwg.org/plic/terms/NaturalHistory</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/NaturalHistory-2020-09-20">http://rs.tdwg.org/plic/terms/version/NaturalHistory-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/NaturalHistory-2021-01-08">http://rs.tdwg.org/plic/terms/version/NaturalHistory-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2503,23 +2489,23 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicNorm">plicNorm</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Norm">http://rs.tdwg.org/plic/terms/Norm</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Norm-2020-09-20">http://rs.tdwg.org/plic/terms/version/Norm-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Norm-2021-01-08">http://rs.tdwg.org/plic/terms/version/Norm-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Norm</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Norms are general legal principles that are widely accepted. This acceptance is evidenced in a number of ways, such as international agreements, national legislation, domestic and international judicial decisions, and scholarly writings.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2537,19 +2523,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicNumberIndividualsPerObservation">plicNumberIndividualsPerObservation</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/NumberIndividualsPerObservation">http://rs.tdwg.org/plic/terms/NumberIndividualsPerObservation</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/NumberIndividualsPerObservation-2020-09-20">http://rs.tdwg.org/plic/terms/version/NumberIndividualsPerObservation-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/NumberIndividualsPerObservation-2021-01-08">http://rs.tdwg.org/plic/terms/version/NumberIndividualsPerObservation-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>NumberIndividualsPerObservation</td>
+			<td>Number individuals per observation</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2571,27 +2557,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicObjetives">plicObjetives</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Objetives">http://rs.tdwg.org/plic/terms/Objetives</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Objetives-2020-09-20">http://rs.tdwg.org/plic/terms/version/Objetives-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Objetives-2021-01-08">http://rs.tdwg.org/plic/terms/version/Objetives-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Objetives</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Specific purposes of the management actions. Each objective must be separated by ;</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -2605,27 +2591,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicOrganisms">plicOrganisms</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Organisms">http://rs.tdwg.org/plic/terms/Organisms</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Organisms-2020-09-20">http://rs.tdwg.org/plic/terms/version/Organisms-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Organisms-2021-01-08">http://rs.tdwg.org/plic/terms/version/Organisms-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Organisms</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Acc. TDWG Economic Botany. Organisms which use the plant/plant parts.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -2639,27 +2625,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicPartUsed">plicPartUsed</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/PartUsed">http://rs.tdwg.org/plic/terms/PartUsed</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/PartUsed-2020-09-20">http://rs.tdwg.org/plic/terms/version/PartUsed-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/PartUsed-2021-01-08">http://rs.tdwg.org/plic/terms/version/PartUsed-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Part Used</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Acc. TDWG Economic Botany. Which plant parts are used, or have any negative values.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -2673,19 +2659,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicPatternDistribution">plicPatternDistribution</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/PatternDistribution">http://rs.tdwg.org/plic/terms/PatternDistribution</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/PatternDistribution-2020-09-20">http://rs.tdwg.org/plic/terms/version/PatternDistribution-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/PatternDistribution-2021-01-08">http://rs.tdwg.org/plic/terms/version/PatternDistribution-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>PatternDistribution</td>
+			<td>Pattern distribution</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2707,15 +2693,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicPatterns">plicPatterns</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Patterns">http://rs.tdwg.org/plic/terms/Patterns</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Patterns-2020-09-20">http://rs.tdwg.org/plic/terms/version/Patterns-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Patterns-2021-01-08">http://rs.tdwg.org/plic/terms/version/Patterns-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2741,15 +2727,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicPatterns01">plicPatterns01</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Patterns01">http://rs.tdwg.org/plic/terms/Patterns01</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Patterns01-2020-09-20">http://rs.tdwg.org/plic/terms/version/Patterns01-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Patterns01-2021-01-08">http://rs.tdwg.org/plic/terms/version/Patterns01-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2757,7 +2743,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Latitudinal</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2775,15 +2761,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicPatterns02">plicPatterns02</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Patterns02">http://rs.tdwg.org/plic/terms/Patterns02</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Patterns02-2020-09-20">http://rs.tdwg.org/plic/terms/version/Patterns02-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Patterns02-2021-01-08">http://rs.tdwg.org/plic/terms/version/Patterns02-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2791,7 +2777,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Longitudinal</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2809,15 +2795,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicPatterns03">plicPatterns03</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Patterns03">http://rs.tdwg.org/plic/terms/Patterns03</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Patterns03-2020-09-20">http://rs.tdwg.org/plic/terms/version/Patterns03-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Patterns03-2021-01-08">http://rs.tdwg.org/plic/terms/version/Patterns03-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2825,7 +2811,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Altitudinal</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2843,15 +2829,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicPatterns04">plicPatterns04</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Patterns04">http://rs.tdwg.org/plic/terms/Patterns04</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Patterns04-2020-09-20">http://rs.tdwg.org/plic/terms/version/Patterns04-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Patterns04-2021-01-08">http://rs.tdwg.org/plic/terms/version/Patterns04-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2859,7 +2845,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Vertical in water column</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2877,15 +2863,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicPatterns05">plicPatterns05</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Patterns05">http://rs.tdwg.org/plic/terms/Patterns05</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Patterns05-2020-09-20">http://rs.tdwg.org/plic/terms/version/Patterns05-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Patterns05-2021-01-08">http://rs.tdwg.org/plic/terms/version/Patterns05-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2893,7 +2879,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Local migrant</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2911,15 +2897,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicPopulationBiology">plicPopulationBiology</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/PopulationBiology">http://rs.tdwg.org/plic/terms/PopulationBiology</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/PopulationBiology-2020-09-20">http://rs.tdwg.org/plic/terms/version/PopulationBiology-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/PopulationBiology-2021-01-08">http://rs.tdwg.org/plic/terms/version/PopulationBiology-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2945,19 +2931,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicPopulationGrowthRate">plicPopulationGrowthRate</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/PopulationGrowthRate">http://rs.tdwg.org/plic/terms/PopulationGrowthRate</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/PopulationGrowthRate-2020-09-20">http://rs.tdwg.org/plic/terms/version/PopulationGrowthRate-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/PopulationGrowthRate-2021-01-08">http://rs.tdwg.org/plic/terms/version/PopulationGrowthRate-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>PopulationGrowthRate</td>
+			<td>Population growth rate</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2979,19 +2965,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicPopulationTrend">plicPopulationTrend</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/PopulationTrend">http://rs.tdwg.org/plic/terms/PopulationTrend</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/PopulationTrend-2020-09-20">http://rs.tdwg.org/plic/terms/version/PopulationTrend-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/PopulationTrend-2021-01-08">http://rs.tdwg.org/plic/terms/version/PopulationTrend-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>PopulationTrend</td>
+			<td>Population trend</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3013,27 +2999,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicPotential">plicPotential</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Potential">http://rs.tdwg.org/plic/terms/Potential</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Potential-2020-09-20">http://rs.tdwg.org/plic/terms/version/Potential-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Potential-2021-01-08">http://rs.tdwg.org/plic/terms/version/Potential-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Potential</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Acc. TDWG Economic Botany. Potential increase in the use, cultivation or production or possibility of introduction in other areas or social groups.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -3047,27 +3033,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicProductionDetails">plicProductionDetails</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/ProductionDetails">http://rs.tdwg.org/plic/terms/ProductionDetails</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ProductionDetails-2020-09-20">http://rs.tdwg.org/plic/terms/version/ProductionDetails-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ProductionDetails-2021-01-08">http://rs.tdwg.org/plic/terms/version/ProductionDetails-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Production Details</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Definition:        Acc. TDWG Economic Botany. (where relevant). Give details of protection, cultivation, harvesting, yields, processing and storage methods used and take note of special tools, timing etc.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -3081,27 +3067,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicProperties">plicProperties</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Properties">http://rs.tdwg.org/plic/terms/Properties</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Properties-2020-09-20">http://rs.tdwg.org/plic/terms/version/Properties-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Properties-2021-01-08">http://rs.tdwg.org/plic/terms/version/Properties-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Properties</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Acc. TDWG Economic Botany. Details of properties which influence its value for a specified purpose.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -3115,19 +3101,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicProportionIndividualsPerStageLife">plicProportionIndividualsPerStageLife</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/ProportionIndividualsPerStageLife">http://rs.tdwg.org/plic/terms/ProportionIndividualsPerStageLife</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ProportionIndividualsPerStageLife-2020-09-20">http://rs.tdwg.org/plic/terms/version/ProportionIndividualsPerStageLife-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ProportionIndividualsPerStageLife-2021-01-08">http://rs.tdwg.org/plic/terms/version/ProportionIndividualsPerStageLife-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>ProportionIndividualsPerStageLife</td>
+			<td>ProportionIndividuals per stage life</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3149,27 +3135,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicProtectionLegalStatus">plicProtectionLegalStatus</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/ProtectionLegalStatus">http://rs.tdwg.org/plic/terms/ProtectionLegalStatus</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ProtectionLegalStatus-2020-09-20">http://rs.tdwg.org/plic/terms/version/ProtectionLegalStatus-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ProtectionLegalStatus-2021-01-08">http://rs.tdwg.org/plic/terms/version/ProtectionLegalStatus-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Protection Legal Status</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Description of the legal status.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -3183,19 +3169,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicPurpose">plicPurpose</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Purpose">http://rs.tdwg.org/plic/terms/Purpose</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Purpose-2020-09-20">http://rs.tdwg.org/plic/terms/version/Purpose-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Purpose-2021-01-08">http://rs.tdwg.org/plic/terms/version/Purpose-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>purpose</td>
+			<td>Purpose</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3217,27 +3203,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicRatingPopularity">plicRatingPopularity</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/RatingPopularity">http://rs.tdwg.org/plic/terms/RatingPopularity</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/RatingPopularity-2020-09-20">http://rs.tdwg.org/plic/terms/version/RatingPopularity-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/RatingPopularity-2021-01-08">http://rs.tdwg.org/plic/terms/version/RatingPopularity-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Rating Popularity</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Acc. TDWG Economic Botany. Assessment of the plant for its use and possible preference to other species, pointing out, in this case, which species are they.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -3251,15 +3237,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicRecordMetadata">plicRecordMetadata</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/RecordMetadata">http://rs.tdwg.org/plic/terms/RecordMetadata</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/RecordMetadata-2020-09-20">http://rs.tdwg.org/plic/terms/version/RecordMetadata-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/RecordMetadata-2021-01-08">http://rs.tdwg.org/plic/terms/version/RecordMetadata-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3285,15 +3271,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicRecruitment">plicRecruitment</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Recruitment">http://rs.tdwg.org/plic/terms/Recruitment</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Recruitment-2020-09-20">http://rs.tdwg.org/plic/terms/version/Recruitment-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Recruitment-2021-01-08">http://rs.tdwg.org/plic/terms/version/Recruitment-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3319,15 +3305,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicRelatedTo">plicRelatedTo</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/RelatedTo">http://rs.tdwg.org/plic/terms/RelatedTo</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/RelatedTo-2020-09-20">http://rs.tdwg.org/plic/terms/version/RelatedTo-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/RelatedTo-2021-01-08">http://rs.tdwg.org/plic/terms/version/RelatedTo-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3353,15 +3339,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicReproduction">plicReproduction</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Reproduction">http://rs.tdwg.org/plic/terms/Reproduction</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Reproduction-2020-09-20">http://rs.tdwg.org/plic/terms/version/Reproduction-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Reproduction-2021-01-08">http://rs.tdwg.org/plic/terms/version/Reproduction-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3387,19 +3373,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicRoute">plicRoute</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Route">http://rs.tdwg.org/plic/terms/Route</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Route-2020-09-20">http://rs.tdwg.org/plic/terms/version/Route-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Route-2021-01-08">http://rs.tdwg.org/plic/terms/version/Route-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Route</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3407,7 +3393,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -3421,15 +3407,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicRoutes">plicRoutes</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Routes">http://rs.tdwg.org/plic/terms/Routes</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Routes-2020-09-20">http://rs.tdwg.org/plic/terms/version/Routes-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Routes-2021-01-08">http://rs.tdwg.org/plic/terms/version/Routes-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3455,27 +3441,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicScientificName">plicScientificName</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/ScientificName">http://rs.tdwg.org/plic/terms/ScientificName</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ScientificName-2020-09-20">http://rs.tdwg.org/plic/terms/version/ScientificName-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ScientificName-2021-01-08">http://rs.tdwg.org/plic/terms/version/ScientificName-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Scientific name</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Canonical name enforcing strict inclusion of only nomenclatural information - not taxonomic information. The name entered here must comply with rules and recommendations of the international nomenclatural code pertaining to the organisms (Zoological, Botanical, of Cultivated Pants, or Bacteriological).</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -3489,15 +3475,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicSeason">plicSeason</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Season">http://rs.tdwg.org/plic/terms/Season</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Season-2020-09-20">http://rs.tdwg.org/plic/terms/version/Season-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Season-2021-01-08">http://rs.tdwg.org/plic/terms/version/Season-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3523,27 +3509,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicSeasonOfAvailability-Use">plicSeasonOfAvailability-Use</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/SeasonOfAvailability-Use">http://rs.tdwg.org/plic/terms/SeasonOfAvailability-Use</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/SeasonOfAvailability-Use-2020-09-20">http://rs.tdwg.org/plic/terms/version/SeasonOfAvailability-Use-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/SeasonOfAvailability-Use-2021-01-08">http://rs.tdwg.org/plic/terms/version/SeasonOfAvailability-Use-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Season Of Availability-Use</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Acc. TDWG Economic Botany. The season in which the plant is available/is used and, if relevant, the time of day.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -3557,15 +3543,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicSexRatio">plicSexRatio</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/SexRatio">http://rs.tdwg.org/plic/terms/SexRatio</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/SexRatio-2020-09-20">http://rs.tdwg.org/plic/terms/version/SexRatio-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/SexRatio-2021-01-08">http://rs.tdwg.org/plic/terms/version/SexRatio-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3591,15 +3577,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicSize">plicSize</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Size">http://rs.tdwg.org/plic/terms/Size</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Size-2020-09-20">http://rs.tdwg.org/plic/terms/version/Size-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Size-2021-01-08">http://rs.tdwg.org/plic/terms/version/Size-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3625,27 +3611,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicSourceOfInformation">plicSourceOfInformation</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/SourceOfInformation">http://rs.tdwg.org/plic/terms/SourceOfInformation</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/SourceOfInformation-2020-09-20">http://rs.tdwg.org/plic/terms/version/SourceOfInformation-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/SourceOfInformation-2021-01-08">http://rs.tdwg.org/plic/terms/version/SourceOfInformation-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Source Of Information</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Where does the observation come from? Reference citations should be given. Where appropriate, voucher specimen details should be provided (collector, number, date, herbarium) as well as details of the recorded informant (name, gender, approximate age, occupation, ethnic identity, locality and spoken language).</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -3659,27 +3645,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStatus">plicStatus</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Status">http://rs.tdwg.org/plic/terms/Status</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Status-2020-09-20">http://rs.tdwg.org/plic/terms/version/Status-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Status-2021-01-08">http://rs.tdwg.org/plic/terms/version/Status-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Status</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Whether a piece of legislation is in force, or superseded, etc.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -3693,19 +3679,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategy">plicStrategy</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Strategy">http://rs.tdwg.org/plic/terms/Strategy</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy-2020-09-20">http://rs.tdwg.org/plic/terms/version/Strategy-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy-2021-01-08">http://rs.tdwg.org/plic/terms/version/Strategy-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>TrophicStrategy</td>
+			<td>Trophic Strategy</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3730,15 +3716,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategy01">plicStrategy01</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Strategy01">http://rs.tdwg.org/plic/terms/Strategy01</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy01-2020-09-20">http://rs.tdwg.org/plic/terms/version/Strategy01-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy01-2021-01-08">http://rs.tdwg.org/plic/terms/version/Strategy01-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3746,7 +3732,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Chemosynthetic</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3764,15 +3750,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategy02">plicStrategy02</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Strategy02">http://rs.tdwg.org/plic/terms/Strategy02</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy02-2020-09-20">http://rs.tdwg.org/plic/terms/version/Strategy02-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy02-2021-01-08">http://rs.tdwg.org/plic/terms/version/Strategy02-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3780,7 +3766,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Photosynthetic</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3798,15 +3784,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategy03">plicStrategy03</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Strategy03">http://rs.tdwg.org/plic/terms/Strategy03</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy03-2020-09-20">http://rs.tdwg.org/plic/terms/version/Strategy03-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy03-2021-01-08">http://rs.tdwg.org/plic/terms/version/Strategy03-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3814,7 +3800,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Vermin</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3832,15 +3818,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategy04">plicStrategy04</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Strategy04">http://rs.tdwg.org/plic/terms/Strategy04</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy04-2020-09-20">http://rs.tdwg.org/plic/terms/version/Strategy04-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy04-2021-01-08">http://rs.tdwg.org/plic/terms/version/Strategy04-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3848,7 +3834,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Decomposers</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3866,23 +3852,23 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategy05">plicStrategy05</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Strategy05">http://rs.tdwg.org/plic/terms/Strategy05</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy05-2020-09-20">http://rs.tdwg.org/plic/terms/version/Strategy05-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy05-2021-01-08">http://rs.tdwg.org/plic/terms/version/Strategy05-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>FilterFeeders</td>
+			<td>Filter Feeders</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Filter Feeders</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3900,15 +3886,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategy06">plicStrategy06</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Strategy06">http://rs.tdwg.org/plic/terms/Strategy06</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy06-2020-09-20">http://rs.tdwg.org/plic/terms/version/Strategy06-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy06-2021-01-08">http://rs.tdwg.org/plic/terms/version/Strategy06-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3916,7 +3902,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Sedimentivorous</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3934,15 +3920,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategy07">plicStrategy07</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Strategy07">http://rs.tdwg.org/plic/terms/Strategy07</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy07-2020-09-20">http://rs.tdwg.org/plic/terms/version/Strategy07-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy07-2021-01-08">http://rs.tdwg.org/plic/terms/version/Strategy07-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3950,7 +3936,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Borers</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3968,15 +3954,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategy08">plicStrategy08</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Strategy08">http://rs.tdwg.org/plic/terms/Strategy08</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy08-2020-09-20">http://rs.tdwg.org/plic/terms/version/Strategy08-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy08-2021-01-08">http://rs.tdwg.org/plic/terms/version/Strategy08-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3984,7 +3970,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Foragers</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4002,15 +3988,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategy09">plicStrategy09</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Strategy09">http://rs.tdwg.org/plic/terms/Strategy09</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy09-2020-09-20">http://rs.tdwg.org/plic/terms/version/Strategy09-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy09-2021-01-08">http://rs.tdwg.org/plic/terms/version/Strategy09-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4018,7 +4004,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Fluidophagous</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4036,19 +4022,19 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategyRemarks">plicStrategyRemarks</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StrategyRemarks">http://rs.tdwg.org/plic/terms/StrategyRemarks</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks-2020-09-20">http://rs.tdwg.org/plic/terms/version/StrategyRemarks-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks-2021-01-08">http://rs.tdwg.org/plic/terms/version/StrategyRemarks-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>TrophicStrategyRemarks</td>
+			<td>Trophic Strategy Remarks</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4070,15 +4056,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategyRemarks01">plicStrategyRemarks01</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StrategyRemarks01">http://rs.tdwg.org/plic/terms/StrategyRemarks01</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks01-2020-09-20">http://rs.tdwg.org/plic/terms/version/StrategyRemarks01-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks01-2021-01-08">http://rs.tdwg.org/plic/terms/version/StrategyRemarks01-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4086,7 +4072,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Autotrophs</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4104,15 +4090,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategyRemarks02">plicStrategyRemarks02</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StrategyRemarks02">http://rs.tdwg.org/plic/terms/StrategyRemarks02</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks02-2020-09-20">http://rs.tdwg.org/plic/terms/version/StrategyRemarks02-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks02-2021-01-08">http://rs.tdwg.org/plic/terms/version/StrategyRemarks02-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4120,7 +4106,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Palynivore</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4138,15 +4124,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategyRemarks03">plicStrategyRemarks03</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StrategyRemarks03">http://rs.tdwg.org/plic/terms/StrategyRemarks03</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks03-2020-09-20">http://rs.tdwg.org/plic/terms/version/StrategyRemarks03-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks03-2021-01-08">http://rs.tdwg.org/plic/terms/version/StrategyRemarks03-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4154,7 +4140,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Nectarivore</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4172,15 +4158,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategyRemarks04">plicStrategyRemarks04</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StrategyRemarks04">http://rs.tdwg.org/plic/terms/StrategyRemarks04</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks04-2020-09-20">http://rs.tdwg.org/plic/terms/version/StrategyRemarks04-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks04-2021-01-08">http://rs.tdwg.org/plic/terms/version/StrategyRemarks04-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4188,7 +4174,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Granivore</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4206,15 +4192,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategyRemarks05">plicStrategyRemarks05</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StrategyRemarks05">http://rs.tdwg.org/plic/terms/StrategyRemarks05</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks05-2020-09-20">http://rs.tdwg.org/plic/terms/version/StrategyRemarks05-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks05-2021-01-08">http://rs.tdwg.org/plic/terms/version/StrategyRemarks05-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4222,7 +4208,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Frugivore</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4240,15 +4226,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategyRemarks06">plicStrategyRemarks06</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StrategyRemarks06">http://rs.tdwg.org/plic/terms/StrategyRemarks06</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks06-2020-09-20">http://rs.tdwg.org/plic/terms/version/StrategyRemarks06-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks06-2021-01-08">http://rs.tdwg.org/plic/terms/version/StrategyRemarks06-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4256,7 +4242,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Rhizophagus</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4274,15 +4260,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategyRemarks07">plicStrategyRemarks07</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StrategyRemarks07">http://rs.tdwg.org/plic/terms/StrategyRemarks07</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks07-2020-09-20">http://rs.tdwg.org/plic/terms/version/StrategyRemarks07-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks07-2021-01-08">http://rs.tdwg.org/plic/terms/version/StrategyRemarks07-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4290,7 +4276,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Hematophagy</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4308,15 +4294,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategyRemarks08">plicStrategyRemarks08</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StrategyRemarks08">http://rs.tdwg.org/plic/terms/StrategyRemarks08</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks08-2020-09-20">http://rs.tdwg.org/plic/terms/version/StrategyRemarks08-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks08-2021-01-08">http://rs.tdwg.org/plic/terms/version/StrategyRemarks08-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4324,7 +4310,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Insectivore</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4342,15 +4328,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategyRemarks09">plicStrategyRemarks09</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StrategyRemarks09">http://rs.tdwg.org/plic/terms/StrategyRemarks09</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks09-2020-09-20">http://rs.tdwg.org/plic/terms/version/StrategyRemarks09-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks09-2021-01-08">http://rs.tdwg.org/plic/terms/version/StrategyRemarks09-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4358,7 +4344,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Piscivore</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4376,15 +4362,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategyRemarks10">plicStrategyRemarks10</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StrategyRemarks10">http://rs.tdwg.org/plic/terms/StrategyRemarks10</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks10-2020-09-20">http://rs.tdwg.org/plic/terms/version/StrategyRemarks10-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks10-2021-01-08">http://rs.tdwg.org/plic/terms/version/StrategyRemarks10-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4392,7 +4378,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Oophagy</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4410,15 +4396,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategyRemarks11">plicStrategyRemarks11</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StrategyRemarks11">http://rs.tdwg.org/plic/terms/StrategyRemarks11</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks11-2020-09-20">http://rs.tdwg.org/plic/terms/version/StrategyRemarks11-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks11-2021-01-08">http://rs.tdwg.org/plic/terms/version/StrategyRemarks11-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4426,7 +4412,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Omnivore</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4444,15 +4430,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategyRemarks12">plicStrategyRemarks12</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StrategyRemarks12">http://rs.tdwg.org/plic/terms/StrategyRemarks12</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks12-2020-09-20">http://rs.tdwg.org/plic/terms/version/StrategyRemarks12-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks12-2021-01-08">http://rs.tdwg.org/plic/terms/version/StrategyRemarks12-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4460,7 +4446,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Scavenger</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4478,15 +4464,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategyRemarks13">plicStrategyRemarks13</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StrategyRemarks13">http://rs.tdwg.org/plic/terms/StrategyRemarks13</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks13-2020-09-20">http://rs.tdwg.org/plic/terms/version/StrategyRemarks13-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks13-2021-01-08">http://rs.tdwg.org/plic/terms/version/StrategyRemarks13-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4494,7 +4480,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Saprophagous</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4512,15 +4498,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStrategyRemarks14">plicStrategyRemarks14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StrategyRemarks14">http://rs.tdwg.org/plic/terms/StrategyRemarks14</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks14-2020-09-20">http://rs.tdwg.org/plic/terms/version/StrategyRemarks14-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks14-2021-01-08">http://rs.tdwg.org/plic/terms/version/StrategyRemarks14-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4528,7 +4514,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Detritivore</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4546,19 +4532,19 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStructureDispersed">plicStructureDispersed</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StructureDispersed">http://rs.tdwg.org/plic/terms/StructureDispersed</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed-2020-09-20">http://rs.tdwg.org/plic/terms/version/StructureDispersed-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed-2021-01-08">http://rs.tdwg.org/plic/terms/version/StructureDispersed-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>structure dispersed </td>
+			<td>Structure Dispersed </td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4585,15 +4571,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStructureDispersed01">plicStructureDispersed01</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StructureDispersed01">http://rs.tdwg.org/plic/terms/StructureDispersed01</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed01-2020-09-20">http://rs.tdwg.org/plic/terms/version/StructureDispersed01-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed01-2021-01-08">http://rs.tdwg.org/plic/terms/version/StructureDispersed01-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4601,7 +4587,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Seed</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4619,15 +4605,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStructureDispersed02">plicStructureDispersed02</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StructureDispersed02">http://rs.tdwg.org/plic/terms/StructureDispersed02</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed02-2020-09-20">http://rs.tdwg.org/plic/terms/version/StructureDispersed02-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed02-2021-01-08">http://rs.tdwg.org/plic/terms/version/StructureDispersed02-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4635,7 +4621,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Fruit</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4653,23 +4639,23 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStructureDispersed03">plicStructureDispersed03</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StructureDispersed03">http://rs.tdwg.org/plic/terms/StructureDispersed03</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed03-2020-09-20">http://rs.tdwg.org/plic/terms/version/StructureDispersed03-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed03-2021-01-08">http://rs.tdwg.org/plic/terms/version/StructureDispersed03-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Vegetative structure</td>
+			<td>Vegetative Structure</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Vegetative Structure</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4687,15 +4673,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStructureDispersed04">plicStructureDispersed04</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StructureDispersed04">http://rs.tdwg.org/plic/terms/StructureDispersed04</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed04-2020-09-20">http://rs.tdwg.org/plic/terms/version/StructureDispersed04-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed04-2021-01-08">http://rs.tdwg.org/plic/terms/version/StructureDispersed04-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4703,7 +4689,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Spores</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4721,15 +4707,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStructureDispersed05">plicStructureDispersed05</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StructureDispersed05">http://rs.tdwg.org/plic/terms/StructureDispersed05</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed05-2020-09-20">http://rs.tdwg.org/plic/terms/version/StructureDispersed05-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed05-2021-01-08">http://rs.tdwg.org/plic/terms/version/StructureDispersed05-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4737,7 +4723,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Gametes</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4755,15 +4741,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStructureDispersed06">plicStructureDispersed06</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StructureDispersed06">http://rs.tdwg.org/plic/terms/StructureDispersed06</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed06-2020-09-20">http://rs.tdwg.org/plic/terms/version/StructureDispersed06-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed06-2021-01-08">http://rs.tdwg.org/plic/terms/version/StructureDispersed06-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4771,7 +4757,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Eggs</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4789,15 +4775,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStructureDispersed07">plicStructureDispersed07</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StructureDispersed07">http://rs.tdwg.org/plic/terms/StructureDispersed07</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed07-2020-09-20">http://rs.tdwg.org/plic/terms/version/StructureDispersed07-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed07-2021-01-08">http://rs.tdwg.org/plic/terms/version/StructureDispersed07-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4805,7 +4791,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Offspring</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4823,15 +4809,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicStructureDispersed08">plicStructureDispersed08</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/StructureDispersed08">http://rs.tdwg.org/plic/terms/StructureDispersed08</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed08-2020-09-20">http://rs.tdwg.org/plic/terms/version/StructureDispersed08-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed08-2021-01-08">http://rs.tdwg.org/plic/terms/version/StructureDispersed08-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4839,7 +4825,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Individuals</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4857,19 +4843,19 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicSynonymName ">plicSynonymName </a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/SynonymName ">http://rs.tdwg.org/plic/terms/SynonymName </a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/SynonymName -2020-09-20">http://rs.tdwg.org/plic/terms/version/SynonymName -2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/SynonymName -2021-01-08">http://rs.tdwg.org/plic/terms/version/SynonymName -2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>SynonymName </td>
+			<td>Synonym name </td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4895,19 +4881,19 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicSynonymStatus">plicSynonymStatus</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/SynonymStatus">http://rs.tdwg.org/plic/terms/SynonymStatus</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/SynonymStatus-2020-09-20">http://rs.tdwg.org/plic/terms/version/SynonymStatus-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/SynonymStatus-2021-01-08">http://rs.tdwg.org/plic/terms/version/SynonymStatus-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Synonym status</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4933,15 +4919,49 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicTaxonRecord">plicTaxonRecord</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/TaxonRecord">http://rs.tdwg.org/plic/terms/TaxonRecord</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/TaxonRecord-2020-09-20">http://rs.tdwg.org/plic/terms/version/TaxonRecord-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/TaxonRecord-2021-01-08">http://rs.tdwg.org/plic/terms/version/TaxonRecord-2021-01-08</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Taxon Record</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Container for all elements pertaining a certain view or instance of a taxon, for instance, Festuca glauca Vill. as in Flora iberica, or Panthera onca as in https://enciclovida.mx/especies/34460-panthera-onca</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="plic_TaxonRecord"></a>Term Name  plic:TaxonRecord</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/TaxonRecord">http://rs.tdwg.org/plic/terms/TaxonRecord</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2021-01-08</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/TaxonRecord-2021-01-08">http://rs.tdwg.org/plic/terms/version/TaxonRecord-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4961,67 +4981,33 @@ Grazers,Fluid-feeders,Predators...</td>
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="plic_TaxonRecord"></a>Term Name  plic:TaxonRecord</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="plicTaxonRecord">plicTaxonRecord</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2020-09-20</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/TaxonRecord-2020-09-20">http://rs.tdwg.org/plic/terms/version/TaxonRecord-2020-09-20</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>Container for all elements pertaining a certain view or instance of a taxon, for instance, Festuca glauca Vill. as in Flora iberica, or Panthera onca as in https://enciclovida.mx/especies/34460-panthera-onca</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Class</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
 			<th colspan="2"><a id="plic_ThreatCategory"></a>Term Name  plic:ThreatCategory</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicThreatCategory">plicThreatCategory</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/ThreatCategory">http://rs.tdwg.org/plic/terms/ThreatCategory</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ThreatCategory-2020-09-20">http://rs.tdwg.org/plic/terms/version/ThreatCategory-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ThreatCategory-2021-01-08">http://rs.tdwg.org/plic/terms/version/ThreatCategory-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Threat category</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Description of the conservation status.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -5035,19 +5021,19 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicType">plicType</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Type">http://rs.tdwg.org/plic/terms/Type</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Type-2020-09-20">http://rs.tdwg.org/plic/terms/version/Type-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Type-2021-01-08">http://rs.tdwg.org/plic/terms/version/Type-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>type</td>
+			<td>Type</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5074,27 +5060,27 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicType">plicType</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Type">http://rs.tdwg.org/plic/terms/Type</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Type-2020-09-20">http://rs.tdwg.org/plic/terms/version/Type-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Type-2021-01-08">http://rs.tdwg.org/plic/terms/version/Type-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Type</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Category of the piece of legislation.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -5108,19 +5094,19 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicType">plicType</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Type">http://rs.tdwg.org/plic/terms/Type</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Type-2020-09-20">http://rs.tdwg.org/plic/terms/version/Type-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Type-2021-01-08">http://rs.tdwg.org/plic/terms/version/Type-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Type</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5128,7 +5114,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -5142,15 +5128,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicType01">plicType01</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Type01">http://rs.tdwg.org/plic/terms/Type01</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Type01-2020-09-20">http://rs.tdwg.org/plic/terms/version/Type01-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Type01-2021-01-08">http://rs.tdwg.org/plic/terms/version/Type01-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5158,7 +5144,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Zoochory</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5176,15 +5162,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicType02">plicType02</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Type02">http://rs.tdwg.org/plic/terms/Type02</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Type02-2020-09-20">http://rs.tdwg.org/plic/terms/version/Type02-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Type02-2021-01-08">http://rs.tdwg.org/plic/terms/version/Type02-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5192,7 +5178,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Anemochory</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5210,15 +5196,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicType03">plicType03</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Type03">http://rs.tdwg.org/plic/terms/Type03</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Type03-2020-09-20">http://rs.tdwg.org/plic/terms/version/Type03-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Type03-2021-01-08">http://rs.tdwg.org/plic/terms/version/Type03-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5226,7 +5212,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Hydrochory</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5244,15 +5230,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicType04">plicType04</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Type04">http://rs.tdwg.org/plic/terms/Type04</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Type04-2020-09-20">http://rs.tdwg.org/plic/terms/version/Type04-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Type04-2021-01-08">http://rs.tdwg.org/plic/terms/version/Type04-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5260,7 +5246,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Barochory</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5278,15 +5264,15 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicType05">plicType05</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Type05">http://rs.tdwg.org/plic/terms/Type05</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Type05-2020-09-20">http://rs.tdwg.org/plic/terms/version/Type05-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Type05-2021-01-08">http://rs.tdwg.org/plic/terms/version/Type05-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5294,7 +5280,7 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Autochory</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5312,27 +5298,27 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicUse-Value">plicUse-Value</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Use-Value">http://rs.tdwg.org/plic/terms/Use-Value</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Use-Value-2020-09-20">http://rs.tdwg.org/plic/terms/version/Use-Value-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Use-Value-2021-01-08">http://rs.tdwg.org/plic/terms/version/Use-Value-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Use-Value</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>What is the plant used for, or what negative values does it have.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -5346,27 +5332,27 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicUseNotes">plicUseNotes</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/UseNotes">http://rs.tdwg.org/plic/terms/UseNotes</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/UseNotes-2020-09-20">http://rs.tdwg.org/plic/terms/version/UseNotes-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/UseNotes-2021-01-08">http://rs.tdwg.org/plic/terms/version/UseNotes-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Use Notes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Notes about how species are utilized by people.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -5380,27 +5366,27 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicUseTypeAtomized">plicUseTypeAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/UseTypeAtomized">http://rs.tdwg.org/plic/terms/UseTypeAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/UseTypeAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/UseTypeAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/UseTypeAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/UseTypeAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Use Type Atomized</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Acc. TDWG Economic Botany. Type of use: traditional, modern, industrial or just a possible use.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -5414,19 +5400,19 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicUsedBy">plicUsedBy</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/UsedBy">http://rs.tdwg.org/plic/terms/UsedBy</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/UsedBy-2020-09-20">http://rs.tdwg.org/plic/terms/version/UsedBy-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/UsedBy-2021-01-08">http://rs.tdwg.org/plic/terms/version/UsedBy-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>used by</td>
+			<td>Used By</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5453,19 +5439,19 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicUsedIn">plicUsedIn</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/UsedIn">http://rs.tdwg.org/plic/terms/UsedIn</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/UsedIn-2020-09-20">http://rs.tdwg.org/plic/terms/version/UsedIn-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/UsedIn-2021-01-08">http://rs.tdwg.org/plic/terms/version/UsedIn-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>used in</td>
+			<td>Used In</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5490,27 +5476,27 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicUsers">plicUsers</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Users">http://rs.tdwg.org/plic/terms/Users</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Users-2020-09-20">http://rs.tdwg.org/plic/terms/version/Users-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Users-2021-01-08">http://rs.tdwg.org/plic/terms/version/Users-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Users</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Acc. TDWG Economic Botany. The user group who recognizes the value and/or use of the plant.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -5524,27 +5510,27 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicVernacularNameUseAnnotations">plicVernacularNameUseAnnotations</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/VernacularNameUseAnnotations">http://rs.tdwg.org/plic/terms/VernacularNameUseAnnotations</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/VernacularNameUseAnnotations-2020-09-20">http://rs.tdwg.org/plic/terms/version/VernacularNameUseAnnotations-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/VernacularNameUseAnnotations-2021-01-08">http://rs.tdwg.org/plic/terms/version/VernacularNameUseAnnotations-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Vernacular Name Use Annotations</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Acc. TDWG Economic Botany. The name of the taxon must be distinguished from the name of theplant parts, the names of any processing stages, and the final product name. Names used in trade should be identified. It should also be mentioned if any vernacular name refers to more than one taxon. The use of some names may be restricted to a time of year or occasion, or have sacred connotations. The language or dialect to which the names belong should be stated along with details of the ethnic group. Care should be taken with transliteration into the Roman alphabet; if a standard system exists, use it and note which one it is.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -5558,19 +5544,19 @@ Grazers,Fluid-feeders,Predators...</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicWhatImpact">plicWhatImpact</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/WhatImpact">http://rs.tdwg.org/plic/terms/WhatImpact</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/WhatImpact-2020-09-20">http://rs.tdwg.org/plic/terms/version/WhatImpact-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/WhatImpact-2021-01-08">http://rs.tdwg.org/plic/terms/version/WhatImpact-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>What Impact</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5580,7 +5566,7 @@ sapidus</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -5594,19 +5580,19 @@ sapidus</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicabstract">plicabstract</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/abstract">http://rs.tdwg.org/plic/terms/abstract</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/abstract-2020-09-20">http://rs.tdwg.org/plic/terms/version/abstract-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/abstract-2021-01-08">http://rs.tdwg.org/plic/terms/version/abstract-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>abstract</td>
+			<td>Abstract</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5633,19 +5619,19 @@ sapidus</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicabundance">plicabundance</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/abundance">http://rs.tdwg.org/plic/terms/abundance</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/abundance-2020-09-20">http://rs.tdwg.org/plic/terms/version/abundance-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/abundance-2021-01-08">http://rs.tdwg.org/plic/terms/version/abundance-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Abundance</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5653,7 +5639,7 @@ sapidus</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -5669,23 +5655,23 @@ sapidus</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicancillaryData
-">plicancillaryData
+			<td><a href="http://rs.tdwg.org/plic/terms/ancillaryData
+">http://rs.tdwg.org/plic/terms/ancillaryData
 </a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
 			<td><a href="http://rs.tdwg.org/plic/terms/version/ancillaryData
--2020-09-20">http://rs.tdwg.org/plic/terms/version/ancillaryData
--2020-09-20</a></td>
+-2021-01-08">http://rs.tdwg.org/plic/terms/version/ancillaryData
+-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>ancillary data</td>
+			<td>Ancillary Data</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5695,7 +5681,7 @@ sapidus</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -5709,19 +5695,19 @@ sapidus</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicannualCycleAtomized">plicannualCycleAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/annualCycleAtomized">http://rs.tdwg.org/plic/terms/annualCycleAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/annualCycleAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/annualCycleAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/annualCycleAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/annualCycleAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized annual cycle</td>
+			<td>Atomized Annual Cycle</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5730,7 +5716,7 @@ sapidus</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -5744,19 +5730,19 @@ sapidus</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicannualCycleUnstructured">plicannualCycleUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/annualCycleUnstructured">http://rs.tdwg.org/plic/terms/annualCycleUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/annualCycleUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/annualCycleUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/annualCycleUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/annualCycleUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured annual cycle</td>
+			<td>Unstructured Annual Cycle</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5779,19 +5765,19 @@ sapidus</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicannualCycles">plicannualCycles</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/annualCycles">http://rs.tdwg.org/plic/terms/annualCycles</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/annualCycles-2020-09-20">http://rs.tdwg.org/plic/terms/version/annualCycles-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/annualCycles-2021-01-08">http://rs.tdwg.org/plic/terms/version/annualCycles-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>annual cycle</td>
+			<td>Annual Cycle</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5818,19 +5804,19 @@ sapidus</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicaudiencesUnstructured">plicaudiencesUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/audiencesUnstructured">http://rs.tdwg.org/plic/terms/audiencesUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/audiencesUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/audiencesUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/audiencesUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/audiencesUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured audiences</td>
+			<td>Unstructured Audiences</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5852,19 +5838,19 @@ sapidus</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicbehavior">plicbehavior</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/behavior">http://rs.tdwg.org/plic/terms/behavior</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/behavior-2020-09-20">http://rs.tdwg.org/plic/terms/version/behavior-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/behavior-2021-01-08">http://rs.tdwg.org/plic/terms/version/behavior-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>behavior</td>
+			<td>Behavior</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5872,7 +5858,7 @@ sapidus</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -5886,19 +5872,19 @@ sapidus</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicbehaviorAtomized">plicbehaviorAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/behaviorAtomized">http://rs.tdwg.org/plic/terms/behaviorAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/behaviorAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/behaviorAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/behaviorAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/behaviorAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized behavior</td>
+			<td>Atomized Behavior</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5922,19 +5908,19 @@ sapidus</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicbehaviorUnstructured">plicbehaviorUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/behaviorUnstructured">http://rs.tdwg.org/plic/terms/behaviorUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/behaviorUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/behaviorUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/behaviorUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/behaviorUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured behavior</td>
+			<td>Unstructured Behavior</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5958,19 +5944,19 @@ sapidus</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicbriefDescription">plicbriefDescription</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/briefDescription">http://rs.tdwg.org/plic/terms/briefDescription</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/briefDescription-2020-09-20">http://rs.tdwg.org/plic/terms/version/briefDescription-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/briefDescription-2021-01-08">http://rs.tdwg.org/plic/terms/version/briefDescription-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>brief description</td>
+			<td>Brief Description</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5992,27 +5978,27 @@ sapidus</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliccitation">pliccitation</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/citation">http://rs.tdwg.org/plic/terms/citation</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/citation-2020-09-20">http://rs.tdwg.org/plic/terms/version/citation-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/citation-2021-01-08">http://rs.tdwg.org/plic/terms/version/citation-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Citation</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Citation</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -6026,19 +6012,19 @@ sapidus</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliccommonNames">pliccommonNames</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/commonNames">http://rs.tdwg.org/plic/terms/commonNames</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/commonNames-2020-09-20">http://rs.tdwg.org/plic/terms/version/commonNames-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/commonNames-2021-01-08">http://rs.tdwg.org/plic/terms/version/commonNames-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>common names</td>
+			<td>Common Names</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6061,19 +6047,19 @@ sapidus</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliccommonNamesAtomized">pliccommonNamesAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/commonNamesAtomized">http://rs.tdwg.org/plic/terms/commonNamesAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/commonNamesAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/commonNamesAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/commonNamesAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/commonNamesAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized common names</td>
+			<td>Atomized Common Names</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6097,15 +6083,15 @@ sapidus</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliccommonNamesUnstructured">pliccommonNamesUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/commonNamesUnstructured">http://rs.tdwg.org/plic/terms/commonNamesUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/commonNamesUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/commonNamesUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/commonNamesUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/commonNamesUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6131,19 +6117,19 @@ sapidus</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliccountry">pliccountry</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/country">http://rs.tdwg.org/plic/terms/country</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/country-2020-09-20">http://rs.tdwg.org/plic/terms/version/country-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/country-2021-01-08">http://rs.tdwg.org/plic/terms/version/country-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>country</td>
+			<td>Country</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6173,27 +6159,27 @@ sapidus</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliccountryCode">pliccountryCode</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/countryCode">http://rs.tdwg.org/plic/terms/countryCode</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/countryCode-2020-09-20">http://rs.tdwg.org/plic/terms/version/countryCode-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/countryCode-2021-01-08">http://rs.tdwg.org/plic/terms/version/countryCode-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Country Code</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>The standard code for the country in which the Location occurs. Recommended best practice is to use ISO 3166-1-alpha-2 country codes.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -6207,19 +6193,55 @@ sapidus</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliccounty">pliccounty</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/county">http://rs.tdwg.org/plic/terms/county</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/county-2020-09-20">http://rs.tdwg.org/plic/terms/version/county-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/county-2021-01-08">http://rs.tdwg.org/plic/terms/version/county-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>county</td>
+			<td>County</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>The full, unabbreviated name of the next smaller administrative region 
+than stateProvince (county, shire, department, etc.) in which the 
+Location occurs.</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Property</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="plic_county"></a>Term Name  plic:county</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/county">http://rs.tdwg.org/plic/terms/county</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2021-01-08</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/county-2021-01-08">http://rs.tdwg.org/plic/terms/version/county-2021-01-08</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>County</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6239,57 +6261,21 @@ Location occurs.</td>
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="plic_county"></a>Term Name  plic:county</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="pliccounty">pliccounty</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2020-09-20</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/county-2020-09-20">http://rs.tdwg.org/plic/terms/version/county-2020-09-20</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>The full, unabbreviated name of the next smaller administrative region 
-than stateProvince (county, shire, department, etc.) in which the 
-Location occurs.</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
 			<th colspan="2"><a id="plic_dataset"></a>Term Name  plic:dataset</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicdataset">plicdataset</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/dataset">http://rs.tdwg.org/plic/terms/dataset</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/dataset-2020-09-20">http://rs.tdwg.org/plic/terms/version/dataset-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/dataset-2021-01-08">http://rs.tdwg.org/plic/terms/version/dataset-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6319,15 +6305,15 @@ Location occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicdateStamp">plicdateStamp</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/dateStamp">http://rs.tdwg.org/plic/terms/dateStamp</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/dateStamp-2020-09-20">http://rs.tdwg.org/plic/terms/version/dateStamp-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/dateStamp-2021-01-08">http://rs.tdwg.org/plic/terms/version/dateStamp-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6353,19 +6339,19 @@ Location occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicdemographyAndThreat">plicdemographyAndThreat</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/demographyAndThreat">http://rs.tdwg.org/plic/terms/demographyAndThreat</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/demographyAndThreat-2020-09-20">http://rs.tdwg.org/plic/terms/version/demographyAndThreat-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/demographyAndThreat-2021-01-08">http://rs.tdwg.org/plic/terms/version/demographyAndThreat-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>demography and threat</td>
+			<td>Demography And Threat</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6387,19 +6373,19 @@ Location occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicdemographyAndThreatUnstructured">plicdemographyAndThreatUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/demographyAndThreatUnstructured">http://rs.tdwg.org/plic/terms/demographyAndThreatUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/demographyAndThreatUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/demographyAndThreatUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/demographyAndThreatUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/demographyAndThreatUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured demography and threat</td>
+			<td>Unstructured Demography And Threat</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6422,23 +6408,23 @@ Location occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicdetailAtomized">plicdetailAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/detailAtomized">http://rs.tdwg.org/plic/terms/detailAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/detailAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/detailAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/detailAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/detailAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized detail</td>
+			<td>Atomized Detail</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>MiscDetail element in structured format </td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6456,23 +6442,23 @@ Location occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicdetailUnstructured">plicdetailUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/detailUnstructured">http://rs.tdwg.org/plic/terms/detailUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/detailUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/detailUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/detailUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/detailUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured detail</td>
+			<td>Detail Unstructured</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>MiscDetail element in text block format.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6490,19 +6476,19 @@ Location occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicdirectThreatAtomized">plicdirectThreatAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/directThreatAtomized">http://rs.tdwg.org/plic/terms/directThreatAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/directThreatAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/directThreatAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/directThreatAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/directThreatAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized direct threat</td>
+			<td>Atomized Direct Threat</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6511,7 +6497,7 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -6525,19 +6511,19 @@ Location occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicdirectThreatUnstructured">plicdirectThreatUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/directThreatUnstructured">http://rs.tdwg.org/plic/terms/directThreatUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/directThreatUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/directThreatUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/directThreatUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/directThreatUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured direct threat</td>
+			<td>Unstructured Direct Threat</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6559,19 +6545,19 @@ Location occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicdirectThreats">plicdirectThreats</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/directThreats">http://rs.tdwg.org/plic/terms/directThreats</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/directThreats-2020-09-20">http://rs.tdwg.org/plic/terms/version/directThreats-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/directThreats-2021-01-08">http://rs.tdwg.org/plic/terms/version/directThreats-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>direct threats</td>
+			<td>Direct Threats</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6583,7 +6569,7 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -6597,19 +6583,19 @@ Location occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicdispersal">plicdispersal</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/dispersal">http://rs.tdwg.org/plic/terms/dispersal</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/dispersal-2020-09-20">http://rs.tdwg.org/plic/terms/version/dispersal-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/dispersal-2021-01-08">http://rs.tdwg.org/plic/terms/version/dispersal-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>dispersal</td>
+			<td>Dispersal</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6617,7 +6603,7 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -6631,19 +6617,19 @@ Location occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicdistribution">plicdistribution</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/distribution">http://rs.tdwg.org/plic/terms/distribution</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/distribution-2020-09-20">http://rs.tdwg.org/plic/terms/version/distribution-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/distribution-2021-01-08">http://rs.tdwg.org/plic/terms/version/distribution-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Distribution</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6651,7 +6637,7 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -6665,19 +6651,19 @@ Location occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicecologicalSignificance">plicecologicalSignificance</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/ecologicalSignificance">http://rs.tdwg.org/plic/terms/ecologicalSignificance</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ecologicalSignificance-2020-09-20">http://rs.tdwg.org/plic/terms/version/ecologicalSignificance-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ecologicalSignificance-2021-01-08">http://rs.tdwg.org/plic/terms/version/ecologicalSignificance-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>ecological significance</td>
+			<td>Ecological Significance</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6685,7 +6671,7 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -6699,19 +6685,19 @@ Location occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicecologicalSignificanceAtomized">plicecologicalSignificanceAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/ecologicalSignificanceAtomized">http://rs.tdwg.org/plic/terms/ecologicalSignificanceAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ecologicalSignificanceAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/ecologicalSignificanceAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ecologicalSignificanceAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/ecologicalSignificanceAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized ecological significance</td>
+			<td>Atomized Ecological Significance</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6733,19 +6719,19 @@ Location occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicecologicalSignificanceUnstructured">plicecologicalSignificanceUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/ecologicalSignificanceUnstructured">http://rs.tdwg.org/plic/terms/ecologicalSignificanceUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ecologicalSignificanceUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/ecologicalSignificanceUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ecologicalSignificanceUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/ecologicalSignificanceUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured ecological significance</td>
+			<td>Unstructured Ecological Significance</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6761,59 +6747,25 @@ Location occurs.</td>
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="plic_end Darwin Core dwc_ terms"></a>Term Name  plic:end Darwin Core dwc: terms</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="plicend Darwin Core dwc: terms">plicend Darwin Core dwc: terms</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2020-09-20</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/end Darwin Core dwc: terms-2020-09-20">http://rs.tdwg.org/plic/terms/version/end Darwin Core dwc: terms-2020-09-20</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
 			<th colspan="2"><a id="plic_endTimeInterval "></a>Term Name  plic:endTimeInterval </th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicendTimeInterval ">plicendTimeInterval </a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/endTimeInterval ">http://rs.tdwg.org/plic/terms/endTimeInterval </a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/endTimeInterval -2020-09-20">http://rs.tdwg.org/plic/terms/version/endTimeInterval -2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/endTimeInterval -2021-01-08">http://rs.tdwg.org/plic/terms/version/endTimeInterval -2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>end time interval</td>
+			<td>End Time Interval</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6841,23 +6793,23 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicendValidDate">plicendValidDate</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/endValidDate">http://rs.tdwg.org/plic/terms/endValidDate</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/endValidDate-2020-09-20">http://rs.tdwg.org/plic/terms/version/endValidDate-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/endValidDate-2021-01-08">http://rs.tdwg.org/plic/terms/version/endValidDate-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>End Valid Date</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>End Valid Date</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -6865,7 +6817,7 @@ A controlled vocabulary is recommended.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -6879,19 +6831,19 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicendemic">plicendemic</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/endemic">http://rs.tdwg.org/plic/terms/endemic</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/endemic-2020-09-20">http://rs.tdwg.org/plic/terms/version/endemic-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/endemic-2021-01-08">http://rs.tdwg.org/plic/terms/version/endemic-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>endemic</td>
+			<td>Endemic</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6899,7 +6851,7 @@ A controlled vocabulary is recommended.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -6913,23 +6865,23 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicendemicAtomized">plicendemicAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/endemicAtomized">http://rs.tdwg.org/plic/terms/endemicAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/endemicAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/endemicAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/endemicAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/endemicAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized endemic</td>
+			<td>Atomized Endemic</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Endemic element in structured format. List of areas structured and categorized by the degree of safety.</td>
+			<td>List of areas structured and categorized by territories in which the endemic species appears (EndemicTo) in relation to a wider area (EndemicIn) given as geographical context.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6947,23 +6899,23 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicendemicUnstructured">plicendemicUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/endemicUnstructured">http://rs.tdwg.org/plic/terms/endemicUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/endemicUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/endemicUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/endemicUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/endemicUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured endemic</td>
+			<td>Unstructured Endemic</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Endemic element in text block format.</td>
+			<td>Information on the endemicity of a species as a text block.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6981,27 +6933,27 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicenvironmentalEnvelope">plicenvironmentalEnvelope</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/environmentalEnvelope">http://rs.tdwg.org/plic/terms/environmentalEnvelope</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/environmentalEnvelope-2020-09-20">http://rs.tdwg.org/plic/terms/version/environmentalEnvelope-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/environmentalEnvelope-2021-01-08">http://rs.tdwg.org/plic/terms/version/environmentalEnvelope-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>environmental envelope</td>
+			<td>Environmental Envelope</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Set of environmental conditions within which it is believed that the species can persist; that is, where its environmental requirements can be satisfied</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -7015,27 +6967,23 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicenvironmentalEnvelopeAtomized">plicenvironmentalEnvelopeAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/environmentalEnvelopeAtomized">http://rs.tdwg.org/plic/terms/environmentalEnvelopeAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/environmentalEnvelopeAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/environmentalEnvelopeAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/environmentalEnvelopeAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/environmentalEnvelopeAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized environmental envelope</td>
+			<td>Atomized Environmental Envelope</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Structured information category concerning measurements, facts, characteristics, or assertions about a resource (instances or records, such as Occurrence, Taxon, Location, Event). environmentalEnvelope in structured format</td>
-		</tr>
-		<tr>
-			<td>Notes</td>
-			<td>Example: Environmental range in which the organism lives (e.g. annual precipitation/average/450/mm)</td>
+			<td>Environmental envelope of a species expressed as an enumeration of measures and parameters.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7053,23 +7001,23 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicenvironmentalEnvelopeUnstructured">plicenvironmentalEnvelopeUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/environmentalEnvelopeUnstructured">http://rs.tdwg.org/plic/terms/environmentalEnvelopeUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/environmentalEnvelopeUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/environmentalEnvelopeUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/environmentalEnvelopeUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/environmentalEnvelopeUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured environmental envelope</td>
+			<td>Unstructured Environmental Envelope</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>environmentalEnvelope in text block format</td>
+			<td>environmentalEnvelopeas a a text block</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7087,19 +7035,19 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicfeeding">plicfeeding</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/feeding">http://rs.tdwg.org/plic/terms/feeding</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/feeding-2020-09-20">http://rs.tdwg.org/plic/terms/version/feeding-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/feeding-2021-01-08">http://rs.tdwg.org/plic/terms/version/feeding-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>feeding</td>
+			<td>Feeding</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7107,7 +7055,7 @@ A controlled vocabulary is recommended.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -7121,19 +7069,19 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicfeedingAtomized">plicfeedingAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/feedingAtomized">http://rs.tdwg.org/plic/terms/feedingAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/feedingAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/feedingAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/feedingAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/feedingAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized feeding</td>
+			<td>Atomized Feeding</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7155,19 +7103,19 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicfeedingUnstructured">plicfeedingUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/feedingUnstructured">http://rs.tdwg.org/plic/terms/feedingUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/feedingUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/feedingUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/feedingUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/feedingUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured feeding</td>
+			<td>Unstructured Feeding</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7189,19 +7137,19 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicfullDescription">plicfullDescription</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/fullDescription">http://rs.tdwg.org/plic/terms/fullDescription</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/fullDescription-2020-09-20">http://rs.tdwg.org/plic/terms/version/fullDescription-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/fullDescription-2021-01-08">http://rs.tdwg.org/plic/terms/version/fullDescription-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>full description</td>
+			<td>Full Description</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7209,7 +7157,7 @@ A controlled vocabulary is recommended.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -7223,19 +7171,19 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicfullDescriptionAtomized">plicfullDescriptionAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/fullDescriptionAtomized">http://rs.tdwg.org/plic/terms/fullDescriptionAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/fullDescriptionAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/fullDescriptionAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/fullDescriptionAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/fullDescriptionAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized full description</td>
+			<td>Atomized Full Description</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7257,19 +7205,19 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicfullDescriptionUnstructured">plicfullDescriptionUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/fullDescriptionUnstructured">http://rs.tdwg.org/plic/terms/fullDescriptionUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/fullDescriptionUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/fullDescriptionUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/fullDescriptionUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/fullDescriptionUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured full description</td>
+			<td>Unstructured Full Description</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7293,19 +7241,19 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicgeographicEntity
-">plicgeographicEntity
+			<td><a href="http://rs.tdwg.org/plic/terms/geographicEntity
+">http://rs.tdwg.org/plic/terms/geographicEntity
 </a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
 			<td><a href="http://rs.tdwg.org/plic/terms/version/geographicEntity
--2020-09-20">http://rs.tdwg.org/plic/terms/version/geographicEntity
--2020-09-20</a></td>
+-2021-01-08">http://rs.tdwg.org/plic/terms/version/geographicEntity
+-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7325,7 +7273,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -7339,19 +7287,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plichabitatAndDistribution">plichabitatAndDistribution</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/habitatAndDistribution">http://rs.tdwg.org/plic/terms/habitatAndDistribution</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/habitatAndDistribution-2020-09-20">http://rs.tdwg.org/plic/terms/version/habitatAndDistribution-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/habitatAndDistribution-2021-01-08">http://rs.tdwg.org/plic/terms/version/habitatAndDistribution-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>habitat anddistribution</td>
+			<td>Habitat And Distribution</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7359,7 +7307,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -7373,19 +7321,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plichabitatAndDistributionUnstructured">plichabitatAndDistributionUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/habitatAndDistributionUnstructured">http://rs.tdwg.org/plic/terms/habitatAndDistributionUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/habitatAndDistributionUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/habitatAndDistributionUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/habitatAndDistributionUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/habitatAndDistributionUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured habitat anddistribution</td>
+			<td>Unstructured Habitat And Distribution</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7407,19 +7355,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plichabitatAtomized">plichabitatAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/habitatAtomized">http://rs.tdwg.org/plic/terms/habitatAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/habitatAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/habitatAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/habitatAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/habitatAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized habitat</td>
+			<td>Atomized Habitat</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7441,19 +7389,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plichabitatUnstructured">plichabitatUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/habitatUnstructured">http://rs.tdwg.org/plic/terms/habitatUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/habitatUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/habitatUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/habitatUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/habitatUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured habitat</td>
+			<td>Unstructured Habitat</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7475,27 +7423,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plichabitats">plichabitats</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/habitats">http://rs.tdwg.org/plic/terms/habitats</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/habitats-2020-09-20">http://rs.tdwg.org/plic/terms/version/habitats-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/habitats-2021-01-08">http://rs.tdwg.org/plic/terms/version/habitats-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>habitats</td>
+			<td>Habitats</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>General description of the sites where the species is found (ecosystem, environment or microhabitat).</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -7509,19 +7457,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicharmful">plicharmful</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/harmful">http://rs.tdwg.org/plic/terms/harmful</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/harmful-2020-09-20">http://rs.tdwg.org/plic/terms/version/harmful-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/harmful-2021-01-08">http://rs.tdwg.org/plic/terms/version/harmful-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Harmful</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7529,7 +7477,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -7543,19 +7491,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plichierarchy">plichierarchy</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/hierarchy">http://rs.tdwg.org/plic/terms/hierarchy</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/hierarchy-2020-09-20">http://rs.tdwg.org/plic/terms/version/hierarchy-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/hierarchy-2021-01-08">http://rs.tdwg.org/plic/terms/version/hierarchy-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>hierarchy</td>
+			<td>Hierarchy</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7567,7 +7515,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -7581,15 +7529,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicid">plicid</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/id">http://rs.tdwg.org/plic/terms/id</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/id-2020-09-20">http://rs.tdwg.org/plic/terms/version/id-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/id-2021-01-08">http://rs.tdwg.org/plic/terms/version/id-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7597,7 +7545,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>id</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7615,19 +7563,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicidentificationKeys">plicidentificationKeys</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/identificationKeys">http://rs.tdwg.org/plic/terms/identificationKeys</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/identificationKeys-2020-09-20">http://rs.tdwg.org/plic/terms/version/identificationKeys-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/identificationKeys-2021-01-08">http://rs.tdwg.org/plic/terms/version/identificationKeys-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>identification keys</td>
+			<td>Identification Keys</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7639,7 +7587,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -7653,19 +7601,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism">plicimpactMechanism</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism">http://rs.tdwg.org/plic/terms/impactMechanism</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Impact Mechanism</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7687,15 +7635,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism01">plicimpactMechanism01</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism01">http://rs.tdwg.org/plic/terms/impactMechanism01</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism01-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism01-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism01-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism01-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7703,7 +7651,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Allergeny</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7721,15 +7669,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism02">plicimpactMechanism02</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism02">http://rs.tdwg.org/plic/terms/impactMechanism02</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism02-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism02-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism02-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism02-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7737,7 +7685,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Competition</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7755,23 +7703,23 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism03">plicimpactMechanism03</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism03">http://rs.tdwg.org/plic/terms/impactMechanism03</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism03-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism03-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism03-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism03-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>DiseaseTransmission</td>
+			<td>Disease Transmission</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Disease Transmission</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7789,15 +7737,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism04">plicimpactMechanism04</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism04">http://rs.tdwg.org/plic/terms/impactMechanism04</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism04-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism04-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism04-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism04-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7805,7 +7753,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Fouling</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7823,15 +7771,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism05">plicimpactMechanism05</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism05">http://rs.tdwg.org/plic/terms/impactMechanism05</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism05-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism05-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism05-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism05-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7839,7 +7787,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Herbivory</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7857,15 +7805,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism06">plicimpactMechanism06</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism06">http://rs.tdwg.org/plic/terms/impactMechanism06</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism06-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism06-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism06-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism06-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7873,7 +7821,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Hybridization</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7891,23 +7839,23 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism07">plicimpactMechanism07</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism07">http://rs.tdwg.org/plic/terms/impactMechanism07</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism07-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism07-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism07-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism07-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>InhibitsGrowthOfOtherSpecies</td>
+			<td>Inhibits Growth Of Other Species</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Inhibits Growth Of Other Species</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7925,23 +7873,23 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism08">plicimpactMechanism08</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism08">http://rs.tdwg.org/plic/terms/impactMechanism08</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism08-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism08-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism08-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism08-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>InteractionWithOtherInvasiveSpecies</td>
+			<td>Interaction With Other Invasive Species</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Interaction With Other Invasive Species</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7959,23 +7907,23 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism09">plicimpactMechanism09</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism09">http://rs.tdwg.org/plic/terms/impactMechanism09</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism09-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism09-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism09-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism09-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>ModifiesFireRegime</td>
+			<td>Modifies Fire Regime</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Modifies Fire Regime</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7993,23 +7941,23 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism10">plicimpactMechanism10</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism10">http://rs.tdwg.org/plic/terms/impactMechanism10</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism10-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism10-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism10-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism10-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>ModifiesHydrology</td>
+			<td>Modifies Hydrology</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Modifies Hydrology</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8027,23 +7975,23 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism11">plicimpactMechanism11</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism11">http://rs.tdwg.org/plic/terms/impactMechanism11</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism11-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism11-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism11-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism11-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>ModifiesNaturalBenthicCommunities</td>
+			<td>Modifies Natural Benthic Communities</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Modifies Natural Benthic Communities</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8061,23 +8009,23 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism12">plicimpactMechanism12</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism12">http://rs.tdwg.org/plic/terms/impactMechanism12</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism12-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism12-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism12-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism12-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>ModifiesNutrientRegime</td>
+			<td>Modifies Nutrient Regime</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Modifies Nutrient Regime</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8095,23 +8043,23 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism13">plicimpactMechanism13</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism13">http://rs.tdwg.org/plic/terms/impactMechanism13</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism13-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism13-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism13-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism13-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>ModifiesSuccessionalPatterns</td>
+			<td>Modifies Successional Patterns</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Modifies Successional Patterns</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8129,23 +8077,23 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism14">plicimpactMechanism14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism14">http://rs.tdwg.org/plic/terms/impactMechanism14</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism14-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism14-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism14-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism14-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>OtherSeeMemoForDescription</td>
+			<td>Other See Memo For Description</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Other See Memo For Description</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8163,15 +8111,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism15">plicimpactMechanism15</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism15">http://rs.tdwg.org/plic/terms/impactMechanism15</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism15-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism15-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism15-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism15-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8179,7 +8127,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Parasitism</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8197,15 +8145,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism16">plicimpactMechanism16</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism16">http://rs.tdwg.org/plic/terms/impactMechanism16</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism16-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism16-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism16-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism16-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8213,7 +8161,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Pathogenic</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8231,23 +8179,23 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism17">plicimpactMechanism17</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism17">http://rs.tdwg.org/plic/terms/impactMechanism17</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism17-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism17-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism17-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism17-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>PhysicalDisturbance</td>
+			<td>Physical Disturbance</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Physical Disturbance</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8265,23 +8213,23 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism18">plicimpactMechanism18</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism18">http://rs.tdwg.org/plic/terms/impactMechanism18</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism18-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism18-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism18-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism18-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>PollenSwamping</td>
+			<td>Pollen Swamping</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Pollen Swamping</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8299,15 +8247,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism19">plicimpactMechanism19</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism19">http://rs.tdwg.org/plic/terms/impactMechanism19</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism19-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism19-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism19-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism19-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8315,7 +8263,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Predation</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8333,15 +8281,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism20">plicimpactMechanism20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism20">http://rs.tdwg.org/plic/terms/impactMechanism20</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism20-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism20-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism20-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism20-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8349,7 +8297,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Transpiration</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8367,15 +8315,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactMechanism21">plicimpactMechanism21</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactMechanism21">http://rs.tdwg.org/plic/terms/impactMechanism21</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism21-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactMechanism21-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism21-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactMechanism21-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8383,7 +8331,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Unknown</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8401,19 +8349,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactTarget">plicimpactTarget</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactTarget">http://rs.tdwg.org/plic/terms/impactTarget</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactTarget-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactTarget-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactTarget-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactTarget-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Impact Target</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -8435,15 +8383,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactTarget01">plicimpactTarget01</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactTarget01">http://rs.tdwg.org/plic/terms/impactTarget01</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactTarget01-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactTarget01-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactTarget01-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactTarget01-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8451,7 +8399,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Economy</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8469,15 +8417,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactTarget02">plicimpactTarget02</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactTarget02">http://rs.tdwg.org/plic/terms/impactTarget02</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactTarget02-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactTarget02-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactTarget02-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactTarget02-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8485,7 +8433,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Environment</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8503,23 +8451,23 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactTarget03">plicimpactTarget03</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactTarget03">http://rs.tdwg.org/plic/terms/impactTarget03</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactTarget03-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactTarget03-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactTarget03-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactTarget03-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>HumanHealth</td>
+			<td>Human health</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Human health</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8537,15 +8485,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicimpactTarget04">plicimpactTarget04</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/impactTarget04">http://rs.tdwg.org/plic/terms/impactTarget04</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactTarget04-2020-09-20">http://rs.tdwg.org/plic/terms/version/impactTarget04-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactTarget04-2021-01-08">http://rs.tdwg.org/plic/terms/version/impactTarget04-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8553,7 +8501,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Unknown</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8571,19 +8519,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicinteractionAtomized">plicinteractionAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/interactionAtomized">http://rs.tdwg.org/plic/terms/interactionAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/interactionAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/interactionAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/interactionAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/interactionAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized interaction</td>
+			<td>Atomized Interaction</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -8605,19 +8553,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicinteractionUnstructured">plicinteractionUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/interactionUnstructured">http://rs.tdwg.org/plic/terms/interactionUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/interactionUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/interactionUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/interactionUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/interactionUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured interaction</td>
+			<td>Unstructured Interaction</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -8639,19 +8587,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicinteractions">plicinteractions</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/interactions">http://rs.tdwg.org/plic/terms/interactions</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/interactions-2020-09-20">http://rs.tdwg.org/plic/terms/version/interactions-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/interactions-2021-01-08">http://rs.tdwg.org/plic/terms/version/interactions-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>interactions</td>
+			<td>Interactions</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -8663,7 +8611,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -8677,19 +8625,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicinvasiveness">plicinvasiveness</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/invasiveness">http://rs.tdwg.org/plic/terms/invasiveness</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/invasiveness-2020-09-20">http://rs.tdwg.org/plic/terms/version/invasiveness-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/invasiveness-2021-01-08">http://rs.tdwg.org/plic/terms/version/invasiveness-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>invasiveness</td>
+			<td>Invasiveness</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -8697,7 +8645,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -8711,19 +8659,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicinvasivenessAtomized">plicinvasivenessAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/invasivenessAtomized">http://rs.tdwg.org/plic/terms/invasivenessAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/invasivenessAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/invasivenessAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/invasivenessAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/invasivenessAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized invasiveness</td>
+			<td>Atomized Invasiveness</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -8745,19 +8693,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicinvasivenessUnstructured">plicinvasivenessUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/invasivenessUnstructured">http://rs.tdwg.org/plic/terms/invasivenessUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/invasivenessUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/invasivenessUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/invasivenessUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/invasivenessUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured invasiveness</td>
+			<td>Unstructured Invasiveness</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -8779,19 +8727,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plickeys">plickeys</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/keys">http://rs.tdwg.org/plic/terms/keys</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/keys-2020-09-20">http://rs.tdwg.org/plic/terms/version/keys-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/keys-2021-01-08">http://rs.tdwg.org/plic/terms/version/keys-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>keys</td>
+			<td>Keys</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -8813,23 +8761,23 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliclanguage">pliclanguage</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/language">http://rs.tdwg.org/plic/terms/language</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/language-2020-09-20">http://rs.tdwg.org/plic/terms/version/language-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/language-2021-01-08">http://rs.tdwg.org/plic/terms/version/language-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>language</td>
+			<td>Language</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The language of the taxon record, according to ISO 639.</td>
+			<td>Language</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8847,27 +8795,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliclanguage">pliclanguage</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/language">http://rs.tdwg.org/plic/terms/language</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/language-2020-09-20">http://rs.tdwg.org/plic/terms/version/language-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/language-2021-01-08">http://rs.tdwg.org/plic/terms/version/language-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Language</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>The language of the taxon record, according to ISO 639.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -8881,19 +8829,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliclegislation">pliclegislation</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/legislation">http://rs.tdwg.org/plic/terms/legislation</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/legislation-2020-09-20">http://rs.tdwg.org/plic/terms/version/legislation-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/legislation-2021-01-08">http://rs.tdwg.org/plic/terms/version/legislation-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>legislation</td>
+			<td>Legislation</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -8901,7 +8849,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -8915,19 +8863,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliclegislationAtomized">pliclegislationAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/legislationAtomized">http://rs.tdwg.org/plic/terms/legislationAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/legislationAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/legislationAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/legislationAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/legislationAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized legislation</td>
+			<td>Atomized Legislation</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -8949,19 +8897,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliclegislationUnstructured">pliclegislationUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/legislationUnstructured">http://rs.tdwg.org/plic/terms/legislationUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/legislationUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/legislationUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/legislationUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/legislationUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured legislation</td>
+			<td>Unstructured Legislation</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -8983,19 +8931,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliclifeCycle">pliclifeCycle</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/lifeCycle">http://rs.tdwg.org/plic/terms/lifeCycle</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/lifeCycle-2020-09-20">http://rs.tdwg.org/plic/terms/version/lifeCycle-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/lifeCycle-2021-01-08">http://rs.tdwg.org/plic/terms/version/lifeCycle-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>life cycle</td>
+			<td>Life Cycle</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -9003,7 +8951,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -9017,19 +8965,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliclifeCycleAtomized">pliclifeCycleAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/lifeCycleAtomized">http://rs.tdwg.org/plic/terms/lifeCycleAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/lifeCycleAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/lifeCycleAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/lifeCycleAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/lifeCycleAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized life cycle</td>
+			<td>Atomized Life Cycle</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -9051,19 +8999,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliclifeCycleUnstructured">pliclifeCycleUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/lifeCycleUnstructured">http://rs.tdwg.org/plic/terms/lifeCycleUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/lifeCycleUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/lifeCycleUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/lifeCycleUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/lifeCycleUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured life cycle</td>
+			<td>Unstructured Life Cycle</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -9085,19 +9033,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliclifeForm">pliclifeForm</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/lifeForm">http://rs.tdwg.org/plic/terms/lifeForm</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/lifeForm-2020-09-20">http://rs.tdwg.org/plic/terms/version/lifeForm-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/lifeForm-2021-01-08">http://rs.tdwg.org/plic/terms/version/lifeForm-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>life form</td>
+			<td>Life Form</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -9109,7 +9057,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -9123,19 +9071,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliclifeFormAtomized">pliclifeFormAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/lifeFormAtomized">http://rs.tdwg.org/plic/terms/lifeFormAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/lifeFormAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/lifeFormAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/lifeFormAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/lifeFormAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized life form</td>
+			<td>Atomized Life Form</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -9157,19 +9105,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliclifeFormUnstructured">pliclifeFormUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/lifeFormUnstructured">http://rs.tdwg.org/plic/terms/lifeFormUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/lifeFormUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/lifeFormUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/lifeFormUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/lifeFormUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured life form</td>
+			<td>Unstructured Life Form</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -9191,19 +9139,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliclocality">pliclocality</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/locality">http://rs.tdwg.org/plic/terms/locality</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/locality-2020-09-20">http://rs.tdwg.org/plic/terms/version/locality-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/locality-2021-01-08">http://rs.tdwg.org/plic/terms/version/locality-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Locality</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -9228,27 +9176,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliclocalityName">pliclocalityName</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/localityName">http://rs.tdwg.org/plic/terms/localityName</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/localityName-2020-09-20">http://rs.tdwg.org/plic/terms/version/localityName-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/localityName-2021-01-08">http://rs.tdwg.org/plic/terms/version/localityName-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Locality Name</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Protocol Specification on Locations</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -9262,19 +9210,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="pliclocalityType">pliclocalityType</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/localityType">http://rs.tdwg.org/plic/terms/localityType</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/localityType-2020-09-20">http://rs.tdwg.org/plic/terms/version/localityType-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/localityType-2021-01-08">http://rs.tdwg.org/plic/terms/version/localityType-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Locality Type</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -9282,7 +9230,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -9296,19 +9244,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicmanagementAndConservation">plicmanagementAndConservation</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/managementAndConservation">http://rs.tdwg.org/plic/terms/managementAndConservation</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/managementAndConservation-2020-09-20">http://rs.tdwg.org/plic/terms/version/managementAndConservation-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/managementAndConservation-2021-01-08">http://rs.tdwg.org/plic/terms/version/managementAndConservation-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>management andconservation</td>
+			<td>Management And Conservation</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -9330,19 +9278,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicmanagementAndConservationAtomized">plicmanagementAndConservationAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/managementAndConservationAtomized">http://rs.tdwg.org/plic/terms/managementAndConservationAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/managementAndConservationAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/managementAndConservationAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/managementAndConservationAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/managementAndConservationAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized management and conservation</td>
+			<td>Management And Conservation Atomized</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -9364,19 +9312,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicmanagementAndConservationUnstructured">plicmanagementAndConservationUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/managementAndConservationUnstructured">http://rs.tdwg.org/plic/terms/managementAndConservationUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/managementAndConservationUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/managementAndConservationUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/managementAndConservationUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/managementAndConservationUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured management and conservation</td>
+			<td>Management And Conservation Unstructured</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -9398,27 +9346,27 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicmemo">plicmemo</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/memo">http://rs.tdwg.org/plic/terms/memo</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/memo-2020-09-20">http://rs.tdwg.org/plic/terms/version/memo-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/memo-2021-01-08">http://rs.tdwg.org/plic/terms/version/memo-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Memo</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Memo</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -9432,15 +9380,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicmetadata">plicmetadata</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/metadata">http://rs.tdwg.org/plic/terms/metadata</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/metadata-2020-09-20">http://rs.tdwg.org/plic/terms/version/metadata-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/metadata-2021-01-08">http://rs.tdwg.org/plic/terms/version/metadata-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -9466,15 +9414,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicmigratoryUnstructured">plicmigratoryUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/migratoryUnstructured">http://rs.tdwg.org/plic/terms/migratoryUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/migratoryUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/migratoryUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/migratoryUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/migratoryUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -9500,15 +9448,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicmiscDetails">plicmiscDetails</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/miscDetails">http://rs.tdwg.org/plic/terms/miscDetails</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/miscDetails-2020-09-20">http://rs.tdwg.org/plic/terms/version/miscDetails-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/miscDetails-2021-01-08">http://rs.tdwg.org/plic/terms/version/miscDetails-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -9534,23 +9482,23 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicmodified">plicmodified</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/modified">http://rs.tdwg.org/plic/terms/modified</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/modified-2020-09-20">http://rs.tdwg.org/plic/terms/version/modified-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/modified-2021-01-08">http://rs.tdwg.org/plic/terms/version/modified-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Modified</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Modified</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -9558,7 +9506,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -9572,19 +9520,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicmunicipality">plicmunicipality</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/municipality">http://rs.tdwg.org/plic/terms/municipality</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/municipality-2020-09-20">http://rs.tdwg.org/plic/terms/version/municipality-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/municipality-2021-01-08">http://rs.tdwg.org/plic/terms/version/municipality-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Municipality </td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -9609,15 +9557,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicnaturalHistoryUnstructured">plicnaturalHistoryUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/naturalHistoryUnstructured">http://rs.tdwg.org/plic/terms/naturalHistoryUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/naturalHistoryUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/naturalHistoryUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/naturalHistoryUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/naturalHistoryUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -9643,15 +9591,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicnomenclatureAndClassification">plicnomenclatureAndClassification</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/nomenclatureAndClassification">http://rs.tdwg.org/plic/terms/nomenclatureAndClassification</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/nomenclatureAndClassification-2020-09-20">http://rs.tdwg.org/plic/terms/version/nomenclatureAndClassification-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/nomenclatureAndClassification-2021-01-08">http://rs.tdwg.org/plic/terms/version/nomenclatureAndClassification-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -9663,7 +9611,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Class</td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -9677,19 +9625,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicorigin">plicorigin</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/origin">http://rs.tdwg.org/plic/terms/origin</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/origin-2020-09-20">http://rs.tdwg.org/plic/terms/version/origin-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/origin-2021-01-08">http://rs.tdwg.org/plic/terms/version/origin-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Origin</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -9697,7 +9645,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -9711,19 +9659,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicpersistence">plicpersistence</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/persistence">http://rs.tdwg.org/plic/terms/persistence</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/persistence-2020-09-20">http://rs.tdwg.org/plic/terms/version/persistence-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/persistence-2021-01-08">http://rs.tdwg.org/plic/terms/version/persistence-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Persistence</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -9731,7 +9679,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -9745,15 +9693,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicpopulationBiologyAtomized">plicpopulationBiologyAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/populationBiologyAtomized">http://rs.tdwg.org/plic/terms/populationBiologyAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/populationBiologyAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/populationBiologyAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/populationBiologyAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/populationBiologyAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -9765,7 +9713,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Class</td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -9779,15 +9727,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicpopulationBiologyUnstructured">plicpopulationBiologyUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/populationBiologyUnstructured">http://rs.tdwg.org/plic/terms/populationBiologyUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/populationBiologyUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/populationBiologyUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/populationBiologyUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/populationBiologyUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -9813,19 +9761,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicpresence">plicpresence</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/presence">http://rs.tdwg.org/plic/terms/presence</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/presence-2020-09-20">http://rs.tdwg.org/plic/terms/version/presence-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/presence-2021-01-08">http://rs.tdwg.org/plic/terms/version/presence-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Presence </td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -9833,7 +9781,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -9847,23 +9795,23 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicpublicationDate">plicpublicationDate</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/publicationDate">http://rs.tdwg.org/plic/terms/publicationDate</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/publicationDate-2020-09-20">http://rs.tdwg.org/plic/terms/version/publicationDate-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/publicationDate-2021-01-08">http://rs.tdwg.org/plic/terms/version/publicationDate-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Publication Date</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Publication Date</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -9871,7 +9819,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -9885,19 +9833,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicrateOfSpread">plicrateOfSpread</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/rateOfSpread">http://rs.tdwg.org/plic/terms/rateOfSpread</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/rateOfSpread-2020-09-20">http://rs.tdwg.org/plic/terms/version/rateOfSpread-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/rateOfSpread-2021-01-08">http://rs.tdwg.org/plic/terms/version/rateOfSpread-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Rate Of Spread</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -9905,7 +9853,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -9919,19 +9867,19 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicregulatoryListing">plicregulatoryListing</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/regulatoryListing">http://rs.tdwg.org/plic/terms/regulatoryListing</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/regulatoryListing-2020-09-20">http://rs.tdwg.org/plic/terms/version/regulatoryListing-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/regulatoryListing-2021-01-08">http://rs.tdwg.org/plic/terms/version/regulatoryListing-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Regulatory Listing</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -9939,7 +9887,7 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -9953,15 +9901,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicreproductionAtomized">plicreproductionAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/reproductionAtomized">http://rs.tdwg.org/plic/terms/reproductionAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/reproductionAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/reproductionAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/reproductionAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/reproductionAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -9987,15 +9935,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicreproductionUnstructured">plicreproductionUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/reproductionUnstructured">http://rs.tdwg.org/plic/terms/reproductionUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/reproductionUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/reproductionUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/reproductionUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/reproductionUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -10021,15 +9969,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicresourceLogoUrl">plicresourceLogoUrl</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/resourceLogoUrl">http://rs.tdwg.org/plic/terms/resourceLogoUrl</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/resourceLogoUrl-2020-09-20">http://rs.tdwg.org/plic/terms/version/resourceLogoUrl-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/resourceLogoUrl-2021-01-08">http://rs.tdwg.org/plic/terms/version/resourceLogoUrl-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -10055,15 +10003,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicrevision">plicrevision</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/revision">http://rs.tdwg.org/plic/terms/revision</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/revision-2020-09-20">http://rs.tdwg.org/plic/terms/version/revision-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/revision-2021-01-08">http://rs.tdwg.org/plic/terms/version/revision-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -10083,68 +10031,25 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="plic_scientificName"></a>Term Name  plic:scientificName</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="plicscientificName">plicscientificName</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2020-09-20</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/scientificName-2020-09-20">http://rs.tdwg.org/plic/terms/version/scientificName-2020-09-20</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>ScientificName</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td>The value is an instance of tcs:ScientificName 
-<a href="http://www.tdwg.org/schemas/tcs/1.01#ScientificName">http://www.tdwg.org/schemas/tcs/1.01#ScientificName</a></td>
-		</tr>
-		<tr>
-			<td>Notes</td>
-			<td> ScientificName" type="tcs:ScientificName"</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Property</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
 			<th colspan="2"><a id="plic_startTimeInterval"></a>Term Name  plic:startTimeInterval</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicstartTimeInterval">plicstartTimeInterval</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/startTimeInterval">http://rs.tdwg.org/plic/terms/startTimeInterval</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/startTimeInterval-2020-09-20">http://rs.tdwg.org/plic/terms/version/startTimeInterval-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/startTimeInterval-2021-01-08">http://rs.tdwg.org/plic/terms/version/startTimeInterval-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>start time interval</td>
+			<td>Start Time Interval</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -10172,23 +10077,23 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicstartValidDate">plicstartValidDate</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/startValidDate">http://rs.tdwg.org/plic/terms/startValidDate</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/startValidDate-2020-09-20">http://rs.tdwg.org/plic/terms/version/startValidDate-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/startValidDate-2021-01-08">http://rs.tdwg.org/plic/terms/version/startValidDate-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Start Valid Date</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Start Valid Date</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -10196,7 +10101,7 @@ A controlled vocabulary is recommended.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -10210,55 +10115,19 @@ A controlled vocabulary is recommended.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicstateProvince">plicstateProvince</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/stateProvince">http://rs.tdwg.org/plic/terms/stateProvince</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/stateProvince-2020-09-20">http://rs.tdwg.org/plic/terms/version/stateProvince-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/stateProvince-2021-01-08">http://rs.tdwg.org/plic/terms/version/stateProvince-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>The name of the next smaller administrative region than country (state, 
-province, canton, department, region, etc.) in which the Location 
-occurs.</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="plic_stateProvince"></a>Term Name  plic:stateProvince</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="plicstateProvince">plicstateProvince</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2020-09-20</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/stateProvince-2020-09-20">http://rs.tdwg.org/plic/terms/version/stateProvince-2020-09-20</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>state province </td>
+			<td>State Province </td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -10278,38 +10147,31 @@ occurs.</td>
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="plic_synonymName"></a>Term Name  plic:synonymName</th>
+			<th colspan="2"><a id="plic_stateProvince"></a>Term Name  plic:stateProvince</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicsynonymName">plicsynonymName</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/stateProvince">http://rs.tdwg.org/plic/terms/stateProvince</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/synonymName-2020-09-20">http://rs.tdwg.org/plic/terms/version/synonymName-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/stateProvince-2021-01-08">http://rs.tdwg.org/plic/terms/version/stateProvince-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>synonymName</td>
+			<td>State Province</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td>The value is an instance of tcs:ScientificName
-<a href="http://www.tdwg.org/schemas/tcs/1.01#ScientificName">http://www.tdwg.org/schemas/tcs/1.01#ScientificName</a></td>
-		</tr>
-		<tr>
-			<td>Notes</td>
-			<td>SynonymName" type="tcs:ScientificName";</td>
+			<td>The name of the next smaller administrative region than country (state, 
+province, canton, department, region, etc.) in which the Location 
+occurs.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -10327,15 +10189,15 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicsynonyms">plicsynonyms</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/synonyms">http://rs.tdwg.org/plic/terms/synonyms</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/synonyms-2020-09-20">http://rs.tdwg.org/plic/terms/version/synonyms-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/synonyms-2021-01-08">http://rs.tdwg.org/plic/terms/version/synonyms-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -10361,15 +10223,15 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicsynonymsAtomized">plicsynonymsAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/synonymsAtomized">http://rs.tdwg.org/plic/terms/synonymsAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/synonymsAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/synonymsAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/synonymsAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/synonymsAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -10399,19 +10261,19 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicsynonymsAtomizedType">plicsynonymsAtomizedType</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/synonymsAtomizedType">http://rs.tdwg.org/plic/terms/synonymsAtomizedType</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/synonymsAtomizedType-2020-09-20">http://rs.tdwg.org/plic/terms/version/synonymsAtomizedType-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/synonymsAtomizedType-2021-01-08">http://rs.tdwg.org/plic/terms/version/synonymsAtomizedType-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>synonyms Atomized Type</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -10423,7 +10285,7 @@ occurs.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Class</td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -10437,19 +10299,19 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicsynonymsType">plicsynonymsType</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/synonymsType">http://rs.tdwg.org/plic/terms/synonymsType</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/synonymsType-2020-09-20">http://rs.tdwg.org/plic/terms/version/synonymsType-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/synonymsType-2021-01-08">http://rs.tdwg.org/plic/terms/version/synonymsType-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>synonyms type</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -10475,15 +10337,15 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicsynonymsUnstructured">plicsynonymsUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/synonymsUnstructured">http://rs.tdwg.org/plic/terms/synonymsUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/synonymsUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/synonymsUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/synonymsUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/synonymsUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -10509,15 +10371,15 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plictargetAudiences">plictargetAudiences</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/targetAudiences">http://rs.tdwg.org/plic/terms/targetAudiences</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/targetAudiences-2020-09-20">http://rs.tdwg.org/plic/terms/version/targetAudiences-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/targetAudiences-2021-01-08">http://rs.tdwg.org/plic/terms/version/targetAudiences-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -10547,15 +10409,15 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plictaxonRecordID">plictaxonRecordID</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/taxonRecordID">http://rs.tdwg.org/plic/terms/taxonRecordID</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonRecordID-2020-09-20">http://rs.tdwg.org/plic/terms/version/taxonRecordID-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonRecordID-2021-01-08">http://rs.tdwg.org/plic/terms/version/taxonRecordID-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -10581,15 +10443,15 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plictaxonRecordName">plictaxonRecordName</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/taxonRecordName">http://rs.tdwg.org/plic/terms/taxonRecordName</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonRecordName-2020-09-20">http://rs.tdwg.org/plic/terms/version/taxonRecordName-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonRecordName-2021-01-08">http://rs.tdwg.org/plic/terms/version/taxonRecordName-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -10597,7 +10459,7 @@ occurs.</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Complete information about the name of the taxon.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -10619,23 +10481,23 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plictaxonomicDescriptionType">plictaxonomicDescriptionType</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/taxonomicDescriptionType">http://rs.tdwg.org/plic/terms/taxonomicDescriptionType</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonomicDescriptionType-2020-09-20">http://rs.tdwg.org/plic/terms/version/taxonomicDescriptionType-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonomicDescriptionType-2021-01-08">http://rs.tdwg.org/plic/terms/version/taxonomicDescriptionType-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>taxonomic description type</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Brief description, Full description, Identification keys and Ancillary Data.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -10657,15 +10519,15 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plictaxonomicDescriptionUnstructured">plictaxonomicDescriptionUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/taxonomicDescriptionUnstructured">http://rs.tdwg.org/plic/terms/taxonomicDescriptionUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonomicDescriptionUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/taxonomicDescriptionUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonomicDescriptionUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/taxonomicDescriptionUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -10691,15 +10553,15 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plictaxonomicalDescription">plictaxonomicalDescription</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/taxonomicalDescription">http://rs.tdwg.org/plic/terms/taxonomicalDescription</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonomicalDescription-2020-09-20">http://rs.tdwg.org/plic/terms/version/taxonomicalDescription-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonomicalDescription-2021-01-08">http://rs.tdwg.org/plic/terms/version/taxonomicalDescription-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -10729,19 +10591,19 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plictemporalCoverage">plictemporalCoverage</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/temporalCoverage">http://rs.tdwg.org/plic/terms/temporalCoverage</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/temporalCoverage-2020-09-20">http://rs.tdwg.org/plic/terms/version/temporalCoverage-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/temporalCoverage-2021-01-08">http://rs.tdwg.org/plic/terms/version/temporalCoverage-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>temporal coverage</td>
+			<td>Temporal Coverage</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -10763,15 +10625,15 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicterritory">plicterritory</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/territory">http://rs.tdwg.org/plic/terms/territory</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/territory-2020-09-20">http://rs.tdwg.org/plic/terms/version/territory-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/territory-2021-01-08">http://rs.tdwg.org/plic/terms/version/territory-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -10779,11 +10641,11 @@ occurs.</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Information, mostly associated to vertebrates, referring to the territorial extension of the individual or group in terms of its activities (feeding, mating, etc.).</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -10797,23 +10659,23 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicterritoryAtomized">plicterritoryAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/territoryAtomized">http://rs.tdwg.org/plic/terms/territoryAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/territoryAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/territoryAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/territoryAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/territoryAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized territory</td>
+			<td>territory atomized </td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>territory atomized </td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -10831,15 +10693,15 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicterritoryUnstructured">plicterritoryUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/territoryUnstructured">http://rs.tdwg.org/plic/terms/territoryUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/territoryUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/territoryUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/territoryUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/territoryUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -10847,7 +10709,7 @@ occurs.</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Information associated mostly to vertebrates, referring to the territorial extension of the individual or group in terms of its activities (feeding, mating, etc.). As a text block.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -10865,15 +10727,15 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicthreatStatus">plicthreatStatus</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/threatStatus">http://rs.tdwg.org/plic/terms/threatStatus</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/threatStatus-2020-09-20">http://rs.tdwg.org/plic/terms/version/threatStatus-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/threatStatus-2021-01-08">http://rs.tdwg.org/plic/terms/version/threatStatus-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -10881,11 +10743,11 @@ occurs.</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Information about the conservation status of the taxon.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -10899,23 +10761,23 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicthreatStatusAtomized">plicthreatStatusAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/threatStatusAtomized">http://rs.tdwg.org/plic/terms/threatStatusAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/threatStatusAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/threatStatusAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/threatStatusAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/threatStatusAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized threat status</td>
+			<td>threat Status Atomized</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>ThreatStatus element in structured format.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -10933,15 +10795,15 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicthreatStatusUnstructured">plicthreatStatusUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/threatStatusUnstructured">http://rs.tdwg.org/plic/terms/threatStatusUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/threatStatusUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/threatStatusUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/threatStatusUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/threatStatusUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -10949,11 +10811,11 @@ occurs.</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Information about the status of the taxon.As a text block.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -10967,19 +10829,19 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plictrend">plictrend</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/trend">http://rs.tdwg.org/plic/terms/trend</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/trend-2020-09-20">http://rs.tdwg.org/plic/terms/version/trend-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/trend-2021-01-08">http://rs.tdwg.org/plic/terms/version/trend-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Trend</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -10987,7 +10849,7 @@ occurs.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -11001,15 +10863,15 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicuses">plicuses</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/uses">http://rs.tdwg.org/plic/terms/uses</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/uses-2020-09-20">http://rs.tdwg.org/plic/terms/version/uses-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/uses-2021-01-08">http://rs.tdwg.org/plic/terms/version/uses-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -11021,7 +10883,7 @@ occurs.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -11035,27 +10897,27 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicusesAtomized">plicusesAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/usesAtomized">http://rs.tdwg.org/plic/terms/usesAtomized</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/usesAtomized-2020-09-20">http://rs.tdwg.org/plic/terms/version/usesAtomized-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/usesAtomized-2021-01-08">http://rs.tdwg.org/plic/terms/version/usesAtomized-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>atomized uses</td>
+			<td>uses atomized </td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Ways in which species are utilized by people, including Folklore. Also applied to Animals and Fungi.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -11069,15 +10931,15 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicusesManagementAndConservation">plicusesManagementAndConservation</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/usesManagementAndConservation">http://rs.tdwg.org/plic/terms/usesManagementAndConservation</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/usesManagementAndConservation-2020-09-20">http://rs.tdwg.org/plic/terms/version/usesManagementAndConservation-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/usesManagementAndConservation-2021-01-08">http://rs.tdwg.org/plic/terms/version/usesManagementAndConservation-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -11085,7 +10947,7 @@ occurs.</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Ways in which species are utilized by people, including Folklore.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -11103,23 +10965,23 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicusesManagementAndConservationUnstructured">plicusesManagementAndConservationUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/usesManagementAndConservationUnstructured">http://rs.tdwg.org/plic/terms/usesManagementAndConservationUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/usesManagementAndConservationUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/usesManagementAndConservationUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/usesManagementAndConservationUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/usesManagementAndConservationUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>unstructured uses management and conservation</td>
+			<td>uses management and conservation unstructured </td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>UsesManagementAndConservation element in text block format.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -11137,15 +10999,15 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicusesUnstructured">plicusesUnstructured</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/usesUnstructured">http://rs.tdwg.org/plic/terms/usesUnstructured</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/usesUnstructured-2020-09-20">http://rs.tdwg.org/plic/terms/version/usesUnstructured-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/usesUnstructured-2021-01-08">http://rs.tdwg.org/plic/terms/version/usesUnstructured-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -11171,15 +11033,15 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicvalue">plicvalue</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/value">http://rs.tdwg.org/plic/terms/value</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/value-2020-09-20">http://rs.tdwg.org/plic/terms/version/value-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/value-2021-01-08">http://rs.tdwg.org/plic/terms/version/value-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -11187,7 +11049,7 @@ occurs.</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>value</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -11205,19 +11067,19 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicvector">plicvector</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/vector">http://rs.tdwg.org/plic/terms/vector</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/vector-2020-09-20">http://rs.tdwg.org/plic/terms/version/vector-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/vector-2021-01-08">http://rs.tdwg.org/plic/terms/version/vector-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Vector</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -11225,7 +11087,7 @@ occurs.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -11239,15 +11101,15 @@ occurs.</td>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="plicversion">plicversion</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version">http://rs.tdwg.org/plic/terms/version</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-09-20</td>
+			<td>2021-01-08</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/version-2020-09-20">http://rs.tdwg.org/plic/terms/version/version-2020-09-20</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/version-2021-01-08">http://rs.tdwg.org/plic/terms/version/version-2021-01-08</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -11255,7 +11117,7 @@ occurs.</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Number and date of the current version.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
