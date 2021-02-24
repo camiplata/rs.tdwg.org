@@ -1,6 +1,6 @@
 # Plinian Core Standard
 
-**Title:** Plinian Core Standard 2020-12-02
+**Title:** Plinian Core Standard 2021-02-23
 
 **Namespace URI:** http://rs.tdwg.org/plic/values/
 
@@ -10,7 +10,7 @@
 
 **Date created:** put ratification date here
 
-**Part of TDWG Standard:** http://www.tdwg.org/standards/???
+**Part of TDWG Standard:** http://www.tdwg.org/standards/777
 
 **This version:** http://rs.tdwg.org/plic/doc/iso-date-here
 
@@ -18,7 +18,7 @@
 
 **Abstract:** The Plinian Core Standard provides information about species.
 
-**Contributors:** Francisco Pando, María Auxiliadora Mora, William Ulate, Camila Plata, Manuel Vargas.
+**Contributors:**
 
 **Creator:** TDWG Plinian Core Maintenance Group
 
