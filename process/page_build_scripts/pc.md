@@ -1,29 +1,22 @@
 # Plinian Core Standard
 
-**Title:**  
+**Title**
 Plinian Core, a Species-level Data Specification
 
-**Namespace URI:** http://rs.tdwg.org/plic/values/
+**Date ratified**
+xxx-xx-xx
 
-**Preferred namespace abbreviation:** plic:
+**Status**
+Current standard
 
-**Date version issued:** atification date here
+**Category**
+Technical specification
 
-**Date created:** put ratification date here
+**Permanent IRI**
+http://www.tdwg.org/standards/777
 
-**Part of TDWG Standard:** http://www.tdwg.org/standards/777
-
-**This version:** http://rs.tdwg.org/plic/doc/iso-date-here
-
-**Latest version:** http://rs.tdwg.org/plic/doc/
-
-**Abstract:** The Plinian Core Standard provides information about species.
-
-**Contributors:**
-
-**Creator:** TDWG Plinian Core Maintenance Group
-
-**Bibliographic citation:** Plinian Core Maintenance Group. 2020. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/plic/doc/>
+**Abstract**
+Plinian Core is a set of vocabulary terms that can be used to describe different aspects of biological species information. Under [biological species Information](https://en.wikipedia.org/wiki/Biodiversity_informatics) all kinds of properties or traits related to taxa—biological and non-biological—are included. Thus, for instance, terms pertaining descriptions, legal aspects, conservation, management, demographics, nomenclature, or related resources are incorporated.
 
 
 ## 1 Introduction
