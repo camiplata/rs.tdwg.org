@@ -26,7 +26,7 @@ Plinian Core Task Group. 2021. Plinian Core, a Species-level Data Specification.
 
 **Contributors**  
 Francisco Pando, María Mora, Manuel Vargas, William Ulate, Erick Mata, Jose M. Cuadra, Jaime Gutierrez, Ángela Suárez, Carmen Quesada, Ramón Pérez Pérez, 
-Patricia Koleff, Esther Quintero, José Mendoza, Aurelio Sanabria, Camila Plata, Danny Velez, Valentina Grajales, Santiago Martínez de la Riva, Daniel Lins da Silva, Mat Max Montalvo Martínez
+Patricia Koleff, Esther Quintero, José Mendoza, Aurelio Sanabria, Camila Plata, Danny Velez, Valentina Grajales, Santiago Martínez de la Riva, Daniel Lins da Silva, Mat Max Montalvo Martínez.
 
 
 ## 1 Introduction
