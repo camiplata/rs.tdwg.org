@@ -1,12 +1,13 @@
 # Plinian Core Standard
 
-**Title:** Plinian Core Standard 2021-02-23
+**Title:**  
+Plinian Core, a Species-level Data Specification
 
 **Namespace URI:** http://rs.tdwg.org/plic/values/
 
 **Preferred namespace abbreviation:** plic:
 
-**Date version issued:** put ratification date here
+**Date version issued:** atification date here
 
 **Date created:** put ratification date here
 
