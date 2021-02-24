@@ -18,6 +18,16 @@ http://www.tdwg.org/standards/777
 **Abstract**  
 Plinian Core is a set of vocabulary terms that can be used to describe different aspects of biological species information. Under [biological species Information](https://en.wikipedia.org/wiki/Biodiversity_informatics) all kinds of properties or traits related to taxa—biological and non-biological—are included. Thus, for instance, terms pertaining descriptions, legal aspects, conservation, management, demographics, nomenclature, or related resources are incorporated.
 
+**Creator**  
+Plinian Core Task Group, [Biodiversity Information Standards (TDWG)](https://www.tdwg.org/)
+
+**Bibliographic citation**  
+Plinian Core Task Group. 2021. Plinian Core, a Species-level Data Specification. Biodiversity Information Standards (TDWG). [http://www.tdwg.org/standards/777](http://www.tdwg.org/standards/777)
+
+**Contributors**
+Francisco Pando, María Mora, Manuel Vargas, William Ulate, Erick Mata, Jose M. Cuadra, Jaime Gutierrez, Ángela Suárez, Carmen Quesada, Ramón Pérez Pérez, 
+Patricia Koleff, Esther Quintero, José Mendoza, Aurelio Sanabria, Camila Plata, Danny Velez, Valentina Grajales, Santiago Martínez de la Riva, Daniel Lins da Silva, Mat Max Montalvo Martínez
+
 
 ## 1 Introduction
 
