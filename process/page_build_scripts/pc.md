@@ -1,21 +1,21 @@
 # Plinian Core Standard
 
-**Title**
+**Title**  
 Plinian Core, a Species-level Data Specification
 
-**Date ratified**
+**Date ratified**  
 xxx-xx-xx
 
-**Status**
+**Status**  
 Current standard
 
-**Category**
+**Category**  
 Technical specification
 
-**Permanent IRI**
+**Permanent IRI**  
 http://www.tdwg.org/standards/777
 
-**Abstract**
+**Abstract**  
 Plinian Core is a set of vocabulary terms that can be used to describe different aspects of biological species information. Under [biological species Information](https://en.wikipedia.org/wiki/Biodiversity_informatics) all kinds of properties or traits related to taxa—biological and non-biological—are included. Thus, for instance, terms pertaining descriptions, legal aspects, conservation, management, demographics, nomenclature, or related resources are incorporated.
 
 
