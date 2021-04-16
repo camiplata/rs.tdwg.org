@@ -1,43 +1,52 @@
 # Plinian Core Standard
 
-**Title:** Plinian Core Standard 2021-02-23
+**Title**  
+Plinian Core, a Species-level Data Specification
 
-**Namespace URI:** http://rs.tdwg.org/plic/values/
+**Date ratified**  
+TBD
 
-**Preferred namespace abbreviation:** plic:
+**Status**  
+Current standard
 
-**Date version issued:** put ratification date here
+**Category**  
+Technical specification
 
-**Date created:** put ratification date here
+**Permanent IRI**  
+[http://www.tdwg.org/standards/777](http://www.tdwg.org/standards/777)
 
-**Part of TDWG Standard:** http://www.tdwg.org/standards/777
+**Abstract**  
+**Plinian Core** is a set of vocabulary terms that can be used to describe different aspects of biological species information. Under "biological species Information" all kinds of properties or traits related to taxa—biological and non-biological—are included. Thus, for instance, terms pertaining descriptions, legal aspects, conservation, management, demographics, nomenclature, or related resources are incorporated.
 
-**This version:** http://rs.tdwg.org/plic/doc/iso-date-here
+**Creator**  
+Plinian Core Task Group, [Biodiversity Information Standards (TDWG)](https://www.tdwg.org/)
 
-**Latest version:** http://rs.tdwg.org/plic/doc/
+**Bibliographic citation**  
+Plinian Core Task Group. 2021. Plinian Core, a Species-level Data Specification.
+Biodiversity Information Standards (TDWG).
+[http://www.tdwg.org/standards/777](http://www.tdwg.org/standards/777)
 
-**Abstract:** The Plinian Core Standard provides information about species.
+**Instituciones y personas**
 
-**Contributors:**
-
-**Creator:** TDWG Plinian Core Maintenance Group
-
-**Bibliographic citation:** Plinian Core Maintenance Group. 2020. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/plic/doc/>
-
-
-## 1 Introduction
-
-This document includes terms intended to be used for the Plinian Core Standard.
-
-### 1.1 Status of the content of this document
-
-In development...
-
-### 1.2 RFC 2119 key words
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
-
-## 2 Use of Terms
-
-...
-
-## 3 Term index
+| Instituciones | Personas |
+| :------------- | -----------: |
+| GBIF España - CSIC | Francisco Pando |
+| | Santiago Martínez de la Riva |
+| | Ramón Pérez Pérez |
+| INBIO & CRBIO | Maria Mora |
+| | Manuel Vargas |
+| | William Ulate |
+| | Erick Mata |
+| | Jose M. Cuadra |
+| | Jaime Gutierrez |
+| | Aurelio Sanabria |
+| University of Granada | Carmen Quesada |
+| Alexander von Humboldt Institute | Camila Plata |
+| | Angela Suarez |
+| | Danny Velez |
+| | Valentina Grajales |
+| CONABIO | Patricia Koleff |
+| | Esther Quintero |
+| | José Mendoza |
+| University of São Paulo | Daniel Lins da Silva |
+| University Carlos III | Mat Max Montalvo Martínez \| |
