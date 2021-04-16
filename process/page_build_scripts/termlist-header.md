@@ -28,8 +28,6 @@ Biodiversity Information Standards (TDWG).
 
 **Instituciones y personas**
 
-Instituciones y personas
-
 | Instituciones | Personas |
 | :------------- | :----------- |
 | GBIF España - CSIC | Francisco Pando |
