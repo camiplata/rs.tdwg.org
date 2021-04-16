@@ -28,8 +28,10 @@ Biodiversity Information Standards (TDWG).
 
 **Instituciones y personas**
 
+Instituciones y personas
+
 | Instituciones | Personas |
-| :------------- | -----------: |
+| :------------- | :----------- |
 | GBIF España - CSIC | Francisco Pando |
 | | Santiago Martínez de la Riva |
 | | Ramón Pérez Pérez |
@@ -49,7 +51,8 @@ Biodiversity Information Standards (TDWG).
 | | Esther Quintero |
 | | José Mendoza |
 | University of São Paulo | Daniel Lins da Silva |
-| University Carlos III | Mat Max Montalvo Martínez \| |
+| University Carlos III | Mat Max Montalvo Martínez |
+
 ### 3.1 Index By Term Name
 
 (See also [3.2 Index By Label](#32-index-by-label))
