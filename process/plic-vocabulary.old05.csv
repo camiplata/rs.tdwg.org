@@ -1,0 +1,330 @@
+term_localName,label,definition,usage,notes,type,controlled_value_string,tdwgutility_organizedInClass,SKOS_inSchema,tdwgutility_repeatable,examples,database,vann_preferredNamespacePrefix,vann_preferredNamespaceUri
+created,created,The date on which the resource was created.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,RecordMetadata,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+references,references,From EOL,,eol:referenceType,http://www.w3.org/2000/01/rdf-schema#Class,,Metadata,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+modified,Modified,The Modified is the last date that the record was changed,,From GISIN: SpeciesStatus. http://www.gisin.org/cwis438/websites/GISINDirectory/Tech/ProtocolSpecification.php#4.4.1.1,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+startValidDate,Start Valid Date,"The StartValidDate and EndValidDate represent the range of when a ""status"" data Model is valid. Data providers should return an empty element for the EndValidDate if the status is still current.",,From GISIN: SpeciesStatus. http://www.gisin.org/cwis438/websites/GISINDirectory/Tech/ProtocolSpecification.php#4.4.1.1,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+endValidDate,End Valid Date,"The StartValidDate and EndValidDate represent the range of when a ""status"" data Model is valid. Data providers should return an empty element for the EndValidDate if the status is still current.",,From GISIN: SpeciesStatus. http://www.gisin.org/cwis438/websites/GISINDirectory/Tech/ProtocolSpecification.php#4.4.1.1,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+language,Language,"Language used to write the species information, use ISO 639-2 vocabulary.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+citation,Citation,Publication date of the current version,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+memo,Memo,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+publicationDate,Publication Date,Publication date of the current version,,From GISIN: SpeciesStatus. http://www.gisin.org/cwis438/websites/GISINDirectory/Tech/ProtocolSpecification.php#4.4.1.1,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+annualCycleAtomized,Atomized Annual Cycle,"AnnualCycles element in structured format.
+",,,http://www.w3.org/2000/01/rdf-schema#Class,,AnnualCycles,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+annualCycleUnstructured,Unstructured Annual Cycle,"AnnualCyles element in text block format.
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,AnnualCycles,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+startTimeInterval,Start Time Interval,"The date-time or interval at which an event starts. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).
+
+A controlled vocabulary is recommended.",,"e.g. ""1963-03-08T14:07-0600"" is 8 Mar 1963 2:07pm in the time zone six hours earlier than UTC, ""2009-02-20T08:40Z"" is 20 Feb 2009 8:40am UTC, ""1809-02-12"" is 12 Feb 1809, ""1906-06"" is Jun 1906, ""1971"" is just that year, ""2007-03-01T13:00:00Z/2008-05-11T15:30:00Z"" is the interval between 1 Mar 2007 1pm UTC and 11 May 2008 3:30pm UTC, ""2007-11-13/15"" is the interval between 13 Nov 2007 and 15 Nov 2007.",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,AnnualCycles,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+endTimeInterval ,End Time Interval,"The date-time or interval at which an event ends. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).
+
+A controlled vocabulary is recommended.",,"e.g. ""1963-03-08T14:07-0600"" is 8 Mar 1963 2:07pm in the time zone six hours earlier than UTC, ""2009-02-20T08:40Z"" is 20 Feb 2009 8:40am UTC, ""1809-02-12"" is 12 Feb 1809, ""1906-06"" is Jun 1906, ""1971"" is just that year, ""2007-03-01T13:00:00Z/2008-05-11T15:30:00Z"" is the interval between 1 Mar 2007 1pm UTC and 11 May 2008 3:30pm UTC, ""2007-11-13/15"" is the interval between 13 Nov 2007 and 15 Nov 2007.",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,AnnualCycles,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Event,Event,"An action that occurs at some location during some time.
+
+A controlled vocabulary is recommended.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,AnnualCycles,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+abstract,Abstract,A brief summary of the most relevant or attractive features of this taxón to the general public.  Could point to any kind of information. ,,"Example: Blue whale is the largest mammal in the world.
+",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,BaseElements,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+taxonRecordID,taxon record id,Unique identifier of the record within the database,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,BaseElements,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+commonNamesAtomized,Atomized Common Names,"commonNames element in structured format.
+
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+commonNames,Common Names,"The name of the common name.
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Name,Name,"The name of the common name.
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Language,Language,"Language used to write the species information, ISO 639-2 according to GBIF Metadata Profile.
+
+",,,"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+",,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+UsedIn,Used In,"Location where de common name is used.
+
+",,,"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+",,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+UsedBy,Used By,"Sometimes names used by one group of people are adopted by another.
+
+",,,"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+
+",,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+commonNamesUnstructured,unstructured common names,CommonNames element in text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+demographyAndThreatUnstructured,Unstructured Demography And Threat,"demographyAndThreat element in unstructured format.
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+legislation,Legislation,A national proposed law or group of laws. A regional proposed law or group of laws.,,,http://www.w3.org/2000/01/rdf-schema#Class,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+territory,territory,"Information, mostly associated to vertebrates, referring to the territorial extension of the individual or group in terms of its activities (feeding, mating, etc.).",,,http://www.w3.org/2000/01/rdf-schema#Class,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+threatStatus,threat status,Information about the conservation status of the taxon.,,,http://www.w3.org/2000/01/rdf-schema#Class,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+PopulationBiology,population biology,"Description of the variations in time and space, as well as in the size and density of populations, and the factors that cause such variations",,,http://www.w3.org/2000/01/rdf-schema#Class,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+DispersalAtomized,Atomized Dispersal,Dispersal element in structured format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+legislationAtomized,Atomized Legislation,legislation element in structured format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+legislationUnstructured,Unstructured Legislation,legislation element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+LegislationType,Legislation Type,National and/or regional law or group of laws.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+LegislationName,Legislation Name,Word or phrase to designate the law or group of laws.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+ProtectionLegalStatus,Protection Legal Status,Description of the legal status.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+LegislationRead,Legislation Read,The oficial document in which the user can read the legislation.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Status,Status,"Whether a piece of legislation is in force, or superseded, etc.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Type,Type,Category of the piece of legislation.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Norm,Norm,"Norms are general legal principles that are widely accepted. This acceptance is evidenced in a number of ways, such as international agreements, national legislation, domestic and international judicial decisions, and scholarly writings.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+AppliesTo,Applies to,Location where the status is used.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+DispersalUnstructured,Unstructured Dispersal,Dispersal element in text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Dispersal,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Purpose,Purpose,Makes reference to any data being measured,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Dispersal,,,De tipo MeasurementOrFactClass,plic,plic,http://rs.tdwg.org/plic/terms/
+Type,Type,"VCR. Zoochory, Anemochory, Hydrochory, Barochory, Autochory",,"Type of dispersal, a controlled vocabulary is recommended.","http://www.w3.org/2004/02/skos/core#ConceptScheme
+",,Dispersal,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+StructureDispersed,Structure Dispersed ,"VCR: Seed, Fruit, Vegetative structure, Spores, Gametes, Eggs, Offspring and Individuals",,"Structured that is dispersed for a given biologial propuse, a controlled vocabulary is recommended.","http://www.w3.org/2004/02/skos/core#ConceptScheme
+",,Dispersal,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Distance,Distance,Dispersal distance. e.g. 450 m,,The distance reached by the structured dispersed.,"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+",,Dispersal,,,"de tipo MeasurementOrFactClass
+",plic,plic,http://rs.tdwg.org/plic/terms/
+Type,Type,Primary diet source. A controlled vocabulary is recommended.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Dispersal,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+ecologicalSignificanceAtomized,Atomized Ecological Significance,Ecological Significance element in structured format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,EcologicalSignificance,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+ecologicalSignificanceUnstructured,Unstructured Ecological Significance,Ecological Significance element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,EcologicalSignificance,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+environmentalEnvelopeAtomized,Atomized Environmental Envelope,Environmental envelope of a species expressed as an enumeration of measures and parameters.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,EnvironmentalEnvelope,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+environmentalEnvelopeUnstructured,Unstructured Environmental Envelope,environmentalEnvelopeas a a text block,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,EnvironmentalEnvelope,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+feedingAtomized,Atomized Feeding,feeding elemento in structured format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Feeding,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+feedingUnstructured,Unstructured Feeding,feeding element in text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Feeding,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+DistributionUnstructured,Unstructured Distribution,Distribution element in text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+DistributionAtomized,Atomized Distribution,Distribution element in structured format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+DistributionScope,Distribution Scope,List of regions structured and categorized.,"
+","A controlled vocabulary is recommended.
+e.g. Historical, Current, Restricted and Wide.
+","http://www.w3.org/2000/01/rdf-schema#Class
+
+
+",,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+DistributionScopeType,Distribution Scope Type,"A controlled vocabulary is recommended. VCR: Historical, Current, Restricted and Wide.
+",,"XXXXX, a controlled vocabulary is recommended.","http://www.w3.org/2000/01/rdf-schema#Class
+
+",,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+temporalCoverage,Temporal Coverage,"This field specifies temporal coverage of the distribution, and allows coverages to be a single point in time, multiple points in time, or a range of dates.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+"geographicEntity
+",Geographic Entity,"
+Name of the geographic entity. A controlled vocabulary --as specified in the Catalogue element-- is recommended.
+",,"
+e.g. Spain; Aguascalientas; Alabama; Ambon
+",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+DistributionType,Distribution Type,"Information about the distribution of the species based on the studied specimens collection sites data.
+
+",,,"http://www.w3.org/2000/01/rdf-schema#Class
+",,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+GeographicEntity,Geographic Entity,Name of the geographic entity. ,,"A controlled vocabulary --as specified in the Catalogue element-- is recommended.
+e.g. Spain; Aguascalientas; Alabama; Ambon","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+",,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+country,Country,"The name of the country or major administrative unit in which the Location occurs.
+",,"It is recommended to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.
+","http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+",,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+stateProvince,State Province ,"The name of the next smaller administrative region than country (state, 
+province, canton, department, region, etc.) in which the Location 
+occurs.",,,"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+",,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+county,County,"The full, unabbreviated name of the next smaller administrative region 
+than stateProvince (county, shire, department, etc.) in which the 
+Location occurs.",,,"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+",,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+municipality,Municipality ,"The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) in which the Location occurs. Do not use this term for a nearby named place that does not contain the actual location.
+",,,"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+",,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+locality,Locality,"The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or standardize the description.
+",,,"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+",,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+endemicAtomized,Atomized Endemic,List of areas structured and categorized by territories in which the endemic species appears (EndemicTo) in relation to a wider area (EndemicIn) given as geographical context.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+EndemicTo,Endemic To,A territory in which an endemic species appear. A controlled vocabulary is recommended. The term may go from local to above-country levels.,,"Examples: Giant panda (Ailuropoda melanoleuca (David, 1869) endemic to China. Quetzal Resplendent (Pharomachrus mocinno de la Llave, 1832) endemic to Mexico, Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica and Panama.",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+EndemicIn,Endemic In,The area that works as a context for specifying endemic areas of a species. A controlled vocabulary is recommended. The term may go from local to above-country levels.,,"If not specified, the Earth as a whole is assumed as the geographical context. Examples:  Vicuña (Vicugna vicugna Molina, 1782) endemic to the Andean region **in South America**. Manzanilla Real (Artemisia granatensis Boiss.) endemic in the peaks of Sierra Nevada (**in Spain**).",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+endemicUnstructured,Unstructured Endemic,Information on the endemicity of a species as a text block.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+habitatAtomized,Atomized Habitat,habitatAndDistribution element in structured format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+habitatAndDistributionUnstructured,Unstructured Habitat And Distribution,habitatAndDistribution element in text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+endemic,Endemic,Ecological importance of the taxon. (Placeholder),,,http://www.w3.org/2000/01/rdf-schema#Class,,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+habitats,Habitats,"General description of the sites where the species is found (ecosystem, environment or microhabitat).",,,http://www.w3.org/2000/01/rdf-schema#Class,,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Distribution,Distribution,"Species geographical distribution.
+
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+habitatUnstructured,Unstructured Habitat,habitat element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+interactionAtomized,Atomized Interaction,interaction element in structured format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Interactions,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+SpeciesInteraction,Species Interaction ,"Information category concerning relations between resources (instances or records, such as Occurrences, Taxa, Locations, Events,...).",,,http://www.w3.org/2000/01/rdf-schema#Class,,Interactions,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+InteractionSpeciesType,Species Interaction Type,String with the type of interaction. Each element is seperated by comma and each list of elements by.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Interactions,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+invasivenessAtomized,Atomized Invasiveness,invasiveness element in structured format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+invasivenessUnstructured,Unstructured Invasiveness,invasiveness element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+origin,Origin,"Controlled vocabulary: Indigenous, Exotic, Unknown.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+presence,Presence ,"Controlled vocabulary: Absent, SometimesPresent, Present, Unknown, Reported.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+persistence,Persistence,"Controlled vocabulary: Persistent, Temporary, Transient, DiedOut, Unknown.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+distribution,Distribution,"Controlled vocabulary: Widespread, Moderate, Localized, Unknown.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+harmful,Harmful,"Controlled vocabulary: Yes, No, Potentially, Unknown.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+countryCode,Country Code,The standard code for the country in which the Location occurs. Recommended best practice is to use ISO 3166-1-alpha-2 country codes.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+stateProvince,State Province,"The name of the next smaller administrative region than country (state, 
+province, canton, department, region, etc.) in which the Location 
+occurs.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+county,County,"The full, unabbreviated name of the next smaller administrative region 
+than stateProvince (county, shire, department, etc.) in which the 
+Location occurs.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+localityName,Locality Name,Protocol Specification on Locations,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+abundance,Abundance,"Controlled vocabulary: Dominant, Common, Rare, Zero, Unknown, Monoculture.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+trend,Trend,"Controlled vocabulary: Stable, Declining, Unknown, Expanding.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+rateOfSpread,Rate Of Spread,"Controlled vocabulary: Rapid, Moderate, Slow, Unknown.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+regulatoryListing,Regulatory Listing,"Controlled vocabulary: Prohibited, Restricted, NotConsidered, Unknown.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+localityType,Locality Type,"Controlled vocabulary: State/Province, County, Postal code, Watershed, Unknown.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+WhatImpact,What Impact,"An indication of the actual impact as a free text string. e.g. destroys 
+riparian vegetation, destroys irrigation systems, displaces Arvicola 
+sapidus",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+vector,Vector,"By which means a species occupies a new territory. e.g. fishing boats; dirty boots, cars (Aedes albopictus)",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Route,Route,This is equivalent and probably replaceable by gisin:route,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+impactTarget,Impact Target,This is equivalent and probably replaceable by gisin:impactTarget,,,http://www.w3.org/2004/02/skos/core#ConceptScheme,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+impactMechanism,Impact Mechanism,Mechanism of introduction or impact to a new location.,,,http://www.w3.org/2004/02/skos/core#ConceptScheme,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+lifeCycleAtomized,Atomized Life Cycle,lifeCycle element in structured format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,LifeCycle,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+lifeCycleUnstructured,Unstructured Life Cycle,lifeCycle element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,LifeCycle,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+lifeFormAtomized,Atomized Life Form,lifeCycleForm element in structured format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,LifeCycle,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+lifeFormUnstructured,Unstructured Life Form,lifeCycleForm element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,LifeCycle,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+"ancillaryData
+",Ancillary Data,"The AncillaryData element contains information that could be an image, an audio, a list of references, a list of agents, rights, licenses...related with the element that belongs. It`s a redefinition of DataObject element from EOL scheme.
+
+",,,http://www.w3.org/2000/01/rdf-schema#Class,,Metadata,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+metadata,metadata,Management: actions aimed at conserving or recovering species / Conservation: undertaken interventions designed to preserve species.,,,http://www.w3.org/2000/01/rdf-schema#Class,,Metadata,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+TaxonRecord,Taxon Record,"Container for all elements pertaining a certain view or instance of a taxon, for instance, Festuca glauca Vill. as in Flora iberica, or Panthera onca as in https://enciclovida.mx/especies/34460-panthera-onca",,,http://www.w3.org/2000/01/rdf-schema#Class,,Metadata,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Dataset_ID,Dataset_ID,An identifier for the dataset,,,http://www.w3.org/2000/01/rdf-schema#Class,,Metadata,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+dateStamp,dateStamp,The date the metadata document was created or modified,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Metadata,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+dataset,dataset,The dataset element is a wrapper for all other elements relating to a single dataset as defined in eml.xsd (eml/dataset),,https://eml.ecoinformatics.org/schema/,http://www.w3.org/2000/01/rdf-schema#Class,,Metadata,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+resourceLogoUrl,resourceLogoUrl,The URI of an icon/logo symbolizing the project,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Metadata,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+MigratoryAtomized,atomized migratory,"The regular, usually seasonal, movement of all or part of an animal population to and from a given area, which can occur in variable periods of time and even involve more than one generation broken down in specific elements ",,,http://www.w3.org/2000/01/rdf-schema#Class,,Migratory,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+migratoryUnstructured,unstructured migratory,"The regular, usually seasonal, movement of all or part of an animal population to and from a given area, which can occur in variable periods of time and even involve more than one generation as text block",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Migratory,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Causes,Causes,Reasons for the species to move from one place to another in a specific lap,,,http://www.w3.org/2004/02/skos/core#ConceptScheme,,Migratory,,yes,,plic,plic,http://rs.tdwg.org/plic/terms/
+Patterns,Patterns,Displacement of the species in space,,,http://www.w3.org/2004/02/skos/core#ConceptScheme,,Migratory,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Routes,Routes,Trajectory followed by the species,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Migratory,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Season,Season,Time of year in which a species migrates.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Migratory,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+MolecularDataAtomized,atomized molecular data,MolecularData element in structured format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,MolecularData,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+MolecularDataUnstructured,unstructured molecular data,MolecularData as a text block,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,MolecularData,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+RelatedTo,RelatedTo,Specifies to which PlinianCore term the information contained under MolecularDataAtomized refers to. The controlled vocabulary is list of content-bearing PlinianCore elements.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,MolecularData,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+annualCycles,Annual Cycle,"Set of changes or events that recurrently take place at the same time of year and are influenced by seasonal and interannual climate variations. Also called phenology, mainly in plants. In the case of migration, it only makes reference to the timing; other data about this are gathered in MigratoryClass.",,"For example: reproduction, flowering, fruiting, emergence of insects, etc.
+",http://www.w3.org/2000/01/rdf-schema#Class,,AnnualCycles,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+behavior,Behavior,"Responses, reactions or movements made by an organism in a particular situation.",,,http://www.w3.org/2000/01/rdf-schema#Class,,Behavior,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+behaviorAtomized,Atomized Behavior,"Responses, reactions or movements made by an organism in a particular situation.
+
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Behavior,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+behaviorUnstructured,Unstructured Behavior,"Responses, reactions or movements made by an organism in a particular situation.
+
+",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Behavior,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+dispersal,Dispersal,"The permanent spreading of individuals away from each other not including return. Dispersal determines the range over which genetic mixing occurs, and thus, the degree of homogeneity and inbreeding in a population",,,http://www.w3.org/2000/01/rdf-schema#Class,,Dispersal,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+interactions,Interactions,Mutual or reciprocal actions or influences. Relations with products grown and stored by man (plagues) are also included.,,"For example, predation, parasitism, mutualism, etc.",http://www.w3.org/2000/01/rdf-schema#Class,,Interactions,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+lifeCycle,Life Cycle,Life history of a living organism: The course of developmental changes in an organism from fertilized zygote to maturity or stages through which an organism passes.,,,http://www.w3.org/2000/01/rdf-schema#Class,,LifeCycle,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+lifeForm,Life Form,"General appearance. Characteristic mode of growth or occurrence associated to its environment, particularly for plants. Comprising its size, shape, texture and orientation.",,"Example: tree, shrubs, herbs.",http://www.w3.org/2000/01/rdf-schema#Class,,LifeForm,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Migratory,migratory,"The regular, usually seasonal, movement of all or part of an animal population of and from a given area, which can occur in variable periods of time and even involve more than one generation",,,http://www.w3.org/2000/01/rdf-schema#Class,,Migratory,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+miscDetails,miscellaneous details,Miscellaneus: notes attached to the taxon natural history information,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,NaturalHistory,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+MolecularData,molecular data,"Information on the chemical structures and biological processes at the molecular level: DNA and proteins sequences, protein structures, expression profiles of genes protein domains, families of genes, mutations, polymorphisms, involvement in disease, ...",,"Undeveloped. Placeholder for connecting with standards developed by specialists. For example, Standards for Data Exchange and Management from Scalalife (http://www.scalalife.eu/content/data)",http://www.w3.org/2000/01/rdf-schema#Class,,NaturalHistory,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+naturalHistoryUnstructured,unstructured natural history,NaturalHistory element in text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,NaturalHistory,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+NomenclatureAndClassificationUnstructured,Nomenclature and Classification Unstructured,"Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Reproduction,reproduction,All data related to the production of offspring.,,,http://www.w3.org/2000/01/rdf-schema#Class,,Reproduction,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+ecologicalSignificance,Ecological Significance,Ecological importance of the taxon. (Placeholder),,,http://www.w3.org/2000/01/rdf-schema#Class,,EcologicalSignificance,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+environmentalEnvelope,Environmental Envelope,"Set of environmental conditions within which it is believed that the species can persist; that is, where its environmental requirements can be satisfied",,,http://www.w3.org/2000/01/rdf-schema#Class,,NaturalHistory ,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+feeding,Feeding,Information related to the food supply for the development and sustenance of the individual and/or its offspring.,,,http://www.w3.org/2000/01/rdf-schema#Class,,Feeding,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+hierarchy,Hierarchy,Hierarchical categories. Modified from Linnean Core.,,Option: fill all or principal ranks and optionally provide keys.,http://www.w3.org/2000/01/rdf-schema#Class,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+detailUnstructured,Detail Unstructured,MiscDetail element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+detailAtomized,Atomized Detail,MiscDetail element in structured format ,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+synonyms,synonyms,Different names for this taxon.,,,http://www.w3.org/2000/01/rdf-schema#Class,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+PopulationBiologyAtomized,atomized population biology,Population biology data in structured form,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+populationBiologyUnstructured,unstructured population biology,Population biology data as a text block,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+BirthRate,Birth rate,Ratio of births to the total number of individuals in a population in a time period,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+NumberIndividualsPerObservation,Number individuals per observation,Mean number of individuals per observation event or unit ,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+AverageDensity,Average density,Average of the densities obtained for a population,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+PopulationTrend,Population trend,"Changes of a population over time and can include changes in  distribution, biogeography (e.g., size of population), life-history (e.g., birth and death rates), etc",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Recruitment,Recruitment,"Information on the process by which young individuals (e.g., seedlings, larvae, propagules) become part of the adult population. It can be rate, scale, a description, etc.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+PopulationGrowthRate,Population growth rate,"Growth rate of a population in a given time period, based on births, deaths, emigration and immigration",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Emigration,Emigration,Information on  individuals leaving a population,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Immigration,Immigration,Information on individuals entering a population,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+DescriptionLifeStages,Description life stages,Sex/age categories or life stages of a species; can be size in the case of plants,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+ProportionIndividualsPerStageLife,ProportionIndividuals per stage life,Percentage of individuals that belong to each life stage in a population,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+CarryingCapacity,Carrying capacity,Maximum population density possible as limited by the resources available for the population in the absence of predators and parasites,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+AbundanceData,AbundanceData,The relative representation of a species population in relation to other species or multiple species in a particular territory,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+DensityData,DensityData,Population size in relation to a defined space unit,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+PatternDistribution,Pattern distribution,The spatial arrangement of the individuals of a population in the territory it occupies,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Size,Size,Number of individual organisms in a population,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+SexRatio,SexRatio,Relative number of males to females in a population,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Fecundity,Fecundity,"In the context of a population, is the combined maximum potential of its individuals to produce offspring",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+MortalityRate,Mortality rate,Probability of dying; the ratio between the number of deaths in a given time interval to the number of subjects alive at the start of this interval,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+audiencesUnstructured,Unstructured Audiences,List audience codes separated by means of comma or /.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,RecordMetadata,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+language,Language,"The language of the taxon record, according to ISO 639.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,RecordMetadata,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+revision,revision,"Creators, revision status and dates of the record",,,http://www.w3.org/2000/01/rdf-schema#Class,,RecordMetadata,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+reproductionAtomized,atomized reproduction,Reproduction element in structured format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Reproduction,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+reproductionUnstructured,unstructured reproduction,Reproduction element in text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Reproduction,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+interactionUnstructured,Unstructured Interaction,interaction element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,Interactions,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+synonymsAtomized,atomized synonyms,list of synonyms in a structured format,,tsc:ScientificName,http://www.w3.org/2000/01/rdf-schema#Class,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+synonymsAtomizedType,synonyms Atomized Type,Type for atomized synonyms,,"Los ""Type"" los eliminamos ¿no? (FP)",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+synonymsType,synonyms type,"A type of sequence of sequences of zero or more Atomized and Unstructured synonyms, each one with their optional ancillary data",,"Los ""Type"" los eliminamos ¿no? (FP)",http://www.w3.org/2000/01/rdf-schema#Class,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+synonymsUnstructured,unstructured synonyms,list of synonyms elements in a text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+SynonymName ,Synonym name ,Scientific name of the synonym,,"tcs: ScientificName. An object that represents a single scientific biological name that either is, or appears to be, governed by one of the biological codes of nomenclature. These are not taxa. Taxa, whether accepted or not, are represented by TaxonConcept objects. Vernacular names are also dealt with under taxon concepts",http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+SynonymStatus,Synonym status,Nomenclatural Status,,dc:nomenclaturalStatus. http://rs.tdwg.org/dwc/terms/index.htm#nomenclaturalStatus,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+targetAudiences,target audiences,"Type of sequence of sequences of zero or more Atomized and Unstructured synonyms, each one with their optional ancillary data","Biodiversity researchers, teachers and students, decision makers, professionals from another areas and general public.",,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Audience,Audience,Repetitive concept where the target audiences are written one by one.,,Predetermined list: 01. Expert (High). 02. Knowledgeable (Medium). 03. General (Low).,http://www.w3.org/2004/02/skos/core#ConceptScheme,,RecordMetadata,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Keys,Keys,Dichotomic or multi-access key.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,TaxonomicDescription,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+keys,Keys,Dichotomic or multientrance keys.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,TaxonomicDescription,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+fullDescriptionAtomized,Atomized Full Description,fullDescription element in structured format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,TaxonomicDescription,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+fullDescriptionUnstructured,Unstructured Full Description,fullDescription element in text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,TaxonomicDescription,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+briefDescription,Brief Description,"Brief description which reflect only the diagnostic characters, i.e. those that distinguish a taxon from other related or close taxa.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,TaxonomicDescription,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+fullDescription,Full Description,"Complete and detailed account of the taxonomic and systematic characters, i.e. those that define and allow to recognize an organism.",,,http://www.w3.org/2000/01/rdf-schema#Class,,TaxonomicDescription,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+taxonomicDescriptionUnstructured,unstructured taxonomic description,TaxonomicDescription element in text block format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,TaxonomicDescription,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+BaseElements,Base Elements,Basic information to identify the record.,,,http://www.w3.org/2000/01/rdf-schema#Class,,BaseElements,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+demographyAndThreat,Demography And Threat,"Information concerning the demographic aspects of the species, as well as the conservation status",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+habitatAndDistribution,Habitat And Distribution,Distribution of the species,,,http://www.w3.org/2000/01/rdf-schema#Class,,HabitatAndDistribution,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+identificationKeys,Identification Keys,"Tool for the identification of organisms, comprising a series of steps, each of which represents a question about one or more characters of the organism. Each step offers multiple alternatives, choosing one of them will lead us to the next step until ending, finally, in the name of the organism.",,"Most printed keys have only two alternatives, so called dichotomous keys. A taxon includes a key or an identification of key in the subordinate taxons. If we are in a register of a genre, this register would include the keys of the species that this register includes, and if itÂ´s one specie, then it would include the key of the infraspecific rank (For plants: subspecies, variety forms)",http://www.w3.org/2000/01/rdf-schema#Class,,TaxonomicDescription,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+invasiveness,Invasiveness,"Information about invasive exotic species that could threaten to ecosystem, habitats and species",,,http://www.w3.org/2000/01/rdf-schema#Class,,Invasiveness,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+NaturalHistory,natural history,"Relevant descriptive information about the species: Life Form, Life Cycle, Reproduction, Annual Cycles, Feeding, Dispersal, Behavior, Interactions, Molecular Data, Migratory, Ecological Significance, Miscellaneous Details, Environmental Envelope and Ancillary Data.",,,http://www.w3.org/2000/01/rdf-schema#Class,,NaturalHistory,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+RecordMetadata,record metadata,"This element includes the information about the Version, Revision,the language and target audiences of the Taxon Record.",,,http://www.w3.org/2000/01/rdf-schema#Class,,RecordMetadata,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+taxonomicalDescription,taxonomic description,Description of Taxon,,"Description of Taxon: Brief description, Full description, Identification keys and Ancillary Data",http://www.w3.org/2000/01/rdf-schema#Class,,TaxonomicDescription,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+territoryUnstructured,unstructured territory,"Information associated mostly to vertebrates, referring to the territorial extension of the individual or group in terms of its activities (feeding, mating, etc.). As a text block.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+ExtentOfOccurrence,Extent of occurrence,"Area contained within the shortest continuous imaginary boundary which can be drawn to encompass all the known, inferred or projected sites of present occurrence of a taxon, excluding cases of vagrancy.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+AreaOfOccupancy,Area of occupancy,"Area within its 'extent of occurrence' (see EOO) which is occupied by a taxon, excluding cases of vagrancy. The measure reflects the fact that a taxon will not usually occur throughout the area of its extent of occurrence, which may contain unsuitable or unoccupied habitats.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+directThreats,Direct Threats,"Direct threats are the proximate human activities or processes that have caused, are causing, or may cause the destruction, degradation, and/or impairment of biodiversity targets. Direct threats are synonymous with sources of stress and proximate pressures.",,"Examples: unsustainable fishing or logging. Threats can be past (historical), ongoing, and/or likely to occur in the future.",http://www.w3.org/2000/01/rdf-schema#Class,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+directThreatAtomized,Atomized Direct Threat,"directThreats element in structured format.
+",,,http://www.w3.org/2000/01/rdf-schema#Class,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+directThreatUnstructured,Unstructured Direct Threat,directThreats element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+threatStatusUnstructured,unstructured threat status,Information about the status of the taxon.As a text block.,,,http://www.w3.org/2000/01/rdf-schema#Class,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+threatStatusAtomized,threat Status Atomized,ThreatStatus element in structured format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+ThreatCategory,Threat category,Description of the conservation status.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Authority,Authority,Organism or institution that assess the status.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+AppliesTo,Applies to,Location where the status is used.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Strategy,Trophic Strategy,"Tactic used to obtain energy or nutrients. A controlled vocabulary is 
+recommended. e.g. Chemosynthetic organisms,Photosynthetic 
+organisms,Parasites,Decomposers,Suspension feeders,Substrate feeders, 
+Grazers,Fluid-feeders,Predators...",,,http://www.w3.org/2004/02/skos/core#ConceptScheme,,Feeding,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+StrategyRemarks,Trophic Strategy Remarks,Information notes about specific feeding strategies.,,,http://www.w3.org/2004/02/skos/core#ConceptScheme,,Feeding,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+usesAtomized,uses atomized ,"Ways in which species are utilized by people, including Folklore. Also applied to Animals and Fungi.",,,http://www.w3.org/2000/01/rdf-schema#Class,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+usesUnstructured,unstructured uses,Uses in a unstructured format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+SourceOfInformation,Source Of Information,"Where does the observation come from? Reference citations should be given. Where appropriate, voucher specimen details should be provided (collector, number, date, herbarium) as well as details of the recorded informant (name, gender, approximate age, occupation, ethnic identity, locality and spoken language).",,,http://www.w3.org/2000/01/rdf-schema#Class,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Use-Value,Use-Value,"What is the plant used for, or what negative values does it have.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+PartUsed,Part Used,"Acc. TDWG Economic Botany. Which plant parts are used, or have any negative values.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Users,Users,Acc. TDWG Economic Botany. The user group who recognizes the value and/or use of the plant.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Organisms,Organisms,Acc. TDWG Economic Botany. Organisms which use the plant/plant parts.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+VernacularNameUseAnnotations,Vernacular Name Use Annotations,"Acc. TDWG Economic Botany. The name of the taxon must be distinguished from the name of theplant parts, the names of any processing stages, and the final product name. Names used in trade should be identified. It should also be mentioned if any vernacular name refers to more than one taxon. The use of some names may be restricted to a time of year or occasion, or have sacred connotations. The language or dialect to which the names belong should be stated along with details of the ethnic group. Care should be taken with transliteration into the Roman alphabet; if a standard system exists, use it and note which one it is.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+ProductionDetails,Production Details,"Definition:        Acc. TDWG Economic Botany. (where relevant). Give details of protection, cultivation, harvesting, yields, processing and storage methods used and take note of special tools, timing etc.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+MeansOfApplication-Administration,Means Of Application-Administration,"Acc. TDWG Economic Botany. This is specific relevant for medicines, poisons .",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+SeasonOfAvailability-Use,Season Of Availability-Use,"Acc. TDWG Economic Botany. The season in which the plant is available/is used and, if relevant, the time of day.",,,http://www.w3.org/2000/01/rdf-schema#Class,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Conservation-ExplotationData,Conservation-Explotation Data,"Acc. TDWG Economic Botany. Frequency record of plants, details of regeneration, sustainability or over-exploitation and any locally imposed bans on felling or harvesting.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+UseTypeAtomized,Use Type Atomized,"Acc. TDWG Economic Botany. Type of use: traditional, modern, industrial or just a possible use.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Economics,Economics,"Acc. TDWG Economic Botany. Real or potential existence of trade in live plants, plant parts or derivatives and, if so, the trade scale.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+RatingPopularity,Rating Popularity,"Acc. TDWG Economic Botany. Assessment of the plant for its use and possible preference to other species, pointing out, in this case, which species are they.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Properties,Properties,Acc. TDWG Economic Botany. Details of properties which influence its value for a specified purpose.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Potential,Potential,"Acc. TDWG Economic Botany. Potential increase in the use, cultivation or production or possibility of introduction in other areas or social groups.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+UseNotes,Use Notes,Notes about how species are utilized by people.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+managementAndConservationAtomized,Management And Conservation Atomized,Management: actions directed at conserving or restoring species / Conservation: interventions undertaken designed to preserve species in an structured manner,,,http://www.w3.org/2000/01/rdf-schema#Class,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+ManagementAndConservationType,Management And Conservation Type,Management: actions aimed at conserving or recovering species / Conservation: undertaken interventions designed to preserve species.,,,http://www.w3.org/2000/01/rdf-schema#Class,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Objetives,Objetives,Specific purposes of the management actions. Each objective must be separated by ;,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+ManagementPlan,Management Plan,plan guiding the overall management project.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+Actions,Actions,Individual tasks in which a management project can be atomized. Each action must be separated by ;,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+ActionsType,Actions Type,Each action must have one type. In the case that one action doesn't have type then put blank.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+HumanAndEnvironmentalrelevance,Human And Environmental Relevance,"Impact or value an species has either on the environment or on humans, and that justify management measures.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+usesManagementAndConservation,uses management and conservation,"Ways in which species are utilized by people, including Folklore.",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+usesManagementAndConservationUnstructured,uses management and conservation unstructured ,UsesManagementAndConservation element in text block format.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+managementAndConservation,Management And Conservation,Management: actions directed at conserving or restoring species / Conservation: interventions undertaken designed to preserve species.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+managementAndConservationUnstructured,Management And Conservation Unstructured,Management: actions directed at conserving or restoring species / Conservation: interventions undertaken designed to preserve species as a text block,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+uses,uses,Ways in which species are utilized by people,,,http://www.w3.org/2000/01/rdf-schema#Class,,UsesManagementAndConservation,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+taxonomicDescriptionType,taxonomic description type,"Brief description, Full description, Identification keys and Ancillary Data.",,"Los ""Type"" los eliminamos ¿no? (FP)","http://www.w3.org/2000/01/rdf-schema#Class
+",,TaxonomicDescription,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+taxonRecordName,taxon recordname,Complete information about the name of the taxon.,,tsc:ScientificName,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+territoryAtomized,territory atomized ,Territory element in structured format,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,DemographyAndThreat,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+value,value,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+version,version,Number and date of the current version.,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,RecordMetadata,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+id,id,,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+AncillaryData,Ancillary Data,"The AncillaryData element contains information that could be an image, an audio, a list of references, a list of agents, rights, licenses...related with the element it belongs.",AncillaryData should be information related with the element it belongs,eol:dataObjectBaseType,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,AncillaryData,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+dataObjectBaseType,AncillaryData,From EOL,,eol:dataObjectBaseType,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,AncillaryData,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+ScientificName,Scientific name,"Canonical name enforcing strict inclusion of only nomenclatural information - not taxonomic information. The name entered here must comply with rules and recommendations of the international nomenclatural code pertaining to the organisms (Zoological, Botanical, of Cultivated Pants, or Bacteriological).",,,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+ScientificName,Scientific Name,"Canonical name enforcing strict inclusion of only nomenclatural information - not taxonomic information. The name entered here must comply with rules and recommendations of the international nomenclatural code pertaining to the organisms (Zoological, Botanical, of Cultivated Pants, or Bacteriological).",,,http://www.w3.org/2000/01/rdf-schema#Class,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/
+NomenclatureAndClassification,,,,,http://www.w3.org/2000/01/rdf-schema#Class,,NomenclatureAndClassification,,,,plic,plic,http://rs.tdwg.org/plic/terms/

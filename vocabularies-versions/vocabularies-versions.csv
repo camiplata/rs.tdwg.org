@@ -1,4 +1,4 @@
-2021-04-15T20:25:16-06:00,version,version_issued,superseded,label,description,vocabulary,dc_creator,dcterms_license
+2021-05-13T19:52:56-06:00,version,version_issued,superseded,label,description,vocabulary,dc_creator,dcterms_license
 2020-01-27T09:17:01-06:00,http://rs.tdwg.org/version/ac/2013-10-28,2013-10-28,superseded,Audubon Core basic vocabulary,This vocabulary contains all Audubn Core terms,http://rs.tdwg.org/ac/,TDWG Multimedia Resources Task Group,http://creativecommons.org/licenses/by/4.0/
 2017-09-23T06:53:00-05:00,http://rs.tdwg.org/version/dwc/2008-11-19,2008-11-19,superseded,Darwin Core basic vocabulary,This vocabulary contains Darwin Core terms intended for use with literal values,http://rs.tdwg.org/dwc/,TDWG Darwin Core Task Group,http://creativecommons.org/licenses/by/4.0/
 2017-09-23T06:53:00-05:00,http://rs.tdwg.org/version/dwc/2009-01-18,2009-01-18,superseded,Darwin Core basic vocabulary,This vocabulary contains Darwin Core terms intended for use with literal values,http://rs.tdwg.org/dwc/,TDWG Darwin Core Task Group,http://creativecommons.org/licenses/by/4.0/
@@ -30,3 +30,4 @@
 2021-01-08T20:32:09-06:00,http://rs.tdwg.org/version/plic/2021-01-08,2021-01-08,recommended,test vocabulary,Test new vocabulary,http://rs.tdwg.org/test/,TDWG Test Task Group,http://creativecommons.org/licenses/by/4.0/
 2021-02-23T20:55:36-06:00,http://rs.tdwg.org/version/plic/2021-02-23,2021-02-23,recommended,label,description,vocabulary,dc_creator,dcterms_license
 recommended,http://rs.tdwg.org/version/plic/2021-04-15,2021-04-15,superseded,label,description,vocabulary,dc_creator,dcterms_license
+recommended,http://rs.tdwg.org/version/plic/2021-05-13,2021-05-13,superseded,label,description,vocabulary,dc_creator,dcterms_license
