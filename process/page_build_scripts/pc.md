@@ -68,6 +68,7 @@ Biodiversity Information Standards (TDWG).
 [plic:Dispersal](#plic_Dispersal) |
 [plic:EcologicalSignificance](#plic_EcologicalSignificance) |
 [plic:Endemic](#plic_Endemic) |
+[plic:EnvironmentalEnvelope](#plic_EnvironmentalEnvelope) |
 [plic:Feeding](#plic_Feeding) |
 [plic:FullDescription](#plic_FullDescription) |
 [plic:HabitatAndDistribution](#plic_HabitatAndDistribution) |
@@ -96,6 +97,7 @@ Biodiversity Information Standards (TDWG).
 [plic:SeasonOfAvailability-Use](#plic_SeasonOfAvailability-Use) |
 [plic:SourceOfInformation](#plic_SourceOfInformation) |
 [plic:SpeciesInteraction](#plic_SpeciesInteraction) |
+[plic:Synonyms](#plic_Synonyms) |
 [plic:TaxonRecord](#plic_TaxonRecord) |
 [plic:ThreatStatus](#plic_ThreatStatus) |
 [plic:Uses](#plic_Uses) |
@@ -103,8 +105,7 @@ Biodiversity Information Standards (TDWG).
 [plic:ancillaryData
 ](#plic_ancillaryData
 ) |
-[plic:environmentalEnvelope](#plic_environmentalEnvelope) |
-[plic:synonyms](#plic_synonyms) |
+[plic:associatedPartyType](#plic_associatedPartyType) |
 [plic:synonymsAtomized](#plic_synonymsAtomized) |
 [plic:synonymsType](#plic_synonymsType) |
 [plic:taxonomicalDescription](#plic_taxonomicalDescription) 
@@ -135,14 +136,15 @@ Biodiversity Information Standards (TDWG).
 **Nomenclature And Classification**
 
 [plic:Hierarchy](#plic_Hierarchy) |
+[plic:Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block.](#plic_Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block.) |
 [plic:Language](#plic_Language) |
 [plic:Name](#plic_Name) |
 [plic:NomenclatureAndClassification](#plic_NomenclatureAndClassification) |
-[plic:NomenclatureAndClassificationUnstructured](#plic_NomenclatureAndClassificationUnstructured) |
 [plic:ScientificName](#plic_ScientificName) |
 [plic:ScientificName](#plic_ScientificName) |
 [plic:SynonymName ](#plic_SynonymName ) |
 [plic:SynonymStatus](#plic_SynonymStatus) |
+[plic:Synonyms](#plic_Synonyms) |
 [plic:UsedBy](#plic_UsedBy) |
 [plic:UsedIn](#plic_UsedIn) |
 [plic:commonNames](#plic_commonNames) |
@@ -150,7 +152,6 @@ Biodiversity Information Standards (TDWG).
 [plic:commonNamesUnstructured](#plic_commonNamesUnstructured) |
 [plic:detailAtomized](#plic_detailAtomized) |
 [plic:detailUnstructured](#plic_detailUnstructured) |
-[plic:synonyms](#plic_synonyms) |
 [plic:synonymsAtomized](#plic_synonymsAtomized) |
 [plic:synonymsAtomizedType](#plic_synonymsAtomizedType) |
 [plic:synonymsType](#plic_synonymsType) |
@@ -257,7 +258,7 @@ Biodiversity Information Standards (TDWG).
 
 **Environmental Envelope**
 
-[plic:environmentalEnvelope](#plic_environmentalEnvelope) |
+[plic:EnvironmentalEnvelope](#plic_EnvironmentalEnvelope) |
 [plic:environmentalEnvelopeAtomized](#plic_environmentalEnvelopeAtomized) |
 [plic:environmentalEnvelopeUnstructured](#plic_environmentalEnvelopeUnstructured) 
 
@@ -411,6 +412,8 @@ Biodiversity Information Standards (TDWG).
 
 **Associated Party**
 
+[plic:associatedPartyType](#plic_associatedPartyType) 
+
 **References**
 
 **Ancillary Data**
@@ -424,7 +427,6 @@ Biodiversity Information Standards (TDWG).
 
 **Classes**
 
-[](#plic_NomenclatureAndClassification) |
 [Ancillary Data](#plic_ancillaryData
 ) |
 [Annual Cycle](#plic_AnnualCycles) |
@@ -438,7 +440,7 @@ Biodiversity Information Standards (TDWG).
 [Dispersal](#plic_Dispersal) |
 [Ecological Significance](#plic_EcologicalSignificance) |
 [Endemic](#plic_Endemic) |
-[Environmental Envelope](#plic_environmentalEnvelope) |
+[Environmental Envelope](#plic_EnvironmentalEnvelope) |
 [Feeding](#plic_Feeding) |
 [Full Description](#plic_FullDescription) |
 [Habitat And Distribution](#plic_HabitatAndDistribution) |
@@ -454,6 +456,7 @@ Biodiversity Information Standards (TDWG).
 [Management and Conservation Type](#plic_ManagementAndConservationType) |
 [Metadata](#plic_Metadata) |
 [Natural History](#plic_NaturalHistory) |
+[Nomenclature and Classification](#plic_NomenclatureAndClassification) |
 [Record Metadata](#plic_RecordMetadata) |
 [References](#plic_References) |
 [Revision](#plic_Revision) |
@@ -463,6 +466,7 @@ Biodiversity Information Standards (TDWG).
 [Species Interaction ](#plic_SpeciesInteraction) |
 [Taxon Record](#plic_TaxonRecord) |
 [Uses](#plic_Uses) |
+[associatedPartyType](#plic_associatedPartyType) |
 [atomized migratory](#plic_MigratoryAtomized) |
 [atomized synonyms](#plic_synonymsAtomized) |
 [dataset](#plic_Dataset) |
@@ -470,7 +474,7 @@ Biodiversity Information Standards (TDWG).
 [molecular data](#plic_MolecularData) |
 [population biology](#plic_PopulationBiology) |
 [reproduction](#plic_Reproduction) |
-[synonyms](#plic_synonyms) |
+[synonyms](#plic_Synonyms) |
 [synonyms type](#plic_synonymsType) |
 [taxonomic description](#plic_taxonomicalDescription) |
 [threat status](#plic_ThreatStatus) 
@@ -499,7 +503,6 @@ Biodiversity Information Standards (TDWG).
 
 **Nomenclature And Classification**
 
-[](#plic_NomenclatureAndClassification) |
 [Atomized Common Names](#plic_commonNamesAtomized) |
 [Atomized Detail](#plic_detailAtomized) |
 [Common Names](#plic_commonNames) |
@@ -507,7 +510,8 @@ Biodiversity Information Standards (TDWG).
 [Hierarchy](#plic_Hierarchy) |
 [Language](#plic_Language) |
 [Name](#plic_Name) |
-[Nomenclature and Classification Unstructured](#plic_NomenclatureAndClassificationUnstructured) |
+[Nomenclature and Classification](#plic_NomenclatureAndClassification) |
+[Nomenclature and Classification Unstructured](#plic_Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block.) |
 [Scientific Name](#plic_ScientificName) |
 [Scientific name](#plic_ScientificName) |
 [Synonym name ](#plic_SynonymName ) |
@@ -515,7 +519,7 @@ Biodiversity Information Standards (TDWG).
 [Used By](#plic_UsedBy) |
 [Used In](#plic_UsedIn) |
 [atomized synonyms](#plic_synonymsAtomized) |
-[synonyms](#plic_synonyms) |
+[synonyms](#plic_Synonyms) |
 [synonyms Atomized Type](#plic_synonymsAtomizedType) |
 [synonyms type](#plic_synonymsType) |
 [target audiences](#plic_targetAudiences) |
@@ -621,7 +625,7 @@ Biodiversity Information Standards (TDWG).
 **Environmental Envelope**
 
 [Atomized Environmental Envelope](#plic_environmentalEnvelopeAtomized) |
-[Environmental Envelope](#plic_environmentalEnvelope) |
+[Environmental Envelope](#plic_EnvironmentalEnvelope) |
 [Unstructured Environmental Envelope](#plic_environmentalEnvelopeUnstructured) 
 
 **Natural History Unstructured**
@@ -672,8 +676,7 @@ Biodiversity Information Standards (TDWG).
 [Endemic](#plic_Endemic) |
 [Endemic In](#plic_EndemicIn) |
 [Endemic To](#plic_EndemicTo) |
-[Geographic Entity](#plic_geographicEntity
-) |
+[Geographic Entity](#plic_GeographicEntity) |
 [Habitat And Distribution](#plic_HabitatAndDistribution) |
 [Habitats](#plic_Habitats) |
 [Locality](#plic_locality) |
@@ -770,6 +773,8 @@ Biodiversity Information Standards (TDWG).
 [Vernacular Name Use Annotations](#plic_VernacularNameUseAnnotations) 
 
 **Associated Party**
+
+[associatedPartyType](#plic_associatedPartyType) 
 
 **References**
 
@@ -1018,7 +1023,7 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>From EOL</td>
+			<td>From EOL. It represents the references that an element could have, in one or more of the different format and schemas: BICI, CODEN,DOI, EISSN, HANDLE, ISBN, ISSN, LSID, OCLC, SICI, URL, URN</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -1461,6 +1466,40 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 <table>
 	<thead>
 		<tr>
+			<th colspan="2"><a id="plic_Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block."></a>Term Name  plic:Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block.</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block.">http://rs.tdwg.org/plic/terms/Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block.</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2021-05-17</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block.-2021-05-17">http://rs.tdwg.org/plic/terms/version/Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block.-2021-05-17</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Nomenclature and Classification Unstructured</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data.</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Property</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
 			<th colspan="2"><a id="plic_Language"></a>Term Name  plic:Language</th>
 		</tr>
 	</thead>
@@ -1551,49 +1590,15 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td></td>
+			<td>Nomenclature and Classification</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td></td>
+			<td>Structured Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
 			<td>Class</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="plic_NomenclatureAndClassificationUnstructured"></a>Term Name  plic:NomenclatureAndClassificationUnstructured</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/NomenclatureAndClassificationUnstructured">http://rs.tdwg.org/plic/terms/NomenclatureAndClassificationUnstructured</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2021-05-17</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/NomenclatureAndClassificationUnstructured-2021-05-17">http://rs.tdwg.org/plic/terms/version/NomenclatureAndClassificationUnstructured-2021-05-17</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Nomenclature and Classification Unstructured</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data.</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -1738,6 +1743,40 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		<tr>
 			<td>Type</td>
 			<td>Property</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="plic_Synonyms"></a>Term Name  plic:Synonyms</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Synonyms">http://rs.tdwg.org/plic/terms/Synonyms</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2021-05-17</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Synonyms-2021-05-17">http://rs.tdwg.org/plic/terms/version/Synonyms-2021-05-17</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>synonyms</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Different names for this taxon.</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -1987,40 +2026,6 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		<tr>
 			<td>Type</td>
 			<td>Property</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="plic_synonyms"></a>Term Name  plic:synonyms</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/synonyms">http://rs.tdwg.org/plic/terms/synonyms</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2021-05-17</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/synonyms-2021-05-17">http://rs.tdwg.org/plic/terms/version/synonyms-2021-05-17</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>synonyms</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>Different names for this taxon.</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -3545,11 +3550,16 @@ The permanent spreading of individuals away from each other not including return
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Primary diet source. A controlled vocabulary is recommended.</td>
+			<td>VCR. Zoochory, Anemochory, Hydrochory, Barochory, Autochory.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Type of dispersal, a controlled vocabulary is recommended.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>http://www.w3.org/2004/02/skos/core#ConceptScheme
+</td>
 		</tr>
 	</tbody>
 </table>
@@ -3579,16 +3589,11 @@ The permanent spreading of individuals away from each other not including return
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>VCR. Zoochory, Anemochory, Hydrochory, Barochory, Autochory.</td>
-		</tr>
-		<tr>
-			<td>Notes</td>
-			<td>Type of dispersal, a controlled vocabulary is recommended.</td>
+			<td>Primary diet source. A controlled vocabulary is recommended.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>http://www.w3.org/2004/02/skos/core#ConceptScheme
-</td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -4377,13 +4382,13 @@ Miscellaneous: notes attached to the natural history information of the taxon
 Set of environmental conditions within which it is believed that the species can persist; i.e. where its environmental requirements can be satisfied.<table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="plic_environmentalEnvelope"></a>Term Name  plic:environmentalEnvelope</th>
+			<th colspan="2"><a id="plic_EnvironmentalEnvelope"></a>Term Name  plic:EnvironmentalEnvelope</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/environmentalEnvelope">http://rs.tdwg.org/plic/terms/environmentalEnvelope</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/EnvironmentalEnvelope">http://rs.tdwg.org/plic/terms/EnvironmentalEnvelope</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
@@ -4391,7 +4396,7 @@ Set of environmental conditions within which it is believed that the species can
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/environmentalEnvelope-2021-05-17">http://rs.tdwg.org/plic/terms/version/environmentalEnvelope-2021-05-17</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/EnvironmentalEnvelope-2021-05-17">http://rs.tdwg.org/plic/terms/version/EnvironmentalEnvelope-2021-05-17</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5059,7 +5064,7 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Controlled vocabulary: State/Province, County, Postal code, Watershed, Unknown.</td>
+			<td>Term borroewed from GISIN. An indication of the scope of the place referred under LocalityName. </td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5636,12 +5641,8 @@ e.g. Historical, Current, Restricted and Wide.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>A controlled vocabulary is recommended. VCR: Historical, Current, Restricted and Wide.
+			<td>Categorization of scope qualifying the distribution presented in time (e.g. "prior 1900", "current", "projected", "winter"), in space (e.g. "in the Canary Islands", "Boreal"), by biological activity (e.g., "foraging distribution", "reproductive area"), or any other criteria . A controled vocabulary is recommended. 
 </td>
-		</tr>
-		<tr>
-			<td>Notes</td>
-			<td>XXXXX, a controlled vocabulary is recommended.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -9082,7 +9083,45 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 
 ### 4.22 Associated Party
 
-A party associated with the resource. Parties have particular role. (EML-RESOURCE)
+A party associated with the resource. Parties have particular role. (EML-RESOURCE)<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="plic_associatedPartyType"></a>Term Name  plic:associatedPartyType</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/associatedPartyType">http://rs.tdwg.org/plic/terms/associatedPartyType</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2021-05-17</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/associatedPartyType-2021-05-17">http://rs.tdwg.org/plic/terms/version/associatedPartyType-2021-05-17</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>associatedPartyType</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Term borrowed from EML. This element provides the full name of other people, organizations, or positions who should be associated with the resource. </td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td><a href="https://eml.ecoinformatics.org/schema/eml-resource_xsd.html#ResourceGroup_associatedParty">https://eml.ecoinformatics.org/schema/eml-resource_xsd.html#ResourceGroup_associatedParty</a></td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+	</tbody>
+</table>
+
+
 ### 4.23 References
 
 It represents the references that an element could have, in different formats
