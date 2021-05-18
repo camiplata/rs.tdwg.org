@@ -133,15 +133,15 @@ http://rs.tdwg.org/plic/terms/version/Migratory-2021-05-17,Migratory
 http://rs.tdwg.org/plic/terms/version/miscDetails-2021-05-17,miscDetails
 http://rs.tdwg.org/plic/terms/version/MolecularData-2021-05-17,MolecularData
 http://rs.tdwg.org/plic/terms/version/NaturalHistoryUnstructured-2021-05-17,NaturalHistoryUnstructured
-http://rs.tdwg.org/plic/terms/version/NomenclatureAndClassificationUnstructured-2021-05-17,NomenclatureAndClassificationUnstructured
+"http://rs.tdwg.org/plic/terms/version/Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block.-2021-05-17","Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block."
 http://rs.tdwg.org/plic/terms/version/Reproduction-2021-05-17,Reproduction
 http://rs.tdwg.org/plic/terms/version/EcologicalSignificance-2021-05-17,EcologicalSignificance
-http://rs.tdwg.org/plic/terms/version/environmentalEnvelope-2021-05-17,environmentalEnvelope
+http://rs.tdwg.org/plic/terms/version/EnvironmentalEnvelope-2021-05-17,EnvironmentalEnvelope
 http://rs.tdwg.org/plic/terms/version/Feeding-2021-05-17,Feeding
 http://rs.tdwg.org/plic/terms/version/Hierarchy-2021-05-17,Hierarchy
 http://rs.tdwg.org/plic/terms/version/detailUnstructured-2021-05-17,detailUnstructured
 http://rs.tdwg.org/plic/terms/version/detailAtomized-2021-05-17,detailAtomized
-http://rs.tdwg.org/plic/terms/version/synonyms-2021-05-17,synonyms
+http://rs.tdwg.org/plic/terms/version/Synonyms-2021-05-17,Synonyms
 http://rs.tdwg.org/plic/terms/version/PopulationBiologyAtomized-2021-05-17,PopulationBiologyAtomized
 http://rs.tdwg.org/plic/terms/version/populationBiologyUnstructured-2021-05-17,populationBiologyUnstructured
 http://rs.tdwg.org/plic/terms/version/BirthRate-2021-05-17,BirthRate
@@ -245,3 +245,4 @@ http://rs.tdwg.org/plic/terms/version/dataObjectBaseType-2021-05-17,dataObjectBa
 http://rs.tdwg.org/plic/terms/version/ScientificName-2021-05-17,ScientificName
 http://rs.tdwg.org/plic/terms/version/ScientificName-2021-05-17,ScientificName
 http://rs.tdwg.org/plic/terms/version/NomenclatureAndClassification-2021-05-17,NomenclatureAndClassification
+http://rs.tdwg.org/plic/terms/version/associatedPartyType-2021-05-17,associatedPartyType
