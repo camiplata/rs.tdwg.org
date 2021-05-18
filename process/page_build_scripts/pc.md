@@ -409,7 +409,7 @@ Biodiversity Information Standards (TDWG).
 [plic:UsesUnstructured](#plic_UsesUnstructured) |
 [plic:VernacularNameUseAnnotations](#plic_VernacularNameUseAnnotations) 
 
-**associated Party**
+**Associated Party**
 
 **References**
 
@@ -769,7 +769,7 @@ Biodiversity Information Standards (TDWG).
 [Uses Management and Conservation Unstructured ](#plic_UsesManagementAndConservationUnstructured) |
 [Vernacular Name Use Annotations](#plic_VernacularNameUseAnnotations) 
 
-**associated Party**
+**Associated Party**
 
 **References**
 
@@ -9080,7 +9080,7 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 </table>
 
 
-### 4.22 associated Party
+### 4.22 Associated Party
 
 A party associated with the resource. Parties have particular role. (EML-RESOURCE)
 ### 4.23 References
