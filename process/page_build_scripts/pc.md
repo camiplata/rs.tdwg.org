@@ -136,10 +136,10 @@ Biodiversity Information Standards (TDWG).
 **Nomenclature And Classification**
 
 [plic:Hierarchy](#plic_Hierarchy) |
-[plic:Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block.](#plic_Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block.) |
 [plic:Language](#plic_Language) |
 [plic:Name](#plic_Name) |
 [plic:NomenclatureAndClassification](#plic_NomenclatureAndClassification) |
+[plic:NomenclatureAndClassificationUnstructured](#plic_NomenclatureAndClassificationUnstructured) |
 [plic:ScientificName](#plic_ScientificName) |
 [plic:ScientificName](#plic_ScientificName) |
 [plic:SynonymName ](#plic_SynonymName ) |
@@ -511,7 +511,7 @@ Biodiversity Information Standards (TDWG).
 [Language](#plic_Language) |
 [Name](#plic_Name) |
 [Nomenclature and Classification](#plic_NomenclatureAndClassification) |
-[Nomenclature and Classification Unstructured](#plic_Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block.) |
+[Nomenclature and Classification Unstructured](#plic_NomenclatureAndClassificationUnstructured) |
 [Scientific Name](#plic_ScientificName) |
 [Scientific name](#plic_ScientificName) |
 [Synonym name ](#plic_SynonymName ) |
@@ -1466,40 +1466,6 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="plic_Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block."></a>Term Name  plic:Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block.</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block.">http://rs.tdwg.org/plic/terms/Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block.</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2021-05-17</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block.-2021-05-17">http://rs.tdwg.org/plic/terms/version/Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data in a text block.-2021-05-17</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Nomenclature and Classification Unstructured</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data.</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Property</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
 			<th colspan="2"><a id="plic_Language"></a>Term Name  plic:Language</th>
 		</tr>
 	</thead>
@@ -1599,6 +1565,40 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		<tr>
 			<td>Type</td>
 			<td>Class</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="plic_NomenclatureAndClassificationUnstructured"></a>Term Name  plic:NomenclatureAndClassificationUnstructured</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/NomenclatureAndClassificationUnstructured">http://rs.tdwg.org/plic/terms/NomenclatureAndClassificationUnstructured</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2021-05-17</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/NomenclatureAndClassificationUnstructured-2021-05-17">http://rs.tdwg.org/plic/terms/version/NomenclatureAndClassificationUnstructured-2021-05-17</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Nomenclature and Classification Unstructured</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data.</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
