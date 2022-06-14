@@ -1248,8 +1248,7 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Equivalent XPath</td>
-			<td>/root/something/more
-/root/something/else</td>
+			<td>/root/something/more<br/>/root/something/else</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5461,8 +5460,7 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Equivalent XPath</td>
-			<td>/root/other/a
-/root/other/b</td>
+			<td>/root/other/a<br/>/root/other/b</td>
 		</tr>
 		<tr>
 			<td>Type</td>
