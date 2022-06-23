@@ -16,4 +16,3 @@ notes,dcterms:description,language,,en,$root
 examples,skos:example,language,,en,$root
 type,rdf:type,iri,,,$root
 tdwgutility_organizedInClass,tdwgutility:organizedInClass,iri,,,$root
-equivalentXPath,tdwgutility:equivalentXPath,plain,,,$root
