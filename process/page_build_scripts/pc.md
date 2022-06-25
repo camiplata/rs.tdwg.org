@@ -57,6 +57,7 @@ Biodiversity Information Standards (TDWG).
 
 **Classes**
 
+[plic:AncillaryData](#plic_AncillaryData) |
 [plic:AnnualCycleAtomized](#plic_AnnualCycleAtomized) |
 [plic:AnnualCycles](#plic_AnnualCycles) |
 [plic:BaseElements](#plic_BaseElements) |
@@ -94,7 +95,6 @@ Biodiversity Information Standards (TDWG).
 [plic:Reproduction](#plic_Reproduction) |
 [plic:Revision](#plic_Revision) |
 [plic:ScientificName](#plic_ScientificName) |
-[plic:ScientificName](#plic_ScientificName) |
 [plic:SeasonOfAvailability-Use](#plic_SeasonOfAvailability-Use) |
 [plic:SourceOfInformation](#plic_SourceOfInformation) |
 [plic:SpeciesInteraction](#plic_SpeciesInteraction) |
@@ -103,10 +103,9 @@ Biodiversity Information Standards (TDWG).
 [plic:ThreatStatus](#plic_ThreatStatus) |
 [plic:Uses](#plic_Uses) |
 [plic:UsesAtomized](#plic_UsesAtomized) |
-[plic:ancillaryData
-](#plic_ancillaryData
-) |
-[plic:associatedPartyType](#plic_associatedPartyType) |
+[plic:UsesManagementAndConservation](#plic_UsesManagementAndConservation) |
+[plic:associatedParty](#plic_associatedParty) |
+[plic:citation](#plic_citation) |
 [plic:synonymsAtomized](#plic_synonymsAtomized) |
 [plic:synonymsType](#plic_synonymsType) |
 [plic:taxonomicalDescription](#plic_taxonomicalDescription) 
@@ -123,13 +122,10 @@ Biodiversity Information Standards (TDWG).
 [plic:Revision](#plic_Revision) |
 [plic:TaxonRecord](#plic_TaxonRecord) |
 [plic:abstract](#plic_abstract) |
-[plic:ancillaryData
-](#plic_ancillaryData
-) |
 [plic:audiencesUnstructured](#plic_audiencesUnstructured) |
+[plic:citation](#plic_citation) |
 [plic:created](#plic_created) |
 [plic:dateStamp](#plic_dateStamp) |
-[plic:language](#plic_language) |
 [plic:language](#plic_language) |
 [plic:resourceLogoUrl](#plic_resourceLogoUrl) |
 [plic:taxonRecordID](#plic_taxonRecordID) |
@@ -182,8 +178,6 @@ Biodiversity Information Standards (TDWG).
 
 [plic:LifeCycle](#plic_LifeCycle) |
 [plic:lifeCycleAtomized](#plic_lifeCycleAtomized) |
-[plic:lifeCycleUnstructured](#plic_lifeCycleUnstructured) |
-[plic:lifeFormAtomized](#plic_lifeFormAtomized) |
 [plic:lifeFormUnstructured](#plic_lifeFormUnstructured) 
 
 **Reproduction**
@@ -197,15 +191,16 @@ Biodiversity Information Standards (TDWG).
 [plic:AnnualCycleAtomized](#plic_AnnualCycleAtomized) |
 [plic:AnnualCycleUnstructured](#plic_AnnualCycleUnstructured) |
 [plic:AnnualCycles](#plic_AnnualCycles) |
-[plic:EndTimeInterval ](#plic_EndTimeInterval ) |
+[plic:EndTimeInterval](#plic_EndTimeInterval) |
 [plic:Event](#plic_Event) |
 [plic:StartTimeInterval](#plic_StartTimeInterval) 
 
 **Feeding**
 
 [plic:Feeding](#plic_Feeding) |
-[plic:Strategy](#plic_Strategy) |
-[plic:StrategyRemarks](#plic_StrategyRemarks) |
+[plic:TrophicStrategy](#plic_TrophicStrategy) |
+[plic:TrophicStrategyRemarks](#plic_TrophicStrategyRemarks) |
+[plic:Type](#plic_Type) |
 [plic:feedingAtomized](#plic_feedingAtomized) |
 [plic:feedingUnstructured](#plic_feedingUnstructured) 
 
@@ -216,8 +211,6 @@ Biodiversity Information Standards (TDWG).
 [plic:Distance](#plic_Distance) |
 [plic:Purpose](#plic_Purpose) |
 [plic:StructureDispersed](#plic_StructureDispersed) |
-[plic:Type](#plic_Type) |
-[plic:Type](#plic_Type) |
 [plic:Type](#plic_Type) 
 
 **Behavior**
@@ -228,9 +221,9 @@ Biodiversity Information Standards (TDWG).
 
 **Interactions**
 
-[plic:InteractionSpeciesType](#plic_InteractionSpeciesType) |
 [plic:Interactions](#plic_Interactions) |
 [plic:SpeciesInteraction](#plic_SpeciesInteraction) |
+[plic:SpeciesInteractionType](#plic_SpeciesInteractionType) |
 [plic:interactionAtomized](#plic_interactionAtomized) |
 [plic:interactionUnstructured](#plic_interactionUnstructured) 
 
@@ -276,7 +269,6 @@ Biodiversity Information Standards (TDWG).
 [plic:citation](#plic_citation) |
 [plic:countryCode](#plic_countryCode) |
 [plic:county](#plic_county) |
-[plic:county](#plic_county) |
 [plic:distribution](#plic_distribution) |
 [plic:endValidDate](#plic_endValidDate) |
 [plic:harmful](#plic_harmful) |
@@ -284,6 +276,7 @@ Biodiversity Information Standards (TDWG).
 [plic:impactTarget](#plic_impactTarget) |
 [plic:invasivenessAtomized](#plic_invasivenessAtomized) |
 [plic:invasivenessUnstructured](#plic_invasivenessUnstructured) |
+[plic:language](#plic_language) |
 [plic:localityName](#plic_localityName) |
 [plic:localityType](#plic_localityType) |
 [plic:memo](#plic_memo) |
@@ -295,7 +288,6 @@ Biodiversity Information Standards (TDWG).
 [plic:rateOfSpread](#plic_rateOfSpread) |
 [plic:regulatoryListing](#plic_regulatoryListing) |
 [plic:startValidDate](#plic_startValidDate) |
-[plic:stateProvince](#plic_stateProvince) |
 [plic:stateProvince](#plic_stateProvince) |
 [plic:trend](#plic_trend) |
 [plic:vector](#plic_vector) 
@@ -315,16 +307,16 @@ Biodiversity Information Standards (TDWG).
 [plic:HabitatAndDistribution](#plic_HabitatAndDistribution) |
 [plic:Habitats](#plic_Habitats) |
 [plic:country](#plic_country) |
+[plic:county](#plic_county) |
 [plic:endemicAtomized](#plic_endemicAtomized) |
 [plic:endemicUnstructured](#plic_endemicUnstructured) |
-[plic:geographicEntity
-](#plic_geographicEntity
-) |
+[plic:geographicEntity](#plic_geographicEntity) |
 [plic:habitatAndDistributionUnstructured](#plic_habitatAndDistributionUnstructured) |
 [plic:habitatAtomized](#plic_habitatAtomized) |
 [plic:habitatUnstructured](#plic_habitatUnstructured) |
 [plic:locality](#plic_locality) |
 [plic:municipality](#plic_municipality) |
+[plic:stateProvince](#plic_stateProvince) |
 [plic:temporalCoverage](#plic_temporalCoverage) 
 
 **Demography And Threat**
@@ -366,6 +358,7 @@ Biodiversity Information Standards (TDWG).
 [plic:Status](#plic_Status) |
 [plic:ThreatCategory](#plic_ThreatCategory) |
 [plic:ThreatStatus](#plic_ThreatStatus) |
+[plic:Type](#plic_Type) |
 [plic:demographyAndThreat](#plic_demographyAndThreat) |
 [plic:demographyAndThreatUnstructured](#plic_demographyAndThreatUnstructured) |
 [plic:directThreatUnstructured](#plic_directThreatUnstructured) |
@@ -391,7 +384,7 @@ Biodiversity Information Standards (TDWG).
 [plic:ManagementAndConservationUnstructured](#plic_ManagementAndConservationUnstructured) |
 [plic:ManagementPlan](#plic_ManagementPlan) |
 [plic:MeansOfApplication-Administration](#plic_MeansOfApplication-Administration) |
-[plic:Objetives](#plic_Objetives) |
+[plic:Objectives](#plic_Objectives) |
 [plic:Organisms](#plic_Organisms) |
 [plic:PartUsed](#plic_PartUsed) |
 [plic:Potential](#plic_Potential) |
@@ -402,7 +395,7 @@ Biodiversity Information Standards (TDWG).
 [plic:SourceOfInformation](#plic_SourceOfInformation) |
 [plic:Use-Value](#plic_Use-Value) |
 [plic:UseNotes](#plic_UseNotes) |
-[plic:UseTypeAtomized](#plic_UseTypeAtomized) |
+[plic:UseType](#plic_UseType) |
 [plic:Users](#plic_Users) |
 [plic:Uses](#plic_Uses) |
 [plic:UsesAtomized](#plic_UsesAtomized) |
@@ -413,7 +406,7 @@ Biodiversity Information Standards (TDWG).
 
 **Associated Party**
 
-[plic:associatedPartyType](#plic_associatedPartyType) 
+[plic:associatedParty](#plic_associatedParty) 
 
 **References**
 
@@ -428,8 +421,8 @@ Biodiversity Information Standards (TDWG).
 
 **Classes**
 
-[Ancillary Data](#plic_ancillaryData
-) |
+[Ancillary Data](#plic_AncillaryData) |
+[Ancillary Data](#plic_citation) |
 [Annual Cycle](#plic_AnnualCycles) |
 [Atomized Annual Cycle](#plic_AnnualCycleAtomized) |
 [Atomized Direct Threat](#plic_DirectThreatAtomized) |
@@ -462,13 +455,13 @@ Biodiversity Information Standards (TDWG).
 [References](#plic_References) |
 [Revision](#plic_Revision) |
 [Scientific Name](#plic_ScientificName) |
-[Scientific Name](#plic_ScientificName) |
 [Season of Availability-Use](#plic_SeasonOfAvailability-Use) |
 [Source of Information](#plic_SourceOfInformation) |
 [Species Interaction ](#plic_SpeciesInteraction) |
 [Taxon Record](#plic_TaxonRecord) |
 [Uses](#plic_Uses) |
-[associatedPartyType](#plic_associatedPartyType) |
+[Uses Management and Conservation](#plic_UsesManagementAndConservation) |
+[associatedParty](#plic_associatedParty) |
 [atomized migratory](#plic_MigratoryAtomized) |
 [atomized synonyms](#plic_synonymsAtomized) |
 [dataset](#plic_Dataset) |
@@ -484,8 +477,7 @@ Biodiversity Information Standards (TDWG).
 **Metadata**
 
 [Abstract](#plic_abstract) |
-[Ancillary Data](#plic_ancillaryData
-) |
+[Ancillary Data](#plic_citation) |
 [Audience](#plic_Audience) |
 [Base Elements](#plic_BaseElements) |
 [Created](#plic_created) |
@@ -515,6 +507,7 @@ Biodiversity Information Standards (TDWG).
 [Nomenclature and Classification](#plic_NomenclatureAndClassification) |
 [Nomenclature and Classification Unstructured](#plic_NomenclatureAndClassificationUnstructured) |
 [Scientific Name](#plic_ScientificName) |
+[Scientific name](#plic_ScientificName) |
 [Synonym name ](#plic_SynonymName ) |
 [Synonym status](#plic_SynonymStatus) |
 [Used By](#plic_UsedBy) |
@@ -524,7 +517,7 @@ Biodiversity Information Standards (TDWG).
 [synonyms Atomized Type](#plic_synonymsAtomizedType) |
 [synonyms type](#plic_synonymsType) |
 [target audiences](#plic_targetAudiences) |
-[taxon recordname](#plic_taxonRecordName) |
+[taxon record name](#plic_taxonRecordName) |
 [unstructured common names](#plic_commonNamesUnstructured) |
 [unstructured synonyms](#plic_synonymsUnstructured) 
 
@@ -547,9 +540,7 @@ Biodiversity Information Standards (TDWG).
 **Life Cycle**
 
 [Atomized Life Cycle](#plic_lifeCycleAtomized) |
-[Atomized Life Form](#plic_lifeFormAtomized) |
 [Life Cycle](#plic_LifeCycle) |
-[Unstructured Life Cycle](#plic_lifeCycleUnstructured) |
 [Unstructured Life Form](#plic_lifeFormUnstructured) 
 
 **Reproduction**
@@ -562,7 +553,7 @@ Biodiversity Information Standards (TDWG).
 
 [Annual Cycle](#plic_AnnualCycles) |
 [Atomized Annual Cycle](#plic_AnnualCycleAtomized) |
-[End Time Interval](#plic_EndTimeInterval ) |
+[End Time Interval](#plic_EndTimeInterval) |
 [Event](#plic_Event) |
 [Start Time Interval](#plic_StartTimeInterval) |
 [Unstructured Annual Cycle](#plic_AnnualCycleUnstructured) 
@@ -571,8 +562,9 @@ Biodiversity Information Standards (TDWG).
 
 [Atomized Feeding](#plic_feedingAtomized) |
 [Feeding](#plic_Feeding) |
-[Trophic Strategy](#plic_Strategy) |
-[Trophic Strategy Remarks](#plic_StrategyRemarks) |
+[Trophic Strategy](#plic_TrophicStrategy) |
+[Trophic Strategy Remarks](#plic_TrophicStrategyRemarks) |
+[Type](#plic_Type) |
 [Unstructured Feeding](#plic_feedingUnstructured) 
 
 **Dispersal**
@@ -595,7 +587,7 @@ Biodiversity Information Standards (TDWG).
 [Atomized Interaction](#plic_interactionAtomized) |
 [Interactions](#plic_Interactions) |
 [Species Interaction ](#plic_SpeciesInteraction) |
-[Species Interaction Type](#plic_InteractionSpeciesType) |
+[Species Interaction Type](#plic_SpeciesInteractionType) |
 [Unstructured Interaction](#plic_interactionUnstructured) 
 
 **Molecular Data**
@@ -644,6 +636,7 @@ Biodiversity Information Standards (TDWG).
 [Impact Mechanism](#plic_impactMechanism) |
 [Impact Target](#plic_impactTarget) |
 [Invasiveness](#plic_Invasiveness) |
+[Language](#plic_language) |
 [Locality Name](#plic_localityName) |
 [Locality Type](#plic_localityType) |
 [Memo](#plic_memo) |
@@ -668,6 +661,7 @@ Biodiversity Information Standards (TDWG).
 [Atomized Endemic](#plic_endemicAtomized) |
 [Atomized Habitat](#plic_habitatAtomized) |
 [Country](#plic_country) |
+[County](#plic_county) |
 [Distribution](#plic_Distribution) |
 [Distribution Scope](#plic_DistributionScope) |
 [Distribution Scope Type](#plic_DistributionScopeType) |
@@ -675,11 +669,12 @@ Biodiversity Information Standards (TDWG).
 [Endemic](#plic_Endemic) |
 [Endemic In](#plic_EndemicIn) |
 [Endemic To](#plic_EndemicTo) |
-[Geographic Entity](#plic_GeographicEntity) |
+[Geographic Entity](#plic_geographicEntity) |
 [Habitat And Distribution](#plic_HabitatAndDistribution) |
 [Habitats](#plic_Habitats) |
 [Locality](#plic_locality) |
 [Municipality ](#plic_municipality) |
+[State Province ](#plic_stateProvince) |
 [Temporal Coverage](#plic_temporalCoverage) |
 [Unstructured Distribution](#plic_DistributionUnstructured) |
 [Unstructured Endemic](#plic_endemicUnstructured) |
@@ -723,6 +718,7 @@ Biodiversity Information Standards (TDWG).
 [Size](#plic_Size) |
 [Status](#plic_Status) |
 [Threat category](#plic_ThreatCategory) |
+[Type](#plic_Type) |
 [Unstructured Demography And Threat](#plic_demographyAndThreatUnstructured) |
 [Unstructured Direct Threat](#plic_directThreatUnstructured) |
 [Unstructured Legislation](#plic_legislationUnstructured) |
@@ -750,7 +746,7 @@ Biodiversity Information Standards (TDWG).
 [Management and Conservation Type](#plic_ManagementAndConservationType) |
 [Management and Conservation Unstructured](#plic_ManagementAndConservationUnstructured) |
 [Means of Application-Administration](#plic_MeansOfApplication-Administration) |
-[Objetives](#plic_Objetives) |
+[Objectives](#plic_Objectives) |
 [Organisms](#plic_Organisms) |
 [Part Used](#plic_PartUsed) |
 [Potential](#plic_Potential) |
@@ -761,7 +757,7 @@ Biodiversity Information Standards (TDWG).
 [Source of Information](#plic_SourceOfInformation) |
 [Unstructured Uses](#plic_UsesUnstructured) |
 [Use Notes](#plic_UseNotes) |
-[Use Type Atomized](#plic_UseTypeAtomized) |
+[Use Type](#plic_UseType) |
 [Use-Value](#plic_Use-Value) |
 [Users](#plic_Users) |
 [Uses](#plic_Uses) |
@@ -771,7 +767,7 @@ Biodiversity Information Standards (TDWG).
 
 **Associated Party**
 
-[associatedPartyType](#plic_associatedPartyType) 
+[associatedParty](#plic_associatedParty) 
 
 **References**
 
@@ -796,11 +792,11 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Audience-2022-06-14">http://rs.tdwg.org/plic/terms/version/Audience-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Audience-2022-06-24">http://rs.tdwg.org/plic/terms/version/Audience-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -813,6 +809,10 @@ Basic information to identify the record; basic information to identify the reco
 		<tr>
 			<td>Notes</td>
 			<td>Predetermined list: 01. Expert (High). 02. Knowledgeable (Medium). 03. General (Low).</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/AncillaryData/audience<br/>/AnnualCycleAtomized/AncillaryData/audience<br/>/AnnualCycles/AncillaryData/audience<br/>/AnnualCycles/AnnualCycleAtomized/AncillaryData/audience<br/>/Audience<br/>/Behavior/AncillaryData/audience<br/>/Behavior/BehaviorAtomized/AncillaryData/audience<br/>/BehaviorAtomized/AncillaryData/audience<br/>/CommonNames/AncillaryData/audience<br/>/CommonNames/CommonNamesAtomized/AncillaryData/audience<br/>/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/audience<br/>/CommonNamesAtomized/AncillaryData/audience<br/>/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/audience<br/>/Dataset/AncillaryData/audience<br/>/Dataset/TaxonRecord/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/DirectThreats/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/AncillaryData/audience<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/audience<br/>/Dataset/TaxonRecord/HabitatAndDistribution/AncillaryData/audience<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData/audience<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic/AncillaryData/audience<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Habitats/AncillaryData/audience<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/Invasiveness/AncillaryData/audience<br/>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/Behavior/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/Dispersal/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/EcologicalSignificance/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/Feeding/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/Interactions/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/LifeCycle/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/LifeForm/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/Migratory/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/MolecularData/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/Reproduction/AncillaryData/audience<br/>/Dataset/TaxonRecord/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/AncillaryData/audience<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/AncillaryData/audience<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/audience<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Hierarchy/AncillaryData/audience<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/AncillaryData/audience<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms/AncillaryData/audience<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/TaxonRecordName/AncillaryData/audience<br/>/Dataset/TaxonRecord/RecordMetadata/TargetAudiences/Audience<br/>/Dataset/TaxonRecord/TaxonomicDescription/AncillaryData/audience<br/>/Dataset/TaxonRecord/TaxonomicDescription/FullDescription/AncillaryData/audience<br/>/Dataset/TaxonRecord/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/TaxonomicDescription/IdentificationKeys/AncillaryData/audience<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/AncillaryData/audience<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/AncillaryData/audience<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/audience<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/AncillaryData/audience<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData/audience<br/>/DemographyAndThreat/AncillaryData/audience<br/>/DemographyAndThreat/DirectThreats/AncillaryData/audience<br/>/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData/audience<br/>/DemographyAndThreat/Legislation/AncillaryData/audience<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData/audience<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/audience<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/audience<br/>/DemographyAndThreat/Territory/AncillaryData/audience<br/>/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData/audience<br/>/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/audience<br/>/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/audience<br/>/DemographyAndThreat/ThreatStatus/AncillaryData/audience<br/>/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/audience<br/>/DetailAtomized/AncillaryData/audience<br/>/DirectThreatAtomized/AncillaryData/audience<br/>/DirectThreats/AncillaryData/audience<br/>/DirectThreats/DirectThreatAtomized/AncillaryData/audience<br/>/Dispersal/AncillaryData/audience<br/>/Dispersal/DispersalAtomized/AncillaryData/audience<br/>/DispersalAtomized/AncillaryData/audience<br/>/Distribution/DistributionScope/AncillaryData/audience<br/>/DistributionAtomized/AncillaryData/audience<br/>/EcologicalSignificance/AncillaryData/audience<br/>/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/audience<br/>/EcologicalSignificanceAtomized/AncillaryData/audience<br/>/Endemic/AncillaryData/audience<br/>/Endemic/EndemicAtomized/AncillaryData/audience<br/>/EndemicAtomized/AncillaryData/audience<br/>/EnvironmentalEnvelope/AncillaryData/audience<br/>/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/audience<br/>/EnvironmentalEnvelopeAtomized/AncillaryData/audience<br/>/Feeding/AncillaryData/audience<br/>/Feeding/FeedingAtomized/AncillaryData/audience<br/>/FeedingAtomized/AncillaryData/audience<br/>/FullDescription/AncillaryData/audience<br/>/FullDescription/FullDescriptionAtomized/AncillaryData/audience<br/>/FullDescriptionAtomized/AncillaryData/audience<br/>/HabitatAndDistribution/AncillaryData/audience<br/>/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData/audience<br/>/HabitatAndDistribution/Endemic/AncillaryData/audience<br/>/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData/audience<br/>/HabitatAndDistribution/Habitats/AncillaryData/audience<br/>/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData/audience<br/>/HabitatAtomized/AncillaryData/audience<br/>/Habitats/AncillaryData/audience<br/>/Habitats/HabitatAtomized/AncillaryData/audience<br/>/Hierarchy/AncillaryData/audience<br/>/IdentificationKeys/AncillaryData/audience<br/>/InteractionAtomized/AncillaryData/audience<br/>/Interactions/AncillaryData/audience<br/>/Interactions/InteractionAtomized/AncillaryData/audience<br/>/Invasiveness/AncillaryData/audience<br/>/Invasiveness/InvasivenessAtomized/AncillaryData/audience<br/>/InvasivenessAtomized/AncillaryData/audience<br/>/Legislation/AncillaryData/audience<br/>/Legislation/LegislationAtomized/AncillaryData/audience<br/>/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/audience<br/>/LegislationAtomized/AncillaryData/audience<br/>/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/audience<br/>/LifeCycle/AncillaryData/audience<br/>/LifeCycle/LifeCycleAtomized/AncillaryData/audience<br/>/LifeCycleAtomized/AncillaryData/audience<br/>/LifeForm/AncillaryData/audience<br/>/LifeForm/LifeFormAtomized/AncillaryData/audience<br/>/LifeFormAtomized/AncillaryData/audience<br/>/ManagementAndConservation/AncillaryData/audience<br/>/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/audience<br/>/ManagementAndConservationAtomized/AncillaryData/audience<br/>/Migratory/AncillaryData/audience<br/>/Migratory/MigratoryAtomized/AncillaryData/audience<br/>/MigratoryAtomized/AncillaryData/audience<br/>/MiscDetails/AncillaryData/audience<br/>/MiscDetails/DetailAtomized/AncillaryData/audience<br/>/MolecularData/AncillaryData/audience<br/>/MolecularData/MolecularDataAtomized/AncillaryData/audience<br/>/MolecularDataAtomized/AncillaryData/audience<br/>/NaturalHistory/AncillaryData/audience<br/>/NaturalHistory/AnnualCycles/AncillaryData/audience<br/>/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData/audience<br/>/NaturalHistory/Behavior/AncillaryData/audience<br/>/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData/audience<br/>/NaturalHistory/Dispersal/AncillaryData/audience<br/>/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData/audience<br/>/NaturalHistory/EcologicalSignificance/AncillaryData/audience<br/>/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/audience<br/>/NaturalHistory/EnvironmentalEnvelope/AncillaryData/audience<br/>/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/audience<br/>/NaturalHistory/Feeding/AncillaryData/audience<br/>/NaturalHistory/Feeding/FeedingAtomized/AncillaryData/audience<br/>/NaturalHistory/Interactions/AncillaryData/audience<br/>/NaturalHistory/Interactions/InteractionAtomized/AncillaryData/audience<br/>/NaturalHistory/LifeCycle/AncillaryData/audience<br/>/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData/audience<br/>/NaturalHistory/LifeForm/AncillaryData/audience<br/>/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData/audience<br/>/NaturalHistory/Migratory/AncillaryData/audience<br/>/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData/audience<br/>/NaturalHistory/MiscDetails/AncillaryData/audience<br/>/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData/audience<br/>/NaturalHistory/MolecularData/AncillaryData/audience<br/>/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData/audience<br/>/NaturalHistory/Reproduction/AncillaryData/audience<br/>/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData/audience<br/>/NomenclatureAndClassification/AncillaryData/audience<br/>/NomenclatureAndClassification/CommonNames/AncillaryData/audience<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData/audience<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/audience<br/>/NomenclatureAndClassification/Hierarchy/AncillaryData/audience<br/>/NomenclatureAndClassification/MiscDetails/AncillaryData/audience<br/>/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData/audience<br/>/NomenclatureAndClassification/Synonyms/AncillaryData/audience<br/>/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData/audience<br/>/NomenclatureAndClassification/TaxonRecordName/AncillaryData/audience<br/>/PopulationBiology/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/audience<br/>/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/audience<br/>/PopulationBiologyAtomized/AbundanceData/AncillaryData/audience<br/>/PopulationBiologyAtomized/AncillaryData/audience<br/>/PopulationBiologyAtomized/AverageDensity/AncillaryData/audience<br/>/PopulationBiologyAtomized/BirthRate/AncillaryData/audience<br/>/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/audience<br/>/PopulationBiologyAtomized/DensityData/AncillaryData/audience<br/>/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/audience<br/>/PopulationBiologyAtomized/Emigration/AncillaryData/audience<br/>/PopulationBiologyAtomized/Fecundity/AncillaryData/audience<br/>/PopulationBiologyAtomized/Immigration/AncillaryData/audience<br/>/PopulationBiologyAtomized/MortalityRate/AncillaryData/audience<br/>/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/audience<br/>/PopulationBiologyAtomized/PatternDistribution/AncillaryData/audience<br/>/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/audience<br/>/PopulationBiologyAtomized/PopulationTrend/AncillaryData/audience<br/>/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/audience<br/>/PopulationBiologyAtomized/Recruitment/AncillaryData/audience<br/>/PopulationBiologyAtomized/SexRatio/AncillaryData/audience<br/>/PopulationBiologyAtomized/Size/AncillaryData/audience<br/>/RecordMetadata/TargetAudiences/Audience<br/>/Reproduction/AncillaryData/audience<br/>/Reproduction/ReproductionAtomized/AncillaryData/audience<br/>/ReproductionAtomized/AncillaryData/audience<br/>/Synonyms/AncillaryData/audience<br/>/Synonyms/SynonymsAtomized/AncillaryData/audience<br/>/SynonymsAtomized/AncillaryData/audience<br/>/TargetAudiences/Audience<br/>/TaxonRecord/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/DirectThreats/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/Legislation/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/Territory/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/AncillaryData/audience<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/audience<br/>/TaxonRecord/HabitatAndDistribution/AncillaryData/audience<br/>/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData/audience<br/>/TaxonRecord/HabitatAndDistribution/Endemic/AncillaryData/audience<br/>/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData/audience<br/>/TaxonRecord/HabitatAndDistribution/Habitats/AncillaryData/audience<br/>/TaxonRecord/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData/audience<br/>/TaxonRecord/Invasiveness/AncillaryData/audience<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/Behavior/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/Dispersal/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/EcologicalSignificance/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/Feeding/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/Interactions/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/LifeCycle/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/LifeForm/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/Migratory/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/MiscDetails/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/MolecularData/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/Reproduction/AncillaryData/audience<br/>/TaxonRecord/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData/audience<br/>/TaxonRecord/NomenclatureAndClassification/AncillaryData/audience<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/AncillaryData/audience<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData/audience<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/audience<br/>/TaxonRecord/NomenclatureAndClassification/Hierarchy/AncillaryData/audience<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/AncillaryData/audience<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData/audience<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms/AncillaryData/audience<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData/audience<br/>/TaxonRecord/NomenclatureAndClassification/TaxonRecordName/AncillaryData/audience<br/>/TaxonRecord/RecordMetadata/TargetAudiences/Audience<br/>/TaxonRecord/TaxonomicDescription/AncillaryData/audience<br/>/TaxonRecord/TaxonomicDescription/FullDescription/AncillaryData/audience<br/>/TaxonRecord/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData/audience<br/>/TaxonRecord/TaxonomicDescription/IdentificationKeys/AncillaryData/audience<br/>/TaxonRecord/UsesManagementAndConservation/AncillaryData/audience<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/AncillaryData/audience<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/audience<br/>/TaxonRecord/UsesManagementAndConservation/Uses/AncillaryData/audience<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData/audience<br/>/TaxonRecordName/AncillaryData/audience<br/>/TaxonomicDescription/AncillaryData/audience<br/>/TaxonomicDescription/FullDescription/AncillaryData/audience<br/>/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData/audience<br/>/TaxonomicDescription/IdentificationKeys/AncillaryData/audience<br/>/Territory/AncillaryData/audience<br/>/Territory/TerritoryAtomized/AncillaryData/audience<br/>/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/audience<br/>/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/audience<br/>/TerritoryAtomized/AncillaryData/audience<br/>/TerritoryAtomized/AreaOfOccupancy/AncillaryData/audience<br/>/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/audience<br/>/ThreatStatus/AncillaryData/audience<br/>/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/audience<br/>/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/audience<br/>/Uses/AncillaryData/audience<br/>/Uses/UsesAtomized/AncillaryData/audience<br/>/UsesAtomized/AncillaryData/audience<br/>/UsesManagementAndConservation/AncillaryData/audience<br/>/UsesManagementAndConservation/ManagementAndConservation/AncillaryData/audience<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/audience<br/>/UsesManagementAndConservation/Uses/AncillaryData/audience<br/>/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData/audience</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -834,11 +834,11 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/BaseElements-2022-06-14">http://rs.tdwg.org/plic/terms/version/BaseElements-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/BaseElements-2022-06-24">http://rs.tdwg.org/plic/terms/version/BaseElements-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -847,6 +847,10 @@ Basic information to identify the record; basic information to identify the reco
 		<tr>
 			<td>Definition</td>
 			<td>Basic information to identify the record.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/BaseElements<br/>/Dataset/TaxonRecord/BaseElements<br/>/TaxonRecord/BaseElements</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -868,11 +872,11 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Dataset-2022-06-14">http://rs.tdwg.org/plic/terms/version/Dataset-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Dataset-2022-06-24">http://rs.tdwg.org/plic/terms/version/Dataset-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -885,6 +889,10 @@ Basic information to identify the record; basic information to identify the reco
 		<tr>
 			<td>Notes</td>
 			<td><a href="https://eml.ecoinformatics.org/schema/">https://eml.ecoinformatics.org/schema/</a></td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset<br/>/Dataset/Metadata/dataset<br/>/Metadata/dataset<br/>/dataset</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -906,11 +914,11 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Dataset_ID-2022-06-14">http://rs.tdwg.org/plic/terms/version/Dataset_ID-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Dataset_ID-2022-06-24">http://rs.tdwg.org/plic/terms/version/Dataset_ID-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -919,6 +927,10 @@ Basic information to identify the record; basic information to identify the reco
 		<tr>
 			<td>Definition</td>
 			<td>An identifier for the dataset.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/Metadata/Dataset_ID<br/>/Metadata/Dataset_ID</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -940,11 +952,11 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Metadata-2022-06-14">http://rs.tdwg.org/plic/terms/version/Metadata-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Metadata-2022-06-24">http://rs.tdwg.org/plic/terms/version/Metadata-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -953,6 +965,10 @@ Basic information to identify the record; basic information to identify the reco
 		<tr>
 			<td>Definition</td>
 			<td>Management: actions aimed at conserving or recovering species / Conservation: undertaken interventions designed to preserve species.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/Metadata<br/>/Metadata<br/>/additionalMetadata/metadata</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -974,11 +990,11 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/RecordMetadata-2022-06-14">http://rs.tdwg.org/plic/terms/version/RecordMetadata-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/RecordMetadata-2022-06-24">http://rs.tdwg.org/plic/terms/version/RecordMetadata-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -987,6 +1003,10 @@ Basic information to identify the record; basic information to identify the reco
 		<tr>
 			<td>Definition</td>
 			<td>This element includes the information about the Version, Revision,the language and target audiences of the Taxon Record.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/RecordMetadata<br/>/RecordMetadata<br/>/TaxonRecord/RecordMetadata</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1008,11 +1028,11 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/References-2022-06-14">http://rs.tdwg.org/plic/terms/version/References-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/References-2022-06-24">http://rs.tdwg.org/plic/terms/version/References-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1020,7 +1040,7 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Term borrowed from EOL. It represents the references that an element could have, in one or more of the different format and schemas: BICI, CODEN,DOI, EISSN, HANDLE, ISBN, ISSN, LSID, OCLC, SICI, URL, URN</td>
+			<td>Term borrowed from EOL (EOL: referenceType). It represents the references that an element could have, in one or more of the different format and schemas: BICI, CODEN,DOI, EISSN, HANDLE, ISBN, ISSN, LSID, OCLC, SICI, URL, URN</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -1028,7 +1048,7 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Equivalent XPath</td>
-			<td>/root/another</td>
+			<td>/Dataset/Metadata/References<br/>/Dataset/TaxonRecord/References<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/SourceOfInformation/References<br/>/Metadata/References<br/>/References<br/>/TaxonRecord/References<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/SourceOfInformation/References<br/>/Uses/UsesAtomized/SourceOfInformation/References<br/>/UsesAtomized/SourceOfInformation/References<br/>/UsesManagementAndConservation/Uses/UsesAtomized/SourceOfInformation/References</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1050,11 +1070,11 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Revision-2022-06-14">http://rs.tdwg.org/plic/terms/version/Revision-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Revision-2022-06-24">http://rs.tdwg.org/plic/terms/version/Revision-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1063,6 +1083,10 @@ Basic information to identify the record; basic information to identify the reco
 		<tr>
 			<td>Definition</td>
 			<td>Creators, revision status and dates of the record.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/RecordMetadata/Revision<br/>/RecordMetadata/Revision<br/>/Revision<br/>/TaxonRecord/RecordMetadata/Revision</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1084,11 +1108,11 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/TaxonRecord-2022-06-14">http://rs.tdwg.org/plic/terms/version/TaxonRecord-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/TaxonRecord-2022-06-24">http://rs.tdwg.org/plic/terms/version/TaxonRecord-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1097,6 +1121,10 @@ Basic information to identify the record; basic information to identify the reco
 		<tr>
 			<td>Definition</td>
 			<td>Container for all elements pertaining a certain view or instance of a taxon, for instance, Festuca glauca Vill. as in Flora iberica, or Panthera onca as in https://enciclovida.mx/especies/34460-panthera-onca.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord<br/>/TaxonRecord</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1118,11 +1146,11 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/abstract-2022-06-14">http://rs.tdwg.org/plic/terms/version/abstract-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/abstract-2022-06-24">http://rs.tdwg.org/plic/terms/version/abstract-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1130,57 +1158,19 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>A brief summary of the most relevant or attractive features of this taxón to the general public.  Could point to any kind of information. </td>
+			<td>A brief summary of the most relevant or attractive features of this taxon to the general public.  Could point to any kind of information. </td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Example: Blue whale is the largest mammal in the world.
-</td>
+			<td>Example: Blue whale is the largest mammal in the world. </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Abstract<br/>/BaseElements/Abstract<br/>/Dataset/Metadata/dataset/abstract<br/>/Dataset/TaxonRecord/BaseElements/Abstract<br/>/Metadata/dataset/abstract<br/>/TaxonRecord/BaseElements/Abstract<br/>/abstract<br/>/dataset/abstract</td>
 		</tr>
 		<tr>
 			<td>Type</td>
 			<td>Property</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="plic_ancillaryData
-"></a>Term Name  plic:ancillaryData
-</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/ancillaryData
-">http://rs.tdwg.org/plic/terms/ancillaryData
-</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-06-14</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ancillaryData
--2022-06-14">http://rs.tdwg.org/plic/terms/version/ancillaryData
--2022-06-14</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Ancillary Data</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>The AncillaryData element contains information that could be an image, an audio, a list of references, a list of agents, rights, licenses...related with the element that belongs. It`s a redefinition of DataObject element from EOL scheme.
-</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -1198,11 +1188,11 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/audiencesUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/audiencesUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/audiencesUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/audiencesUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1213,8 +1203,50 @@ Basic information to identify the record; basic information to identify the reco
 			<td>List audience codes separated by means of comma or /.</td>
 		</tr>
 		<tr>
+			<td>Equivalent XPath</td>
+			<td>/AudiencesUnstructured<br/>/Dataset/TaxonRecord/RecordMetadata/TargetAudiences/AudiencesUnstructured<br/>/RecordMetadata/TargetAudiences/AudiencesUnstructured<br/>/TargetAudiences/AudiencesUnstructured<br/>/TaxonRecord/RecordMetadata/TargetAudiences/AudiencesUnstructured</td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Property</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="plic_citation"></a>Term Name  plic:citation</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/citation">http://rs.tdwg.org/plic/terms/citation</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-06-24</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/citation-2022-06-24">http://rs.tdwg.org/plic/terms/version/citation-2022-06-24</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Ancillary Data</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>The AncillaryData element contains information that could be an image, an audio, a list of references, a list of agents, rights, licenses...related with the element that belongs. It's a redefinition of DataObject element from EOL scheme. </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/Metadata/citation<br/>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/citation<br/>/Invasiveness/InvasivenessAtomized/citation<br/>/InvasivenessAtomized/citation<br/>/Metadata/citation<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/citation<br/>/additionalMetadata/metadata/gbif/bibliography/citation<br/>/additionalMetadata/metadata/gbif/citation</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -1232,11 +1264,11 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/created-2022-06-14">http://rs.tdwg.org/plic/terms/version/created-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/created-2022-06-24">http://rs.tdwg.org/plic/terms/version/created-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1244,11 +1276,11 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The date on which the resource was created.</td>
+			<td>The date on which the resource was created. It is a DC term</td>
 		</tr>
 		<tr>
 			<td>Equivalent XPath</td>
-			<td>/root/something/more<br/>/root/something/else</td>
+			<td>/AncillaryData/created<br/>/AnnualCycleAtomized/AncillaryData/created<br/>/AnnualCycles/AncillaryData/created<br/>/AnnualCycles/AnnualCycleAtomized/AncillaryData/created<br/>/Behavior/AncillaryData/created<br/>/Behavior/BehaviorAtomized/AncillaryData/created<br/>/BehaviorAtomized/AncillaryData/created<br/>/CommonNames/AncillaryData/created<br/>/CommonNames/CommonNamesAtomized/AncillaryData/created<br/>/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/created<br/>/CommonNamesAtomized/AncillaryData/created<br/>/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/created<br/>/Dataset/AncillaryData/created<br/>/Dataset/TaxonRecord/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/DirectThreats/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/AncillaryData/created<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/created<br/>/Dataset/TaxonRecord/HabitatAndDistribution/AncillaryData/created<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData/created<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic/AncillaryData/created<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Habitats/AncillaryData/created<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/Invasiveness/AncillaryData/created<br/>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/Behavior/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/Dispersal/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/EcologicalSignificance/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/Feeding/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/Interactions/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/LifeCycle/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/LifeForm/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/Migratory/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/MolecularData/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/Reproduction/AncillaryData/created<br/>/Dataset/TaxonRecord/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/AncillaryData/created<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/AncillaryData/created<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/created<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Hierarchy/AncillaryData/created<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/AncillaryData/created<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms/AncillaryData/created<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/TaxonRecordName/AncillaryData/created<br/>/Dataset/TaxonRecord/RecordMetadata/Revision/created<br/>/Dataset/TaxonRecord/TaxonomicDescription/AncillaryData/created<br/>/Dataset/TaxonRecord/TaxonomicDescription/FullDescription/AncillaryData/created<br/>/Dataset/TaxonRecord/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/TaxonomicDescription/IdentificationKeys/AncillaryData/created<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/AncillaryData/created<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/AncillaryData/created<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/created<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/AncillaryData/created<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData/created<br/>/DemographyAndThreat/AncillaryData/created<br/>/DemographyAndThreat/DirectThreats/AncillaryData/created<br/>/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData/created<br/>/DemographyAndThreat/Legislation/AncillaryData/created<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData/created<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/created<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/created<br/>/DemographyAndThreat/Territory/AncillaryData/created<br/>/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData/created<br/>/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/created<br/>/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/created<br/>/DemographyAndThreat/ThreatStatus/AncillaryData/created<br/>/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/created<br/>/DetailAtomized/AncillaryData/created<br/>/DirectThreatAtomized/AncillaryData/created<br/>/DirectThreats/AncillaryData/created<br/>/DirectThreats/DirectThreatAtomized/AncillaryData/created<br/>/Dispersal/AncillaryData/created<br/>/Dispersal/DispersalAtomized/AncillaryData/created<br/>/DispersalAtomized/AncillaryData/created<br/>/Distribution/DistributionScope/AncillaryData/created<br/>/DistributionAtomized/AncillaryData/created<br/>/EcologicalSignificance/AncillaryData/created<br/>/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/created<br/>/EcologicalSignificanceAtomized/AncillaryData/created<br/>/Endemic/AncillaryData/created<br/>/Endemic/EndemicAtomized/AncillaryData/created<br/>/EndemicAtomized/AncillaryData/created<br/>/EnvironmentalEnvelope/AncillaryData/created<br/>/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/created<br/>/EnvironmentalEnvelopeAtomized/AncillaryData/created<br/>/Feeding/AncillaryData/created<br/>/Feeding/FeedingAtomized/AncillaryData/created<br/>/FeedingAtomized/AncillaryData/created<br/>/FullDescription/AncillaryData/created<br/>/FullDescription/FullDescriptionAtomized/AncillaryData/created<br/>/FullDescriptionAtomized/AncillaryData/created<br/>/HabitatAndDistribution/AncillaryData/created<br/>/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData/created<br/>/HabitatAndDistribution/Endemic/AncillaryData/created<br/>/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData/created<br/>/HabitatAndDistribution/Habitats/AncillaryData/created<br/>/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData/created<br/>/HabitatAtomized/AncillaryData/created<br/>/Habitats/AncillaryData/created<br/>/Habitats/HabitatAtomized/AncillaryData/created<br/>/Hierarchy/AncillaryData/created<br/>/IdentificationKeys/AncillaryData/created<br/>/InteractionAtomized/AncillaryData/created<br/>/Interactions/AncillaryData/created<br/>/Interactions/InteractionAtomized/AncillaryData/created<br/>/Invasiveness/AncillaryData/created<br/>/Invasiveness/InvasivenessAtomized/AncillaryData/created<br/>/InvasivenessAtomized/AncillaryData/created<br/>/Legislation/AncillaryData/created<br/>/Legislation/LegislationAtomized/AncillaryData/created<br/>/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/created<br/>/LegislationAtomized/AncillaryData/created<br/>/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/created<br/>/LifeCycle/AncillaryData/created<br/>/LifeCycle/LifeCycleAtomized/AncillaryData/created<br/>/LifeCycleAtomized/AncillaryData/created<br/>/LifeForm/AncillaryData/created<br/>/LifeForm/LifeFormAtomized/AncillaryData/created<br/>/LifeFormAtomized/AncillaryData/created<br/>/ManagementAndConservation/AncillaryData/created<br/>/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/created<br/>/ManagementAndConservationAtomized/AncillaryData/created<br/>/Migratory/AncillaryData/created<br/>/Migratory/MigratoryAtomized/AncillaryData/created<br/>/MigratoryAtomized/AncillaryData/created<br/>/MiscDetails/AncillaryData/created<br/>/MiscDetails/DetailAtomized/AncillaryData/created<br/>/MolecularData/AncillaryData/created<br/>/MolecularData/MolecularDataAtomized/AncillaryData/created<br/>/MolecularDataAtomized/AncillaryData/created<br/>/NaturalHistory/AncillaryData/created<br/>/NaturalHistory/AnnualCycles/AncillaryData/created<br/>/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData/created<br/>/NaturalHistory/Behavior/AncillaryData/created<br/>/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData/created<br/>/NaturalHistory/Dispersal/AncillaryData/created<br/>/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData/created<br/>/NaturalHistory/EcologicalSignificance/AncillaryData/created<br/>/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/created<br/>/NaturalHistory/EnvironmentalEnvelope/AncillaryData/created<br/>/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/created<br/>/NaturalHistory/Feeding/AncillaryData/created<br/>/NaturalHistory/Feeding/FeedingAtomized/AncillaryData/created<br/>/NaturalHistory/Interactions/AncillaryData/created<br/>/NaturalHistory/Interactions/InteractionAtomized/AncillaryData/created<br/>/NaturalHistory/LifeCycle/AncillaryData/created<br/>/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData/created<br/>/NaturalHistory/LifeForm/AncillaryData/created<br/>/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData/created<br/>/NaturalHistory/Migratory/AncillaryData/created<br/>/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData/created<br/>/NaturalHistory/MiscDetails/AncillaryData/created<br/>/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData/created<br/>/NaturalHistory/MolecularData/AncillaryData/created<br/>/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData/created<br/>/NaturalHistory/Reproduction/AncillaryData/created<br/>/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData/created<br/>/NomenclatureAndClassification/AncillaryData/created<br/>/NomenclatureAndClassification/CommonNames/AncillaryData/created<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData/created<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/created<br/>/NomenclatureAndClassification/Hierarchy/AncillaryData/created<br/>/NomenclatureAndClassification/MiscDetails/AncillaryData/created<br/>/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData/created<br/>/NomenclatureAndClassification/Synonyms/AncillaryData/created<br/>/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData/created<br/>/NomenclatureAndClassification/TaxonRecordName/AncillaryData/created<br/>/PopulationBiology/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/created<br/>/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/created<br/>/PopulationBiologyAtomized/AbundanceData/AncillaryData/created<br/>/PopulationBiologyAtomized/AncillaryData/created<br/>/PopulationBiologyAtomized/AverageDensity/AncillaryData/created<br/>/PopulationBiologyAtomized/BirthRate/AncillaryData/created<br/>/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/created<br/>/PopulationBiologyAtomized/DensityData/AncillaryData/created<br/>/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/created<br/>/PopulationBiologyAtomized/Emigration/AncillaryData/created<br/>/PopulationBiologyAtomized/Fecundity/AncillaryData/created<br/>/PopulationBiologyAtomized/Immigration/AncillaryData/created<br/>/PopulationBiologyAtomized/MortalityRate/AncillaryData/created<br/>/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/created<br/>/PopulationBiologyAtomized/PatternDistribution/AncillaryData/created<br/>/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/created<br/>/PopulationBiologyAtomized/PopulationTrend/AncillaryData/created<br/>/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/created<br/>/PopulationBiologyAtomized/Recruitment/AncillaryData/created<br/>/PopulationBiologyAtomized/SexRatio/AncillaryData/created<br/>/PopulationBiologyAtomized/Size/AncillaryData/created<br/>/RecordMetadata/Revision/created<br/>/Reproduction/AncillaryData/created<br/>/Reproduction/ReproductionAtomized/AncillaryData/created<br/>/ReproductionAtomized/AncillaryData/created<br/>/Revision/created<br/>/Synonyms/AncillaryData/created<br/>/Synonyms/SynonymsAtomized/AncillaryData/created<br/>/SynonymsAtomized/AncillaryData/created<br/>/TaxonRecord/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/DirectThreats/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/Legislation/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/Territory/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/AncillaryData/created<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/created<br/>/TaxonRecord/HabitatAndDistribution/AncillaryData/created<br/>/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData/created<br/>/TaxonRecord/HabitatAndDistribution/Endemic/AncillaryData/created<br/>/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData/created<br/>/TaxonRecord/HabitatAndDistribution/Habitats/AncillaryData/created<br/>/TaxonRecord/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData/created<br/>/TaxonRecord/Invasiveness/AncillaryData/created<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/Behavior/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/Dispersal/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/EcologicalSignificance/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/Feeding/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/Interactions/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/LifeCycle/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/LifeForm/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/Migratory/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/MiscDetails/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/MolecularData/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/Reproduction/AncillaryData/created<br/>/TaxonRecord/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData/created<br/>/TaxonRecord/NomenclatureAndClassification/AncillaryData/created<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/AncillaryData/created<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData/created<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/created<br/>/TaxonRecord/NomenclatureAndClassification/Hierarchy/AncillaryData/created<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/AncillaryData/created<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData/created<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms/AncillaryData/created<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData/created<br/>/TaxonRecord/NomenclatureAndClassification/TaxonRecordName/AncillaryData/created<br/>/TaxonRecord/RecordMetadata/Revision/created<br/>/TaxonRecord/TaxonomicDescription/AncillaryData/created<br/>/TaxonRecord/TaxonomicDescription/FullDescription/AncillaryData/created<br/>/TaxonRecord/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData/created<br/>/TaxonRecord/TaxonomicDescription/IdentificationKeys/AncillaryData/created<br/>/TaxonRecord/UsesManagementAndConservation/AncillaryData/created<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/AncillaryData/created<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/created<br/>/TaxonRecord/UsesManagementAndConservation/Uses/AncillaryData/created<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData/created<br/>/TaxonRecordName/AncillaryData/created<br/>/TaxonomicDescription/AncillaryData/created<br/>/TaxonomicDescription/FullDescription/AncillaryData/created<br/>/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData/created<br/>/TaxonomicDescription/IdentificationKeys/AncillaryData/created<br/>/Territory/AncillaryData/created<br/>/Territory/TerritoryAtomized/AncillaryData/created<br/>/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/created<br/>/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/created<br/>/TerritoryAtomized/AncillaryData/created<br/>/TerritoryAtomized/AreaOfOccupancy/AncillaryData/created<br/>/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/created<br/>/ThreatStatus/AncillaryData/created<br/>/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/created<br/>/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/created<br/>/Uses/AncillaryData/created<br/>/Uses/UsesAtomized/AncillaryData/created<br/>/UsesAtomized/AncillaryData/created<br/>/UsesManagementAndConservation/AncillaryData/created<br/>/UsesManagementAndConservation/ManagementAndConservation/AncillaryData/created<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/created<br/>/UsesManagementAndConservation/Uses/AncillaryData/created<br/>/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData/created</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1270,11 +1302,11 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/dateStamp-2022-06-14">http://rs.tdwg.org/plic/terms/version/dateStamp-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/dateStamp-2022-06-24">http://rs.tdwg.org/plic/terms/version/dateStamp-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1285,38 +1317,8 @@ Basic information to identify the record; basic information to identify the reco
 			<td>The date the metadata document was created or modified.</td>
 		</tr>
 		<tr>
-			<td>Type</td>
-			<td>Property</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="plic_language"></a>Term Name  plic:language</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/language">http://rs.tdwg.org/plic/terms/language</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-06-14</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/language-2022-06-14">http://rs.tdwg.org/plic/terms/version/language-2022-06-14</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Language</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>The language of the taxon record, according to ISO 639.</td>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/Metadata/dateStamp<br/>/Metadata/dateStamp<br/>/additionalMetadata/metadata/gbif/dateStamp</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1338,11 +1340,11 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/language-2022-06-14">http://rs.tdwg.org/plic/terms/version/language-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/language-2022-06-24">http://rs.tdwg.org/plic/terms/version/language-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1351,6 +1353,10 @@ Basic information to identify the record; basic information to identify the reco
 		<tr>
 			<td>Definition</td>
 			<td>The language of the taxon record, according to ISO 639.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/AncillaryData/language<br/>/AnnualCycleAtomized/AncillaryData/language<br/>/AnnualCycles/AncillaryData/language<br/>/AnnualCycles/AnnualCycleAtomized/AncillaryData/language<br/>/Behavior/AncillaryData/language<br/>/Behavior/BehaviorAtomized/AncillaryData/language<br/>/BehaviorAtomized/AncillaryData/language<br/>/CommonNames/AncillaryData/language<br/>/CommonNames/CommonNamesAtomized/AncillaryData/language<br/>/CommonNames/CommonNamesAtomized/Language<br/>/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/language<br/>/CommonNamesAtomized/AncillaryData/language<br/>/CommonNamesAtomized/Language<br/>/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/language<br/>/Dataset/AncillaryData/language<br/>/Dataset/Metadata/dataset/language<br/>/Dataset/TaxonRecord/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/DirectThreats/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/Dataset/TaxonRecord/HabitatAndDistribution/AncillaryData/language<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData/language<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic/AncillaryData/language<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Habitats/AncillaryData/language<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/Invasiveness/AncillaryData/language<br/>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/language<br/>/Dataset/TaxonRecord/NaturalHistory/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Behavior/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Dispersal/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/EcologicalSignificance/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Feeding/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Interactions/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/LifeCycle/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/LifeForm/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Migratory/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/MolecularData/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Reproduction/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/Language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Hierarchy/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/TaxonRecordName/AncillaryData/language<br/>/Dataset/TaxonRecord/RecordMetadata/Language<br/>/Dataset/TaxonRecord/TaxonomicDescription/AncillaryData/language<br/>/Dataset/TaxonRecord/TaxonomicDescription/FullDescription/AncillaryData/language<br/>/Dataset/TaxonRecord/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/TaxonomicDescription/IdentificationKeys/AncillaryData/language<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/AncillaryData/language<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/AncillaryData/language<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/AncillaryData/language<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData/language<br/>/DemographyAndThreat/AncillaryData/language<br/>/DemographyAndThreat/DirectThreats/AncillaryData/language<br/>/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData/language<br/>/DemographyAndThreat/Legislation/AncillaryData/language<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData/language<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/language<br/>/DemographyAndThreat/Territory/AncillaryData/language<br/>/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData/language<br/>/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/language<br/>/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/language<br/>/DemographyAndThreat/ThreatStatus/AncillaryData/language<br/>/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/DetailAtomized/AncillaryData/language<br/>/DirectThreatAtomized/AncillaryData/language<br/>/DirectThreats/AncillaryData/language<br/>/DirectThreats/DirectThreatAtomized/AncillaryData/language<br/>/Dispersal/AncillaryData/language<br/>/Dispersal/DispersalAtomized/AncillaryData/language<br/>/DispersalAtomized/AncillaryData/language<br/>/Distribution/DistributionScope/AncillaryData/language<br/>/DistributionAtomized/AncillaryData/language<br/>/EcologicalSignificance/AncillaryData/language<br/>/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/language<br/>/EcologicalSignificanceAtomized/AncillaryData/language<br/>/Endemic/AncillaryData/language<br/>/Endemic/EndemicAtomized/AncillaryData/language<br/>/EndemicAtomized/AncillaryData/language<br/>/EnvironmentalEnvelope/AncillaryData/language<br/>/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/language<br/>/EnvironmentalEnvelopeAtomized/AncillaryData/language<br/>/Feeding/AncillaryData/language<br/>/Feeding/FeedingAtomized/AncillaryData/language<br/>/FeedingAtomized/AncillaryData/language<br/>/FullDescription/AncillaryData/language<br/>/FullDescription/FullDescriptionAtomized/AncillaryData/language<br/>/FullDescriptionAtomized/AncillaryData/language<br/>/HabitatAndDistribution/AncillaryData/language<br/>/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData/language<br/>/HabitatAndDistribution/Endemic/AncillaryData/language<br/>/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData/language<br/>/HabitatAndDistribution/Habitats/AncillaryData/language<br/>/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData/language<br/>/HabitatAtomized/AncillaryData/language<br/>/Habitats/AncillaryData/language<br/>/Habitats/HabitatAtomized/AncillaryData/language<br/>/Hierarchy/AncillaryData/language<br/>/IdentificationKeys/AncillaryData/language<br/>/InteractionAtomized/AncillaryData/language<br/>/Interactions/AncillaryData/language<br/>/Interactions/InteractionAtomized/AncillaryData/language<br/>/Invasiveness/AncillaryData/language<br/>/Invasiveness/InvasivenessAtomized/AncillaryData/language<br/>/Invasiveness/InvasivenessAtomized/language<br/>/InvasivenessAtomized/AncillaryData/language<br/>/InvasivenessAtomized/language<br/>/Language<br/>/Legislation/AncillaryData/language<br/>/Legislation/LegislationAtomized/AncillaryData/language<br/>/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/LegislationAtomized/AncillaryData/language<br/>/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/LifeCycle/AncillaryData/language<br/>/LifeCycle/LifeCycleAtomized/AncillaryData/language<br/>/LifeCycleAtomized/AncillaryData/language<br/>/LifeForm/AncillaryData/language<br/>/LifeForm/LifeFormAtomized/AncillaryData/language<br/>/LifeFormAtomized/AncillaryData/language<br/>/ManagementAndConservation/AncillaryData/language<br/>/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/language<br/>/ManagementAndConservationAtomized/AncillaryData/language<br/>/Metadata/dataset/language<br/>/Migratory/AncillaryData/language<br/>/Migratory/MigratoryAtomized/AncillaryData/language<br/>/MigratoryAtomized/AncillaryData/language<br/>/MiscDetails/AncillaryData/language<br/>/MiscDetails/DetailAtomized/AncillaryData/language<br/>/MolecularData/AncillaryData/language<br/>/MolecularData/MolecularDataAtomized/AncillaryData/language<br/>/MolecularDataAtomized/AncillaryData/language<br/>/NaturalHistory/AncillaryData/language<br/>/NaturalHistory/AnnualCycles/AncillaryData/language<br/>/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData/language<br/>/NaturalHistory/Behavior/AncillaryData/language<br/>/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData/language<br/>/NaturalHistory/Dispersal/AncillaryData/language<br/>/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData/language<br/>/NaturalHistory/EcologicalSignificance/AncillaryData/language<br/>/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/language<br/>/NaturalHistory/EnvironmentalEnvelope/AncillaryData/language<br/>/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/language<br/>/NaturalHistory/Feeding/AncillaryData/language<br/>/NaturalHistory/Feeding/FeedingAtomized/AncillaryData/language<br/>/NaturalHistory/Interactions/AncillaryData/language<br/>/NaturalHistory/Interactions/InteractionAtomized/AncillaryData/language<br/>/NaturalHistory/LifeCycle/AncillaryData/language<br/>/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData/language<br/>/NaturalHistory/LifeForm/AncillaryData/language<br/>/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData/language<br/>/NaturalHistory/Migratory/AncillaryData/language<br/>/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData/language<br/>/NaturalHistory/MiscDetails/AncillaryData/language<br/>/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData/language<br/>/NaturalHistory/MolecularData/AncillaryData/language<br/>/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData/language<br/>/NaturalHistory/Reproduction/AncillaryData/language<br/>/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData/language<br/>/NomenclatureAndClassification/AncillaryData/language<br/>/NomenclatureAndClassification/CommonNames/AncillaryData/language<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData/language<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/Language<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/language<br/>/NomenclatureAndClassification/Hierarchy/AncillaryData/language<br/>/NomenclatureAndClassification/MiscDetails/AncillaryData/language<br/>/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData/language<br/>/NomenclatureAndClassification/Synonyms/AncillaryData/language<br/>/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData/language<br/>/NomenclatureAndClassification/TaxonRecordName/AncillaryData/language<br/>/PopulationBiology/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/language<br/>/PopulationBiologyAtomized/AbundanceData/AncillaryData/language<br/>/PopulationBiologyAtomized/AncillaryData/language<br/>/PopulationBiologyAtomized/AverageDensity/AncillaryData/language<br/>/PopulationBiologyAtomized/BirthRate/AncillaryData/language<br/>/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/language<br/>/PopulationBiologyAtomized/DensityData/AncillaryData/language<br/>/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/language<br/>/PopulationBiologyAtomized/Emigration/AncillaryData/language<br/>/PopulationBiologyAtomized/Fecundity/AncillaryData/language<br/>/PopulationBiologyAtomized/Immigration/AncillaryData/language<br/>/PopulationBiologyAtomized/MortalityRate/AncillaryData/language<br/>/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/language<br/>/PopulationBiologyAtomized/PatternDistribution/AncillaryData/language<br/>/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/language<br/>/PopulationBiologyAtomized/PopulationTrend/AncillaryData/language<br/>/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/language<br/>/PopulationBiologyAtomized/Recruitment/AncillaryData/language<br/>/PopulationBiologyAtomized/SexRatio/AncillaryData/language<br/>/PopulationBiologyAtomized/Size/AncillaryData/language<br/>/RecordMetadata/Language<br/>/Reproduction/AncillaryData/language<br/>/Reproduction/ReproductionAtomized/AncillaryData/language<br/>/ReproductionAtomized/AncillaryData/language<br/>/Synonyms/AncillaryData/language<br/>/Synonyms/SynonymsAtomized/AncillaryData/language<br/>/SynonymsAtomized/AncillaryData/language<br/>/TaxonRecord/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/DirectThreats/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Legislation/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Territory/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/TaxonRecord/HabitatAndDistribution/AncillaryData/language<br/>/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData/language<br/>/TaxonRecord/HabitatAndDistribution/Endemic/AncillaryData/language<br/>/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData/language<br/>/TaxonRecord/HabitatAndDistribution/Habitats/AncillaryData/language<br/>/TaxonRecord/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData/language<br/>/TaxonRecord/Invasiveness/AncillaryData/language<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/AncillaryData/language<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/language<br/>/TaxonRecord/NaturalHistory/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Behavior/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Dispersal/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/EcologicalSignificance/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Feeding/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Interactions/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/LifeCycle/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/LifeForm/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Migratory/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/MiscDetails/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/MolecularData/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Reproduction/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/Language<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/Hierarchy/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/TaxonRecordName/AncillaryData/language<br/>/TaxonRecord/RecordMetadata/Language<br/>/TaxonRecord/TaxonomicDescription/AncillaryData/language<br/>/TaxonRecord/TaxonomicDescription/FullDescription/AncillaryData/language<br/>/TaxonRecord/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData/language<br/>/TaxonRecord/TaxonomicDescription/IdentificationKeys/AncillaryData/language<br/>/TaxonRecord/UsesManagementAndConservation/AncillaryData/language<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/AncillaryData/language<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/language<br/>/TaxonRecord/UsesManagementAndConservation/Uses/AncillaryData/language<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData/language<br/>/TaxonRecordName/AncillaryData/language<br/>/TaxonomicDescription/AncillaryData/language<br/>/TaxonomicDescription/FullDescription/AncillaryData/language<br/>/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData/language<br/>/TaxonomicDescription/IdentificationKeys/AncillaryData/language<br/>/Territory/AncillaryData/language<br/>/Territory/TerritoryAtomized/AncillaryData/language<br/>/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/language<br/>/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/language<br/>/TerritoryAtomized/AncillaryData/language<br/>/TerritoryAtomized/AreaOfOccupancy/AncillaryData/language<br/>/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/language<br/>/ThreatStatus/AncillaryData/language<br/>/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/Uses/AncillaryData/language<br/>/Uses/UsesAtomized/AncillaryData/language<br/>/UsesAtomized/AncillaryData/language<br/>/UsesManagementAndConservation/AncillaryData/language<br/>/UsesManagementAndConservation/ManagementAndConservation/AncillaryData/language<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/language<br/>/UsesManagementAndConservation/Uses/AncillaryData/language<br/>/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData/language<br/>/dataset/language<br/>/language</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1372,11 +1378,11 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/resourceLogoUrl-2022-06-14">http://rs.tdwg.org/plic/terms/version/resourceLogoUrl-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/resourceLogoUrl-2022-06-24">http://rs.tdwg.org/plic/terms/version/resourceLogoUrl-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1385,6 +1391,10 @@ Basic information to identify the record; basic information to identify the reco
 		<tr>
 			<td>Definition</td>
 			<td>The URI of an icon/logo symbolizing the project.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/Metadata/resourceLogoUrl<br/>/Metadata/resourceLogoUrl<br/>/additionalMetadata/metadata/gbif/resourceLogoUrl</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1406,11 +1416,11 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonRecordID-2022-06-14">http://rs.tdwg.org/plic/terms/version/taxonRecordID-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonRecordID-2022-06-24">http://rs.tdwg.org/plic/terms/version/taxonRecordID-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1419,6 +1429,10 @@ Basic information to identify the record; basic information to identify the reco
 		<tr>
 			<td>Definition</td>
 			<td>Unique identifier of the record within the database.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/BaseElements/TaxonRecordID<br/>/Dataset/TaxonRecord/BaseElements/TaxonRecordID<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Hierarchy/ParentTaxon/TaxonRecordID<br/>/Hierarchy/ParentTaxon/TaxonRecordID<br/>/NomenclatureAndClassification/Hierarchy/ParentTaxon/TaxonRecordID<br/>/TaxonRecord/BaseElements/TaxonRecordID<br/>/TaxonRecord/NomenclatureAndClassification/Hierarchy/ParentTaxon/TaxonRecordID</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1440,11 +1454,11 @@ Basic information to identify the record; basic information to identify the reco
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/version-2022-06-14">http://rs.tdwg.org/plic/terms/version/version-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/version-2022-06-24">http://rs.tdwg.org/plic/terms/version/version-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1453,6 +1467,10 @@ Basic information to identify the record; basic information to identify the reco
 		<tr>
 			<td>Definition</td>
 			<td>Number and date of the current version.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/RecordMetadata/Version<br/>/RecordMetadata/Version<br/>/TaxonRecord/RecordMetadata/Version<br/>/Version</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1477,11 +1495,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Hierarchy-2022-06-14">http://rs.tdwg.org/plic/terms/version/Hierarchy-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Hierarchy-2022-06-24">http://rs.tdwg.org/plic/terms/version/Hierarchy-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1494,6 +1512,10 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		<tr>
 			<td>Notes</td>
 			<td>Option: fill all or principal ranks and optionally provide keys.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NomenclatureAndClassification/Hierarchy<br/>/Hierarchy<br/>/NomenclatureAndClassification/Hierarchy<br/>/TaxonRecord/NomenclatureAndClassification/Hierarchy</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1515,11 +1537,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Language-2022-06-14">http://rs.tdwg.org/plic/terms/version/Language-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Language-2022-06-24">http://rs.tdwg.org/plic/terms/version/Language-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1527,14 +1549,15 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Language used to write the species information, ISO 639-2 according to GBIF Metadata Profile.
-
-</td>
+			<td>Language of the common language name expresed in ISO 639-2 according to GBIF Metadata Profile.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/AncillaryData/language<br/>/AnnualCycleAtomized/AncillaryData/language<br/>/AnnualCycles/AncillaryData/language<br/>/AnnualCycles/AnnualCycleAtomized/AncillaryData/language<br/>/Behavior/AncillaryData/language<br/>/Behavior/BehaviorAtomized/AncillaryData/language<br/>/BehaviorAtomized/AncillaryData/language<br/>/CommonNames/AncillaryData/language<br/>/CommonNames/CommonNamesAtomized/AncillaryData/language<br/>/CommonNames/CommonNamesAtomized/Language<br/>/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/language<br/>/CommonNamesAtomized/AncillaryData/language<br/>/CommonNamesAtomized/Language<br/>/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/language<br/>/Dataset/AncillaryData/language<br/>/Dataset/Metadata/dataset/language<br/>/Dataset/TaxonRecord/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/DirectThreats/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/Dataset/TaxonRecord/HabitatAndDistribution/AncillaryData/language<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData/language<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic/AncillaryData/language<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Habitats/AncillaryData/language<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/Invasiveness/AncillaryData/language<br/>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/language<br/>/Dataset/TaxonRecord/NaturalHistory/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Behavior/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Dispersal/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/EcologicalSignificance/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Feeding/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Interactions/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/LifeCycle/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/LifeForm/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Migratory/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/MolecularData/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Reproduction/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/Language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Hierarchy/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/TaxonRecordName/AncillaryData/language<br/>/Dataset/TaxonRecord/RecordMetadata/Language<br/>/Dataset/TaxonRecord/TaxonomicDescription/AncillaryData/language<br/>/Dataset/TaxonRecord/TaxonomicDescription/FullDescription/AncillaryData/language<br/>/Dataset/TaxonRecord/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/TaxonomicDescription/IdentificationKeys/AncillaryData/language<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/AncillaryData/language<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/AncillaryData/language<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/AncillaryData/language<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData/language<br/>/DemographyAndThreat/AncillaryData/language<br/>/DemographyAndThreat/DirectThreats/AncillaryData/language<br/>/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData/language<br/>/DemographyAndThreat/Legislation/AncillaryData/language<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData/language<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/language<br/>/DemographyAndThreat/Territory/AncillaryData/language<br/>/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData/language<br/>/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/language<br/>/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/language<br/>/DemographyAndThreat/ThreatStatus/AncillaryData/language<br/>/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/DetailAtomized/AncillaryData/language<br/>/DirectThreatAtomized/AncillaryData/language<br/>/DirectThreats/AncillaryData/language<br/>/DirectThreats/DirectThreatAtomized/AncillaryData/language<br/>/Dispersal/AncillaryData/language<br/>/Dispersal/DispersalAtomized/AncillaryData/language<br/>/DispersalAtomized/AncillaryData/language<br/>/Distribution/DistributionScope/AncillaryData/language<br/>/DistributionAtomized/AncillaryData/language<br/>/EcologicalSignificance/AncillaryData/language<br/>/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/language<br/>/EcologicalSignificanceAtomized/AncillaryData/language<br/>/Endemic/AncillaryData/language<br/>/Endemic/EndemicAtomized/AncillaryData/language<br/>/EndemicAtomized/AncillaryData/language<br/>/EnvironmentalEnvelope/AncillaryData/language<br/>/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/language<br/>/EnvironmentalEnvelopeAtomized/AncillaryData/language<br/>/Feeding/AncillaryData/language<br/>/Feeding/FeedingAtomized/AncillaryData/language<br/>/FeedingAtomized/AncillaryData/language<br/>/FullDescription/AncillaryData/language<br/>/FullDescription/FullDescriptionAtomized/AncillaryData/language<br/>/FullDescriptionAtomized/AncillaryData/language<br/>/HabitatAndDistribution/AncillaryData/language<br/>/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData/language<br/>/HabitatAndDistribution/Endemic/AncillaryData/language<br/>/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData/language<br/>/HabitatAndDistribution/Habitats/AncillaryData/language<br/>/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData/language<br/>/HabitatAtomized/AncillaryData/language<br/>/Habitats/AncillaryData/language<br/>/Habitats/HabitatAtomized/AncillaryData/language<br/>/Hierarchy/AncillaryData/language<br/>/IdentificationKeys/AncillaryData/language<br/>/InteractionAtomized/AncillaryData/language<br/>/Interactions/AncillaryData/language<br/>/Interactions/InteractionAtomized/AncillaryData/language<br/>/Invasiveness/AncillaryData/language<br/>/Invasiveness/InvasivenessAtomized/AncillaryData/language<br/>/Invasiveness/InvasivenessAtomized/language<br/>/InvasivenessAtomized/AncillaryData/language<br/>/InvasivenessAtomized/language<br/>/Language<br/>/Legislation/AncillaryData/language<br/>/Legislation/LegislationAtomized/AncillaryData/language<br/>/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/LegislationAtomized/AncillaryData/language<br/>/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/LifeCycle/AncillaryData/language<br/>/LifeCycle/LifeCycleAtomized/AncillaryData/language<br/>/LifeCycleAtomized/AncillaryData/language<br/>/LifeForm/AncillaryData/language<br/>/LifeForm/LifeFormAtomized/AncillaryData/language<br/>/LifeFormAtomized/AncillaryData/language<br/>/ManagementAndConservation/AncillaryData/language<br/>/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/language<br/>/ManagementAndConservationAtomized/AncillaryData/language<br/>/Metadata/dataset/language<br/>/Migratory/AncillaryData/language<br/>/Migratory/MigratoryAtomized/AncillaryData/language<br/>/MigratoryAtomized/AncillaryData/language<br/>/MiscDetails/AncillaryData/language<br/>/MiscDetails/DetailAtomized/AncillaryData/language<br/>/MolecularData/AncillaryData/language<br/>/MolecularData/MolecularDataAtomized/AncillaryData/language<br/>/MolecularDataAtomized/AncillaryData/language<br/>/NaturalHistory/AncillaryData/language<br/>/NaturalHistory/AnnualCycles/AncillaryData/language<br/>/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData/language<br/>/NaturalHistory/Behavior/AncillaryData/language<br/>/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData/language<br/>/NaturalHistory/Dispersal/AncillaryData/language<br/>/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData/language<br/>/NaturalHistory/EcologicalSignificance/AncillaryData/language<br/>/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/language<br/>/NaturalHistory/EnvironmentalEnvelope/AncillaryData/language<br/>/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/language<br/>/NaturalHistory/Feeding/AncillaryData/language<br/>/NaturalHistory/Feeding/FeedingAtomized/AncillaryData/language<br/>/NaturalHistory/Interactions/AncillaryData/language<br/>/NaturalHistory/Interactions/InteractionAtomized/AncillaryData/language<br/>/NaturalHistory/LifeCycle/AncillaryData/language<br/>/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData/language<br/>/NaturalHistory/LifeForm/AncillaryData/language<br/>/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData/language<br/>/NaturalHistory/Migratory/AncillaryData/language<br/>/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData/language<br/>/NaturalHistory/MiscDetails/AncillaryData/language<br/>/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData/language<br/>/NaturalHistory/MolecularData/AncillaryData/language<br/>/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData/language<br/>/NaturalHistory/Reproduction/AncillaryData/language<br/>/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData/language<br/>/NomenclatureAndClassification/AncillaryData/language<br/>/NomenclatureAndClassification/CommonNames/AncillaryData/language<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData/language<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/Language<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/language<br/>/NomenclatureAndClassification/Hierarchy/AncillaryData/language<br/>/NomenclatureAndClassification/MiscDetails/AncillaryData/language<br/>/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData/language<br/>/NomenclatureAndClassification/Synonyms/AncillaryData/language<br/>/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData/language<br/>/NomenclatureAndClassification/TaxonRecordName/AncillaryData/language<br/>/PopulationBiology/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/language<br/>/PopulationBiologyAtomized/AbundanceData/AncillaryData/language<br/>/PopulationBiologyAtomized/AncillaryData/language<br/>/PopulationBiologyAtomized/AverageDensity/AncillaryData/language<br/>/PopulationBiologyAtomized/BirthRate/AncillaryData/language<br/>/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/language<br/>/PopulationBiologyAtomized/DensityData/AncillaryData/language<br/>/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/language<br/>/PopulationBiologyAtomized/Emigration/AncillaryData/language<br/>/PopulationBiologyAtomized/Fecundity/AncillaryData/language<br/>/PopulationBiologyAtomized/Immigration/AncillaryData/language<br/>/PopulationBiologyAtomized/MortalityRate/AncillaryData/language<br/>/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/language<br/>/PopulationBiologyAtomized/PatternDistribution/AncillaryData/language<br/>/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/language<br/>/PopulationBiologyAtomized/PopulationTrend/AncillaryData/language<br/>/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/language<br/>/PopulationBiologyAtomized/Recruitment/AncillaryData/language<br/>/PopulationBiologyAtomized/SexRatio/AncillaryData/language<br/>/PopulationBiologyAtomized/Size/AncillaryData/language<br/>/RecordMetadata/Language<br/>/Reproduction/AncillaryData/language<br/>/Reproduction/ReproductionAtomized/AncillaryData/language<br/>/ReproductionAtomized/AncillaryData/language<br/>/Synonyms/AncillaryData/language<br/>/Synonyms/SynonymsAtomized/AncillaryData/language<br/>/SynonymsAtomized/AncillaryData/language<br/>/TaxonRecord/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/DirectThreats/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Legislation/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Territory/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/TaxonRecord/HabitatAndDistribution/AncillaryData/language<br/>/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData/language<br/>/TaxonRecord/HabitatAndDistribution/Endemic/AncillaryData/language<br/>/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData/language<br/>/TaxonRecord/HabitatAndDistribution/Habitats/AncillaryData/language<br/>/TaxonRecord/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData/language<br/>/TaxonRecord/Invasiveness/AncillaryData/language<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/AncillaryData/language<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/language<br/>/TaxonRecord/NaturalHistory/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Behavior/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Dispersal/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/EcologicalSignificance/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Feeding/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Interactions/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/LifeCycle/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/LifeForm/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Migratory/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/MiscDetails/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/MolecularData/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Reproduction/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/Language<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/Hierarchy/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/TaxonRecordName/AncillaryData/language<br/>/TaxonRecord/RecordMetadata/Language<br/>/TaxonRecord/TaxonomicDescription/AncillaryData/language<br/>/TaxonRecord/TaxonomicDescription/FullDescription/AncillaryData/language<br/>/TaxonRecord/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData/language<br/>/TaxonRecord/TaxonomicDescription/IdentificationKeys/AncillaryData/language<br/>/TaxonRecord/UsesManagementAndConservation/AncillaryData/language<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/AncillaryData/language<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/language<br/>/TaxonRecord/UsesManagementAndConservation/Uses/AncillaryData/language<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData/language<br/>/TaxonRecordName/AncillaryData/language<br/>/TaxonomicDescription/AncillaryData/language<br/>/TaxonomicDescription/FullDescription/AncillaryData/language<br/>/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData/language<br/>/TaxonomicDescription/IdentificationKeys/AncillaryData/language<br/>/Territory/AncillaryData/language<br/>/Territory/TerritoryAtomized/AncillaryData/language<br/>/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/language<br/>/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/language<br/>/TerritoryAtomized/AncillaryData/language<br/>/TerritoryAtomized/AreaOfOccupancy/AncillaryData/language<br/>/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/language<br/>/ThreatStatus/AncillaryData/language<br/>/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/Uses/AncillaryData/language<br/>/Uses/UsesAtomized/AncillaryData/language<br/>/UsesAtomized/AncillaryData/language<br/>/UsesManagementAndConservation/AncillaryData/language<br/>/UsesManagementAndConservation/ManagementAndConservation/AncillaryData/language<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/language<br/>/UsesManagementAndConservation/Uses/AncillaryData/language<br/>/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData/language<br/>/dataset/language<br/>/language</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property </td>
 		</tr>
 	</tbody>
 </table>
@@ -1552,11 +1575,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Name-2022-06-14">http://rs.tdwg.org/plic/terms/version/Name-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Name-2022-06-24">http://rs.tdwg.org/plic/terms/version/Name-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1564,8 +1587,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The name of the common name.
-</td>
+			<td>The name of the common name. </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/CommonNames/CommonNamesAtomized/Name<br/>/CommonNamesAtomized/Name<br/>/Dataset/Metadata/dataset/project/studyAreaDescription/descriptor/@name<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/Name<br/>/Metadata/dataset/project/studyAreaDescription/descriptor/@name<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/Name<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/Name<br/>/dataset/project/studyAreaDescription/descriptor/@name<br/>/descriptor/@name<br/>/project/studyAreaDescription/descriptor/@name</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1587,11 +1613,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/NomenclatureAndClassification-2022-06-14">http://rs.tdwg.org/plic/terms/version/NomenclatureAndClassification-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/NomenclatureAndClassification-2022-06-24">http://rs.tdwg.org/plic/terms/version/NomenclatureAndClassification-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1599,7 +1625,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Structured Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data.</td>
+			<td>Structured Information on the taxon name, synonyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NomenclatureAndClassification<br/>/NomenclatureAndClassification<br/>/TaxonRecord/NomenclatureAndClassification</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1621,11 +1651,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/NomenclatureAndClassificationUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/NomenclatureAndClassificationUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/NomenclatureAndClassificationUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/NomenclatureAndClassificationUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1633,7 +1663,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Information on the taxon's  name, synomyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data.</td>
+			<td>Information on the taxon name, synonyms, nomenclatural status, common names, and taxonomic hierarchy; plus  misc. details and ancillary data.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NomenclatureAndClassification/NomenclatureAndClassificationUnstructured<br/>/NomenclatureAndClassification/NomenclatureAndClassificationUnstructured<br/>/TaxonRecord/NomenclatureAndClassification/NomenclatureAndClassificationUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1655,11 +1689,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ScientificName-2022-06-14">http://rs.tdwg.org/plic/terms/version/ScientificName-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ScientificName-2022-06-24">http://rs.tdwg.org/plic/terms/version/ScientificName-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1667,7 +1701,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Canonical name enforcing strict inclusion of only nomenclatural information - not taxonomic information. The name entered here must comply with rules and recommendations of the international nomenclatural code pertaining to the organisms (Zoological, Botanical, of Cultivated Pants, or Bacteriological).</td>
+			<td>Canonical name enforcing strict inclusion of only nomenclatural information - not taxonomic information. The name entered here must comply with rules and recommendations of the international nomenclatural code pertaining to the organisms (Zoological, Botanical, of Cultivated Plants, or Bacteriological).</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NomenclatureAndClassification/TaxonRecordName/ScientificName<br/>/NomenclatureAndClassification/TaxonRecordName/ScientificName<br/>/TaxonRecord/NomenclatureAndClassification/TaxonRecordName/ScientificName<br/>/TaxonRecordName/ScientificName</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1689,23 +1727,27 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ScientificName-2022-06-14">http://rs.tdwg.org/plic/terms/version/ScientificName-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ScientificName-2022-06-24">http://rs.tdwg.org/plic/terms/version/ScientificName-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Scientific Name</td>
+			<td>Scientific name</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Canonical name enforcing strict inclusion of only nomenclatural information - not taxonomic information. The name entered here must comply with rules and recommendations of the international nomenclatural code pertaining to the organisms (Zoological, Botanical, of Cultivated Pants, or Bacteriological).</td>
+			<td>Canonical name enforcing strict inclusion of only nomenclatural information - not taxonomic information. The name entered here must comply with rules and recommendations of the international nomenclatural code pertaining to the organisms (Zoological, Botanical, of Cultivated Plants, or Bacteriological).</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NomenclatureAndClassification/TaxonRecordName/ScientificName<br/>/NomenclatureAndClassification/TaxonRecordName/ScientificName<br/>/TaxonRecord/NomenclatureAndClassification/TaxonRecordName/ScientificName<br/>/TaxonRecordName/ScientificName</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Class</td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -1723,11 +1765,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/SynonymName -2022-06-14">http://rs.tdwg.org/plic/terms/version/SynonymName -2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/SynonymName -2022-06-24">http://rs.tdwg.org/plic/terms/version/SynonymName -2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1740,6 +1782,10 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		<tr>
 			<td>Notes</td>
 			<td>tcs: ScientificName. An object that represents a single scientific biological name that either is, or appears to be, governed by one of the biological codes of nomenclature. These are not taxa. Taxa, whether accepted or not, are represented by TaxonConcept objects. Vernacular names are also dealt with under taxon concepts</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized/SynonymName<br/>/NomenclatureAndClassification/Synonyms/SynonymsAtomized/SynonymName<br/>/Synonyms/SynonymsAtomized/SynonymName<br/>/SynonymsAtomized/SynonymName<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized/SynonymName</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1761,11 +1807,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/SynonymStatus-2022-06-14">http://rs.tdwg.org/plic/terms/version/SynonymStatus-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/SynonymStatus-2022-06-24">http://rs.tdwg.org/plic/terms/version/SynonymStatus-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1778,6 +1824,10 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		<tr>
 			<td>Notes</td>
 			<td>dc:nomenclaturalStatus. <a href="http://rs.tdwg.org/dwc/terms/index.htm#nomenclaturalStatus">http://rs.tdwg.org/dwc/terms/index.htm#nomenclaturalStatus</a></td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized/SynonymStatus<br/>/NomenclatureAndClassification/Synonyms/SynonymsAtomized/SynonymStatus<br/>/Synonyms/SynonymsAtomized/SynonymStatus<br/>/SynonymsAtomized/SynonymStatus<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized/SynonymStatus</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1799,11 +1849,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Synonyms-2022-06-14">http://rs.tdwg.org/plic/terms/version/Synonyms-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Synonyms-2022-06-24">http://rs.tdwg.org/plic/terms/version/Synonyms-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1812,6 +1862,10 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		<tr>
 			<td>Definition</td>
 			<td>Different names for this taxon.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms<br/>/NomenclatureAndClassification/Synonyms<br/>/Synonyms<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1833,11 +1887,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/UsedBy-2022-06-14">http://rs.tdwg.org/plic/terms/version/UsedBy-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/UsedBy-2022-06-24">http://rs.tdwg.org/plic/terms/version/UsedBy-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1845,16 +1899,15 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Sometimes names used by one group of people are adopted by another.
-
-</td>
+			<td>Sometimes names used by one group of people are adopted by another.  </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/CommonNames/CommonNamesAtomized/UsedBy<br/>/CommonNamesAtomized/UsedBy<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedBy<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedBy<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedBy</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-
-
-</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property   </td>
 		</tr>
 	</tbody>
 </table>
@@ -1872,11 +1925,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/UsedIn-2022-06-14">http://rs.tdwg.org/plic/terms/version/UsedIn-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/UsedIn-2022-06-24">http://rs.tdwg.org/plic/terms/version/UsedIn-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1884,14 +1937,15 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Location where de common name is used.
-
-</td>
+			<td>Location where the common name is used. </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/CommonNames/CommonNamesAtomized/UsedIn<br/>/CommonNamesAtomized/UsedIn<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property </td>
 		</tr>
 	</tbody>
 </table>
@@ -1909,11 +1963,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/commonNames-2022-06-14">http://rs.tdwg.org/plic/terms/version/commonNames-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/commonNames-2022-06-24">http://rs.tdwg.org/plic/terms/version/commonNames-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1921,8 +1975,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The name of the common name.
-</td>
+			<td>A list of common names, in alphabetic order, optionally followed by language and region where it is used. If language or region is omitted, it is assumed to be unknown.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/CommonNames<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames<br/>/NomenclatureAndClassification/CommonNames<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1944,11 +2001,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/commonNamesAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/commonNamesAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/commonNamesAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/commonNamesAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1956,9 +2013,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>commonNames element in structured format.
-
-</td>
+			<td>commonNames element in structured format.  </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/CommonNames/CommonNamesAtomized<br/>/CommonNamesAtomized<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1980,11 +2039,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/commonNamesUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/commonNamesUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/commonNamesUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/commonNamesUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1993,6 +2052,10 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		<tr>
 			<td>Definition</td>
 			<td>CommonNames element in text block format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/CommonNames/CommonNamesUnstructured<br/>/CommonNamesUnstructured<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesUnstructured<br/>/NomenclatureAndClassification/CommonNames/CommonNamesUnstructured<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2014,11 +2077,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/detailAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/detailAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/detailAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/detailAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2027,6 +2090,10 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		<tr>
 			<td>Definition</td>
 			<td>MiscDetail element in structured format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/DetailAtomized<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailAtomized<br/>/DetailAtomized<br/>/MiscDetails/DetailAtomized<br/>/NaturalHistory/MiscDetails/DetailAtomized<br/>/NomenclatureAndClassification/MiscDetails/DetailAtomized<br/>/TaxonRecord/NaturalHistory/MiscDetails/DetailAtomized<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2048,11 +2115,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/detailUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/detailUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/detailUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/detailUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2061,6 +2128,10 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		<tr>
 			<td>Definition</td>
 			<td>MiscDetail element in text block format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/DetailUnstructured<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailUnstructured<br/>/DetailUnstructured<br/>/MiscDetails/DetailUnstructured<br/>/NaturalHistory/MiscDetails/DetailUnstructured<br/>/NomenclatureAndClassification/MiscDetails/DetailUnstructured<br/>/TaxonRecord/NaturalHistory/MiscDetails/DetailUnstructured<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2082,11 +2153,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/synonymsAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/synonymsAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/synonymsAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/synonymsAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2099,6 +2170,10 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		<tr>
 			<td>Notes</td>
 			<td>tsc:ScientificName</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized<br/>/NomenclatureAndClassification/Synonyms/SynonymsAtomized<br/>/Synonyms/SynonymsAtomized<br/>/SynonymsAtomized<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2120,11 +2195,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/synonymsAtomizedType-2022-06-14">http://rs.tdwg.org/plic/terms/version/synonymsAtomizedType-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/synonymsAtomizedType-2022-06-24">http://rs.tdwg.org/plic/terms/version/synonymsAtomizedType-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2158,11 +2233,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/synonymsType-2022-06-14">http://rs.tdwg.org/plic/terms/version/synonymsType-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/synonymsType-2022-06-24">http://rs.tdwg.org/plic/terms/version/synonymsType-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2196,11 +2271,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/synonymsUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/synonymsUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/synonymsUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/synonymsUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2209,6 +2284,10 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		<tr>
 			<td>Definition</td>
 			<td>list of synonyms elements in a text block format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsUnstructured<br/>/NomenclatureAndClassification/Synonyms/SynonymsUnstructured<br/>/Synonyms/SynonymsUnstructured<br/>/SynonymsUnstructured<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2230,11 +2309,11 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/targetAudiences-2022-06-14">http://rs.tdwg.org/plic/terms/version/targetAudiences-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/targetAudiences-2022-06-24">http://rs.tdwg.org/plic/terms/version/targetAudiences-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2247,6 +2326,10 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		<tr>
 			<td>Usage</td>
 			<td>Biodiversity researchers, teachers and students, decision makers, professionals from another areas and general public.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/RecordMetadata/TargetAudiences<br/>/RecordMetadata/TargetAudiences<br/>/TargetAudiences<br/>/TaxonRecord/RecordMetadata/TargetAudiences</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2268,15 +2351,15 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonRecordName-2022-06-14">http://rs.tdwg.org/plic/terms/version/taxonRecordName-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonRecordName-2022-06-24">http://rs.tdwg.org/plic/terms/version/taxonRecordName-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>taxon recordname</td>
+			<td>taxon record name</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2285,6 +2368,10 @@ Information on the taxons name, synomyms, nomenclatural status, common names, an
 		<tr>
 			<td>Notes</td>
 			<td>tsc:ScientificName</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NomenclatureAndClassification/TaxonRecordName<br/>/NomenclatureAndClassification/TaxonRecordName<br/>/TaxonRecord/NomenclatureAndClassification/TaxonRecordName<br/>/TaxonRecordName</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2309,11 +2396,11 @@ Description of Taxon: Brief description, Full description, Identification keys a
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/FullDescription-2022-06-14">http://rs.tdwg.org/plic/terms/version/FullDescription-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/FullDescription-2022-06-24">http://rs.tdwg.org/plic/terms/version/FullDescription-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2322,6 +2409,10 @@ Description of Taxon: Brief description, Full description, Identification keys a
 		<tr>
 			<td>Definition</td>
 			<td>Complete and detailed account of the taxonomic and systematic characters, i.e. those that define and allow to recognize an organism.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/TaxonomicDescription/FullDescription<br/>/FullDescription<br/>/TaxonRecord/TaxonomicDescription/FullDescription<br/>/TaxonomicDescription/FullDescription</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2343,11 +2434,11 @@ Description of Taxon: Brief description, Full description, Identification keys a
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/IdentificationKeys-2022-06-14">http://rs.tdwg.org/plic/terms/version/IdentificationKeys-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/IdentificationKeys-2022-06-24">http://rs.tdwg.org/plic/terms/version/IdentificationKeys-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2359,7 +2450,11 @@ Description of Taxon: Brief description, Full description, Identification keys a
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Most printed keys have only two alternatives, so called dichotomous keys. A taxon includes a key or an identification of key in the subordinate taxons. If we are in a register of a genre, this register would include the keys of the species that this register includes, and if itÂ´s one specie, then it would include the key of the infraspecific rank (For plants: subspecies, variety forms)</td>
+			<td>Most printed keys have only two alternatives, so called dichotomous keys. A taxon includes a key or an identification of key in the subordinate taxa. If we are in a register of a genus, this register would include the keys of the species that this register includes, and if it's one specie, then it would include the key of the infraspecific rank (For plants: subspecies, variety forms)</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/TaxonomicDescription/IdentificationKeys<br/>/IdentificationKeys<br/>/TaxonRecord/TaxonomicDescription/IdentificationKeys<br/>/TaxonomicDescription/IdentificationKeys</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2381,11 +2476,11 @@ Description of Taxon: Brief description, Full description, Identification keys a
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Keys-2022-06-14">http://rs.tdwg.org/plic/terms/version/Keys-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Keys-2022-06-24">http://rs.tdwg.org/plic/terms/version/Keys-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2394,6 +2489,10 @@ Description of Taxon: Brief description, Full description, Identification keys a
 		<tr>
 			<td>Definition</td>
 			<td>Dichotomic or multi-access key.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/TaxonomicDescription/IdentificationKeys/Keys<br/>/IdentificationKeys/Keys<br/>/Keys<br/>/TaxonRecord/TaxonomicDescription/IdentificationKeys/Keys<br/>/TaxonomicDescription/IdentificationKeys/Keys</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2415,11 +2514,11 @@ Description of Taxon: Brief description, Full description, Identification keys a
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/briefDescription-2022-06-14">http://rs.tdwg.org/plic/terms/version/briefDescription-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/briefDescription-2022-06-24">http://rs.tdwg.org/plic/terms/version/briefDescription-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2428,6 +2527,10 @@ Description of Taxon: Brief description, Full description, Identification keys a
 		<tr>
 			<td>Definition</td>
 			<td>Brief description which reflect only the diagnostic characters, i.e. those that distinguish a taxon from other related or close taxa.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/BriefDescription<br/>/Dataset/TaxonRecord/TaxonomicDescription/BriefDescription<br/>/TaxonRecord/TaxonomicDescription/BriefDescription<br/>/TaxonomicDescription/BriefDescription</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2449,11 +2552,11 @@ Description of Taxon: Brief description, Full description, Identification keys a
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/fullDescriptionAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/fullDescriptionAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/fullDescriptionAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/fullDescriptionAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2462,6 +2565,10 @@ Description of Taxon: Brief description, Full description, Identification keys a
 		<tr>
 			<td>Definition</td>
 			<td>fullDescription element in structured format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/TaxonomicDescription/FullDescription/FullDescriptionAtomized<br/>/FullDescription/FullDescriptionAtomized<br/>/FullDescriptionAtomized<br/>/TaxonRecord/TaxonomicDescription/FullDescription/FullDescriptionAtomized<br/>/TaxonomicDescription/FullDescription/FullDescriptionAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2483,11 +2590,11 @@ Description of Taxon: Brief description, Full description, Identification keys a
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/fullDescriptionUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/fullDescriptionUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/fullDescriptionUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/fullDescriptionUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2496,6 +2603,10 @@ Description of Taxon: Brief description, Full description, Identification keys a
 		<tr>
 			<td>Definition</td>
 			<td>fullDescription element in text block format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/TaxonomicDescription/FullDescription/FullDescriptionUnstructured<br/>/FullDescription/FullDescriptionUnstructured<br/>/FullDescriptionUnstructured<br/>/TaxonRecord/TaxonomicDescription/FullDescription/FullDescriptionUnstructured<br/>/TaxonomicDescription/FullDescription/FullDescriptionUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2517,11 +2628,11 @@ Description of Taxon: Brief description, Full description, Identification keys a
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/keys-2022-06-14">http://rs.tdwg.org/plic/terms/version/keys-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/keys-2022-06-24">http://rs.tdwg.org/plic/terms/version/keys-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2530,6 +2641,10 @@ Description of Taxon: Brief description, Full description, Identification keys a
 		<tr>
 			<td>Definition</td>
 			<td>Dichotomic or multientrance keys.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/TaxonomicDescription/IdentificationKeys/Keys<br/>/IdentificationKeys/Keys<br/>/Keys<br/>/TaxonRecord/TaxonomicDescription/IdentificationKeys/Keys<br/>/TaxonomicDescription/IdentificationKeys/Keys</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2551,11 +2666,11 @@ Description of Taxon: Brief description, Full description, Identification keys a
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonomicDescriptionType-2022-06-14">http://rs.tdwg.org/plic/terms/version/taxonomicDescriptionType-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonomicDescriptionType-2022-06-24">http://rs.tdwg.org/plic/terms/version/taxonomicDescriptionType-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2566,13 +2681,8 @@ Description of Taxon: Brief description, Full description, Identification keys a
 			<td>Brief description, Full description, Identification keys and Ancillary Data.</td>
 		</tr>
 		<tr>
-			<td>Notes</td>
-			<td>Los "Type" los eliminamos ¿no? (FP)</td>
-		</tr>
-		<tr>
 			<td>Type</td>
-			<td>http://www.w3.org/2000/01/rdf-schema#Class
-</td>
+			<td>http://www.w3.org/2000/01/rdf-schema#Class </td>
 		</tr>
 	</tbody>
 </table>
@@ -2590,11 +2700,11 @@ Description of Taxon: Brief description, Full description, Identification keys a
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonomicDescriptionUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/taxonomicDescriptionUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonomicDescriptionUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/taxonomicDescriptionUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2603,6 +2713,10 @@ Description of Taxon: Brief description, Full description, Identification keys a
 		<tr>
 			<td>Definition</td>
 			<td>TaxonomicDescription element in text block format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/TaxonomicDescription/TaxonomicDescriptionUnstructured<br/>/TaxonRecord/TaxonomicDescription/TaxonomicDescriptionUnstructured<br/>/TaxonomicDescription/TaxonomicDescriptionUnstructured<br/>/TaxonomicDescriptionUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2624,11 +2738,11 @@ Description of Taxon: Brief description, Full description, Identification keys a
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonomicalDescription-2022-06-14">http://rs.tdwg.org/plic/terms/version/taxonomicalDescription-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/taxonomicalDescription-2022-06-24">http://rs.tdwg.org/plic/terms/version/taxonomicalDescription-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2665,11 +2779,11 @@ General appearance. Characteristic mode of growth or occurrence associated to th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/LifeForm-2022-06-14">http://rs.tdwg.org/plic/terms/version/LifeForm-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/LifeForm-2022-06-24">http://rs.tdwg.org/plic/terms/version/LifeForm-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2682,6 +2796,10 @@ General appearance. Characteristic mode of growth or occurrence associated to th
 		<tr>
 			<td>Notes</td>
 			<td>Example: tree, shrubs, herbs.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/LifeForm<br/>/LifeForm<br/>/NaturalHistory/LifeForm<br/>/TaxonRecord/NaturalHistory/LifeForm</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2706,11 +2824,11 @@ Life history of a living organism: The course of developmental changes in an org
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/LifeCycle-2022-06-14">http://rs.tdwg.org/plic/terms/version/LifeCycle-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/LifeCycle-2022-06-24">http://rs.tdwg.org/plic/terms/version/LifeCycle-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2719,6 +2837,10 @@ Life history of a living organism: The course of developmental changes in an org
 		<tr>
 			<td>Definition</td>
 			<td>Life history of a living organism: The course of developmental changes in an organism from fertilized zygote to maturity or stages through which an organism passes.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/LifeCycle<br/>/LifeCycle<br/>/NaturalHistory/LifeCycle<br/>/TaxonRecord/NaturalHistory/LifeCycle</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2740,11 +2862,11 @@ Life history of a living organism: The course of developmental changes in an org
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/lifeCycleAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/lifeCycleAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/lifeCycleAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/lifeCycleAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2755,72 +2877,8 @@ Life history of a living organism: The course of developmental changes in an org
 			<td>lifeCycle element in structured format.</td>
 		</tr>
 		<tr>
-			<td>Type</td>
-			<td>Property</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="plic_lifeCycleUnstructured"></a>Term Name  plic:lifeCycleUnstructured</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/lifeCycleUnstructured">http://rs.tdwg.org/plic/terms/lifeCycleUnstructured</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-06-14</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/lifeCycleUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/lifeCycleUnstructured-2022-06-14</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Unstructured Life Cycle</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>lifeCycle element in text block format.</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Property</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="plic_lifeFormAtomized"></a>Term Name  plic:lifeFormAtomized</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/lifeFormAtomized">http://rs.tdwg.org/plic/terms/lifeFormAtomized</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-06-14</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/lifeFormAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/lifeFormAtomized-2022-06-14</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Atomized Life Form</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>lifeCycleForm element in structured format.</td>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/LifeCycle/LifeCycleAtomized<br/>/LifeCycle/LifeCycleAtomized<br/>/LifeCycleAtomized<br/>/NaturalHistory/LifeCycle/LifeCycleAtomized<br/>/TaxonRecord/NaturalHistory/LifeCycle/LifeCycleAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2842,11 +2900,11 @@ Life history of a living organism: The course of developmental changes in an org
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/lifeFormUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/lifeFormUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/lifeFormUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/lifeFormUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2855,6 +2913,10 @@ Life history of a living organism: The course of developmental changes in an org
 		<tr>
 			<td>Definition</td>
 			<td>lifeCycleForm element in text block format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/LifeForm/LifeFormUnstructured<br/>/LifeForm/LifeFormUnstructured<br/>/LifeFormUnstructured<br/>/NaturalHistory/LifeForm/LifeFormUnstructured<br/>/TaxonRecord/NaturalHistory/LifeForm/LifeFormUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2879,11 +2941,11 @@ All data related to the generation of offspring<table>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Reproduction-2022-06-14">http://rs.tdwg.org/plic/terms/version/Reproduction-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Reproduction-2022-06-24">http://rs.tdwg.org/plic/terms/version/Reproduction-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2892,6 +2954,10 @@ All data related to the generation of offspring<table>
 		<tr>
 			<td>Definition</td>
 			<td>All data related to the production of offspring.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Reproduction<br/>/NaturalHistory/Reproduction<br/>/Reproduction<br/>/TaxonRecord/NaturalHistory/Reproduction</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2913,11 +2979,11 @@ All data related to the generation of offspring<table>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/reproductionAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/reproductionAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/reproductionAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/reproductionAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2926,6 +2992,10 @@ All data related to the generation of offspring<table>
 		<tr>
 			<td>Definition</td>
 			<td>Reproduction element in structured format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Reproduction/ReproductionAtomized<br/>/NaturalHistory/Reproduction/ReproductionAtomized<br/>/Reproduction/ReproductionAtomized<br/>/ReproductionAtomized<br/>/TaxonRecord/NaturalHistory/Reproduction/ReproductionAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2947,11 +3017,11 @@ All data related to the generation of offspring<table>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/reproductionUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/reproductionUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/reproductionUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/reproductionUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2960,6 +3030,10 @@ All data related to the generation of offspring<table>
 		<tr>
 			<td>Definition</td>
 			<td>Reproduction element in text block format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Reproduction/ReproductionUnstructured<br/>/NaturalHistory/Reproduction/ReproductionUnstructured<br/>/Reproduction/ReproductionUnstructured<br/>/ReproductionUnstructured<br/>/TaxonRecord/NaturalHistory/Reproduction/ReproductionUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2984,11 +3058,11 @@ Set of changes or events that recurrently take place at the same time of year an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/AnnualCycleAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/AnnualCycleAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/AnnualCycleAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/AnnualCycleAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2996,8 +3070,11 @@ Set of changes or events that recurrently take place at the same time of year an
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>AnnualCycles element in structured format.
-</td>
+			<td>AnnualCycles element in structured format. </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/AnnualCycleAtomized<br/>/AnnualCycles/AnnualCycleAtomized<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized<br/>/NaturalHistory/AnnualCycles/AnnualCycleAtomized<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3019,11 +3096,11 @@ Set of changes or events that recurrently take place at the same time of year an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/AnnualCycleUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/AnnualCycleUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/AnnualCycleUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/AnnualCycleUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3031,8 +3108,11 @@ Set of changes or events that recurrently take place at the same time of year an
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>AnnualCyles element in text block format.
-</td>
+			<td>AnnualCyles element in text block format. </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/AnnualCycleUnstructured<br/>/AnnualCycles/AnnualCycleUnstructured<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleUnstructured<br/>/NaturalHistory/AnnualCycles/AnnualCycleUnstructured<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3054,11 +3134,11 @@ Set of changes or events that recurrently take place at the same time of year an
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/AnnualCycles-2022-06-14">http://rs.tdwg.org/plic/terms/version/AnnualCycles-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/AnnualCycles-2022-06-24">http://rs.tdwg.org/plic/terms/version/AnnualCycles-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3070,8 +3150,11 @@ Set of changes or events that recurrently take place at the same time of year an
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>For example: reproduction, flowering, fruiting, emergence of insects, etc.
-</td>
+			<td>For example: reproduction, flowering, fruiting, emergence of insects, etc. </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/AnnualCycles<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles<br/>/NaturalHistory/AnnualCycles<br/>/TaxonRecord/NaturalHistory/AnnualCycles</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3083,21 +3166,21 @@ Set of changes or events that recurrently take place at the same time of year an
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="plic_EndTimeInterval "></a>Term Name  plic:EndTimeInterval </th>
+			<th colspan="2"><a id="plic_EndTimeInterval"></a>Term Name  plic:EndTimeInterval</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/EndTimeInterval ">http://rs.tdwg.org/plic/terms/EndTimeInterval </a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/EndTimeInterval">http://rs.tdwg.org/plic/terms/EndTimeInterval</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/EndTimeInterval -2022-06-14">http://rs.tdwg.org/plic/terms/version/EndTimeInterval -2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/EndTimeInterval-2022-06-24">http://rs.tdwg.org/plic/terms/version/EndTimeInterval-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3105,13 +3188,15 @@ Set of changes or events that recurrently take place at the same time of year an
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The date-time or interval at which an event ends. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).
-
-A controlled vocabulary is recommended.</td>
+			<td>The date-time or interval at which an event ends. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).  A controlled vocabulary is recommended.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
 			<td>e.g. "1963-03-08T14:07-0600" is 8 Mar 1963 2:07pm in the time zone six hours earlier than UTC, "2009-02-20T08:40Z" is 20 Feb 2009 8:40am UTC, "1809-02-12" is 12 Feb 1809, "1906-06" is Jun 1906, "1971" is just that year, "2007-03-01T13:00:00Z/2008-05-11T15:30:00Z" is the interval between 1 Mar 2007 1pm UTC and 11 May 2008 3:30pm UTC, "2007-11-13/15" is the interval between 13 Nov 2007 and 15 Nov 2007.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/AnnualCycleAtomized/endTimeInterval<br/>/AnnualCycles/AnnualCycleAtomized/endTimeInterval<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/endTimeInterval<br/>/NaturalHistory/AnnualCycles/AnnualCycleAtomized/endTimeInterval<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/endTimeInterval</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3133,11 +3218,11 @@ A controlled vocabulary is recommended.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Event-2022-06-14">http://rs.tdwg.org/plic/terms/version/Event-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Event-2022-06-24">http://rs.tdwg.org/plic/terms/version/Event-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3145,9 +3230,11 @@ A controlled vocabulary is recommended.</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>An action that occurs at some location during some time.
-
-A controlled vocabulary is recommended.</td>
+			<td>An action that occurs at some location during some time.  A controlled vocabulary is recommended.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/AnnualCycleAtomized/Event<br/>/AnnualCycles/AnnualCycleAtomized/Event<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/Event<br/>/NaturalHistory/AnnualCycles/AnnualCycleAtomized/Event<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/Event</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3169,11 +3256,11 @@ A controlled vocabulary is recommended.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StartTimeInterval-2022-06-14">http://rs.tdwg.org/plic/terms/version/StartTimeInterval-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StartTimeInterval-2022-06-24">http://rs.tdwg.org/plic/terms/version/StartTimeInterval-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3181,13 +3268,19 @@ A controlled vocabulary is recommended.</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The date-time or interval at which an event starts. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).
-
-A controlled vocabulary is recommended.</td>
+			<td>The date-time or interval at which an event starts. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).   A controlled vocabulary is recommended.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </td>
 		</tr>
 		<tr>
 			<td>Notes</td>
 			<td>e.g. "1963-03-08T14:07-0600" is 8 Mar 1963 2:07pm in the time zone six hours earlier than UTC, "2009-02-20T08:40Z" is 20 Feb 2009 8:40am UTC, "1809-02-12" is 12 Feb 1809, "1906-06" is Jun 1906, "1971" is just that year, "2007-03-01T13:00:00Z/2008-05-11T15:30:00Z" is the interval between 1 Mar 2007 1pm UTC and 11 May 2008 3:30pm UTC, "2007-11-13/15" is the interval between 13 Nov 2007 and 15 Nov 2007.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/AnnualCycleAtomized/startTimeInterval<br/>/AnnualCycles/AnnualCycleAtomized/startTimeInterval<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/startTimeInterval<br/>/NaturalHistory/AnnualCycles/AnnualCycleAtomized/startTimeInterval<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/startTimeInterval</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3212,11 +3305,11 @@ Information related to the food supply for the development and sustenance of the
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Feeding-2022-06-14">http://rs.tdwg.org/plic/terms/version/Feeding-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Feeding-2022-06-24">http://rs.tdwg.org/plic/terms/version/Feeding-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3225,6 +3318,10 @@ Information related to the food supply for the development and sustenance of the
 		<tr>
 			<td>Definition</td>
 			<td>Information related to the food supply for the development and sustenance of the individual and/or its offspring.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Feeding<br/>/Feeding<br/>/NaturalHistory/Feeding<br/>/TaxonRecord/NaturalHistory/Feeding</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3236,21 +3333,21 @@ Information related to the food supply for the development and sustenance of the
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="plic_Strategy"></a>Term Name  plic:Strategy</th>
+			<th colspan="2"><a id="plic_TrophicStrategy"></a>Term Name  plic:TrophicStrategy</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/Strategy">http://rs.tdwg.org/plic/terms/Strategy</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/TrophicStrategy">http://rs.tdwg.org/plic/terms/TrophicStrategy</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Strategy-2022-06-14">http://rs.tdwg.org/plic/terms/version/Strategy-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/TrophicStrategy-2022-06-24">http://rs.tdwg.org/plic/terms/version/TrophicStrategy-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3258,10 +3355,11 @@ Information related to the food supply for the development and sustenance of the
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Tactic used to obtain energy or nutrients. A controlled vocabulary is 
-recommended. e.g. Chemosynthetic organisms,Photosynthetic 
-organisms,Parasites,Decomposers,Suspension feeders,Substrate feeders, 
-Grazers,Fluid-feeders,Predators...</td>
+			<td>Tactic used to obtain energy or nutrients. A controlled vocabulary is  recommended. e.g. Chemosynthetic organisms, Photosynthetic  organisms, Parasites, Decomposers, Suspension feeders, Substrate feeders,   Grazers, Fluid-feeders, Predators...</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/Thropic/TrophicStrategy<br/>/Feeding/FeedingAtomized/Thropic/TrophicStrategy<br/>/FeedingAtomized/Thropic/TrophicStrategy<br/>/NaturalHistory/Feeding/FeedingAtomized/Thropic/TrophicStrategy<br/>/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/Thropic/TrophicStrategy</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3273,21 +3371,21 @@ Grazers,Fluid-feeders,Predators...</td>
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="plic_StrategyRemarks"></a>Term Name  plic:StrategyRemarks</th>
+			<th colspan="2"><a id="plic_TrophicStrategyRemarks"></a>Term Name  plic:TrophicStrategyRemarks</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/StrategyRemarks">http://rs.tdwg.org/plic/terms/StrategyRemarks</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/TrophicStrategyRemarks">http://rs.tdwg.org/plic/terms/TrophicStrategyRemarks</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StrategyRemarks-2022-06-14">http://rs.tdwg.org/plic/terms/version/StrategyRemarks-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/TrophicStrategyRemarks-2022-06-24">http://rs.tdwg.org/plic/terms/version/TrophicStrategyRemarks-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3298,8 +3396,50 @@ Grazers,Fluid-feeders,Predators...</td>
 			<td>Information notes about specific feeding strategies.</td>
 		</tr>
 		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/Thropic/TrophicStrategyRemarks<br/>/Feeding/FeedingAtomized/Thropic/TrophicStrategyRemarks<br/>/FeedingAtomized/Thropic/TrophicStrategyRemarks<br/>/NaturalHistory/Feeding/FeedingAtomized/Thropic/TrophicStrategyRemarks<br/>/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/Thropic/TrophicStrategyRemarks</td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>http://www.w3.org/2004/02/skos/core#ConceptScheme</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="plic_Type"></a>Term Name  plic:Type</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Type">http://rs.tdwg.org/plic/terms/Type</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-06-24</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Type-2022-06-24">http://rs.tdwg.org/plic/terms/version/Type-2022-06-24</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Type</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Primary diet source. A controlled vocabulary is recommended.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/@Type<br/>/CommonNamesAtomized/UsedIn/DistributionScope/@Type<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/@Type<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/Type<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/@Type<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/@Type<br/>/Dataset/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/@type<br/>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/DetailUnstructured/@type<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/@Type<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailUnstructured/@type<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/@type<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/Actions/@type<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/@Type<br/>/DemographyAndThreat/Legislation/LegislationAtomized/Type<br/>/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/@Type<br/>/DetailUnstructured/@type<br/>/Distribution/DistributionScope/@Type<br/>/Feeding/FeedingAtomized/@type<br/>/FeedingAtomized/@type<br/>/HabitatAndDistribution/Distribution/DistributionScope/@Type<br/>/Legislation/LegislationAtomized/AppliesTo/DistributionScope/@Type<br/>/Legislation/LegislationAtomized/Type<br/>/LegislationAtomized/AppliesTo/DistributionScope/@Type<br/>/LegislationAtomized/Type<br/>/ManagementAndConservation/ManagementAndConservationAtomized/@type<br/>/ManagementAndConservation/ManagementAndConservationAtomized/Actions/@type<br/>/ManagementAndConservationAtomized/@type<br/>/ManagementAndConservationAtomized/Actions/@type<br/>/MiscDetails/DetailUnstructured/@type<br/>/NaturalHistory/Feeding/FeedingAtomized/@type<br/>/NaturalHistory/MiscDetails/DetailUnstructured/@type<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/@Type<br/>/NomenclatureAndClassification/MiscDetails/DetailUnstructured/@type<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/@Type<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/Type<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/@Type<br/>/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/@Type<br/>/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/@type<br/>/TaxonRecord/NaturalHistory/MiscDetails/DetailUnstructured/@type<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/@Type<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailUnstructured/@type<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/@type<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/Actions/@type<br/>/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/@Type<br/>/ThreatStatusAtomized/AppliesTo/DistributionScope/@Type<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/@type<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/Actions/@type</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -3317,11 +3457,11 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/feedingAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/feedingAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/feedingAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/feedingAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3330,6 +3470,10 @@ Grazers,Fluid-feeders,Predators...</td>
 		<tr>
 			<td>Definition</td>
 			<td>feeding elemento in structured format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized<br/>/Feeding/FeedingAtomized<br/>/FeedingAtomized<br/>/NaturalHistory/Feeding/FeedingAtomized<br/>/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3351,11 +3495,11 @@ Grazers,Fluid-feeders,Predators...</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/feedingUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/feedingUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/feedingUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/feedingUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3364,6 +3508,10 @@ Grazers,Fluid-feeders,Predators...</td>
 		<tr>
 			<td>Definition</td>
 			<td>feeding element in text block format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Feeding/FeedingUnstructured<br/>/Feeding/FeedingUnstructured<br/>/FeedingUnstructured<br/>/NaturalHistory/Feeding/FeedingUnstructured<br/>/TaxonRecord/NaturalHistory/Feeding/FeedingUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3388,11 +3536,11 @@ The permanent spreading of individuals away from each other not including return
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Dispersal-2022-06-14">http://rs.tdwg.org/plic/terms/version/Dispersal-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Dispersal-2022-06-24">http://rs.tdwg.org/plic/terms/version/Dispersal-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3401,6 +3549,10 @@ The permanent spreading of individuals away from each other not including return
 		<tr>
 			<td>Definition</td>
 			<td>The permanent spreading of individuals away from each other not including return. Dispersal determines the range over which genetic mixing occurs, and thus, the degree of homogeneity and inbreeding in a population.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Dispersal<br/>/Dispersal<br/>/NaturalHistory/Dispersal<br/>/TaxonRecord/NaturalHistory/Dispersal</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3422,11 +3574,11 @@ The permanent spreading of individuals away from each other not including return
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DispersalUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/DispersalUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DispersalUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/DispersalUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3435,6 +3587,10 @@ The permanent spreading of individuals away from each other not including return
 		<tr>
 			<td>Definition</td>
 			<td>Dispersal element in text block format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Dispersal/DispersalUnstructured<br/>/Dispersal/DispersalUnstructured<br/>/DispersalUnstructured<br/>/NaturalHistory/Dispersal/DispersalUnstructured<br/>/TaxonRecord/NaturalHistory/Dispersal/DispersalUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3456,11 +3612,11 @@ The permanent spreading of individuals away from each other not including return
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Distance-2022-06-14">http://rs.tdwg.org/plic/terms/version/Distance-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Distance-2022-06-24">http://rs.tdwg.org/plic/terms/version/Distance-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3476,13 +3632,15 @@ The permanent spreading of individuals away from each other not including return
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>de tipo MeasurementOrFactClass
-</td>
+			<td>de tipo MeasurementOrFactClass </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/Distance<br/>/Dispersal/DispersalAtomized/Distance<br/>/DispersalAtomized/Distance<br/>/NaturalHistory/Dispersal/DispersalAtomized/Distance<br/>/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/Distance</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property </td>
 		</tr>
 	</tbody>
 </table>
@@ -3500,11 +3658,11 @@ The permanent spreading of individuals away from each other not including return
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Purpose-2022-06-14">http://rs.tdwg.org/plic/terms/version/Purpose-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Purpose-2022-06-24">http://rs.tdwg.org/plic/terms/version/Purpose-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3517,6 +3675,10 @@ The permanent spreading of individuals away from each other not including return
 		<tr>
 			<td>Examples</td>
 			<td>De tipo MeasurementOrFactClass</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/Metadata/dataset/purpose<br/>/Dataset/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/Purpose<br/>/Dispersal/DispersalAtomized/Purpose<br/>/DispersalAtomized/Purpose<br/>/Metadata/dataset/purpose<br/>/NaturalHistory/Dispersal/DispersalAtomized/Purpose<br/>/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/Purpose<br/>/dataset/purpose<br/>/purpose</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3538,11 +3700,11 @@ The permanent spreading of individuals away from each other not including return
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed-2022-06-14">http://rs.tdwg.org/plic/terms/version/StructureDispersed-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/StructureDispersed-2022-06-24">http://rs.tdwg.org/plic/terms/version/StructureDispersed-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3554,12 +3716,15 @@ The permanent spreading of individuals away from each other not including return
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Structured that is dispersed for a given biologial propuse, a controlled vocabulary is recommended.</td>
+			<td>Structured that is dispersed for a given biologial propose, a controlled vocabulary is recommended.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/StructureDispersed<br/>/Dispersal/DispersalAtomized/StructureDispersed<br/>/DispersalAtomized/StructureDispersed<br/>/NaturalHistory/Dispersal/DispersalAtomized/StructureDispersed<br/>/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/StructureDispersed</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>http://www.w3.org/2004/02/skos/core#ConceptScheme
-</td>
+			<td>http://www.w3.org/2004/02/skos/core#ConceptScheme </td>
 		</tr>
 	</tbody>
 </table>
@@ -3577,11 +3742,11 @@ The permanent spreading of individuals away from each other not including return
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Type-2022-06-14">http://rs.tdwg.org/plic/terms/version/Type-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Type-2022-06-24">http://rs.tdwg.org/plic/terms/version/Type-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3589,79 +3754,19 @@ The permanent spreading of individuals away from each other not including return
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Primary diet source. A controlled vocabulary is recommended.</td>
+			<td>VCR. Zoochory, Anemochory, Hydrochory, Barochory, Autochory.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Type of dispersal, a controlled vocabulary is recommended.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/@Type<br/>/CommonNamesAtomized/UsedIn/DistributionScope/@Type<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/@Type<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/Type<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/@Type<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/@Type<br/>/Dataset/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/@type<br/>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/DetailUnstructured/@type<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/@Type<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailUnstructured/@type<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/@type<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/Actions/@type<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/@Type<br/>/DemographyAndThreat/Legislation/LegislationAtomized/Type<br/>/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/@Type<br/>/DetailUnstructured/@type<br/>/Distribution/DistributionScope/@Type<br/>/Feeding/FeedingAtomized/@type<br/>/FeedingAtomized/@type<br/>/HabitatAndDistribution/Distribution/DistributionScope/@Type<br/>/Legislation/LegislationAtomized/AppliesTo/DistributionScope/@Type<br/>/Legislation/LegislationAtomized/Type<br/>/LegislationAtomized/AppliesTo/DistributionScope/@Type<br/>/LegislationAtomized/Type<br/>/ManagementAndConservation/ManagementAndConservationAtomized/@type<br/>/ManagementAndConservation/ManagementAndConservationAtomized/Actions/@type<br/>/ManagementAndConservationAtomized/@type<br/>/ManagementAndConservationAtomized/Actions/@type<br/>/MiscDetails/DetailUnstructured/@type<br/>/NaturalHistory/Feeding/FeedingAtomized/@type<br/>/NaturalHistory/MiscDetails/DetailUnstructured/@type<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/@Type<br/>/NomenclatureAndClassification/MiscDetails/DetailUnstructured/@type<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/@Type<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/Type<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/@Type<br/>/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/@Type<br/>/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/@type<br/>/TaxonRecord/NaturalHistory/MiscDetails/DetailUnstructured/@type<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/@Type<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailUnstructured/@type<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/@type<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/Actions/@type<br/>/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/@Type<br/>/ThreatStatusAtomized/AppliesTo/DistributionScope/@Type<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/@type<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/Actions/@type</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>Property</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="plic_Type"></a>Term Name  plic:Type</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/Type">http://rs.tdwg.org/plic/terms/Type</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-06-14</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Type-2022-06-14">http://rs.tdwg.org/plic/terms/version/Type-2022-06-14</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Type</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>Primary diet source. A controlled vocabulary is recommended.</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Property</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="plic_Type"></a>Term Name  plic:Type</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/Type">http://rs.tdwg.org/plic/terms/Type</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-06-14</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Type-2022-06-14">http://rs.tdwg.org/plic/terms/version/Type-2022-06-14</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Type</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>Primary diet source. A controlled vocabulary is recommended.</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Property</td>
+			<td>http://www.w3.org/2004/02/skos/core#ConceptScheme </td>
 		</tr>
 	</tbody>
 </table>
@@ -3682,11 +3787,11 @@ Responses, reactions or movements made by an organism in a particular situation<
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Behavior-2022-06-14">http://rs.tdwg.org/plic/terms/version/Behavior-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Behavior-2022-06-24">http://rs.tdwg.org/plic/terms/version/Behavior-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3695,6 +3800,10 @@ Responses, reactions or movements made by an organism in a particular situation<
 		<tr>
 			<td>Definition</td>
 			<td>Responses, reactions or movements made by an organism in a particular situation.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Behavior<br/>/Dataset/TaxonRecord/NaturalHistory/Behavior<br/>/NaturalHistory/Behavior<br/>/TaxonRecord/NaturalHistory/Behavior</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3716,11 +3825,11 @@ Responses, reactions or movements made by an organism in a particular situation<
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/behaviorAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/behaviorAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/behaviorAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/behaviorAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3728,9 +3837,11 @@ Responses, reactions or movements made by an organism in a particular situation<
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Responses, reactions or movements made by an organism in a particular situation.
-
-</td>
+			<td>Responses, reactions or movements made by an organism in a particular situation.  </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Behavior/BehaviorAtomized<br/>/BehaviorAtomized<br/>/Dataset/TaxonRecord/NaturalHistory/Behavior/BehaviorAtomized<br/>/NaturalHistory/Behavior/BehaviorAtomized<br/>/TaxonRecord/NaturalHistory/Behavior/BehaviorAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3752,11 +3863,11 @@ Responses, reactions or movements made by an organism in a particular situation<
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/behaviorUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/behaviorUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/behaviorUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/behaviorUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3764,9 +3875,11 @@ Responses, reactions or movements made by an organism in a particular situation<
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Responses, reactions or movements made by an organism in a particular situation.
-
-</td>
+			<td>Responses, reactions or movements made by an organism in a particular situation.  </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Behavior/BehaviorUnstructured<br/>/BehaviorUnstructured<br/>/Dataset/TaxonRecord/NaturalHistory/Behavior/BehaviorUnstructured<br/>/NaturalHistory/Behavior/BehaviorUnstructured<br/>/TaxonRecord/NaturalHistory/Behavior/BehaviorUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3781,40 +3894,6 @@ Responses, reactions or movements made by an organism in a particular situation<
 Mutual or reciprocal actions or influences. For example, predation, parasitism, mutualism, etc. Relations with products grown and stored by man (plagues) are also included.<table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="plic_InteractionSpeciesType"></a>Term Name  plic:InteractionSpeciesType</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/InteractionSpeciesType">http://rs.tdwg.org/plic/terms/InteractionSpeciesType</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-06-14</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/InteractionSpeciesType-2022-06-14">http://rs.tdwg.org/plic/terms/version/InteractionSpeciesType-2022-06-14</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Species Interaction Type</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>String with the type of interaction. Each element is seperated by comma and each list of elements by.</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Property</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
 			<th colspan="2"><a id="plic_Interactions"></a>Term Name  plic:Interactions</th>
 		</tr>
 	</thead>
@@ -3825,11 +3904,11 @@ Mutual or reciprocal actions or influences. For example, predation, parasitism, 
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Interactions-2022-06-14">http://rs.tdwg.org/plic/terms/version/Interactions-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Interactions-2022-06-24">http://rs.tdwg.org/plic/terms/version/Interactions-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3842,6 +3921,10 @@ Mutual or reciprocal actions or influences. For example, predation, parasitism, 
 		<tr>
 			<td>Notes</td>
 			<td>For example, predation, parasitism, mutualism, etc.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Interactions<br/>/Interactions<br/>/NaturalHistory/Interactions<br/>/TaxonRecord/NaturalHistory/Interactions</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3863,11 +3946,11 @@ Mutual or reciprocal actions or influences. For example, predation, parasitism, 
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/SpeciesInteraction-2022-06-14">http://rs.tdwg.org/plic/terms/version/SpeciesInteraction-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/SpeciesInteraction-2022-06-24">http://rs.tdwg.org/plic/terms/version/SpeciesInteraction-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3878,8 +3961,50 @@ Mutual or reciprocal actions or influences. For example, predation, parasitism, 
 			<td>Information category concerning relations between resources (instances or records, such as Occurrences, Taxa, Locations, Events,...).</td>
 		</tr>
 		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized/SpeciesInteraction<br/>/InteractionAtomized/SpeciesInteraction<br/>/Interactions/InteractionAtomized/SpeciesInteraction<br/>/NaturalHistory/Interactions/InteractionAtomized/SpeciesInteraction<br/>/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized/SpeciesInteraction</td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Class</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="plic_SpeciesInteractionType"></a>Term Name  plic:SpeciesInteractionType</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/SpeciesInteractionType">http://rs.tdwg.org/plic/terms/SpeciesInteractionType</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-06-24</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/SpeciesInteractionType-2022-06-24">http://rs.tdwg.org/plic/terms/version/SpeciesInteractionType-2022-06-24</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Species Interaction Type</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>String with the type of interaction. Each element is separated by comma and each list of elements by.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized/SpeciesInteractionType<br/>/InteractionAtomized/SpeciesInteractionType<br/>/Interactions/InteractionAtomized/SpeciesInteractionType<br/>/NaturalHistory/Interactions/InteractionAtomized/SpeciesInteractionType<br/>/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized/SpeciesInteractionType</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -3897,11 +4022,11 @@ Mutual or reciprocal actions or influences. For example, predation, parasitism, 
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/interactionAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/interactionAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/interactionAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/interactionAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3910,6 +4035,10 @@ Mutual or reciprocal actions or influences. For example, predation, parasitism, 
 		<tr>
 			<td>Definition</td>
 			<td>interaction element in structured format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized<br/>/InteractionAtomized<br/>/Interactions/InteractionAtomized<br/>/NaturalHistory/Interactions/InteractionAtomized<br/>/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3931,11 +4060,11 @@ Mutual or reciprocal actions or influences. For example, predation, parasitism, 
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/interactionUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/interactionUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/interactionUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/interactionUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3944,6 +4073,10 @@ Mutual or reciprocal actions or influences. For example, predation, parasitism, 
 		<tr>
 			<td>Definition</td>
 			<td>interaction element in text block format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Interactions/InteractionUnstructured<br/>/InteractionUnstructured<br/>/Interactions/InteractionUnstructured<br/>/NaturalHistory/Interactions/InteractionUnstructured<br/>/TaxonRecord/NaturalHistory/Interactions/InteractionUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3968,11 +4101,11 @@ Information on the chemical structures and biological processes at the molecular
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/MolecularData-2022-06-14">http://rs.tdwg.org/plic/terms/version/MolecularData-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/MolecularData-2022-06-24">http://rs.tdwg.org/plic/terms/version/MolecularData-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3985,6 +4118,10 @@ Information on the chemical structures and biological processes at the molecular
 		<tr>
 			<td>Notes</td>
 			<td>Undeveloped. Placeholder for connecting with standards developed by specialists. For example, Standards for Data Exchange and Management from Scalalife (<a href="http://www.scalalife.eu/content/data">http://www.scalalife.eu/content/data</a>)</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/MolecularData<br/>/MolecularData<br/>/NaturalHistory/MolecularData<br/>/TaxonRecord/NaturalHistory/MolecularData</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4006,11 +4143,11 @@ Information on the chemical structures and biological processes at the molecular
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/MolecularDataAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/MolecularDataAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/MolecularDataAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/MolecularDataAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4019,6 +4156,10 @@ Information on the chemical structures and biological processes at the molecular
 		<tr>
 			<td>Definition</td>
 			<td>MolecularData element in structured format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/MolecularData/MolecularDataAtomized<br/>/MolecularData/MolecularDataAtomized<br/>/MolecularDataAtomized<br/>/NaturalHistory/MolecularData/MolecularDataAtomized<br/>/TaxonRecord/NaturalHistory/MolecularData/MolecularDataAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4040,11 +4181,11 @@ Information on the chemical structures and biological processes at the molecular
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/MolecularDataUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/MolecularDataUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/MolecularDataUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/MolecularDataUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4053,6 +4194,10 @@ Information on the chemical structures and biological processes at the molecular
 		<tr>
 			<td>Definition</td>
 			<td>MolecularData as a text block.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/MolecularData/MolecularDataUnstructured<br/>/MolecularData/MolecularDataUnstructured<br/>/MolecularDataUnstructured<br/>/NaturalHistory/MolecularData/MolecularDataUnstructured<br/>/TaxonRecord/NaturalHistory/MolecularData/MolecularDataUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4074,11 +4219,11 @@ Information on the chemical structures and biological processes at the molecular
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/RelatedTo-2022-06-14">http://rs.tdwg.org/plic/terms/version/RelatedTo-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/RelatedTo-2022-06-24">http://rs.tdwg.org/plic/terms/version/RelatedTo-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4087,6 +4232,10 @@ Information on the chemical structures and biological processes at the molecular
 		<tr>
 			<td>Definition</td>
 			<td>Specifies to which PlinianCore term the information contained under MolecularDataAtomized refers to. The controlled vocabulary is list of content-bearing PlinianCore elements.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/Distance/RelatedTo<br/>/Dataset/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/Purpose/RelatedTo<br/>/Dataset/TaxonRecord/NaturalHistory/MolecularData/MolecularDataAtomized/RelatedTo<br/>/Dispersal/DispersalAtomized/Distance/RelatedTo<br/>/Dispersal/DispersalAtomized/Purpose/RelatedTo<br/>/DispersalAtomized/Distance/RelatedTo<br/>/DispersalAtomized/Purpose/RelatedTo<br/>/MeasurementOrFact/RelatedTo<br/>/MolecularData/MolecularDataAtomized/RelatedTo<br/>/MolecularDataAtomized/RelatedTo<br/>/NaturalHistory/Dispersal/DispersalAtomized/Distance/RelatedTo<br/>/NaturalHistory/Dispersal/DispersalAtomized/Purpose/RelatedTo<br/>/NaturalHistory/MolecularData/MolecularDataAtomized/RelatedTo<br/>/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/Distance/RelatedTo<br/>/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/Purpose/RelatedTo<br/>/TaxonRecord/NaturalHistory/MolecularData/MolecularDataAtomized/RelatedTo</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4111,11 +4260,11 @@ The regular, usually seasonal, movement of all or part of an animal population t
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Causes-2022-06-14">http://rs.tdwg.org/plic/terms/version/Causes-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Causes-2022-06-24">http://rs.tdwg.org/plic/terms/version/Causes-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4124,6 +4273,10 @@ The regular, usually seasonal, movement of all or part of an animal population t
 		<tr>
 			<td>Definition</td>
 			<td>Reasons for the species to move from one place to another in a specific lap.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/Causes<br/>/Migratory/MigratoryAtomized/Causes<br/>/MigratoryAtomized/Causes<br/>/NaturalHistory/Migratory/MigratoryAtomized/Causes<br/>/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/Causes</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4145,11 +4298,11 @@ The regular, usually seasonal, movement of all or part of an animal population t
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Migratory-2022-06-14">http://rs.tdwg.org/plic/terms/version/Migratory-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Migratory-2022-06-24">http://rs.tdwg.org/plic/terms/version/Migratory-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4158,6 +4311,10 @@ The regular, usually seasonal, movement of all or part of an animal population t
 		<tr>
 			<td>Definition</td>
 			<td>The regular, usually seasonal, movement of all or part of an animal population of and from a given area, which can occur in variable periods of time and even involve more than one generation.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Migratory<br/>/Migratory<br/>/NaturalHistory/Migratory<br/>/TaxonRecord/NaturalHistory/Migratory</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4179,11 +4336,11 @@ The regular, usually seasonal, movement of all or part of an animal population t
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/MigratoryAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/MigratoryAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/MigratoryAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/MigratoryAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4192,6 +4349,10 @@ The regular, usually seasonal, movement of all or part of an animal population t
 		<tr>
 			<td>Definition</td>
 			<td>The regular, usually seasonal, movement of all or part of an animal population to and from a given area, which can occur in variable periods of time and even involve more than one generation broken down in specific elements. </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized<br/>/Migratory/MigratoryAtomized<br/>/MigratoryAtomized<br/>/NaturalHistory/Migratory/MigratoryAtomized<br/>/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4213,11 +4374,11 @@ The regular, usually seasonal, movement of all or part of an animal population t
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Patterns-2022-06-14">http://rs.tdwg.org/plic/terms/version/Patterns-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Patterns-2022-06-24">http://rs.tdwg.org/plic/terms/version/Patterns-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4226,6 +4387,10 @@ The regular, usually seasonal, movement of all or part of an animal population t
 		<tr>
 			<td>Definition</td>
 			<td>Displacement of the species in space.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/Patterns<br/>/Migratory/MigratoryAtomized/Patterns<br/>/MigratoryAtomized/Patterns<br/>/NaturalHistory/Migratory/MigratoryAtomized/Patterns<br/>/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/Patterns</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4247,11 +4412,11 @@ The regular, usually seasonal, movement of all or part of an animal population t
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Routes-2022-06-14">http://rs.tdwg.org/plic/terms/version/Routes-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Routes-2022-06-24">http://rs.tdwg.org/plic/terms/version/Routes-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4260,6 +4425,10 @@ The regular, usually seasonal, movement of all or part of an animal population t
 		<tr>
 			<td>Definition</td>
 			<td>Trajectory followed by the species.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/Routes<br/>/Migratory/MigratoryAtomized/Routes<br/>/MigratoryAtomized/Routes<br/>/NaturalHistory/Migratory/MigratoryAtomized/Routes<br/>/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/Routes</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4281,11 +4450,11 @@ The regular, usually seasonal, movement of all or part of an animal population t
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Season-2022-06-14">http://rs.tdwg.org/plic/terms/version/Season-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Season-2022-06-24">http://rs.tdwg.org/plic/terms/version/Season-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4294,6 +4463,10 @@ The regular, usually seasonal, movement of all or part of an animal population t
 		<tr>
 			<td>Definition</td>
 			<td>Time of year in which a species migrates.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/Season<br/>/Migratory/MigratoryAtomized/Season<br/>/MigratoryAtomized/Season<br/>/NaturalHistory/Migratory/MigratoryAtomized/Season<br/>/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/Season</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4315,11 +4488,11 @@ The regular, usually seasonal, movement of all or part of an animal population t
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/migratoryUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/migratoryUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/migratoryUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/migratoryUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4328,6 +4501,10 @@ The regular, usually seasonal, movement of all or part of an animal population t
 		<tr>
 			<td>Definition</td>
 			<td>The regular, usually seasonal, movement of all or part of an animal population to and from a given area, which can occur in variable periods of time and even involve more than one generation as text block.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Migratory/MigratoryUnstructured<br/>/Migratory/MigratoryUnstructured<br/>/MigratoryUnstructured<br/>/NaturalHistory/Migratory/MigratoryUnstructured<br/>/TaxonRecord/NaturalHistory/Migratory/MigratoryUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4352,11 +4529,11 @@ Ecological importance of the taxon<table>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/EcologicalSignificance-2022-06-14">http://rs.tdwg.org/plic/terms/version/EcologicalSignificance-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/EcologicalSignificance-2022-06-24">http://rs.tdwg.org/plic/terms/version/EcologicalSignificance-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4365,6 +4542,10 @@ Ecological importance of the taxon<table>
 		<tr>
 			<td>Definition</td>
 			<td>Ecological importance of the taxon. (Placeholder).</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/EcologicalSignificance<br/>/EcologicalSignificance<br/>/NaturalHistory/EcologicalSignificance<br/>/TaxonRecord/NaturalHistory/EcologicalSignificance</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4386,11 +4567,11 @@ Ecological importance of the taxon<table>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ecologicalSignificanceAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/ecologicalSignificanceAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ecologicalSignificanceAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/ecologicalSignificanceAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4399,6 +4580,10 @@ Ecological importance of the taxon<table>
 		<tr>
 			<td>Definition</td>
 			<td>Ecological Significance element in structured format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized<br/>/EcologicalSignificance/EcologicalSignificanceAtomized<br/>/EcologicalSignificanceAtomized<br/>/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized<br/>/TaxonRecord/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4420,11 +4605,11 @@ Ecological importance of the taxon<table>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ecologicalSignificanceUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/ecologicalSignificanceUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ecologicalSignificanceUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/ecologicalSignificanceUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4433,6 +4618,10 @@ Ecological importance of the taxon<table>
 		<tr>
 			<td>Definition</td>
 			<td>Ecological Significance element in text block format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/EcologicalSignificance/EcologicalSignificanceUnstructured<br/>/EcologicalSignificance/EcologicalSignificanceUnstructured<br/>/EcologicalSignificanceUnstructured<br/>/NaturalHistory/EcologicalSignificance/EcologicalSignificanceUnstructured<br/>/TaxonRecord/NaturalHistory/EcologicalSignificance/EcologicalSignificanceUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4460,11 +4649,11 @@ Set of environmental conditions within which it is believed that the species can
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/EnvironmentalEnvelope-2022-06-14">http://rs.tdwg.org/plic/terms/version/EnvironmentalEnvelope-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/EnvironmentalEnvelope-2022-06-24">http://rs.tdwg.org/plic/terms/version/EnvironmentalEnvelope-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4473,6 +4662,10 @@ Set of environmental conditions within which it is believed that the species can
 		<tr>
 			<td>Definition</td>
 			<td>Set of environmental conditions within which it is believed that the species can persist; that is, where its environmental requirements can be satisfied.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/EnvironmentalEnvelope<br/>/EnvironmentalEnvelope<br/>/NaturalHistory/EnvironmentalEnvelope<br/>/TaxonRecord/NaturalHistory/EnvironmentalEnvelope</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4494,11 +4687,11 @@ Set of environmental conditions within which it is believed that the species can
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/environmentalEnvelopeAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/environmentalEnvelopeAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/environmentalEnvelopeAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/environmentalEnvelopeAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4507,6 +4700,10 @@ Set of environmental conditions within which it is believed that the species can
 		<tr>
 			<td>Definition</td>
 			<td>Environmental envelope of a species expressed as an enumeration of measures and parameters.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized<br/>/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized<br/>/EnvironmentalEnvelopeAtomized<br/>/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized<br/>/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4528,11 +4725,11 @@ Set of environmental conditions within which it is believed that the species can
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/environmentalEnvelopeUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/environmentalEnvelopeUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/environmentalEnvelopeUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/environmentalEnvelopeUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4540,7 +4737,11 @@ Set of environmental conditions within which it is believed that the species can
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>environmentalEnvelopeas a a text block.</td>
+			<td>environmentalEnvelope as a text block.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeUnstructured<br/>/EnvironmentalEnvelope/EnvironmentalEnvelopeUnstructured<br/>/EnvironmentalEnvelopeUnstructured<br/>/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeUnstructured<br/>/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4568,11 +4769,11 @@ Information about invasive exotic species that could threaten ecosystems, habita
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Invasiveness-2022-06-14">http://rs.tdwg.org/plic/terms/version/Invasiveness-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Invasiveness-2022-06-24">http://rs.tdwg.org/plic/terms/version/Invasiveness-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4581,6 +4782,10 @@ Information about invasive exotic species that could threaten ecosystems, habita
 		<tr>
 			<td>Definition</td>
 			<td>Information about invasive exotic species that could threaten to ecosystem, habitats and species.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness<br/>/Invasiveness<br/>/TaxonRecord/Invasiveness</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4602,11 +4807,11 @@ Information about invasive exotic species that could threaten ecosystems, habita
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Route-2022-06-14">http://rs.tdwg.org/plic/terms/version/Route-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Route-2022-06-24">http://rs.tdwg.org/plic/terms/version/Route-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4615,6 +4820,10 @@ Information about invasive exotic species that could threaten ecosystems, habita
 		<tr>
 			<td>Definition</td>
 			<td>This is equivalent and probably replaceable by gisin:route.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/Route<br/>/Invasiveness/InvasivenessAtomized/Route<br/>/InvasivenessAtomized/Route<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/Route</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4636,11 +4845,11 @@ Information about invasive exotic species that could threaten ecosystems, habita
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/WhatImpact-2022-06-14">http://rs.tdwg.org/plic/terms/version/WhatImpact-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/WhatImpact-2022-06-24">http://rs.tdwg.org/plic/terms/version/WhatImpact-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4648,9 +4857,11 @@ Information about invasive exotic species that could threaten ecosystems, habita
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>An indication of the actual impact as a free text string. e.g. destroys 
-riparian vegetation, destroys irrigation systems, displaces Arvicola 
-sapidus.</td>
+			<td>An indication of the actual impact as a free text string. e.g. destroys  riparian vegetation, destroys irrigation systems, displaces Arvicola  sapidus.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/WhatImpact<br/>/Invasiveness/InvasivenessAtomized/WhatImpact<br/>/InvasivenessAtomized/WhatImpact<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/WhatImpact</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4672,11 +4883,11 @@ sapidus.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/abundance-2022-06-14">http://rs.tdwg.org/plic/terms/version/abundance-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/abundance-2022-06-24">http://rs.tdwg.org/plic/terms/version/abundance-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4685,6 +4896,10 @@ sapidus.</td>
 		<tr>
 			<td>Definition</td>
 			<td>Controlled vocabulary: Dominant, Common, Rare, Zero, Unknown, Monoculture.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/abundance<br/>/Invasiveness/InvasivenessAtomized/abundance<br/>/InvasivenessAtomized/abundance<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/abundance</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4706,11 +4921,11 @@ sapidus.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/citation-2022-06-14">http://rs.tdwg.org/plic/terms/version/citation-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/citation-2022-06-24">http://rs.tdwg.org/plic/terms/version/citation-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4719,6 +4934,10 @@ sapidus.</td>
 		<tr>
 			<td>Definition</td>
 			<td>Publication date of the current version.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/Metadata/citation<br/>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/citation<br/>/Invasiveness/InvasivenessAtomized/citation<br/>/InvasivenessAtomized/citation<br/>/Metadata/citation<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/citation<br/>/additionalMetadata/metadata/gbif/bibliography/citation<br/>/additionalMetadata/metadata/gbif/citation</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4740,11 +4959,11 @@ sapidus.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/countryCode-2022-06-14">http://rs.tdwg.org/plic/terms/version/countryCode-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/countryCode-2022-06-24">http://rs.tdwg.org/plic/terms/version/countryCode-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4755,40 +4974,8 @@ sapidus.</td>
 			<td>The standard code for the country in which the Location occurs. Recommended best practice is to use ISO 3166-1-alpha-2 country codes.</td>
 		</tr>
 		<tr>
-			<td>Type</td>
-			<td>Property</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="plic_county"></a>Term Name  plic:county</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/county">http://rs.tdwg.org/plic/terms/county</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-06-14</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/county-2022-06-14">http://rs.tdwg.org/plic/terms/version/county-2022-06-14</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>County</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>The full, unabbreviated name of the next smaller administrative region 
-than stateProvince (county, shire, department, etc.) in which the 
-Location occurs.</td>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/countryCode<br/>/Invasiveness/InvasivenessAtomized/countryCode<br/>/InvasivenessAtomized/countryCode<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/countryCode</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4810,11 +4997,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/county-2022-06-14">http://rs.tdwg.org/plic/terms/version/county-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/county-2022-06-24">http://rs.tdwg.org/plic/terms/version/county-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4822,9 +5009,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The full, unabbreviated name of the next smaller administrative region 
-than stateProvince (county, shire, department, etc.) in which the 
-Location occurs.</td>
+			<td>The full, unabbreviated name of the next smaller administrative region  than stateProvince (county, shire, department, etc.) in which the  Location occurs.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/county<br/>/Invasiveness/InvasivenessAtomized/county<br/>/InvasivenessAtomized/county<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/county</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4846,11 +5035,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/distribution-2022-06-14">http://rs.tdwg.org/plic/terms/version/distribution-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/distribution-2022-06-24">http://rs.tdwg.org/plic/terms/version/distribution-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4859,6 +5048,10 @@ Location occurs.</td>
 		<tr>
 			<td>Definition</td>
 			<td>Controlled vocabulary: Widespread, Moderate, Localized, Unknown.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/Metadata/dataset/distribution<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Distribution<br/>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/distribution<br/>/Distribution<br/>/HabitatAndDistribution/Distribution<br/>/Invasiveness/InvasivenessAtomized/distribution<br/>/InvasivenessAtomized/distribution<br/>/Metadata/dataset/distribution<br/>/TaxonRecord/HabitatAndDistribution/Distribution<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/distribution<br/>/additionalMetadata/metadata/gbif/physical/distribution<br/>/dataset/distribution<br/>/distribution</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4880,11 +5073,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/endValidDate-2022-06-14">http://rs.tdwg.org/plic/terms/version/endValidDate-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/endValidDate-2022-06-24">http://rs.tdwg.org/plic/terms/version/endValidDate-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4897,6 +5090,10 @@ Location occurs.</td>
 		<tr>
 			<td>Notes</td>
 			<td>From GISIN: SpeciesStatus. <a href="http://www.gisin.org/cwis438/websites/GISINDirectory/Tech/ProtocolSpecification.php#4.4.1.1">http://www.gisin.org/cwis438/websites/GISINDirectory/Tech/ProtocolSpecification.php#4.4.1.1</a></td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/endValidDate<br/>/Invasiveness/InvasivenessAtomized/endValidDate<br/>/InvasivenessAtomized/endValidDate<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/endValidDate</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4918,11 +5115,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/harmful-2022-06-14">http://rs.tdwg.org/plic/terms/version/harmful-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/harmful-2022-06-24">http://rs.tdwg.org/plic/terms/version/harmful-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4931,6 +5128,10 @@ Location occurs.</td>
 		<tr>
 			<td>Definition</td>
 			<td>Controlled vocabulary: Yes, No, Potentially, Unknown.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/harmful<br/>/Invasiveness/InvasivenessAtomized/harmful<br/>/InvasivenessAtomized/harmful<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/harmful</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4952,11 +5153,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism-2022-06-14">http://rs.tdwg.org/plic/terms/version/impactMechanism-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactMechanism-2022-06-24">http://rs.tdwg.org/plic/terms/version/impactMechanism-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4965,6 +5166,10 @@ Location occurs.</td>
 		<tr>
 			<td>Definition</td>
 			<td>Mechanism of introduction or impact to a new location.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/impactMechanism<br/>/Invasiveness/InvasivenessAtomized/impactMechanism<br/>/InvasivenessAtomized/impactMechanism<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/impactMechanism</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4986,11 +5191,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/impactTarget-2022-06-14">http://rs.tdwg.org/plic/terms/version/impactTarget-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/impactTarget-2022-06-24">http://rs.tdwg.org/plic/terms/version/impactTarget-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4999,6 +5204,10 @@ Location occurs.</td>
 		<tr>
 			<td>Definition</td>
 			<td>This is equivalent and probably replaceable by gisin:impactTarget.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/impactTarget<br/>/Invasiveness/InvasivenessAtomized/impactTarget<br/>/InvasivenessAtomized/impactTarget<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/impactTarget</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5020,11 +5229,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/invasivenessAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/invasivenessAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/invasivenessAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/invasivenessAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5033,6 +5242,10 @@ Location occurs.</td>
 		<tr>
 			<td>Definition</td>
 			<td>invasiveness element in structured format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized<br/>/Invasiveness/InvasivenessAtomized<br/>/InvasivenessAtomized<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5054,11 +5267,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/invasivenessUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/invasivenessUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/invasivenessUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/invasivenessUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5067,6 +5280,48 @@ Location occurs.</td>
 		<tr>
 			<td>Definition</td>
 			<td>invasiveness element in text block format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessUnstructured<br/>/Invasiveness/InvasivenessUnstructured<br/>/InvasivenessUnstructured<br/>/TaxonRecord/Invasiveness/InvasivenessUnstructured</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Property</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="plic_language"></a>Term Name  plic:language</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/language">http://rs.tdwg.org/plic/terms/language</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-06-24</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/language-2022-06-24">http://rs.tdwg.org/plic/terms/version/language-2022-06-24</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Language</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Language used to write the species information, use ISO 639-2 vocabulary..</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/AncillaryData/language<br/>/AnnualCycleAtomized/AncillaryData/language<br/>/AnnualCycles/AncillaryData/language<br/>/AnnualCycles/AnnualCycleAtomized/AncillaryData/language<br/>/Behavior/AncillaryData/language<br/>/Behavior/BehaviorAtomized/AncillaryData/language<br/>/BehaviorAtomized/AncillaryData/language<br/>/CommonNames/AncillaryData/language<br/>/CommonNames/CommonNamesAtomized/AncillaryData/language<br/>/CommonNames/CommonNamesAtomized/Language<br/>/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/language<br/>/CommonNamesAtomized/AncillaryData/language<br/>/CommonNamesAtomized/Language<br/>/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/language<br/>/Dataset/AncillaryData/language<br/>/Dataset/Metadata/dataset/language<br/>/Dataset/TaxonRecord/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/DirectThreats/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/AncillaryData/language<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/Dataset/TaxonRecord/HabitatAndDistribution/AncillaryData/language<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData/language<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic/AncillaryData/language<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Habitats/AncillaryData/language<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/Invasiveness/AncillaryData/language<br/>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/language<br/>/Dataset/TaxonRecord/NaturalHistory/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Behavior/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Dispersal/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/EcologicalSignificance/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Feeding/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Interactions/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/LifeCycle/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/LifeForm/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Migratory/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/MolecularData/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Reproduction/AncillaryData/language<br/>/Dataset/TaxonRecord/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/Language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Hierarchy/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/TaxonRecordName/AncillaryData/language<br/>/Dataset/TaxonRecord/RecordMetadata/Language<br/>/Dataset/TaxonRecord/TaxonomicDescription/AncillaryData/language<br/>/Dataset/TaxonRecord/TaxonomicDescription/FullDescription/AncillaryData/language<br/>/Dataset/TaxonRecord/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/TaxonomicDescription/IdentificationKeys/AncillaryData/language<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/AncillaryData/language<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/AncillaryData/language<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/language<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/AncillaryData/language<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData/language<br/>/DemographyAndThreat/AncillaryData/language<br/>/DemographyAndThreat/DirectThreats/AncillaryData/language<br/>/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData/language<br/>/DemographyAndThreat/Legislation/AncillaryData/language<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData/language<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/language<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/language<br/>/DemographyAndThreat/Territory/AncillaryData/language<br/>/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData/language<br/>/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/language<br/>/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/language<br/>/DemographyAndThreat/ThreatStatus/AncillaryData/language<br/>/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/DetailAtomized/AncillaryData/language<br/>/DirectThreatAtomized/AncillaryData/language<br/>/DirectThreats/AncillaryData/language<br/>/DirectThreats/DirectThreatAtomized/AncillaryData/language<br/>/Dispersal/AncillaryData/language<br/>/Dispersal/DispersalAtomized/AncillaryData/language<br/>/DispersalAtomized/AncillaryData/language<br/>/Distribution/DistributionScope/AncillaryData/language<br/>/DistributionAtomized/AncillaryData/language<br/>/EcologicalSignificance/AncillaryData/language<br/>/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/language<br/>/EcologicalSignificanceAtomized/AncillaryData/language<br/>/Endemic/AncillaryData/language<br/>/Endemic/EndemicAtomized/AncillaryData/language<br/>/EndemicAtomized/AncillaryData/language<br/>/EnvironmentalEnvelope/AncillaryData/language<br/>/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/language<br/>/EnvironmentalEnvelopeAtomized/AncillaryData/language<br/>/Feeding/AncillaryData/language<br/>/Feeding/FeedingAtomized/AncillaryData/language<br/>/FeedingAtomized/AncillaryData/language<br/>/FullDescription/AncillaryData/language<br/>/FullDescription/FullDescriptionAtomized/AncillaryData/language<br/>/FullDescriptionAtomized/AncillaryData/language<br/>/HabitatAndDistribution/AncillaryData/language<br/>/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData/language<br/>/HabitatAndDistribution/Endemic/AncillaryData/language<br/>/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData/language<br/>/HabitatAndDistribution/Habitats/AncillaryData/language<br/>/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData/language<br/>/HabitatAtomized/AncillaryData/language<br/>/Habitats/AncillaryData/language<br/>/Habitats/HabitatAtomized/AncillaryData/language<br/>/Hierarchy/AncillaryData/language<br/>/IdentificationKeys/AncillaryData/language<br/>/InteractionAtomized/AncillaryData/language<br/>/Interactions/AncillaryData/language<br/>/Interactions/InteractionAtomized/AncillaryData/language<br/>/Invasiveness/AncillaryData/language<br/>/Invasiveness/InvasivenessAtomized/AncillaryData/language<br/>/Invasiveness/InvasivenessAtomized/language<br/>/InvasivenessAtomized/AncillaryData/language<br/>/InvasivenessAtomized/language<br/>/Language<br/>/Legislation/AncillaryData/language<br/>/Legislation/LegislationAtomized/AncillaryData/language<br/>/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/LegislationAtomized/AncillaryData/language<br/>/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/LifeCycle/AncillaryData/language<br/>/LifeCycle/LifeCycleAtomized/AncillaryData/language<br/>/LifeCycleAtomized/AncillaryData/language<br/>/LifeForm/AncillaryData/language<br/>/LifeForm/LifeFormAtomized/AncillaryData/language<br/>/LifeFormAtomized/AncillaryData/language<br/>/ManagementAndConservation/AncillaryData/language<br/>/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/language<br/>/ManagementAndConservationAtomized/AncillaryData/language<br/>/Metadata/dataset/language<br/>/Migratory/AncillaryData/language<br/>/Migratory/MigratoryAtomized/AncillaryData/language<br/>/MigratoryAtomized/AncillaryData/language<br/>/MiscDetails/AncillaryData/language<br/>/MiscDetails/DetailAtomized/AncillaryData/language<br/>/MolecularData/AncillaryData/language<br/>/MolecularData/MolecularDataAtomized/AncillaryData/language<br/>/MolecularDataAtomized/AncillaryData/language<br/>/NaturalHistory/AncillaryData/language<br/>/NaturalHistory/AnnualCycles/AncillaryData/language<br/>/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData/language<br/>/NaturalHistory/Behavior/AncillaryData/language<br/>/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData/language<br/>/NaturalHistory/Dispersal/AncillaryData/language<br/>/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData/language<br/>/NaturalHistory/EcologicalSignificance/AncillaryData/language<br/>/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/language<br/>/NaturalHistory/EnvironmentalEnvelope/AncillaryData/language<br/>/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/language<br/>/NaturalHistory/Feeding/AncillaryData/language<br/>/NaturalHistory/Feeding/FeedingAtomized/AncillaryData/language<br/>/NaturalHistory/Interactions/AncillaryData/language<br/>/NaturalHistory/Interactions/InteractionAtomized/AncillaryData/language<br/>/NaturalHistory/LifeCycle/AncillaryData/language<br/>/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData/language<br/>/NaturalHistory/LifeForm/AncillaryData/language<br/>/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData/language<br/>/NaturalHistory/Migratory/AncillaryData/language<br/>/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData/language<br/>/NaturalHistory/MiscDetails/AncillaryData/language<br/>/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData/language<br/>/NaturalHistory/MolecularData/AncillaryData/language<br/>/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData/language<br/>/NaturalHistory/Reproduction/AncillaryData/language<br/>/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData/language<br/>/NomenclatureAndClassification/AncillaryData/language<br/>/NomenclatureAndClassification/CommonNames/AncillaryData/language<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData/language<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/Language<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/language<br/>/NomenclatureAndClassification/Hierarchy/AncillaryData/language<br/>/NomenclatureAndClassification/MiscDetails/AncillaryData/language<br/>/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData/language<br/>/NomenclatureAndClassification/Synonyms/AncillaryData/language<br/>/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData/language<br/>/NomenclatureAndClassification/TaxonRecordName/AncillaryData/language<br/>/PopulationBiology/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/language<br/>/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/language<br/>/PopulationBiologyAtomized/AbundanceData/AncillaryData/language<br/>/PopulationBiologyAtomized/AncillaryData/language<br/>/PopulationBiologyAtomized/AverageDensity/AncillaryData/language<br/>/PopulationBiologyAtomized/BirthRate/AncillaryData/language<br/>/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/language<br/>/PopulationBiologyAtomized/DensityData/AncillaryData/language<br/>/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/language<br/>/PopulationBiologyAtomized/Emigration/AncillaryData/language<br/>/PopulationBiologyAtomized/Fecundity/AncillaryData/language<br/>/PopulationBiologyAtomized/Immigration/AncillaryData/language<br/>/PopulationBiologyAtomized/MortalityRate/AncillaryData/language<br/>/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/language<br/>/PopulationBiologyAtomized/PatternDistribution/AncillaryData/language<br/>/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/language<br/>/PopulationBiologyAtomized/PopulationTrend/AncillaryData/language<br/>/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/language<br/>/PopulationBiologyAtomized/Recruitment/AncillaryData/language<br/>/PopulationBiologyAtomized/SexRatio/AncillaryData/language<br/>/PopulationBiologyAtomized/Size/AncillaryData/language<br/>/RecordMetadata/Language<br/>/Reproduction/AncillaryData/language<br/>/Reproduction/ReproductionAtomized/AncillaryData/language<br/>/ReproductionAtomized/AncillaryData/language<br/>/Synonyms/AncillaryData/language<br/>/Synonyms/SynonymsAtomized/AncillaryData/language<br/>/SynonymsAtomized/AncillaryData/language<br/>/TaxonRecord/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/DirectThreats/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Legislation/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Territory/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/AncillaryData/language<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/TaxonRecord/HabitatAndDistribution/AncillaryData/language<br/>/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData/language<br/>/TaxonRecord/HabitatAndDistribution/Endemic/AncillaryData/language<br/>/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData/language<br/>/TaxonRecord/HabitatAndDistribution/Habitats/AncillaryData/language<br/>/TaxonRecord/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData/language<br/>/TaxonRecord/Invasiveness/AncillaryData/language<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/AncillaryData/language<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/language<br/>/TaxonRecord/NaturalHistory/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Behavior/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Dispersal/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/EcologicalSignificance/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Feeding/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Interactions/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/LifeCycle/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/LifeForm/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Migratory/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/MiscDetails/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/MolecularData/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Reproduction/AncillaryData/language<br/>/TaxonRecord/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/Language<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/Hierarchy/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData/language<br/>/TaxonRecord/NomenclatureAndClassification/TaxonRecordName/AncillaryData/language<br/>/TaxonRecord/RecordMetadata/Language<br/>/TaxonRecord/TaxonomicDescription/AncillaryData/language<br/>/TaxonRecord/TaxonomicDescription/FullDescription/AncillaryData/language<br/>/TaxonRecord/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData/language<br/>/TaxonRecord/TaxonomicDescription/IdentificationKeys/AncillaryData/language<br/>/TaxonRecord/UsesManagementAndConservation/AncillaryData/language<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/AncillaryData/language<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/language<br/>/TaxonRecord/UsesManagementAndConservation/Uses/AncillaryData/language<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData/language<br/>/TaxonRecordName/AncillaryData/language<br/>/TaxonomicDescription/AncillaryData/language<br/>/TaxonomicDescription/FullDescription/AncillaryData/language<br/>/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData/language<br/>/TaxonomicDescription/IdentificationKeys/AncillaryData/language<br/>/Territory/AncillaryData/language<br/>/Territory/TerritoryAtomized/AncillaryData/language<br/>/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/language<br/>/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/language<br/>/TerritoryAtomized/AncillaryData/language<br/>/TerritoryAtomized/AreaOfOccupancy/AncillaryData/language<br/>/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/language<br/>/ThreatStatus/AncillaryData/language<br/>/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/language<br/>/Uses/AncillaryData/language<br/>/Uses/UsesAtomized/AncillaryData/language<br/>/UsesAtomized/AncillaryData/language<br/>/UsesManagementAndConservation/AncillaryData/language<br/>/UsesManagementAndConservation/ManagementAndConservation/AncillaryData/language<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/language<br/>/UsesManagementAndConservation/Uses/AncillaryData/language<br/>/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData/language<br/>/dataset/language<br/>/language</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5088,11 +5343,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/localityName-2022-06-14">http://rs.tdwg.org/plic/terms/version/localityName-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/localityName-2022-06-24">http://rs.tdwg.org/plic/terms/version/localityName-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5101,6 +5356,10 @@ Location occurs.</td>
 		<tr>
 			<td>Definition</td>
 			<td>Protocol Specification on Locations.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/localityName<br/>/Invasiveness/InvasivenessAtomized/localityName<br/>/InvasivenessAtomized/localityName<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/localityName</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5122,11 +5381,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/localityType-2022-06-14">http://rs.tdwg.org/plic/terms/version/localityType-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/localityType-2022-06-24">http://rs.tdwg.org/plic/terms/version/localityType-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5134,7 +5393,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Term borroewed from GISIN. An indication of the scope of the place referred under LocalityName. </td>
+			<td>Term borrowed from GISIN. An indication of the scope of the place referred under LocalityName. </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/localityType<br/>/Invasiveness/InvasivenessAtomized/localityType<br/>/InvasivenessAtomized/localityType<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/localityType</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5156,11 +5419,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/memo-2022-06-14">http://rs.tdwg.org/plic/terms/version/memo-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/memo-2022-06-24">http://rs.tdwg.org/plic/terms/version/memo-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5168,7 +5431,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>A GISIN term, part of its "SpeciesStaus" protocol , defined as  "An unsearchable field for providers to add anything else they think is important"</td>
+			<td>A GISIN term, part of its "SpeciesStatus" protocol , defined as  "An unsearchable field for providers to add anything else they think is important"</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/memo<br/>/Invasiveness/InvasivenessAtomized/memo<br/>/InvasivenessAtomized/memo<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/memo</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5190,11 +5457,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/modified-2022-06-14">http://rs.tdwg.org/plic/terms/version/modified-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/modified-2022-06-24">http://rs.tdwg.org/plic/terms/version/modified-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5210,7 +5477,7 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Equivalent XPath</td>
-			<td>/root/another/child</td>
+			<td>/AncillaryData/modified<br/>/AnnualCycleAtomized/AncillaryData/modified<br/>/AnnualCycles/AncillaryData/modified<br/>/AnnualCycles/AnnualCycleAtomized/AncillaryData/modified<br/>/Behavior/AncillaryData/modified<br/>/Behavior/BehaviorAtomized/AncillaryData/modified<br/>/BehaviorAtomized/AncillaryData/modified<br/>/CommonNames/AncillaryData/modified<br/>/CommonNames/CommonNamesAtomized/AncillaryData/modified<br/>/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/modified<br/>/CommonNamesAtomized/AncillaryData/modified<br/>/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/modified<br/>/Dataset/AncillaryData/modified<br/>/Dataset/TaxonRecord/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/DirectThreats/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/AncillaryData/modified<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/modified<br/>/Dataset/TaxonRecord/HabitatAndDistribution/AncillaryData/modified<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData/modified<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic/AncillaryData/modified<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Habitats/AncillaryData/modified<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/Invasiveness/AncillaryData/modified<br/>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/modified<br/>/Dataset/TaxonRecord/NaturalHistory/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/Behavior/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/Dispersal/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/EcologicalSignificance/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/Feeding/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/Interactions/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/LifeCycle/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/LifeForm/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/Migratory/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/MolecularData/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/Reproduction/AncillaryData/modified<br/>/Dataset/TaxonRecord/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/AncillaryData/modified<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/AncillaryData/modified<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/modified<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Hierarchy/AncillaryData/modified<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/AncillaryData/modified<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms/AncillaryData/modified<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/TaxonRecordName/AncillaryData/modified<br/>/Dataset/TaxonRecord/TaxonomicDescription/AncillaryData/modified<br/>/Dataset/TaxonRecord/TaxonomicDescription/FullDescription/AncillaryData/modified<br/>/Dataset/TaxonRecord/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/TaxonomicDescription/IdentificationKeys/AncillaryData/modified<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/AncillaryData/modified<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/AncillaryData/modified<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/modified<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/AncillaryData/modified<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData/modified<br/>/DemographyAndThreat/AncillaryData/modified<br/>/DemographyAndThreat/DirectThreats/AncillaryData/modified<br/>/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData/modified<br/>/DemographyAndThreat/Legislation/AncillaryData/modified<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData/modified<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/modified<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/modified<br/>/DemographyAndThreat/Territory/AncillaryData/modified<br/>/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData/modified<br/>/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/modified<br/>/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/modified<br/>/DemographyAndThreat/ThreatStatus/AncillaryData/modified<br/>/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/modified<br/>/DetailAtomized/AncillaryData/modified<br/>/DirectThreatAtomized/AncillaryData/modified<br/>/DirectThreats/AncillaryData/modified<br/>/DirectThreats/DirectThreatAtomized/AncillaryData/modified<br/>/Dispersal/AncillaryData/modified<br/>/Dispersal/DispersalAtomized/AncillaryData/modified<br/>/DispersalAtomized/AncillaryData/modified<br/>/Distribution/DistributionScope/AncillaryData/modified<br/>/DistributionAtomized/AncillaryData/modified<br/>/EcologicalSignificance/AncillaryData/modified<br/>/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/modified<br/>/EcologicalSignificanceAtomized/AncillaryData/modified<br/>/Endemic/AncillaryData/modified<br/>/Endemic/EndemicAtomized/AncillaryData/modified<br/>/EndemicAtomized/AncillaryData/modified<br/>/EnvironmentalEnvelope/AncillaryData/modified<br/>/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/modified<br/>/EnvironmentalEnvelopeAtomized/AncillaryData/modified<br/>/Feeding/AncillaryData/modified<br/>/Feeding/FeedingAtomized/AncillaryData/modified<br/>/FeedingAtomized/AncillaryData/modified<br/>/FullDescription/AncillaryData/modified<br/>/FullDescription/FullDescriptionAtomized/AncillaryData/modified<br/>/FullDescriptionAtomized/AncillaryData/modified<br/>/HabitatAndDistribution/AncillaryData/modified<br/>/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData/modified<br/>/HabitatAndDistribution/Endemic/AncillaryData/modified<br/>/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData/modified<br/>/HabitatAndDistribution/Habitats/AncillaryData/modified<br/>/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData/modified<br/>/HabitatAtomized/AncillaryData/modified<br/>/Habitats/AncillaryData/modified<br/>/Habitats/HabitatAtomized/AncillaryData/modified<br/>/Hierarchy/AncillaryData/modified<br/>/IdentificationKeys/AncillaryData/modified<br/>/InteractionAtomized/AncillaryData/modified<br/>/Interactions/AncillaryData/modified<br/>/Interactions/InteractionAtomized/AncillaryData/modified<br/>/Invasiveness/AncillaryData/modified<br/>/Invasiveness/InvasivenessAtomized/AncillaryData/modified<br/>/Invasiveness/InvasivenessAtomized/modified<br/>/InvasivenessAtomized/AncillaryData/modified<br/>/InvasivenessAtomized/modified<br/>/Legislation/AncillaryData/modified<br/>/Legislation/LegislationAtomized/AncillaryData/modified<br/>/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/modified<br/>/LegislationAtomized/AncillaryData/modified<br/>/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/modified<br/>/LifeCycle/AncillaryData/modified<br/>/LifeCycle/LifeCycleAtomized/AncillaryData/modified<br/>/LifeCycleAtomized/AncillaryData/modified<br/>/LifeForm/AncillaryData/modified<br/>/LifeForm/LifeFormAtomized/AncillaryData/modified<br/>/LifeFormAtomized/AncillaryData/modified<br/>/ManagementAndConservation/AncillaryData/modified<br/>/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/modified<br/>/ManagementAndConservationAtomized/AncillaryData/modified<br/>/Migratory/AncillaryData/modified<br/>/Migratory/MigratoryAtomized/AncillaryData/modified<br/>/MigratoryAtomized/AncillaryData/modified<br/>/MiscDetails/AncillaryData/modified<br/>/MiscDetails/DetailAtomized/AncillaryData/modified<br/>/MolecularData/AncillaryData/modified<br/>/MolecularData/MolecularDataAtomized/AncillaryData/modified<br/>/MolecularDataAtomized/AncillaryData/modified<br/>/NaturalHistory/AncillaryData/modified<br/>/NaturalHistory/AnnualCycles/AncillaryData/modified<br/>/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData/modified<br/>/NaturalHistory/Behavior/AncillaryData/modified<br/>/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData/modified<br/>/NaturalHistory/Dispersal/AncillaryData/modified<br/>/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData/modified<br/>/NaturalHistory/EcologicalSignificance/AncillaryData/modified<br/>/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/modified<br/>/NaturalHistory/EnvironmentalEnvelope/AncillaryData/modified<br/>/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/modified<br/>/NaturalHistory/Feeding/AncillaryData/modified<br/>/NaturalHistory/Feeding/FeedingAtomized/AncillaryData/modified<br/>/NaturalHistory/Interactions/AncillaryData/modified<br/>/NaturalHistory/Interactions/InteractionAtomized/AncillaryData/modified<br/>/NaturalHistory/LifeCycle/AncillaryData/modified<br/>/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData/modified<br/>/NaturalHistory/LifeForm/AncillaryData/modified<br/>/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData/modified<br/>/NaturalHistory/Migratory/AncillaryData/modified<br/>/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData/modified<br/>/NaturalHistory/MiscDetails/AncillaryData/modified<br/>/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData/modified<br/>/NaturalHistory/MolecularData/AncillaryData/modified<br/>/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData/modified<br/>/NaturalHistory/Reproduction/AncillaryData/modified<br/>/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData/modified<br/>/NomenclatureAndClassification/AncillaryData/modified<br/>/NomenclatureAndClassification/CommonNames/AncillaryData/modified<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData/modified<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/modified<br/>/NomenclatureAndClassification/Hierarchy/AncillaryData/modified<br/>/NomenclatureAndClassification/MiscDetails/AncillaryData/modified<br/>/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData/modified<br/>/NomenclatureAndClassification/Synonyms/AncillaryData/modified<br/>/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData/modified<br/>/NomenclatureAndClassification/TaxonRecordName/AncillaryData/modified<br/>/PopulationBiology/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/modified<br/>/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/modified<br/>/PopulationBiologyAtomized/AbundanceData/AncillaryData/modified<br/>/PopulationBiologyAtomized/AncillaryData/modified<br/>/PopulationBiologyAtomized/AverageDensity/AncillaryData/modified<br/>/PopulationBiologyAtomized/BirthRate/AncillaryData/modified<br/>/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/modified<br/>/PopulationBiologyAtomized/DensityData/AncillaryData/modified<br/>/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/modified<br/>/PopulationBiologyAtomized/Emigration/AncillaryData/modified<br/>/PopulationBiologyAtomized/Fecundity/AncillaryData/modified<br/>/PopulationBiologyAtomized/Immigration/AncillaryData/modified<br/>/PopulationBiologyAtomized/MortalityRate/AncillaryData/modified<br/>/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/modified<br/>/PopulationBiologyAtomized/PatternDistribution/AncillaryData/modified<br/>/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/modified<br/>/PopulationBiologyAtomized/PopulationTrend/AncillaryData/modified<br/>/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/modified<br/>/PopulationBiologyAtomized/Recruitment/AncillaryData/modified<br/>/PopulationBiologyAtomized/SexRatio/AncillaryData/modified<br/>/PopulationBiologyAtomized/Size/AncillaryData/modified<br/>/Reproduction/AncillaryData/modified<br/>/Reproduction/ReproductionAtomized/AncillaryData/modified<br/>/ReproductionAtomized/AncillaryData/modified<br/>/Synonyms/AncillaryData/modified<br/>/Synonyms/SynonymsAtomized/AncillaryData/modified<br/>/SynonymsAtomized/AncillaryData/modified<br/>/TaxonRecord/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/DirectThreats/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/Legislation/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/Territory/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/AncillaryData/modified<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/modified<br/>/TaxonRecord/HabitatAndDistribution/AncillaryData/modified<br/>/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData/modified<br/>/TaxonRecord/HabitatAndDistribution/Endemic/AncillaryData/modified<br/>/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData/modified<br/>/TaxonRecord/HabitatAndDistribution/Habitats/AncillaryData/modified<br/>/TaxonRecord/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData/modified<br/>/TaxonRecord/Invasiveness/AncillaryData/modified<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/AncillaryData/modified<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/modified<br/>/TaxonRecord/NaturalHistory/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/Behavior/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/Dispersal/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/EcologicalSignificance/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/Feeding/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/Interactions/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/LifeCycle/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/LifeForm/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/Migratory/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/MiscDetails/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/MolecularData/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/Reproduction/AncillaryData/modified<br/>/TaxonRecord/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData/modified<br/>/TaxonRecord/NomenclatureAndClassification/AncillaryData/modified<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/AncillaryData/modified<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData/modified<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData/modified<br/>/TaxonRecord/NomenclatureAndClassification/Hierarchy/AncillaryData/modified<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/AncillaryData/modified<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData/modified<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms/AncillaryData/modified<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData/modified<br/>/TaxonRecord/NomenclatureAndClassification/TaxonRecordName/AncillaryData/modified<br/>/TaxonRecord/TaxonomicDescription/AncillaryData/modified<br/>/TaxonRecord/TaxonomicDescription/FullDescription/AncillaryData/modified<br/>/TaxonRecord/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData/modified<br/>/TaxonRecord/TaxonomicDescription/IdentificationKeys/AncillaryData/modified<br/>/TaxonRecord/UsesManagementAndConservation/AncillaryData/modified<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/AncillaryData/modified<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/modified<br/>/TaxonRecord/UsesManagementAndConservation/Uses/AncillaryData/modified<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData/modified<br/>/TaxonRecordName/AncillaryData/modified<br/>/TaxonomicDescription/AncillaryData/modified<br/>/TaxonomicDescription/FullDescription/AncillaryData/modified<br/>/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData/modified<br/>/TaxonomicDescription/IdentificationKeys/AncillaryData/modified<br/>/Territory/AncillaryData/modified<br/>/Territory/TerritoryAtomized/AncillaryData/modified<br/>/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData/modified<br/>/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/modified<br/>/TerritoryAtomized/AncillaryData/modified<br/>/TerritoryAtomized/AreaOfOccupancy/AncillaryData/modified<br/>/TerritoryAtomized/ExtentOfOccurrence/AncillaryData/modified<br/>/ThreatStatus/AncillaryData/modified<br/>/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/modified<br/>/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData/modified<br/>/Uses/AncillaryData/modified<br/>/Uses/UsesAtomized/AncillaryData/modified<br/>/UsesAtomized/AncillaryData/modified<br/>/UsesManagementAndConservation/AncillaryData/modified<br/>/UsesManagementAndConservation/ManagementAndConservation/AncillaryData/modified<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData/modified<br/>/UsesManagementAndConservation/Uses/AncillaryData/modified<br/>/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData/modified</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5232,11 +5499,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/origin-2022-06-14">http://rs.tdwg.org/plic/terms/version/origin-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/origin-2022-06-24">http://rs.tdwg.org/plic/terms/version/origin-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5245,6 +5512,10 @@ Location occurs.</td>
 		<tr>
 			<td>Definition</td>
 			<td>Controlled vocabulary: Indigenous, Exotic, Unknown.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/origin<br/>/Invasiveness/InvasivenessAtomized/origin<br/>/InvasivenessAtomized/origin<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/origin</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5266,11 +5537,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/persistence-2022-06-14">http://rs.tdwg.org/plic/terms/version/persistence-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/persistence-2022-06-24">http://rs.tdwg.org/plic/terms/version/persistence-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5279,6 +5550,10 @@ Location occurs.</td>
 		<tr>
 			<td>Definition</td>
 			<td>Controlled vocabulary: Persistent, Temporary, Transient, DiedOut, Unknown.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/persistence<br/>/Invasiveness/InvasivenessAtomized/persistence<br/>/InvasivenessAtomized/persistence<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/persistence</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5300,11 +5575,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/presence-2022-06-14">http://rs.tdwg.org/plic/terms/version/presence-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/presence-2022-06-24">http://rs.tdwg.org/plic/terms/version/presence-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5313,6 +5588,10 @@ Location occurs.</td>
 		<tr>
 			<td>Definition</td>
 			<td>Controlled vocabulary: Absent, SometimesPresent, Present, Unknown, Reported.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/presence<br/>/Invasiveness/InvasivenessAtomized/presence<br/>/InvasivenessAtomized/presence<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/presence</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5334,11 +5613,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/publicationDate-2022-06-14">http://rs.tdwg.org/plic/terms/version/publicationDate-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/publicationDate-2022-06-24">http://rs.tdwg.org/plic/terms/version/publicationDate-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5351,6 +5630,10 @@ Location occurs.</td>
 		<tr>
 			<td>Notes</td>
 			<td>From GISIN: SpeciesStatus. <a href="http://www.gisin.org/cwis438/websites/GISINDirectory/Tech/ProtocolSpecification.php#4.4.1.1">http://www.gisin.org/cwis438/websites/GISINDirectory/Tech/ProtocolSpecification.php#4.4.1.1</a></td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/publicationDate<br/>/Invasiveness/InvasivenessAtomized/publicationDate<br/>/InvasivenessAtomized/publicationDate<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/publicationDate</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5372,11 +5655,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/rateOfSpread-2022-06-14">http://rs.tdwg.org/plic/terms/version/rateOfSpread-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/rateOfSpread-2022-06-24">http://rs.tdwg.org/plic/terms/version/rateOfSpread-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5385,6 +5668,10 @@ Location occurs.</td>
 		<tr>
 			<td>Definition</td>
 			<td>Controlled vocabulary: Rapid, Moderate, Slow, Unknown.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/rateOfSpread<br/>/Invasiveness/InvasivenessAtomized/rateOfSpread<br/>/InvasivenessAtomized/rateOfSpread<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/rateOfSpread</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5406,11 +5693,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/regulatoryListing-2022-06-14">http://rs.tdwg.org/plic/terms/version/regulatoryListing-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/regulatoryListing-2022-06-24">http://rs.tdwg.org/plic/terms/version/regulatoryListing-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5419,6 +5706,10 @@ Location occurs.</td>
 		<tr>
 			<td>Definition</td>
 			<td>Controlled vocabulary: Prohibited, Restricted, NotConsidered, Unknown.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/regulatoryListing<br/>/Invasiveness/InvasivenessAtomized/regulatoryListing<br/>/InvasivenessAtomized/regulatoryListing<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/regulatoryListing</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5440,11 +5731,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/startValidDate-2022-06-14">http://rs.tdwg.org/plic/terms/version/startValidDate-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/startValidDate-2022-06-24">http://rs.tdwg.org/plic/terms/version/startValidDate-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5460,7 +5751,7 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Equivalent XPath</td>
-			<td>/root/other/a<br/>/root/other/b</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/startValidDate<br/>/Invasiveness/InvasivenessAtomized/startValidDate<br/>/InvasivenessAtomized/startValidDate<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/startValidDate</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5482,11 +5773,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/stateProvince-2022-06-14">http://rs.tdwg.org/plic/terms/version/stateProvince-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/stateProvince-2022-06-24">http://rs.tdwg.org/plic/terms/version/stateProvince-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5494,45 +5785,11 @@ Location occurs.</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The name of the next smaller administrative region than country (state, 
-province, canton, department, region, etc.) in which the Location 
-occurs.</td>
+			<td>The name of the next smaller administrative region than country (state,  province, canton, department, region, etc.) in which the Location  occurs.</td>
 		</tr>
 		<tr>
-			<td>Type</td>
-			<td>Property</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="plic_stateProvince"></a>Term Name  plic:stateProvince</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/stateProvince">http://rs.tdwg.org/plic/terms/stateProvince</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-06-14</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/stateProvince-2022-06-14">http://rs.tdwg.org/plic/terms/version/stateProvince-2022-06-14</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>State Province</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>The name of the next smaller administrative region than country (state, 
-province, canton, department, region, etc.) in which the Location 
-occurs.</td>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/stateProvince<br/>/Invasiveness/InvasivenessAtomized/stateProvince<br/>/InvasivenessAtomized/stateProvince<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/stateProvince</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5554,11 +5811,11 @@ occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/trend-2022-06-14">http://rs.tdwg.org/plic/terms/version/trend-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/trend-2022-06-24">http://rs.tdwg.org/plic/terms/version/trend-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5567,6 +5824,10 @@ occurs.</td>
 		<tr>
 			<td>Definition</td>
 			<td>Controlled vocabulary: Stable, Declining, Unknown, Expanding.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/trend<br/>/Invasiveness/InvasivenessAtomized/trend<br/>/InvasivenessAtomized/trend<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/trend</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5588,11 +5849,11 @@ occurs.</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/vector-2022-06-14">http://rs.tdwg.org/plic/terms/version/vector-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/vector-2022-06-24">http://rs.tdwg.org/plic/terms/version/vector-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5601,6 +5862,10 @@ occurs.</td>
 		<tr>
 			<td>Definition</td>
 			<td>By which means a species occupies a new territory. e.g. fishing boats; dirty boots, cars (Aedes albopictus).</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/vector<br/>/Invasiveness/InvasivenessAtomized/vector<br/>/InvasivenessAtomized/vector<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/vector</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5625,11 +5890,11 @@ Habitat and Distribution of the species<table>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Distribution-2022-06-14">http://rs.tdwg.org/plic/terms/version/Distribution-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Distribution-2022-06-24">http://rs.tdwg.org/plic/terms/version/Distribution-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5637,9 +5902,11 @@ Habitat and Distribution of the species<table>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Species geographical distribution.
-
-</td>
+			<td>Species geographical distribution.  </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/Metadata/dataset/distribution<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Distribution<br/>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/distribution<br/>/Distribution<br/>/HabitatAndDistribution/Distribution<br/>/Invasiveness/InvasivenessAtomized/distribution<br/>/InvasivenessAtomized/distribution<br/>/Metadata/dataset/distribution<br/>/TaxonRecord/HabitatAndDistribution/Distribution<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/distribution<br/>/additionalMetadata/metadata/gbif/physical/distribution<br/>/dataset/distribution<br/>/distribution</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5661,11 +5928,11 @@ Habitat and Distribution of the species<table>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/DistributionAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/DistributionAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5674,6 +5941,10 @@ Habitat and Distribution of the species<table>
 		<tr>
 			<td>Definition</td>
 			<td>Distribution element in structured format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/DistributionAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5695,11 +5966,11 @@ Habitat and Distribution of the species<table>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionScope-2022-06-14">http://rs.tdwg.org/plic/terms/version/DistributionScope-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionScope-2022-06-24">http://rs.tdwg.org/plic/terms/version/DistributionScope-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5711,21 +5982,19 @@ Habitat and Distribution of the species<table>
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>
-</td>
+			<td> </td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>A controlled vocabulary is recommended.
-e.g. Historical, Current, Restricted and Wide.
-</td>
+			<td>A controlled vocabulary is recommended. e.g. Historical, Current, Restricted and Wide. </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope<br/>/CommonNamesAtomized/UsedIn/DistributionScope<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope<br/>/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope<br/>/Distribution/DistributionScope<br/>/HabitatAndDistribution/Distribution/DistributionScope<br/>/Legislation/LegislationAtomized/AppliesTo/DistributionScope<br/>/LegislationAtomized/AppliesTo/DistributionScope<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope<br/>/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope<br/>/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope<br/>/ThreatStatusAtomized/AppliesTo/DistributionScope</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>http://www.w3.org/2000/01/rdf-schema#Class
-
-
-</td>
+			<td>http://www.w3.org/2000/01/rdf-schema#Class   </td>
 		</tr>
 	</tbody>
 </table>
@@ -5743,11 +6012,11 @@ e.g. Historical, Current, Restricted and Wide.
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionScopeType-2022-06-14">http://rs.tdwg.org/plic/terms/version/DistributionScopeType-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionScopeType-2022-06-24">http://rs.tdwg.org/plic/terms/version/DistributionScopeType-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5755,14 +6024,11 @@ e.g. Historical, Current, Restricted and Wide.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Categorization of scope qualifying the distribution presented in time (e.g. "prior 1900", "current", "projected", "winter"), in space (e.g. "in the Canary Islands", "Boreal"), by biological activity (e.g., "foraging distribution", "reproductive area"), or any other criteria . A controled vocabulary is recommended. 
-</td>
+			<td>Categorization of scope qualifying the distribution presented in time (e.g. "prior 1900", "current", "projected", "winter"), in space (e.g. "in the Canary Islands", "Boreal"), by biological activity (e.g., "foraging distribution", "reproductive area"), or any other criteria . A controlled vocabulary is recommended.  </td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>http://www.w3.org/2000/01/rdf-schema#Class
-
-</td>
+			<td>http://www.w3.org/2000/01/rdf-schema#Class  </td>
 		</tr>
 	</tbody>
 </table>
@@ -5780,11 +6046,11 @@ e.g. Historical, Current, Restricted and Wide.
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionType-2022-06-14">http://rs.tdwg.org/plic/terms/version/DistributionType-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionType-2022-06-24">http://rs.tdwg.org/plic/terms/version/DistributionType-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5792,14 +6058,11 @@ e.g. Historical, Current, Restricted and Wide.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Information about the distribution of the species based on the studied specimens collection sites data.
-
-</td>
+			<td>Information about the distribution of the species based on the studied specimens collection sites data.  </td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>http://www.w3.org/2000/01/rdf-schema#Class
-</td>
+			<td>http://www.w3.org/2000/01/rdf-schema#Class </td>
 		</tr>
 	</tbody>
 </table>
@@ -5817,11 +6080,11 @@ e.g. Historical, Current, Restricted and Wide.
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/DistributionUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DistributionUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/DistributionUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5830,6 +6093,10 @@ e.g. Historical, Current, Restricted and Wide.
 		<tr>
 			<td>Definition</td>
 			<td>Distribution element in text block format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/DistributionUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5851,11 +6118,11 @@ e.g. Historical, Current, Restricted and Wide.
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Endemic-2022-06-14">http://rs.tdwg.org/plic/terms/version/Endemic-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Endemic-2022-06-24">http://rs.tdwg.org/plic/terms/version/Endemic-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5864,6 +6131,10 @@ e.g. Historical, Current, Restricted and Wide.
 		<tr>
 			<td>Definition</td>
 			<td>Ecological importance of the taxon. (Placeholder).</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic<br/>/Endemic<br/>/HabitatAndDistribution/Endemic<br/>/TaxonRecord/HabitatAndDistribution/Endemic</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5885,11 +6156,11 @@ e.g. Historical, Current, Restricted and Wide.
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/EndemicIn-2022-06-14">http://rs.tdwg.org/plic/terms/version/EndemicIn-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/EndemicIn-2022-06-24">http://rs.tdwg.org/plic/terms/version/EndemicIn-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5902,6 +6173,10 @@ e.g. Historical, Current, Restricted and Wide.
 		<tr>
 			<td>Notes</td>
 			<td>If not specified, the Earth as a whole is assumed as the geographical context. Examples:  Vicuña (Vicugna vicugna Molina, 1782) endemic to the Andean region **in South America**. Manzanilla Real (Artemisia granatensis Boiss.) endemic in the peaks of Sierra Nevada (**in Spain**).</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized/EndemicIn<br/>/Endemic/EndemicAtomized/EndemicIn<br/>/EndemicAtomized/EndemicIn<br/>/HabitatAndDistribution/Endemic/EndemicAtomized/EndemicIn<br/>/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized/EndemicIn</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5923,11 +6198,11 @@ e.g. Historical, Current, Restricted and Wide.
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/EndemicTo-2022-06-14">http://rs.tdwg.org/plic/terms/version/EndemicTo-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/EndemicTo-2022-06-24">http://rs.tdwg.org/plic/terms/version/EndemicTo-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5940,6 +6215,10 @@ e.g. Historical, Current, Restricted and Wide.
 		<tr>
 			<td>Notes</td>
 			<td>Examples: Giant panda (Ailuropoda melanoleuca (David, 1869) endemic to China. Quetzal Resplendent (Pharomachrus mocinno de la Llave, 1832) endemic to Mexico, Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica and Panama.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized/EndemicTo<br/>/Endemic/EndemicAtomized/EndemicTo<br/>/EndemicAtomized/EndemicTo<br/>/HabitatAndDistribution/Endemic/EndemicAtomized/EndemicTo<br/>/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized/EndemicTo</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5961,11 +6240,11 @@ e.g. Historical, Current, Restricted and Wide.
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/GeographicEntity-2022-06-14">http://rs.tdwg.org/plic/terms/version/GeographicEntity-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/GeographicEntity-2022-06-24">http://rs.tdwg.org/plic/terms/version/GeographicEntity-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5977,13 +6256,15 @@ e.g. Historical, Current, Restricted and Wide.
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>A controlled vocabulary --as specified in the Catalogue element-- is recommended.
-e.g. Spain; Aguascalientas; Alabama; Ambon</td>
+			<td>A controlled vocabulary --as specified in the Catalogue element-- is recommended. e.g. Spain; Aguascalientas; Alabama; Ambon</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/DistributionAtomized/GeographicEntity</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property </td>
 		</tr>
 	</tbody>
 </table>
@@ -6001,11 +6282,11 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/HabitatAndDistribution-2022-06-14">http://rs.tdwg.org/plic/terms/version/HabitatAndDistribution-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/HabitatAndDistribution-2022-06-24">http://rs.tdwg.org/plic/terms/version/HabitatAndDistribution-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6014,6 +6295,10 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 		<tr>
 			<td>Definition</td>
 			<td>Distribution of the species.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/HabitatAndDistribution<br/>/HabitatAndDistribution<br/>/TaxonRecord/HabitatAndDistribution</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6035,11 +6320,11 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Habitats-2022-06-14">http://rs.tdwg.org/plic/terms/version/Habitats-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Habitats-2022-06-24">http://rs.tdwg.org/plic/terms/version/Habitats-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6048,6 +6333,10 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 		<tr>
 			<td>Definition</td>
 			<td>General description of the sites where the species is found (ecosystem, environment or microhabitat).</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/HabitatAndDistribution/Habitats<br/>/HabitatAndDistribution/Habitats<br/>/Habitats<br/>/TaxonRecord/HabitatAndDistribution/Habitats</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6069,11 +6358,11 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/country-2022-06-14">http://rs.tdwg.org/plic/terms/version/country-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/country-2022-06-24">http://rs.tdwg.org/plic/terms/version/country-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6081,19 +6370,57 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The name of the country or major administrative unit in which the Location occurs.
-</td>
+			<td>The name of the country or major administrative unit in which the Location occurs. </td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>It is recommended to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.
-</td>
+			<td>It is recommended to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/Metadata/dataset/associatedParty/address/country<br/>/Dataset/Metadata/dataset/contact/address/country<br/>/Dataset/Metadata/dataset/creator/address/country<br/>/Dataset/Metadata/dataset/metadataProvider/address/country<br/>/Dataset/Metadata/dataset/project/personnel/address/country<br/>/Dataset/TaxonRecord/RecordMetadata/Revision/associatedParty/address/country<br/>/Dataset/TaxonRecord/associatedParty/address/country<br/>/Metadata/dataset/associatedParty/address/country<br/>/Metadata/dataset/contact/address/country<br/>/Metadata/dataset/creator/address/country<br/>/Metadata/dataset/metadataProvider/address/country<br/>/Metadata/dataset/project/personnel/address/country<br/>/RecordMetadata/Revision/associatedParty/address/country<br/>/Revision/associatedParty/address/country<br/>/TaxonRecord/RecordMetadata/Revision/associatedParty/address/country<br/>/TaxonRecord/associatedParty/address/country<br/>/address/country<br/>/associatedParty/address/country<br/>/creator/address/country<br/>/dataset/associatedParty/address/country<br/>/dataset/contact/address/country<br/>/dataset/creator/address/country<br/>/dataset/metadataProvider/address/country<br/>/dataset/project/personnel/address/country<br/>/project/personnel/address/country</td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property  </td>
+		</tr>
+	</tbody>
+</table>
 
-</td>
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="plic_county"></a>Term Name  plic:county</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/county">http://rs.tdwg.org/plic/terms/county</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-06-24</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/county-2022-06-24">http://rs.tdwg.org/plic/terms/version/county-2022-06-24</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>County</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the Location occurs.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/county<br/>/Invasiveness/InvasivenessAtomized/county<br/>/InvasivenessAtomized/county<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/county</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property  </td>
 		</tr>
 	</tbody>
 </table>
@@ -6111,11 +6438,11 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/endemicAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/endemicAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/endemicAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/endemicAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6124,6 +6451,10 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 		<tr>
 			<td>Definition</td>
 			<td>List of areas structured and categorized by territories in which the endemic species appears (EndemicTo) in relation to a wider area (EndemicIn) given as geographical context.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized<br/>/Endemic/EndemicAtomized<br/>/EndemicAtomized<br/>/HabitatAndDistribution/Endemic/EndemicAtomized<br/>/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6145,11 +6476,11 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/endemicUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/endemicUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/endemicUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/endemicUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6158,6 +6489,10 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 		<tr>
 			<td>Definition</td>
 			<td>Information on the endemicity of a species as a text block.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic/EndemicUnstructured<br/>/Endemic/EndemicUnstructured<br/>/EndemicUnstructured<br/>/HabitatAndDistribution/Endemic/EndemicUnstructured<br/>/TaxonRecord/HabitatAndDistribution/Endemic/EndemicUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6169,27 +6504,21 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="plic_geographicEntity
-"></a>Term Name  plic:geographicEntity
-</th>
+			<th colspan="2"><a id="plic_geographicEntity"></a>Term Name  plic:geographicEntity</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/geographicEntity
-">http://rs.tdwg.org/plic/terms/geographicEntity
-</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/geographicEntity">http://rs.tdwg.org/plic/terms/geographicEntity</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/geographicEntity
--2022-06-14">http://rs.tdwg.org/plic/terms/version/geographicEntity
--2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/geographicEntity-2022-06-24">http://rs.tdwg.org/plic/terms/version/geographicEntity-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6197,15 +6526,15 @@ e.g. Spain; Aguascalientas; Alabama; Ambon</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>
-Name of the geographic entity. A controlled vocabulary --as specified in the Catalogue element-- is recommended.
-</td>
+			<td> Name of the geographic entity. A controlled vocabulary --as specified in the Catalogue element-- is recommended. </td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>
-e.g. Spain; Aguascalientas; Alabama; Ambon
-</td>
+			<td> e.g. Spain; Aguascalientas; Alabama; Ambon </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/DistributionAtomized/GeographicEntity</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6227,11 +6556,11 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/habitatAndDistributionUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/habitatAndDistributionUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/habitatAndDistributionUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/habitatAndDistributionUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6240,6 +6569,10 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		<tr>
 			<td>Definition</td>
 			<td>habitatAndDistribution element in text block format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/HabitatAndDistribution/HabitatAndDistributionUnstructured<br/>/HabitatAndDistribution/HabitatAndDistributionUnstructured<br/>/HabitatAndDistributionUnstructured<br/>/TaxonRecord/HabitatAndDistribution/HabitatAndDistributionUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6261,11 +6594,11 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/habitatAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/habitatAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/habitatAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/habitatAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6274,6 +6607,10 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		<tr>
 			<td>Definition</td>
 			<td>habitatAndDistribution element in structured format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/HabitatAndDistribution/Habitats/HabitatAtomized<br/>/HabitatAndDistribution/Habitats/HabitatAtomized<br/>/HabitatAtomized<br/>/Habitats/HabitatAtomized<br/>/TaxonRecord/HabitatAndDistribution/Habitats/HabitatAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6295,11 +6632,11 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/habitatUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/habitatUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/habitatUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/habitatUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6308,6 +6645,10 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		<tr>
 			<td>Definition</td>
 			<td>habitat element in text block format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/HabitatAndDistribution/Habitats/HabitatUnstructured<br/>/HabitatAndDistribution/Habitats/HabitatUnstructured<br/>/HabitatUnstructured<br/>/Habitats/HabitatUnstructured<br/>/TaxonRecord/HabitatAndDistribution/Habitats/HabitatUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6329,11 +6670,11 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/locality-2022-06-14">http://rs.tdwg.org/plic/terms/version/locality-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/locality-2022-06-24">http://rs.tdwg.org/plic/terms/version/locality-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6341,14 +6682,11 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or standardize the description.
-</td>
+			<td>The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or standardize the description. </td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-
-</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property  </td>
 		</tr>
 	</tbody>
 </table>
@@ -6366,11 +6704,11 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/municipality-2022-06-14">http://rs.tdwg.org/plic/terms/version/municipality-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/municipality-2022-06-24">http://rs.tdwg.org/plic/terms/version/municipality-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6378,14 +6716,49 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) in which the Location occurs. Do not use this term for a nearby named place that does not contain the actual location.
-</td>
+			<td>The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) in which the Location occurs. Do not use this term for a nearby named place that does not contain the actual location. </td>
 		</tr>
 		<tr>
 			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property  </td>
+		</tr>
+	</tbody>
+</table>
 
-</td>
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="plic_stateProvince"></a>Term Name  plic:stateProvince</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/stateProvince">http://rs.tdwg.org/plic/terms/stateProvince</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-06-24</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/stateProvince-2022-06-24">http://rs.tdwg.org/plic/terms/version/stateProvince-2022-06-24</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>State Province </td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the Location occurs.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/stateProvince<br/>/Invasiveness/InvasivenessAtomized/stateProvince<br/>/InvasivenessAtomized/stateProvince<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/stateProvince</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property  </td>
 		</tr>
 	</tbody>
 </table>
@@ -6403,11 +6776,11 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/temporalCoverage-2022-06-14">http://rs.tdwg.org/plic/terms/version/temporalCoverage-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/temporalCoverage-2022-06-24">http://rs.tdwg.org/plic/terms/version/temporalCoverage-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6416,6 +6789,10 @@ e.g. Spain; Aguascalientas; Alabama; Ambon
 		<tr>
 			<td>Definition</td>
 			<td>This field specifies temporal coverage of the distribution, and allows coverages to be a single point in time, multiple points in time, or a range of dates.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/CommonNames/CommonNamesAtomized/UsedIn/temporalCoverage<br/>/CommonNamesAtomized/UsedIn/temporalCoverage<br/>/Dataset/Metadata/dataset/coverage/temporalCoverage<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/temporalCoverage<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/temporalCoverage<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Distribution/temporalCoverage<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/temporalCoverage<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/temporalCoverage<br/>/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/temporalCoverage<br/>/Distribution/temporalCoverage<br/>/HabitatAndDistribution/Distribution/temporalCoverage<br/>/Legislation/LegislationAtomized/AppliesTo/temporalCoverage<br/>/LegislationAtomized/AppliesTo/temporalCoverage<br/>/Metadata/dataset/coverage/temporalCoverage<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/temporalCoverage<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/temporalCoverage<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/temporalCoverage<br/>/TaxonRecord/HabitatAndDistribution/Distribution/temporalCoverage<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/temporalCoverage<br/>/ThreatStatus/ThreatStatusAtomized/AppliesTo/temporalCoverage<br/>/ThreatStatusAtomized/AppliesTo/temporalCoverage<br/>/coverage/temporalCoverage<br/>/dataset/coverage/temporalCoverage<br/>/temporalCoverage</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6440,11 +6817,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/AbundanceData-2022-06-14">http://rs.tdwg.org/plic/terms/version/AbundanceData-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/AbundanceData-2022-06-24">http://rs.tdwg.org/plic/terms/version/AbundanceData-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6455,38 +6832,8 @@ Information concerning the demographic aspects of the species: Territory, Popula
 			<td>The relative representation of a species population in relation to other species or multiple species in a particular territory.</td>
 		</tr>
 		<tr>
-			<td>Type</td>
-			<td>Property</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="plic_AppliesTo"></a>Term Name  plic:AppliesTo</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/AppliesTo">http://rs.tdwg.org/plic/terms/AppliesTo</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-06-14</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/AppliesTo-2022-06-14">http://rs.tdwg.org/plic/terms/version/AppliesTo-2022-06-14</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Applies to</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>Location where the status is used.</td>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData<br/>/PopulationBiology/PopulationBiologyAtomized/AbundanceData<br/>/PopulationBiologyAtomized/AbundanceData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6508,11 +6855,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/AppliesTo-2022-06-14">http://rs.tdwg.org/plic/terms/version/AppliesTo-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/AppliesTo-2022-06-24">http://rs.tdwg.org/plic/terms/version/AppliesTo-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6521,6 +6868,48 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Location where the status is used.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo<br/>/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo<br/>/Legislation/LegislationAtomized/AppliesTo<br/>/LegislationAtomized/AppliesTo<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo<br/>/ThreatStatus/ThreatStatusAtomized/AppliesTo<br/>/ThreatStatusAtomized/AppliesTo</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Property</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="plic_AppliesTo"></a>Term Name  plic:AppliesTo</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/AppliesTo">http://rs.tdwg.org/plic/terms/AppliesTo</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-06-24</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/AppliesTo-2022-06-24">http://rs.tdwg.org/plic/terms/version/AppliesTo-2022-06-24</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Applies to</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Location where the status is used.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo<br/>/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo<br/>/Legislation/LegislationAtomized/AppliesTo<br/>/LegislationAtomized/AppliesTo<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo<br/>/ThreatStatus/ThreatStatusAtomized/AppliesTo<br/>/ThreatStatusAtomized/AppliesTo</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6542,11 +6931,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/AreaOfOccupancy-2022-06-14">http://rs.tdwg.org/plic/terms/version/AreaOfOccupancy-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/AreaOfOccupancy-2022-06-24">http://rs.tdwg.org/plic/terms/version/AreaOfOccupancy-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6555,6 +6944,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Area within its 'extent of occurrence' (see EOO) which is occupied by a taxon, excluding cases of vagrancy. The measure reflects the fact that a taxon will not usually occur throughout the area of its extent of occurrence, which may contain unsuitable or unoccupied habitats.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy<br/>/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy<br/>/Territory/TerritoryAtomized/AreaOfOccupancy<br/>/TerritoryAtomized/AreaOfOccupancy</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6576,11 +6969,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Authority-2022-06-14">http://rs.tdwg.org/plic/terms/version/Authority-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Authority-2022-06-24">http://rs.tdwg.org/plic/terms/version/Authority-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6589,6 +6982,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Organism or institution that assess the status.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/Authority<br/>/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/Authority<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/Authority<br/>/ThreatStatus/ThreatStatusAtomized/Authority<br/>/ThreatStatusAtomized/Authority</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6610,11 +7007,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/AverageDensity-2022-06-14">http://rs.tdwg.org/plic/terms/version/AverageDensity-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/AverageDensity-2022-06-24">http://rs.tdwg.org/plic/terms/version/AverageDensity-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6623,6 +7020,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Average of the densities obtained for a population.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity<br/>/PopulationBiology/PopulationBiologyAtomized/AverageDensity<br/>/PopulationBiologyAtomized/AverageDensity<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6644,11 +7045,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/BirthRate-2022-06-14">http://rs.tdwg.org/plic/terms/version/BirthRate-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/BirthRate-2022-06-24">http://rs.tdwg.org/plic/terms/version/BirthRate-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6657,6 +7058,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Ratio of births to the total number of individuals in a population in a time period.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate<br/>/PopulationBiology/PopulationBiologyAtomized/BirthRate<br/>/PopulationBiologyAtomized/BirthRate<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6678,11 +7083,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/CarryingCapacity-2022-06-14">http://rs.tdwg.org/plic/terms/version/CarryingCapacity-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/CarryingCapacity-2022-06-24">http://rs.tdwg.org/plic/terms/version/CarryingCapacity-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6691,6 +7096,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Maximum population density possible as limited by the resources available for the population in the absence of predators and parasites.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity<br/>/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity<br/>/PopulationBiologyAtomized/CarryingCapacity<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6712,11 +7121,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DensityData-2022-06-14">http://rs.tdwg.org/plic/terms/version/DensityData-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DensityData-2022-06-24">http://rs.tdwg.org/plic/terms/version/DensityData-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6725,6 +7134,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Population size in relation to a defined space unit.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData<br/>/PopulationBiology/PopulationBiologyAtomized/DensityData<br/>/PopulationBiologyAtomized/DensityData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6746,11 +7159,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DescriptionLifeStages-2022-06-14">http://rs.tdwg.org/plic/terms/version/DescriptionLifeStages-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DescriptionLifeStages-2022-06-24">http://rs.tdwg.org/plic/terms/version/DescriptionLifeStages-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6759,6 +7172,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Sex/age categories or life stages of a species; can be size in the case of plants.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages<br/>/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages<br/>/PopulationBiologyAtomized/DescriptionLifeStages<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6780,11 +7197,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DirectThreatAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/DirectThreatAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DirectThreatAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/DirectThreatAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6792,8 +7209,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>directThreats element in structured format.
-</td>
+			<td>directThreats element in structured format. </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/DirectThreats/DirectThreatAtomized<br/>/DemographyAndThreat/DirectThreats/DirectThreatAtomized<br/>/DirectThreatAtomized<br/>/DirectThreats/DirectThreatAtomized<br/>/TaxonRecord/DemographyAndThreat/DirectThreats/DirectThreatAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6815,11 +7235,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DirectThreats-2022-06-14">http://rs.tdwg.org/plic/terms/version/DirectThreats-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DirectThreats-2022-06-24">http://rs.tdwg.org/plic/terms/version/DirectThreats-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6832,6 +7252,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Notes</td>
 			<td>Examples: unsustainable fishing or logging. Threats can be past (historical), ongoing, and/or likely to occur in the future.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/DirectThreats<br/>/DemographyAndThreat/DirectThreats<br/>/DirectThreats<br/>/TaxonRecord/DemographyAndThreat/DirectThreats</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6853,11 +7277,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/DispersalAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/DispersalAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/DispersalAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/DispersalAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6866,6 +7290,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Dispersal element in structured format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized<br/>/Dispersal/DispersalAtomized<br/>/DispersalAtomized<br/>/NaturalHistory/Dispersal/DispersalAtomized<br/>/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6887,11 +7315,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Emigration-2022-06-14">http://rs.tdwg.org/plic/terms/version/Emigration-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Emigration-2022-06-24">http://rs.tdwg.org/plic/terms/version/Emigration-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6900,6 +7328,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Information on  individuals leaving a population.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration<br/>/PopulationBiology/PopulationBiologyAtomized/Emigration<br/>/PopulationBiologyAtomized/Emigration<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6921,11 +7353,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ExtentOfOccurrence-2022-06-14">http://rs.tdwg.org/plic/terms/version/ExtentOfOccurrence-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ExtentOfOccurrence-2022-06-24">http://rs.tdwg.org/plic/terms/version/ExtentOfOccurrence-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6934,6 +7366,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Area contained within the shortest continuous imaginary boundary which can be drawn to encompass all the known, inferred or projected sites of present occurrence of a taxon, excluding cases of vagrancy.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence<br/>/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence<br/>/Territory/TerritoryAtomized/ExtentOfOccurrence<br/>/TerritoryAtomized/ExtentOfOccurrence</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6955,11 +7391,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Fecundity-2022-06-14">http://rs.tdwg.org/plic/terms/version/Fecundity-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Fecundity-2022-06-24">http://rs.tdwg.org/plic/terms/version/Fecundity-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -6968,6 +7404,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>In the context of a population, is the combined maximum potential of its individuals to produce offspring.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity<br/>/PopulationBiology/PopulationBiologyAtomized/Fecundity<br/>/PopulationBiologyAtomized/Fecundity<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -6989,11 +7429,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Immigration-2022-06-14">http://rs.tdwg.org/plic/terms/version/Immigration-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Immigration-2022-06-24">http://rs.tdwg.org/plic/terms/version/Immigration-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7002,6 +7442,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Information on individuals entering a population.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration<br/>/PopulationBiology/PopulationBiologyAtomized/Immigration<br/>/PopulationBiologyAtomized/Immigration<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7023,11 +7467,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Legislation-2022-06-14">http://rs.tdwg.org/plic/terms/version/Legislation-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Legislation-2022-06-24">http://rs.tdwg.org/plic/terms/version/Legislation-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7036,6 +7480,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>A national proposed law or group of laws. A regional proposed law or group of laws.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/Legislation<br/>/DemographyAndThreat/Legislation<br/>/Legislation<br/>/TaxonRecord/DemographyAndThreat/Legislation</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7057,11 +7505,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/LegislationName-2022-06-14">http://rs.tdwg.org/plic/terms/version/LegislationName-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/LegislationName-2022-06-24">http://rs.tdwg.org/plic/terms/version/LegislationName-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7070,6 +7518,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Word or phrase to designate the law or group of laws.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/LegislationName<br/>/DemographyAndThreat/Legislation/LegislationAtomized/LegislationName<br/>/Legislation/LegislationAtomized/LegislationName<br/>/LegislationAtomized/LegislationName<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/LegislationName</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7091,11 +7543,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/LegislationRead-2022-06-14">http://rs.tdwg.org/plic/terms/version/LegislationRead-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/LegislationRead-2022-06-24">http://rs.tdwg.org/plic/terms/version/LegislationRead-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7104,6 +7556,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>The oficial document in which the user can read the legislation.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/LegislationRead<br/>/DemographyAndThreat/Legislation/LegislationAtomized/LegislationRead<br/>/Legislation/LegislationAtomized/LegislationRead<br/>/LegislationAtomized/LegislationRead<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/LegislationRead</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7125,11 +7581,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/LegislationType-2022-06-14">http://rs.tdwg.org/plic/terms/version/LegislationType-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/LegislationType-2022-06-24">http://rs.tdwg.org/plic/terms/version/LegislationType-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7159,11 +7615,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/MortalityRate-2022-06-14">http://rs.tdwg.org/plic/terms/version/MortalityRate-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/MortalityRate-2022-06-24">http://rs.tdwg.org/plic/terms/version/MortalityRate-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7172,6 +7628,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Probability of dying; the ratio between the number of deaths in a given time interval to the number of subjects alive at the start of this interval.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate<br/>/PopulationBiology/PopulationBiologyAtomized/MortalityRate<br/>/PopulationBiologyAtomized/MortalityRate<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7193,11 +7653,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Norm-2022-06-14">http://rs.tdwg.org/plic/terms/version/Norm-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Norm-2022-06-24">http://rs.tdwg.org/plic/terms/version/Norm-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7206,6 +7666,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Norms are general legal principles that are widely accepted. This acceptance is evidenced in a number of ways, such as international agreements, national legislation, domestic and international judicial decisions, and scholarly writings.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/Norm<br/>/DemographyAndThreat/Legislation/LegislationAtomized/Norm<br/>/Legislation/LegislationAtomized/Norm<br/>/LegislationAtomized/Norm<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/Norm</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7227,11 +7691,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/NumberIndividualsPerObservation-2022-06-14">http://rs.tdwg.org/plic/terms/version/NumberIndividualsPerObservation-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/NumberIndividualsPerObservation-2022-06-24">http://rs.tdwg.org/plic/terms/version/NumberIndividualsPerObservation-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7240,6 +7704,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Mean number of individuals per observation event or unit.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation<br/>/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation<br/>/PopulationBiologyAtomized/NumberIndividualsPerObservation<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7261,11 +7729,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/PatternDistribution-2022-06-14">http://rs.tdwg.org/plic/terms/version/PatternDistribution-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/PatternDistribution-2022-06-24">http://rs.tdwg.org/plic/terms/version/PatternDistribution-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7274,6 +7742,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>The spatial arrangement of the individuals of a population in the territory it occupies.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution<br/>/PopulationBiology/PopulationBiologyAtomized/PatternDistribution<br/>/PopulationBiologyAtomized/PatternDistribution<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7295,11 +7767,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/PopulationBiology-2022-06-14">http://rs.tdwg.org/plic/terms/version/PopulationBiology-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/PopulationBiology-2022-06-24">http://rs.tdwg.org/plic/terms/version/PopulationBiology-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7308,6 +7780,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Description of the variations in time and space, as well as in the size and density of populations, and the factors that cause such variations.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology<br/>/DemographyAndThreat/PopulationBiology<br/>/PopulationBiology<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7329,11 +7805,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/PopulationBiologyAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/PopulationBiologyAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/PopulationBiologyAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/PopulationBiologyAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7342,6 +7818,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Population biology data in structured form.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized<br/>/PopulationBiology/PopulationBiologyAtomized<br/>/PopulationBiologyAtomized<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7363,11 +7843,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/PopulationGrowthRate-2022-06-14">http://rs.tdwg.org/plic/terms/version/PopulationGrowthRate-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/PopulationGrowthRate-2022-06-24">http://rs.tdwg.org/plic/terms/version/PopulationGrowthRate-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7376,6 +7856,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Growth rate of a population in a given time period, based on births, deaths, emigration and immigration.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate<br/>/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate<br/>/PopulationBiologyAtomized/PopulationGrowthRate<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7397,11 +7881,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/PopulationTrend-2022-06-14">http://rs.tdwg.org/plic/terms/version/PopulationTrend-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/PopulationTrend-2022-06-24">http://rs.tdwg.org/plic/terms/version/PopulationTrend-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7410,6 +7894,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Changes of a population over time and can include changes in  distribution, biogeography (e.g., size of population), life-history (e.g., birth and death rates), etc.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend<br/>/PopulationBiology/PopulationBiologyAtomized/PopulationTrend<br/>/PopulationBiologyAtomized/PopulationTrend<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7431,11 +7919,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ProportionIndividualsPerStageLife-2022-06-14">http://rs.tdwg.org/plic/terms/version/ProportionIndividualsPerStageLife-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ProportionIndividualsPerStageLife-2022-06-24">http://rs.tdwg.org/plic/terms/version/ProportionIndividualsPerStageLife-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7444,6 +7932,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Percentage of individuals that belong to each life stage in a population.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife<br/>/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife<br/>/PopulationBiologyAtomized/ProportionIndividualsPerStageLife<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7465,11 +7957,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ProtectionLegalStatus-2022-06-14">http://rs.tdwg.org/plic/terms/version/ProtectionLegalStatus-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ProtectionLegalStatus-2022-06-24">http://rs.tdwg.org/plic/terms/version/ProtectionLegalStatus-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7478,6 +7970,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Description of the legal status.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/ProtectionLegalStatus<br/>/DemographyAndThreat/Legislation/LegislationAtomized/ProtectionLegalStatus<br/>/Legislation/LegislationAtomized/ProtectionLegalStatus<br/>/LegislationAtomized/ProtectionLegalStatus<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/ProtectionLegalStatus</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7499,11 +7995,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Recruitment-2022-06-14">http://rs.tdwg.org/plic/terms/version/Recruitment-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Recruitment-2022-06-24">http://rs.tdwg.org/plic/terms/version/Recruitment-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7512,6 +8008,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Information on the process by which young individuals (e.g., seedlings, larvae, propagules) become part of the adult population. It can be rate, scale, a description, etc.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment<br/>/PopulationBiology/PopulationBiologyAtomized/Recruitment<br/>/PopulationBiologyAtomized/Recruitment<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7533,11 +8033,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/SexRatio-2022-06-14">http://rs.tdwg.org/plic/terms/version/SexRatio-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/SexRatio-2022-06-24">http://rs.tdwg.org/plic/terms/version/SexRatio-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7546,6 +8046,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Relative number of males to females in a population.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio<br/>/PopulationBiology/PopulationBiologyAtomized/SexRatio<br/>/PopulationBiologyAtomized/SexRatio<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7567,11 +8071,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Size-2022-06-14">http://rs.tdwg.org/plic/terms/version/Size-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Size-2022-06-24">http://rs.tdwg.org/plic/terms/version/Size-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7580,6 +8084,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Number of individual organisms in a population.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size<br/>/PopulationBiology/PopulationBiologyAtomized/Size<br/>/PopulationBiologyAtomized/Size<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7601,11 +8109,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Status-2022-06-14">http://rs.tdwg.org/plic/terms/version/Status-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Status-2022-06-24">http://rs.tdwg.org/plic/terms/version/Status-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7614,6 +8122,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Whether a piece of legislation is in force, or superseded, etc.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/Status<br/>/DemographyAndThreat/Legislation/LegislationAtomized/Status<br/>/Legislation/LegislationAtomized/Status<br/>/LegislationAtomized/Status<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/Status</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7635,11 +8147,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ThreatCategory-2022-06-14">http://rs.tdwg.org/plic/terms/version/ThreatCategory-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ThreatCategory-2022-06-24">http://rs.tdwg.org/plic/terms/version/ThreatCategory-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7648,6 +8160,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Description of the conservation status.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/ThreatCategory<br/>/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/ThreatCategory<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/ThreatCategory<br/>/ThreatStatus/ThreatStatusAtomized/ThreatCategory<br/>/ThreatStatusAtomized/ThreatCategory</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7669,11 +8185,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ThreatStatus-2022-06-14">http://rs.tdwg.org/plic/terms/version/ThreatStatus-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ThreatStatus-2022-06-24">http://rs.tdwg.org/plic/terms/version/ThreatStatus-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7684,8 +8200,50 @@ Information concerning the demographic aspects of the species: Territory, Popula
 			<td>Information about the conservation status of the taxon.</td>
 		</tr>
 		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus<br/>/DemographyAndThreat/ThreatStatus<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus<br/>/ThreatStatus</td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Class</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="plic_Type"></a>Term Name  plic:Type</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Type">http://rs.tdwg.org/plic/terms/Type</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-06-24</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Type-2022-06-24">http://rs.tdwg.org/plic/terms/version/Type-2022-06-24</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Type</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Category of the piece of legislation.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/@Type<br/>/CommonNamesAtomized/UsedIn/DistributionScope/@Type<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/@Type<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/Type<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/@Type<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/@Type<br/>/Dataset/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/@type<br/>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/DetailUnstructured/@type<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/@Type<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailUnstructured/@type<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/@type<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/Actions/@type<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/@Type<br/>/DemographyAndThreat/Legislation/LegislationAtomized/Type<br/>/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/@Type<br/>/DetailUnstructured/@type<br/>/Distribution/DistributionScope/@Type<br/>/Feeding/FeedingAtomized/@type<br/>/FeedingAtomized/@type<br/>/HabitatAndDistribution/Distribution/DistributionScope/@Type<br/>/Legislation/LegislationAtomized/AppliesTo/DistributionScope/@Type<br/>/Legislation/LegislationAtomized/Type<br/>/LegislationAtomized/AppliesTo/DistributionScope/@Type<br/>/LegislationAtomized/Type<br/>/ManagementAndConservation/ManagementAndConservationAtomized/@type<br/>/ManagementAndConservation/ManagementAndConservationAtomized/Actions/@type<br/>/ManagementAndConservationAtomized/@type<br/>/ManagementAndConservationAtomized/Actions/@type<br/>/MiscDetails/DetailUnstructured/@type<br/>/NaturalHistory/Feeding/FeedingAtomized/@type<br/>/NaturalHistory/MiscDetails/DetailUnstructured/@type<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/@Type<br/>/NomenclatureAndClassification/MiscDetails/DetailUnstructured/@type<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/@Type<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/Type<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/@Type<br/>/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/@Type<br/>/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/@type<br/>/TaxonRecord/NaturalHistory/MiscDetails/DetailUnstructured/@type<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/@Type<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailUnstructured/@type<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/@type<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/Actions/@type<br/>/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/@Type<br/>/ThreatStatusAtomized/AppliesTo/DistributionScope/@Type<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/@type<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/Actions/@type</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Property</td>
 		</tr>
 	</tbody>
 </table>
@@ -7703,11 +8261,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/demographyAndThreat-2022-06-14">http://rs.tdwg.org/plic/terms/version/demographyAndThreat-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/demographyAndThreat-2022-06-24">http://rs.tdwg.org/plic/terms/version/demographyAndThreat-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7716,6 +8274,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Information concerning the demographic aspects of the species, as well as the conservation status.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat<br/>/DemographyAndThreat<br/>/TaxonRecord/DemographyAndThreat</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7737,11 +8299,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/demographyAndThreatUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/demographyAndThreatUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/demographyAndThreatUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/demographyAndThreatUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7749,8 +8311,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>demographyAndThreat element in unstructured format.
-</td>
+			<td>demographyAndThreat element in unstructured format. </td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/DemographyAndThreatUnstructured<br/>/DemographyAndThreat/DemographyAndThreatUnstructured<br/>/DemographyAndThreatUnstructured<br/>/TaxonRecord/DemographyAndThreat/DemographyAndThreatUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7772,11 +8337,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/directThreatUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/directThreatUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/directThreatUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/directThreatUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7785,6 +8350,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>directThreats element in text block format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/DirectThreats/DirectThreatUnstructured<br/>/DemographyAndThreat/DirectThreats/DirectThreatUnstructured<br/>/DirectThreatUnstructured<br/>/DirectThreats/DirectThreatUnstructured<br/>/TaxonRecord/DemographyAndThreat/DirectThreats/DirectThreatUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7806,11 +8375,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/legislationAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/legislationAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/legislationAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/legislationAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7819,6 +8388,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>legislation element in structured format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized<br/>/DemographyAndThreat/Legislation/LegislationAtomized<br/>/Legislation/LegislationAtomized<br/>/LegislationAtomized<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7840,11 +8413,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/legislationUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/legislationUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/legislationUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/legislationUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7853,6 +8426,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>legislation element in text block format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationUnstructured<br/>/DemographyAndThreat/Legislation/LegislationUnstructured<br/>/Legislation/LegislationUnstructured<br/>/LegislationUnstructured<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7874,11 +8451,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/populationBiologyUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/populationBiologyUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/populationBiologyUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/populationBiologyUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7887,6 +8464,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Population biology data as a text block.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyUnstructured<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyUnstructured<br/>/PopulationBiology/PopulationBiologyUnstructured<br/>/PopulationBiologyUnstructured<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7908,11 +8489,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/territory-2022-06-14">http://rs.tdwg.org/plic/terms/version/territory-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/territory-2022-06-24">http://rs.tdwg.org/plic/terms/version/territory-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7921,6 +8502,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Information, mostly associated to vertebrates, referring to the territorial extension of the individual or group in terms of its activities (feeding, mating, etc.).</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/Territory<br/>/DemographyAndThreat/Territory<br/>/TaxonRecord/DemographyAndThreat/Territory<br/>/Territory</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7942,11 +8527,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/territoryAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/territoryAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/territoryAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/territoryAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7955,6 +8540,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Territory element in structured format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized<br/>/DemographyAndThreat/Territory/TerritoryAtomized<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized<br/>/Territory/TerritoryAtomized<br/>/TerritoryAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -7976,11 +8565,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/territoryUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/territoryUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/territoryUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/territoryUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -7989,6 +8578,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Information associated mostly to vertebrates, referring to the territorial extension of the individual or group in terms of its activities (feeding, mating, etc.). As a text block.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryUnstructured<br/>/DemographyAndThreat/Territory/TerritoryUnstructured<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryUnstructured<br/>/Territory/TerritoryUnstructured<br/>/TerritoryUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8010,11 +8603,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/threatStatusAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/threatStatusAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/threatStatusAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/threatStatusAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8023,6 +8616,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>ThreatStatus element in structured format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized<br/>/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized<br/>/ThreatStatus/ThreatStatusAtomized<br/>/ThreatStatusAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8044,11 +8641,11 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/threatStatusUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/threatStatusUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/threatStatusUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/threatStatusUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8057,6 +8654,10 @@ Information concerning the demographic aspects of the species: Territory, Popula
 		<tr>
 			<td>Definition</td>
 			<td>Information about the status of the taxon.As a text block.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusUnstructured<br/>/DemographyAndThreat/ThreatStatus/ThreatStatusUnstructured<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusUnstructured<br/>/ThreatStatus/ThreatStatusUnstructured<br/>/ThreatStatusUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8081,11 +8682,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Actions-2022-06-14">http://rs.tdwg.org/plic/terms/version/Actions-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Actions-2022-06-24">http://rs.tdwg.org/plic/terms/version/Actions-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8094,6 +8695,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Individual tasks in which a management project can be atomized. Each action must be separated by ;</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/Actions<br/>/ManagementAndConservation/ManagementAndConservationAtomized/Actions<br/>/ManagementAndConservationAtomized/Actions<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/Actions<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/Actions</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8115,11 +8720,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ActionsType-2022-06-14">http://rs.tdwg.org/plic/terms/version/ActionsType-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ActionsType-2022-06-24">http://rs.tdwg.org/plic/terms/version/ActionsType-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8149,11 +8754,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Conservation-ExplotationData-2022-06-14">http://rs.tdwg.org/plic/terms/version/Conservation-ExplotationData-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Conservation-ExplotationData-2022-06-24">http://rs.tdwg.org/plic/terms/version/Conservation-ExplotationData-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8162,6 +8767,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Acc. TDWG Economic Botany. Frequency record of plants, details of regeneration, sustainability or over-exploitation and any locally imposed bans on felling or harvesting.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/Conservation-ExplotationData<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/Conservation-ExplotationData<br/>/Uses/UsesAtomized/Conservation-ExplotationData<br/>/UsesAtomized/Conservation-ExplotationData<br/>/UsesManagementAndConservation/Uses/UsesAtomized/Conservation-ExplotationData</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8183,11 +8792,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Economics-2022-06-14">http://rs.tdwg.org/plic/terms/version/Economics-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Economics-2022-06-24">http://rs.tdwg.org/plic/terms/version/Economics-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8196,6 +8805,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Acc. TDWG Economic Botany. Real or potential existence of trade in live plants, plant parts or derivatives and, if so, the trade scale.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/Economics<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/Economics<br/>/Uses/UsesAtomized/Economics<br/>/UsesAtomized/Economics<br/>/UsesManagementAndConservation/Uses/UsesAtomized/Economics</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8217,11 +8830,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/HumanAndEnvironmentalrelevance-2022-06-14">http://rs.tdwg.org/plic/terms/version/HumanAndEnvironmentalrelevance-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/HumanAndEnvironmentalrelevance-2022-06-24">http://rs.tdwg.org/plic/terms/version/HumanAndEnvironmentalrelevance-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8230,6 +8843,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Impact or value an species has either on the environment or on humans, and that justify management measures.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/HumanAndEnvironmentalRelevance<br/>/ManagementAndConservation/ManagementAndConservationAtomized/HumanAndEnvironmentalRelevance<br/>/ManagementAndConservationAtomized/HumanAndEnvironmentalRelevance<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/HumanAndEnvironmentalRelevance<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/HumanAndEnvironmentalRelevance</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8251,11 +8868,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ManagementAndConservation-2022-06-14">http://rs.tdwg.org/plic/terms/version/ManagementAndConservation-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ManagementAndConservation-2022-06-24">http://rs.tdwg.org/plic/terms/version/ManagementAndConservation-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8264,6 +8881,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Management: actions directed at conserving or restoring species / Conservation: interventions undertaken designed to preserve species.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation<br/>/ManagementAndConservation<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation<br/>/UsesManagementAndConservation/ManagementAndConservation</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8285,11 +8906,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ManagementAndConservationAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/ManagementAndConservationAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ManagementAndConservationAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/ManagementAndConservationAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8298,6 +8919,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Management: actions directed at conserving or restoring species / Conservation: interventions undertaken designed to preserve species in an structured manner.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized<br/>/ManagementAndConservation/ManagementAndConservationAtomized<br/>/ManagementAndConservationAtomized<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8319,11 +8944,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ManagementAndConservationType-2022-06-14">http://rs.tdwg.org/plic/terms/version/ManagementAndConservationType-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ManagementAndConservationType-2022-06-24">http://rs.tdwg.org/plic/terms/version/ManagementAndConservationType-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8353,11 +8978,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ManagementAndConservationUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/ManagementAndConservationUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ManagementAndConservationUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/ManagementAndConservationUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8366,6 +8991,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Management: actions directed at conserving or restoring species / Conservation: interventions undertaken designed to preserve species as a text block.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationUnstructured<br/>/ManagementAndConservation/ManagementAndConservationUnstructured<br/>/ManagementAndConservationUnstructured<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationUnstructured<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8387,11 +9016,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ManagementPlan-2022-06-14">http://rs.tdwg.org/plic/terms/version/ManagementPlan-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ManagementPlan-2022-06-24">http://rs.tdwg.org/plic/terms/version/ManagementPlan-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8400,6 +9029,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>plan guiding the overall management project.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/ManagementPlan<br/>/ManagementAndConservation/ManagementAndConservationAtomized/ManagementPlan<br/>/ManagementAndConservationAtomized/ManagementPlan<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/ManagementPlan<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/ManagementPlan</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8421,11 +9054,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/MeansOfApplication-Administration-2022-06-14">http://rs.tdwg.org/plic/terms/version/MeansOfApplication-Administration-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/MeansOfApplication-Administration-2022-06-24">http://rs.tdwg.org/plic/terms/version/MeansOfApplication-Administration-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8434,6 +9067,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Acc. TDWG Economic Botany. This is specific relevant for medicines, poisons .</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/MeansOfApplication-Administration<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/MeansOfApplication-Administration<br/>/Uses/UsesAtomized/MeansOfApplication-Administration<br/>/UsesAtomized/MeansOfApplication-Administration<br/>/UsesManagementAndConservation/Uses/UsesAtomized/MeansOfApplication-Administration</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8445,29 +9082,33 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="plic_Objetives"></a>Term Name  plic:Objetives</th>
+			<th colspan="2"><a id="plic_Objectives"></a>Term Name  plic:Objectives</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/Objetives">http://rs.tdwg.org/plic/terms/Objetives</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/Objectives">http://rs.tdwg.org/plic/terms/Objectives</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Objetives-2022-06-14">http://rs.tdwg.org/plic/terms/version/Objetives-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Objectives-2022-06-24">http://rs.tdwg.org/plic/terms/version/Objectives-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Objetives</td>
+			<td>Objectives</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
 			<td>Specific purposes of the management actions. Each objective must be separated by ;</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/Objectives<br/>/ManagementAndConservation/ManagementAndConservationAtomized/Objectives<br/>/ManagementAndConservationAtomized/Objectives<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/Objectives<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/Objectives</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8489,11 +9130,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Organisms-2022-06-14">http://rs.tdwg.org/plic/terms/version/Organisms-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Organisms-2022-06-24">http://rs.tdwg.org/plic/terms/version/Organisms-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8502,6 +9143,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Acc. TDWG Economic Botany. Organisms which use the plant/plant parts.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/Organisms<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/Organisms<br/>/Uses/UsesAtomized/Organisms<br/>/UsesAtomized/Organisms<br/>/UsesManagementAndConservation/Uses/UsesAtomized/Organisms</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8523,11 +9168,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/PartUsed-2022-06-14">http://rs.tdwg.org/plic/terms/version/PartUsed-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/PartUsed-2022-06-24">http://rs.tdwg.org/plic/terms/version/PartUsed-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8536,6 +9181,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Acc. TDWG Economic Botany. Which plant parts are used, or have any negative values.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/PartUsed<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/PartUsed<br/>/Uses/UsesAtomized/PartUsed<br/>/UsesAtomized/PartUsed<br/>/UsesManagementAndConservation/Uses/UsesAtomized/PartUsed</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8557,11 +9206,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Potential-2022-06-14">http://rs.tdwg.org/plic/terms/version/Potential-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Potential-2022-06-24">http://rs.tdwg.org/plic/terms/version/Potential-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8569,7 +9218,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Acc. TDWG Economic Botany. Potential increase in the use, cultivation or production or possibility of introduction in other areas or social groups.</td>
+			<td>Acc. TDWG Economic Botany. Could the use, cultivation, manufacture of products etc. be increased and /or introduced to other areas or social groups?</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/Potential<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/Potential<br/>/Uses/UsesAtomized/Potential<br/>/UsesAtomized/Potential<br/>/UsesManagementAndConservation/Uses/UsesAtomized/Potential</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8591,11 +9244,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/ProductionDetails-2022-06-14">http://rs.tdwg.org/plic/terms/version/ProductionDetails-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/ProductionDetails-2022-06-24">http://rs.tdwg.org/plic/terms/version/ProductionDetails-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8604,6 +9257,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Definition:        Acc. TDWG Economic Botany. (where relevant). Give details of protection, cultivation, harvesting, yields, processing and storage methods used and take note of special tools, timing etc.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/ProductionDetails<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/ProductionDetails<br/>/Uses/UsesAtomized/ProductionDetails<br/>/UsesAtomized/ProductionDetails<br/>/UsesManagementAndConservation/Uses/UsesAtomized/ProductionDetails</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8625,11 +9282,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Properties-2022-06-14">http://rs.tdwg.org/plic/terms/version/Properties-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Properties-2022-06-24">http://rs.tdwg.org/plic/terms/version/Properties-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8638,6 +9295,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Acc. TDWG Economic Botany. Details of properties which influence its value for a specified purpose.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/Properties<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/Properties<br/>/Uses/UsesAtomized/Properties<br/>/UsesAtomized/Properties<br/>/UsesManagementAndConservation/Uses/UsesAtomized/Properties</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8659,11 +9320,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/RatingPopularity-2022-06-14">http://rs.tdwg.org/plic/terms/version/RatingPopularity-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/RatingPopularity-2022-06-24">http://rs.tdwg.org/plic/terms/version/RatingPopularity-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8672,6 +9333,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Acc. TDWG Economic Botany. Assessment of the plant for its use and possible preference to other species, pointing out, in this case, which species are they.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/RatingPopularity<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/RatingPopularity<br/>/Uses/UsesAtomized/RatingPopularity<br/>/UsesAtomized/RatingPopularity<br/>/UsesManagementAndConservation/Uses/UsesAtomized/RatingPopularity</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8693,11 +9358,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/SeasonOfAvailability-Use-2022-06-14">http://rs.tdwg.org/plic/terms/version/SeasonOfAvailability-Use-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/SeasonOfAvailability-Use-2022-06-24">http://rs.tdwg.org/plic/terms/version/SeasonOfAvailability-Use-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8706,6 +9371,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Acc. TDWG Economic Botany. The season in which the plant is available/is used and, if relevant, the time of day.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/SeasonOfAvailability-Use<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/SeasonOfAvailability-Use<br/>/Uses/UsesAtomized/SeasonOfAvailability-Use<br/>/UsesAtomized/SeasonOfAvailability-Use<br/>/UsesManagementAndConservation/Uses/UsesAtomized/SeasonOfAvailability-Use</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8727,11 +9396,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/SourceOfInformation-2022-06-14">http://rs.tdwg.org/plic/terms/version/SourceOfInformation-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/SourceOfInformation-2022-06-24">http://rs.tdwg.org/plic/terms/version/SourceOfInformation-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8740,6 +9409,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Where does the observation come from? Reference citations should be given. Where appropriate, voucher specimen details should be provided (collector, number, date, herbarium) as well as details of the recorded informant (name, gender, approximate age, occupation, ethnic identity, locality and spoken language).</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/SourceOfInformation<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/SourceOfInformation<br/>/Uses/UsesAtomized/SourceOfInformation<br/>/UsesAtomized/SourceOfInformation<br/>/UsesManagementAndConservation/Uses/UsesAtomized/SourceOfInformation</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8761,11 +9434,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Use-Value-2022-06-14">http://rs.tdwg.org/plic/terms/version/Use-Value-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Use-Value-2022-06-24">http://rs.tdwg.org/plic/terms/version/Use-Value-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8774,6 +9447,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>What is the plant used for, or what negative values does it have.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/Use-Value<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/Use-Value<br/>/Uses/UsesAtomized/Use-Value<br/>/UsesAtomized/Use-Value<br/>/UsesManagementAndConservation/Uses/UsesAtomized/Use-Value</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8795,11 +9472,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/UseNotes-2022-06-14">http://rs.tdwg.org/plic/terms/version/UseNotes-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/UseNotes-2022-06-24">http://rs.tdwg.org/plic/terms/version/UseNotes-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8808,6 +9485,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Notes about how species are utilized by people.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/UseNotes<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/UseNotes<br/>/Uses/UsesAtomized/UseNotes<br/>/UsesAtomized/UseNotes<br/>/UsesManagementAndConservation/Uses/UsesAtomized/UseNotes</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8819,25 +9500,25 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="plic_UseTypeAtomized"></a>Term Name  plic:UseTypeAtomized</th>
+			<th colspan="2"><a id="plic_UseType"></a>Term Name  plic:UseType</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/UseTypeAtomized">http://rs.tdwg.org/plic/terms/UseTypeAtomized</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/UseType">http://rs.tdwg.org/plic/terms/UseType</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/UseTypeAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/UseTypeAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/UseType-2022-06-24">http://rs.tdwg.org/plic/terms/version/UseType-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Use Type Atomized</td>
+			<td>Use Type</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -8863,11 +9544,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Users-2022-06-14">http://rs.tdwg.org/plic/terms/version/Users-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Users-2022-06-24">http://rs.tdwg.org/plic/terms/version/Users-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8876,6 +9557,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Acc. TDWG Economic Botany. The user group who recognizes the value and/or use of the plant.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/Users<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/Users<br/>/Uses/UsesAtomized/Users<br/>/UsesAtomized/Users<br/>/UsesManagementAndConservation/Uses/UsesAtomized/Users</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8897,11 +9582,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/Uses-2022-06-14">http://rs.tdwg.org/plic/terms/version/Uses-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/Uses-2022-06-24">http://rs.tdwg.org/plic/terms/version/Uses-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8910,6 +9595,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Ways in which species are utilized by people.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses<br/>/TaxonRecord/UsesManagementAndConservation/Uses<br/>/Uses<br/>/UsesManagementAndConservation/Uses</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8931,11 +9620,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/UsesAtomized-2022-06-14">http://rs.tdwg.org/plic/terms/version/UsesAtomized-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/UsesAtomized-2022-06-24">http://rs.tdwg.org/plic/terms/version/UsesAtomized-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8944,6 +9633,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Ways in which species are utilized by people, including Folklore. Also applied to Animals and Fungi.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized<br/>/Uses/UsesAtomized<br/>/UsesAtomized<br/>/UsesManagementAndConservation/Uses/UsesAtomized</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -8965,11 +9658,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/UsesManagementAndConservation-2022-06-14">http://rs.tdwg.org/plic/terms/version/UsesManagementAndConservation-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/UsesManagementAndConservation-2022-06-24">http://rs.tdwg.org/plic/terms/version/UsesManagementAndConservation-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -8980,8 +9673,12 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 			<td>Ways in which species are utilized by people, including Folklore.</td>
 		</tr>
 		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation<br/>/TaxonRecord/UsesManagementAndConservation<br/>/UsesManagementAndConservation</td>
+		</tr>
+		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -8999,11 +9696,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/UsesManagementAndConservationUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/UsesManagementAndConservationUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/UsesManagementAndConservationUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/UsesManagementAndConservationUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -9012,6 +9709,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>UsesManagementAndConservation element in text block format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/UsesManagementAndConservationUnstructured<br/>/TaxonRecord/UsesManagementAndConservation/UsesManagementAndConservationUnstructured<br/>/UsesManagementAndConservation/UsesManagementAndConservationUnstructured<br/>/UsesManagementAndConservationUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -9033,11 +9734,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/UsesUnstructured-2022-06-14">http://rs.tdwg.org/plic/terms/version/UsesUnstructured-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/UsesUnstructured-2022-06-24">http://rs.tdwg.org/plic/terms/version/UsesUnstructured-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -9046,6 +9747,10 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		<tr>
 			<td>Definition</td>
 			<td>Uses in a unstructured format.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesUnstructured<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesUnstructured<br/>/Uses/UsesUnstructured<br/>/UsesManagementAndConservation/Uses/UsesUnstructured<br/>/UsesUnstructured</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -9067,11 +9772,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/VernacularNameUseAnnotations-2022-06-14">http://rs.tdwg.org/plic/terms/version/VernacularNameUseAnnotations-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/VernacularNameUseAnnotations-2022-06-24">http://rs.tdwg.org/plic/terms/version/VernacularNameUseAnnotations-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -9079,7 +9784,11 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Acc. TDWG Economic Botany. The name of the taxon must be distinguished from the name of theplant parts, the names of any processing stages, and the final product name. Names used in trade should be identified. It should also be mentioned if any vernacular name refers to more than one taxon. The use of some names may be restricted to a time of year or occasion, or have sacred connotations. The language or dialect to which the names belong should be stated along with details of the ethnic group. Care should be taken with transliteration into the Roman alphabet; if a standard system exists, use it and note which one it is.</td>
+			<td>Acc. TDWG Economic Botany. The name of the taxon must be distinguished from the name of the plant parts, the names of any processing stages, and the final product name. Names used in trade should be identified. It should also be mentioned if any vernacular name refers to more than one taxon. The use of some names may be restricted to a time of year or occasion, or have sacred connotations. The language or dialect to which the names belong should be stated along with details of the ethnic group. Care should be taken with transliteration into the Roman alphabet; if a standard system exists, use it and note which one it is.</td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/VernacularNameUseAnnotations<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/VernacularNameUseAnnotations<br/>/Uses/UsesAtomized/VernacularNameUseAnnotations<br/>/UsesAtomized/VernacularNameUseAnnotations<br/>/UsesManagementAndConservation/Uses/UsesAtomized/VernacularNameUseAnnotations</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -9094,25 +9803,25 @@ Uses: Ways in which species are utilized by people, including Folklore, Manageme
 A party associated with the resource. Parties have particular role. (EML-RESOURCE)<table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="plic_associatedPartyType"></a>Term Name  plic:associatedPartyType</th>
+			<th colspan="2"><a id="plic_associatedParty"></a>Term Name  plic:associatedParty</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/associatedPartyType">http://rs.tdwg.org/plic/terms/associatedPartyType</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/associatedParty">http://rs.tdwg.org/plic/terms/associatedParty</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/associatedPartyType-2022-06-14">http://rs.tdwg.org/plic/terms/version/associatedPartyType-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/associatedParty-2022-06-24">http://rs.tdwg.org/plic/terms/version/associatedParty-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>associatedPartyType</td>
+			<td>associatedParty</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -9121,6 +9830,10 @@ A party associated with the resource. Parties have particular role. (EML-RESOURC
 		<tr>
 			<td>Notes</td>
 			<td><a href="https://eml.ecoinformatics.org/schema/eml-resource_xsd.html#ResourceGroup_associatedParty">https://eml.ecoinformatics.org/schema/eml-resource_xsd.html#ResourceGroup_associatedParty</a></td>
+		</tr>
+		<tr>
+			<td>Equivalent XPath</td>
+			<td>/Dataset/Metadata/dataset/associatedParty<br/>/Dataset/TaxonRecord/RecordMetadata/Revision/associatedParty<br/>/Dataset/TaxonRecord/associatedParty<br/>/Metadata/dataset/associatedParty<br/>/RecordMetadata/Revision/associatedParty<br/>/Revision/associatedParty<br/>/TaxonRecord/RecordMetadata/Revision/associatedParty<br/>/TaxonRecord/associatedParty<br/>/associatedParty<br/>/dataset/associatedParty</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -9148,11 +9861,11 @@ The AncillaryData element contains information that could be an image, an audio,
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/AncillaryData-2022-06-14">http://rs.tdwg.org/plic/terms/version/AncillaryData-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/AncillaryData-2022-06-24">http://rs.tdwg.org/plic/terms/version/AncillaryData-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -9171,8 +9884,12 @@ The AncillaryData element contains information that could be an image, an audio,
 			<td>eol:dataObjectBaseType</td>
 		</tr>
 		<tr>
+			<td>Equivalent XPath</td>
+			<td>/AncillaryData<br/>/AnnualCycleAtomized/AncillaryData<br/>/AnnualCycles/AncillaryData<br/>/AnnualCycles/AnnualCycleAtomized/AncillaryData<br/>/Behavior/AncillaryData<br/>/Behavior/BehaviorAtomized/AncillaryData<br/>/BehaviorAtomized/AncillaryData<br/>/CommonNames/AncillaryData<br/>/CommonNames/CommonNamesAtomized/AncillaryData<br/>/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData<br/>/CommonNamesAtomized/AncillaryData<br/>/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData<br/>/Dataset/AncillaryData<br/>/Dataset/TaxonRecord/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/DirectThreats/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/AncillaryData<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData<br/>/Dataset/TaxonRecord/HabitatAndDistribution/AncillaryData<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic/AncillaryData<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Habitats/AncillaryData<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData<br/>/Dataset/TaxonRecord/Invasiveness/AncillaryData<br/>/Dataset/TaxonRecord/Invasiveness/InvasivenessAtomized/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/Behavior/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/Dispersal/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/EcologicalSignificance/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/Feeding/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/Interactions/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/LifeCycle/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/LifeForm/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/Migratory/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/MolecularData/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/Reproduction/AncillaryData<br/>/Dataset/TaxonRecord/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/AncillaryData<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/AncillaryData<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Hierarchy/AncillaryData<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/AncillaryData<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms/AncillaryData<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/TaxonRecordName/AncillaryData<br/>/Dataset/TaxonRecord/TaxonomicDescription/AncillaryData<br/>/Dataset/TaxonRecord/TaxonomicDescription/FullDescription/AncillaryData<br/>/Dataset/TaxonRecord/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData<br/>/Dataset/TaxonRecord/TaxonomicDescription/IdentificationKeys/AncillaryData<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/AncillaryData<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/AncillaryData<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/AncillaryData<br/>/Dataset/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData<br/>/DemographyAndThreat/AncillaryData<br/>/DemographyAndThreat/DirectThreats/AncillaryData<br/>/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData<br/>/DemographyAndThreat/Legislation/AncillaryData<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData<br/>/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData<br/>/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData<br/>/DemographyAndThreat/Territory/AncillaryData<br/>/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData<br/>/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData<br/>/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData<br/>/DemographyAndThreat/ThreatStatus/AncillaryData<br/>/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData<br/>/DetailAtomized/AncillaryData<br/>/DirectThreatAtomized/AncillaryData<br/>/DirectThreats/AncillaryData<br/>/DirectThreats/DirectThreatAtomized/AncillaryData<br/>/Dispersal/AncillaryData<br/>/Dispersal/DispersalAtomized/AncillaryData<br/>/DispersalAtomized/AncillaryData<br/>/Distribution/DistributionScope/AncillaryData<br/>/DistributionAtomized/AncillaryData<br/>/EcologicalSignificance/AncillaryData<br/>/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData<br/>/EcologicalSignificanceAtomized/AncillaryData<br/>/Endemic/AncillaryData<br/>/Endemic/EndemicAtomized/AncillaryData<br/>/EndemicAtomized/AncillaryData<br/>/EnvironmentalEnvelope/AncillaryData<br/>/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData<br/>/EnvironmentalEnvelopeAtomized/AncillaryData<br/>/Feeding/AncillaryData<br/>/Feeding/FeedingAtomized/AncillaryData<br/>/FeedingAtomized/AncillaryData<br/>/FullDescription/AncillaryData<br/>/FullDescription/FullDescriptionAtomized/AncillaryData<br/>/FullDescriptionAtomized/AncillaryData<br/>/HabitatAndDistribution/AncillaryData<br/>/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData<br/>/HabitatAndDistribution/Endemic/AncillaryData<br/>/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData<br/>/HabitatAndDistribution/Habitats/AncillaryData<br/>/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData<br/>/HabitatAtomized/AncillaryData<br/>/Habitats/AncillaryData<br/>/Habitats/HabitatAtomized/AncillaryData<br/>/Hierarchy/AncillaryData<br/>/IdentificationKeys/AncillaryData<br/>/InteractionAtomized/AncillaryData<br/>/Interactions/AncillaryData<br/>/Interactions/InteractionAtomized/AncillaryData<br/>/Invasiveness/AncillaryData<br/>/Invasiveness/InvasivenessAtomized/AncillaryData<br/>/InvasivenessAtomized/AncillaryData<br/>/Legislation/AncillaryData<br/>/Legislation/LegislationAtomized/AncillaryData<br/>/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData<br/>/LegislationAtomized/AncillaryData<br/>/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData<br/>/LifeCycle/AncillaryData<br/>/LifeCycle/LifeCycleAtomized/AncillaryData<br/>/LifeCycleAtomized/AncillaryData<br/>/LifeForm/AncillaryData<br/>/LifeForm/LifeFormAtomized/AncillaryData<br/>/LifeFormAtomized/AncillaryData<br/>/ManagementAndConservation/AncillaryData<br/>/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData<br/>/ManagementAndConservationAtomized/AncillaryData<br/>/Migratory/AncillaryData<br/>/Migratory/MigratoryAtomized/AncillaryData<br/>/MigratoryAtomized/AncillaryData<br/>/MiscDetails/AncillaryData<br/>/MiscDetails/DetailAtomized/AncillaryData<br/>/MolecularData/AncillaryData<br/>/MolecularData/MolecularDataAtomized/AncillaryData<br/>/MolecularDataAtomized/AncillaryData<br/>/NaturalHistory/AncillaryData<br/>/NaturalHistory/AnnualCycles/AncillaryData<br/>/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData<br/>/NaturalHistory/Behavior/AncillaryData<br/>/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData<br/>/NaturalHistory/Dispersal/AncillaryData<br/>/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData<br/>/NaturalHistory/EcologicalSignificance/AncillaryData<br/>/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData<br/>/NaturalHistory/EnvironmentalEnvelope/AncillaryData<br/>/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData<br/>/NaturalHistory/Feeding/AncillaryData<br/>/NaturalHistory/Feeding/FeedingAtomized/AncillaryData<br/>/NaturalHistory/Interactions/AncillaryData<br/>/NaturalHistory/Interactions/InteractionAtomized/AncillaryData<br/>/NaturalHistory/LifeCycle/AncillaryData<br/>/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData<br/>/NaturalHistory/LifeForm/AncillaryData<br/>/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData<br/>/NaturalHistory/Migratory/AncillaryData<br/>/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData<br/>/NaturalHistory/MiscDetails/AncillaryData<br/>/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData<br/>/NaturalHistory/MolecularData/AncillaryData<br/>/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData<br/>/NaturalHistory/Reproduction/AncillaryData<br/>/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData<br/>/NomenclatureAndClassification/AncillaryData<br/>/NomenclatureAndClassification/CommonNames/AncillaryData<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData<br/>/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData<br/>/NomenclatureAndClassification/Hierarchy/AncillaryData<br/>/NomenclatureAndClassification/MiscDetails/AncillaryData<br/>/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData<br/>/NomenclatureAndClassification/Synonyms/AncillaryData<br/>/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData<br/>/NomenclatureAndClassification/TaxonRecordName/AncillaryData<br/>/PopulationBiology/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData<br/>/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData<br/>/PopulationBiologyAtomized/AbundanceData/AncillaryData<br/>/PopulationBiologyAtomized/AncillaryData<br/>/PopulationBiologyAtomized/AverageDensity/AncillaryData<br/>/PopulationBiologyAtomized/BirthRate/AncillaryData<br/>/PopulationBiologyAtomized/CarryingCapacity/AncillaryData<br/>/PopulationBiologyAtomized/DensityData/AncillaryData<br/>/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData<br/>/PopulationBiologyAtomized/Emigration/AncillaryData<br/>/PopulationBiologyAtomized/Fecundity/AncillaryData<br/>/PopulationBiologyAtomized/Immigration/AncillaryData<br/>/PopulationBiologyAtomized/MortalityRate/AncillaryData<br/>/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData<br/>/PopulationBiologyAtomized/PatternDistribution/AncillaryData<br/>/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData<br/>/PopulationBiologyAtomized/PopulationTrend/AncillaryData<br/>/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData<br/>/PopulationBiologyAtomized/Recruitment/AncillaryData<br/>/PopulationBiologyAtomized/SexRatio/AncillaryData<br/>/PopulationBiologyAtomized/Size/AncillaryData<br/>/Reproduction/AncillaryData<br/>/Reproduction/ReproductionAtomized/AncillaryData<br/>/ReproductionAtomized/AncillaryData<br/>/Synonyms/AncillaryData<br/>/Synonyms/SynonymsAtomized/AncillaryData<br/>/SynonymsAtomized/AncillaryData<br/>/TaxonRecord/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/DirectThreats/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/DirectThreats/DirectThreatAtomized/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/Legislation/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/DistributionScope/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AbundanceData/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/AverageDensity/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/BirthRate/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/CarryingCapacity/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DensityData/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/DescriptionLifeStages/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Emigration/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Fecundity/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Immigration/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/MortalityRate/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/NumberIndividualsPerObservation/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PatternDistribution/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationGrowthRate/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/PopulationTrend/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/ProportionIndividualsPerStageLife/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Recruitment/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/SexRatio/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/PopulationBiology/PopulationBiologyAtomized/Size/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/Territory/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/AncillaryData<br/>/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData<br/>/TaxonRecord/HabitatAndDistribution/AncillaryData<br/>/TaxonRecord/HabitatAndDistribution/Distribution/DistributionScope/AncillaryData<br/>/TaxonRecord/HabitatAndDistribution/Endemic/AncillaryData<br/>/TaxonRecord/HabitatAndDistribution/Endemic/EndemicAtomized/AncillaryData<br/>/TaxonRecord/HabitatAndDistribution/Habitats/AncillaryData<br/>/TaxonRecord/HabitatAndDistribution/Habitats/HabitatAtomized/AncillaryData<br/>/TaxonRecord/Invasiveness/AncillaryData<br/>/TaxonRecord/Invasiveness/InvasivenessAtomized/AncillaryData<br/>/TaxonRecord/NaturalHistory/AncillaryData<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AncillaryData<br/>/TaxonRecord/NaturalHistory/AnnualCycles/AnnualCycleAtomized/AncillaryData<br/>/TaxonRecord/NaturalHistory/Behavior/AncillaryData<br/>/TaxonRecord/NaturalHistory/Behavior/BehaviorAtomized/AncillaryData<br/>/TaxonRecord/NaturalHistory/Dispersal/AncillaryData<br/>/TaxonRecord/NaturalHistory/Dispersal/DispersalAtomized/AncillaryData<br/>/TaxonRecord/NaturalHistory/EcologicalSignificance/AncillaryData<br/>/TaxonRecord/NaturalHistory/EcologicalSignificance/EcologicalSignificanceAtomized/AncillaryData<br/>/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/AncillaryData<br/>/TaxonRecord/NaturalHistory/EnvironmentalEnvelope/EnvironmentalEnvelopeAtomized/AncillaryData<br/>/TaxonRecord/NaturalHistory/Feeding/AncillaryData<br/>/TaxonRecord/NaturalHistory/Feeding/FeedingAtomized/AncillaryData<br/>/TaxonRecord/NaturalHistory/Interactions/AncillaryData<br/>/TaxonRecord/NaturalHistory/Interactions/InteractionAtomized/AncillaryData<br/>/TaxonRecord/NaturalHistory/LifeCycle/AncillaryData<br/>/TaxonRecord/NaturalHistory/LifeCycle/LifeCycleAtomized/AncillaryData<br/>/TaxonRecord/NaturalHistory/LifeForm/AncillaryData<br/>/TaxonRecord/NaturalHistory/LifeForm/LifeFormAtomized/AncillaryData<br/>/TaxonRecord/NaturalHistory/Migratory/AncillaryData<br/>/TaxonRecord/NaturalHistory/Migratory/MigratoryAtomized/AncillaryData<br/>/TaxonRecord/NaturalHistory/MiscDetails/AncillaryData<br/>/TaxonRecord/NaturalHistory/MiscDetails/DetailAtomized/AncillaryData<br/>/TaxonRecord/NaturalHistory/MolecularData/AncillaryData<br/>/TaxonRecord/NaturalHistory/MolecularData/MolecularDataAtomized/AncillaryData<br/>/TaxonRecord/NaturalHistory/Reproduction/AncillaryData<br/>/TaxonRecord/NaturalHistory/Reproduction/ReproductionAtomized/AncillaryData<br/>/TaxonRecord/NomenclatureAndClassification/AncillaryData<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/AncillaryData<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/AncillaryData<br/>/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionScope/AncillaryData<br/>/TaxonRecord/NomenclatureAndClassification/Hierarchy/AncillaryData<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/AncillaryData<br/>/TaxonRecord/NomenclatureAndClassification/MiscDetails/DetailAtomized/AncillaryData<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms/AncillaryData<br/>/TaxonRecord/NomenclatureAndClassification/Synonyms/SynonymsAtomized/AncillaryData<br/>/TaxonRecord/NomenclatureAndClassification/TaxonRecordName/AncillaryData<br/>/TaxonRecord/TaxonomicDescription/AncillaryData<br/>/TaxonRecord/TaxonomicDescription/FullDescription/AncillaryData<br/>/TaxonRecord/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData<br/>/TaxonRecord/TaxonomicDescription/IdentificationKeys/AncillaryData<br/>/TaxonRecord/UsesManagementAndConservation/AncillaryData<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/AncillaryData<br/>/TaxonRecord/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData<br/>/TaxonRecord/UsesManagementAndConservation/Uses/AncillaryData<br/>/TaxonRecord/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData<br/>/TaxonRecordName/AncillaryData<br/>/TaxonomicDescription/AncillaryData<br/>/TaxonomicDescription/FullDescription/AncillaryData<br/>/TaxonomicDescription/FullDescription/FullDescriptionAtomized/AncillaryData<br/>/TaxonomicDescription/IdentificationKeys/AncillaryData<br/>/Territory/AncillaryData<br/>/Territory/TerritoryAtomized/AncillaryData<br/>/Territory/TerritoryAtomized/AreaOfOccupancy/AncillaryData<br/>/Territory/TerritoryAtomized/ExtentOfOccurrence/AncillaryData<br/>/TerritoryAtomized/AncillaryData<br/>/TerritoryAtomized/AreaOfOccupancy/AncillaryData<br/>/TerritoryAtomized/ExtentOfOccurrence/AncillaryData<br/>/ThreatStatus/AncillaryData<br/>/ThreatStatus/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData<br/>/ThreatStatusAtomized/AppliesTo/DistributionScope/AncillaryData<br/>/Uses/AncillaryData<br/>/Uses/UsesAtomized/AncillaryData<br/>/UsesAtomized/AncillaryData<br/>/UsesManagementAndConservation/AncillaryData<br/>/UsesManagementAndConservation/ManagementAndConservation/AncillaryData<br/>/UsesManagementAndConservation/ManagementAndConservation/ManagementAndConservationAtomized/AncillaryData<br/>/UsesManagementAndConservation/Uses/AncillaryData<br/>/UsesManagementAndConservation/Uses/UsesAtomized/AncillaryData</td>
+		</tr>
+		<tr>
 			<td>Type</td>
-			<td>Property</td>
+			<td>Class</td>
 		</tr>
 	</tbody>
 </table>
@@ -9190,11 +9907,11 @@ The AncillaryData element contains information that could be an image, an audio,
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-06-14</td>
+			<td>2022-06-24</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/plic/terms/version/dataObjectBaseType-2022-06-14">http://rs.tdwg.org/plic/terms/version/dataObjectBaseType-2022-06-14</a></td>
+			<td><a href="http://rs.tdwg.org/plic/terms/version/dataObjectBaseType-2022-06-24">http://rs.tdwg.org/plic/terms/version/dataObjectBaseType-2022-06-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
