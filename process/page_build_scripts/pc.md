@@ -26,13 +26,14 @@ Plinian Core Task Group. 2021. Plinian Core, a Species-level Data Specification.
 Biodiversity Information Standards (TDWG).
 [http://www.tdwg.org/standards/777](http://www.tdwg.org/standards/777)
 
-**Instituciones y personas**
+**Institutions and persons**
 
-| Instituciones | Personas |
+| Institutions | Persons |
 | :------------- | :----------- |
-| GBIF España - CSIC | Francisco Pando |
+| GBIF Spain - CSIC | Francisco Pando |
 | | Santiago Martínez de la Riva |
 | | Ramón Pérez Pérez |
+| | Gloria Martínez-Sagarra |
 | INBIO & CRBIO | Maria Mora |
 | | Manuel Vargas |
 | | William Ulate |
