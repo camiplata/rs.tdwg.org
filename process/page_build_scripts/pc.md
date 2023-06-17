@@ -3586,7 +3586,7 @@ Habitat and Distribution of the species<table>
 		</tr>
 		<tr>
 			<td>Equivalent XPath</td>
-			<td>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/Distribution/DistributionAtomized/GeographicEntity/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/Distribution/DistributionAtomized/GeographicEntity/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionAtomized/GeographicEntity/Dataset/TaxonRecord/HabitatAndDistribution/Distribution/DistributionAtomized/GeographicEntity</td>
+			<td>/Dataset/TaxonRecord/DemographyAndThreat/Legislation/LegislationAtomized/AppliesTo/Distribution/DistributionAtomized/GeographicEntity<br/>/Dataset/TaxonRecord/DemographyAndThreat/ThreatStatus/ThreatStatusAtomized/AppliesTo/Distribution/DistributionAtomized/GeographicEntity<br/>/Dataset/TaxonRecord/NomenclatureAndClassification/CommonNames/CommonNamesAtomized/UsedIn/DistributionAtomized/GeographicEntity<br/>/Dataset/TaxonRecord/HabitatAndDistribution/Distribution/DistributionAtomized/GeographicEntity</td>
 		</tr>
 		<tr>
 			<td>Type</td>
