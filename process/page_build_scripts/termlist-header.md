@@ -4,16 +4,16 @@
 Plinian Core List of Terms
 
 **Date version issued:**  
-2022-11-30
+2023-07-14
 
 **Date created:**  
-2022-11-30
+2023-07-14
 
 **Part of TDWG Standard:**  
 http://www.tdwg.org/standards/643
 
 **This version:**  
-http://rs.tdwg.org/plic/doc/list/2022-11-30
+http://rs.tdwg.org/plic/doc/list/2023-07-14
 
 **Latest version:**  
 http://rs.tdwg.org/plic/doc/list/
@@ -36,7 +36,7 @@ Plinian Core is designed to be easy to use, self-contained, supporting data inte
 Species Information Interest Group, [Biodiversity Information Standards (TDWG)](https://www.tdwg.org/)
 
 **Bibliographic citation**  
-Plinian Core Maintenance Group. 2022. Plinian Core List of Terms. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/plic/doc/list/2022-11-30
+Plinian Core Maintenance Group. 2022. Plinian Core List of Terms. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/plic/doc/list/2023-07-14
 
 **Institutions and persons**
 
@@ -70,10 +70,10 @@ The current version of Plinian Core includes the normative SDS documentation of 
 This SDS normative document contains definitions and XRIs of Plinian Core terms. That is, all terms borrowed from other standards are not included in the SDS document. non-normative documentation includes two sources:
 
 The current abstract modes XML Schema (.XDS) available from the Plinian Core GITHUB repository at:
-[https://github.com/tdwg/PlinianCore/tree/master/xsd/abstract%20models/stable%20version ](https://github.com/tdwg/PlinianCore/tree/master/xsd/abstract%20models/stable%20version)
+[https://github.com/tdwg/PlinianCore/tree/master/xsd/abstract models/stable version](https://github.com/tdwg/PlinianCore/tree/master/xsd/abstract%20models/stable%20version)
 
 The documentation presented a the Plinian Core Wiki, available at:
-[https://github.com/tdwg/PlinianCore/wiki ](https://github.com/tdwg/PlinianCore/wik)
+[https://github.com/tdwg/PlinianCore/wiki](https://github.com/tdwg/PlinianCore/wiki)
 
 Both sources contain Plinian Core native terms, and borrowed terms. They also contain a number of intermediate classes (complex terms) that group and provide semantic context to simple terms. These intermediate classes are not described in the SDS.
 
@@ -91,7 +91,7 @@ A Plinian Core (PliC) record is a description of a species or higher taxa. Two k
 
 ## 1.3 Structured and unstructured properties
 
-Within a class, both structured and unstructured properties can be found. Structured properties may contain other properties in a hierarchical manner or terms with a controlled vocabulary, for example: `plic:invasivenessAtomized` as defined by the XSD non-nomative document and by the XPaths.  Unstructured properties are terms for free text descriptions aimed to give ample details of the species information, for example: `plic:invasivenessUnstructured `.
+Within a class, both structured and unstructured properties can be found. Structured properties may contain other properties in a hierarchical manner or terms with a controlled vocabulary, for example: `plic:invasivenessAtomized` as defined by the XSD non-nomative document and by the XPaths.  Unstructured properties are terms for free text descriptions aimed to give ample details of the species information, for example: `plic:invasivenessUnstructured`.
 
 ## 1.4  Equivalent XPath
 
@@ -110,4 +110,3 @@ Table 1. Vocabularies from which terms have been borrowed:
 |[Taxonomic Concept Transfer Schema](https://www.tdwg.org/standards/tcs/)|TCS|tcs:scientificName, tcs:ReferenceType|
 |[Global Invasive Species Information Network](https://github.com/tdwg/gisin)|GISIN|gisin:origin, gisin:presence, gisin:persistence, gisin:distribution, gisin:harmful, gisin:modified, gisin:startValidDate, endValidDate, gisin:countryCode, gisin:stateProvince, gisin:county, gisin:localityName, gisin:county, gisin:language, gisin:citation, gisin:abundance, gisin:trend, gisin:rateOfSpread, gisin:regulatoryListing,gisin:memo, gisin:publicationDate, gisin:localityType, gisin:locationValue, gisin:publicationDatePrecision|
 |[Ecological Metadata Language](https://eml.ecoinformatics.org/)|EML|GBIF EML profile|
-
