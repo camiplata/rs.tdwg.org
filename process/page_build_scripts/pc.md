@@ -4,16 +4,16 @@
 Plinian Core List of Terms
 
 **Date version issued:**  
-2023-07-14
+2023-10-06
 
 **Date created:**  
-2023-07-14
+2023-10-06
 
 **Part of TDWG Standard:**  
 http://www.tdwg.org/standards/643
 
 **This version:**  
-http://rs.tdwg.org/plic/doc/list/2023-07-14
+http://rs.tdwg.org/plic/doc/list/2023-10-06
 
 **Latest version:**  
 http://rs.tdwg.org/plic/doc/list/
