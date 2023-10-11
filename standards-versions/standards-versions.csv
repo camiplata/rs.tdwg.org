@@ -34,4 +34,5 @@ document_modified,version,version_issued,standard_status,label,description,stand
 2023-06-16T18:07:16-06:00,http://www.tdwg.org/standards/x/version/2023-05-12,2023-05-12,superseded,TDWG Test Standard,A standard for testing,http://www.tdwg.org/standards/x
 2023-07-14T20:42:12-06:00,http://www.tdwg.org/standards/x/version/2023-06-16,2023-06-16,superseded,TDWG Test Standard,A standard for testing,http://www.tdwg.org/standards/x
 2023-10-06T16:50:05-06:00,http://www.tdwg.org/standards/x/version/2023-07-14,2023-07-14,superseded,TDWG Test Standard,A standard for testing,http://www.tdwg.org/standards/x
-2023-10-06T16:50:05-06:00,http://www.tdwg.org/standards/x/version/2023-10-06,2023-10-06,recommended,TDWG Test Standard,A standard for testing,http://www.tdwg.org/standards/x
+2023-10-10T21:32:25-06:00,http://www.tdwg.org/standards/x/version/2023-10-06,2023-10-06,superseded,TDWG Test Standard,A standard for testing,http://www.tdwg.org/standards/x
+2023-10-10T21:32:25-06:00,http://www.tdwg.org/standards/x/version/2023-10-10,2023-10-10,recommended,TDWG Test Standard,A standard for testing,http://www.tdwg.org/standards/x

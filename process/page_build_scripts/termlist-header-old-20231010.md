@@ -102,94 +102,11 @@ Plinian Core ,--following good practices-- re-uses a number of elements already 
 
 Table 1. Vocabularies from which terms have been borrowed:
 
-| **Borrowed Terms** | **Categories in which the term is used** |
-| --- | --- |
-| dwc:taxonConceptID](https://dwc.tdwg.org/terms/#dwc:taxonConceptID) | Record Metadata |
-| [dwc:kingdom](https://dwc.tdwg.org/terms/#dwc:kingdom) | Nomenclature And Classification |
-| [dwc:phylum](https://dwc.tdwg.org/terms/#dwc:phylum) | Nomenclature And Classification |
-| [dwc:class](https://dwc.tdwg.org/terms/#dwc:class) | Nomenclature And Classification |
-| [dwc:order](https://dwc.tdwg.org/terms/#dwc:order) | Nomenclature And Classification |
-| [dwc:family](https://dwc.tdwg.org/terms/#dwc:family) | Nomenclature And Classification |
-| [dwc:subfamily](https://dwc.tdwg.org/terms/#dwc:subfamily) | Nomenclature And Classification |
-| [dwc:genus](https://dwc.tdwg.org/terms/#dwc:genus) | Nomenclature And Classification |
-| [dwc:subgenus](https://dwc.tdwg.org/terms/#dwc:subgenus) | Nomenclature And Classification |
-| [dwc:specificEpithet](https://dwc.tdwg.org/terms/#dwc:specificEpithet) | Nomenclature And Classification |
-| [dwc:infragenericEpithet](https://dwc.tdwg.org/terms/#dwc:infragenericEpithet) | Nomenclature And Classification |
-| [dwc:taxonRank](https://dwc.tdwg.org/terms/#dwc:taxonRank) | Nomenclature And Classification |
-| [dwc:higherClassification](https://dwc.tdwg.org/terms/#dwc:higherClassification) | Nomenclature And Classification |
-| [dwc:MeasurementOrFact](https://dwc.tdwg.org/terms/#measurementorfact) | Nomenclature And Classification, Taxonomic Description, Life Form, Life Cycle, Reproduction, Dispersal, Behavior, Molecular Data, Ecological Significance, Habitat And Distribution, Demography And Threat |
-| [dwc:nameAccordingTo](https://dwc.tdwg.org/terms/#dwc:nameAccordingTo) | Record Metadata |
-| [dwc:taxonConceptID](https://dwc.tdwg.org/terms/#dwc:taxonConceptID) | Record Metadata |
-| [dwc:country](https://dwc.tdwg.org/terms/#dwc:country) | Nomenclature And Classification, Habitat And Distribution, Demography And Threat |
-| [dwc:stateProvince](https://dwc.tdwg.org/terms/#dwc:stateProvince) | Nomenclature And Classification, Habitat And Distribution, Demography And Threat |
-| [dwc:county](https://dwc.tdwg.org/terms/#dwc:county) | Nomenclature And Classification, Habitat And Distribution, Demography And Threat |
-| [dwc:municipality](https://dwc.tdwg.org/terms/#dwc:municipality) | Nomenclature And Classification, Habitat And Distribution, Demography And Threat |
-| [dwc:locality](https://dwc.tdwg.org/terms/#dwc:locality) | Nomenclature And Classification, Habitat And Distribution, Demography And Threat |
-| [dwc:ResourceRelationShip](https://dwc.tdwg.org/terms/#resourcerelationship) | Interactions |
-
-**Specification: Dublin Core (DC)**
-
-| **Borrowed Terms** | **Categories in which the term is used** |
-| --- | --- |
-|[dc:created](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/created) | Record Metadata |
-|[dc:Language](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/elements/1.1/language) | Record Metadata, Nomenclature And Classification |
-
-**Specification: [Encyclopedia of Life](https://eol.org/docs/what-is-eol/language-support) (EOL)**
-
-| **Borrowed Terms** | **Categories in which the term is used** |
-| --- | --- |
-| eol:AncillaryData | Nomenclature And Classification, Taxonomic Description, Life Form, Life Cycle, Reproduction, Annual Cycles, Feeding, Dispersal, Behavior, Interactions, Molecular Data, Migratory, Ecological Significance, Natural History, Environmental Envelope, Invasiveness, Habitat And Distribution, Demography And Threat, Uses Management And Conservation |
-| eol:referenceType | Dataset Metadata, Uses Management And Conservation |
-
-**Specification: [Taxonomic Concept Transfer Schema](https://www.tdwg.org/standards/tcs/) (TCS)**
-
-| **Borrowed Terms** | **Categories in which the term is used** |
-| --- | --- |
-| tcs:scientificName | Nomenclature And Classification |
-
-**Specification: [Global Invasive Species Information Network](https://github.com/tdwg/gisin) (GISIN)**
-
-| **Borrowed Terms** | **Categories in which the term is used** |
-| --- | --- |
-| gisin:origin | Invasiveness |
-| gisin:presence | Invasiveness |
-| gisin:persistence | Invasiveness |
-| gisin:distribution | Invasiveness |
-| gisin:harmful | Invasiveness |
-| gisin:modified | Invasiveness |
-| gisin:startValidDate | Invasiveness |
-| endValidDate | Invasiveness |
-| gisin:countryCode | Invasiveness |
-| gisin:stateProvince | Invasiveness |
-| gisin:county | Invasiveness |
-| gisin:localityName | Invasiveness |
-| gisin:language | Invasiveness |
-| gisin:citation | Invasiveness |
-| gisin:abundance | Invasiveness |
-| gisin:trend | Invasiveness |
-| gisin:rateOfSpread | Invasiveness |
-| gisin:regulatoryListing | Invasiveness |
-| gisin:memo | Invasiveness |
-| gisin:publicationDate | Invasiveness |
-| gisin:localityType | Invasiveness |
-| gisin:locationValue | Invasiveness |
-| gisin:publicationDatePrecision | Invasiveness |
-
-**Specification: [Ecological Metadata Language](https://eml.ecoinformatics.org/) (EML)**
-
-| **Borrowed Terms** | **Categories in which the term is used** |
-| --- | --- |
-| dataset | Dataset Metadata |
-
-**Specification: GBIF EML Profile**
-
-| **Borrowed Terms** | **Categories in which the term is used** |
-| --- | --- |
-| Citation | Dataset Metadata |
-| dateStamp | Dataset Metadata |
-| resourceLogoUrl | Dataset Metadata |
-| RangeOfDates | Habitat And Distribution, Demography And Threat |
-| singleDateTime | Habitat And Distribution, Demography And Threat |
-| pubDate | RecordMetadata |
-| associatedParty | Record Metadata |
-
+|Specifications|Abbreviation|Borrowed Terms|
+|:----|:----|:----|
+|[Darwin Core](https://dwc.tdwg.org/terms/)|DwC|[dwc:taxonConceptID](https://dwc.tdwg.org/terms/#dwc:taxonConceptID), [kingdom](https://dwc.tdwg.org/terms/#dwc:kingdom), [phylum](https://dwc.tdwg.org/terms/#dwc:phylum), [class](https://dwc.tdwg.org/terms/#dwc:class), [order](https://dwc.tdwg.org/terms/#dwc:order), [family](https://dwc.tdwg.org/terms/#dwc:family), [subfamily](https://dwc.tdwg.org/terms/#dwc:subfamily), [genus](https://dwc.tdwg.org/terms/#dwc:genus), [genericName](https://dwc.tdwg.org/terms/#dwc:genericName), [subgenus](https://dwc.tdwg.org/terms/#dwc:subgenus), [specificEpithet](https://dwc.tdwg.org/terms/#dwc:specificEpithet), [infragenericEpithet](https://dwc.tdwg.org/terms/#dwc:infragenericEpithet), [cultivarEpithet](https://dwc.tdwg.org/terms/#dwc:cultivarEpithet), [taxonRank](https://dwc.tdwg.org/terms/#dwc:taxonRank), [higherClassification](https://dwc.tdwg.org/terms/#dwc:higherClassification), [MeasurementOrFact](https://dwc.tdwg.org/terms/#measurementorfact), [ResourceRelationShip](https://dwc.tdwg.org/terms/#resourcerelationship)|
+|[Dublin Core](http://dublincore.org/documents/dcmi-terms/)|DC|dc:created|
+|[Encyclopedia of Life](https://eol.org/docs/what-is-eol/language-support)|EOL|eol:AncillaryData, eol:References|
+|[Taxonomic Concept Transfer Schema](https://www.tdwg.org/standards/tcs/)|TCS|tcs:scientificName, tcs:ReferenceType|
+|[Global Invasive Species Information Network](https://github.com/tdwg/gisin)|GISIN|gisin:origin, gisin:presence, gisin:persistence, gisin:distribution, gisin:harmful, gisin:modified, gisin:startValidDate, endValidDate, gisin:countryCode, gisin:stateProvince, gisin:county, gisin:localityName, gisin:county, gisin:language, gisin:citation, gisin:abundance, gisin:trend, gisin:rateOfSpread, gisin:regulatoryListing,gisin:memo, gisin:publicationDate, gisin:localityType, gisin:locationValue, gisin:publicationDatePrecision|
+|[Ecological Metadata Language](https://eml.ecoinformatics.org/)|EML|GBIF EML profile|
