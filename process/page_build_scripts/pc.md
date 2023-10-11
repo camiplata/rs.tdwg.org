@@ -104,7 +104,7 @@ Table 1. Vocabularies from which terms have been borrowed:
 
 | **Borrowed Terms** | **Categories in which the term is used** |
 | --- | --- |
-| dwc:taxonConceptID](https://dwc.tdwg.org/terms/#dwc:taxonConceptID) | Record Metadata |
+| [dwc:taxonConceptID](https://dwc.tdwg.org/terms/#dwc:taxonConceptID) | Record Metadata |
 | [dwc:kingdom](https://dwc.tdwg.org/terms/#dwc:kingdom) | Nomenclature And Classification |
 | [dwc:phylum](https://dwc.tdwg.org/terms/#dwc:phylum) | Nomenclature And Classification |
 | [dwc:class](https://dwc.tdwg.org/terms/#dwc:class) | Nomenclature And Classification |
