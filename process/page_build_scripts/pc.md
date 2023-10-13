@@ -87,7 +87,7 @@ In Section 4, the values of the `Term IRI`,  `Definition` and `Type` are normati
 
 ## 1.2 Categories of terms
 
-A Plinian Core (PliC) record is a description of a species or higher taxa. Two kinds of terms are specified by this document: those terms which are part of the PliC vocabulary (e.g. `plic:FullDescription`, `plic:HabitatAndDistribution`, plic:Interactions, among others) and those borrowed from other standards or vocabularies (e.g. tcs:SynonymName and tcs:References are based on concepts described by the TCS vocabulary, see section 2 for details). 
+A Plinian Core (PliC) record is a description of a species or higher taxa. Two kinds of terms are specified by this document: those terms which are part of the PliC vocabulary (e.g. `plic:FullDescription`, `plic:HabitatAndDistribution`, plic:Interactions, among others) and those borrowed from other standards or vocabularies (e.g. tcs:SynonymName is based on concepts described by the TCS vocabulary, see section 2 for details). 
 
 ## 1.3 Structured and unstructured properties
 
@@ -190,7 +190,7 @@ Table 1. Vocabularies from which terms have been borrowed:
 | resourceLogoUrl | Dataset Metadata |
 | RangeOfDates | Habitat And Distribution, Demography And Threat |
 | singleDateTime | Habitat And Distribution, Demography And Threat |
-| pubDate | RecordMetadata |
+| pubDate | Record Metadata |
 | associatedParty | Record Metadata |
 
 ### 3.1 Index By Term Name
