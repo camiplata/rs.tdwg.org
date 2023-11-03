@@ -87,7 +87,7 @@ In Section 4, the values of the `Term IRI`,  `Definition` and `Type` are normati
 
 ## 1.2 Categories of terms
 
-A Plinian Core (PliC) record is a description of a species or higher taxa. Two kinds of terms are specified by this document: those terms which are part of the PliC vocabulary (e.g. `plic:FullDescription`, `plic:HabitatAndDistribution`, plic:Interactions, among others) and those borrowed from other standards or vocabularies (e.g. tcs:SynonymName and tcs:References are based on concepts described by the TCS vocabulary, see section 2 for details). 
+A Plinian Core (PliC) record is a description of a species or higher taxa. Two kinds of terms are specified by this document: those terms which are part of the PliC vocabulary (e.g.  `plic:fullDescriptionAtomized`,  `plic:NomenclatureAndClassificationUnstructured`,  `plic:Distance`, among others) and those borrowed from other standards or vocabularies (e.g. 'dwc:MeasurementOrFact` and 'gisin:origin` are based on concepts described by the dwc and gisin vocabulary, respectively; see section 2 for details). In a few cases, PliC terms (i.e.,  `plic:References`,  `plic:SynonymName`, and  `plic:AncillaryData`) borrowed the definitions from another standard (EOL and TCS, see section 4).
 
 ## 1.3 Structured and unstructured properties
 
@@ -133,19 +133,6 @@ Table 1. Vocabularies from which terms have been borrowed:
 | --- | --- |
 |[dc:created](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/created) | Record Metadata |
 |[dc:Language](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/elements/1.1/language) | Record Metadata, Nomenclature And Classification |
-
-**Specification: [Encyclopedia of Life](https://eol.org/docs/what-is-eol/language-support) (EOL)**
-
-| **Borrowed Terms** | **Categories in which the term is used** |
-| --- | --- |
-| eol:AncillaryData | Nomenclature And Classification, Taxonomic Description, Life Form, Life Cycle, Reproduction, Annual Cycles, Feeding, Dispersal, Behavior, Interactions, Molecular Data, Migratory, Ecological Significance, Natural History, Environmental Envelope, Invasiveness, Habitat And Distribution, Demography And Threat, Uses Management And Conservation |
-| eol:referenceType | Dataset Metadata, Uses Management And Conservation |
-
-**Specification: [Taxonomic Concept Transfer Schema](https://www.tdwg.org/standards/tcs/) (TCS)**
-
-| **Borrowed Terms** | **Categories in which the term is used** |
-| --- | --- |
-| tcs:scientificName | Nomenclature And Classification |
 
 **Specification: [Global Invasive Species Information Network](https://github.com/tdwg/gisin) (GISIN)**
 
